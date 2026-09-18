@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 470" role="img"
+     aria-labelledby="vv-titel vv-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="vv-titel">Vier Trackingverfahren, nach Versagen sortiert</title>
+  <desc id="vv-beschr">Tabelle mit vier Spalten: optisch outside-in, optisch inside-out, magnetisch, Infrarot und Tiefe. Drei Zeilen: was gemessen wird, die Stärke, und woran das Verfahren versagt. Outside-in versagt an Verdeckung, verschmutzten Markern und verrutschter Kalibrierung; inside-out an weißer Wand, wechselndem Licht und bewegter Umgebung; magnetisch an Metall, Fremdfeldern und geringer Reichweite; Infrarot und Tiefe an Sonnenlicht, das Laufzeit wie Muster zerstört.</desc>
+  <style>
+    .rahmen  { fill: none; stroke: var(--rule, #c7cdd4); stroke-width: 1.5; }
+    .linie   { stroke: var(--rule, #c7cdd4); stroke-width: 1; }
+    .kopf    { fill: var(--ink, #031121); font-size: 19px; font-weight: 600; }
+    .zeilenkopf { fill: var(--ink-soft, #5a6472); font-size: 14px; font-weight: 600; letter-spacing: 1.5px; }
+    .zelle   { fill: var(--ink, #031121); font-size: 16px; }
+    .soft    { fill: var(--ink-soft, #5a6472); font-size: 16px; }
+    .hart    { fill: var(--ink, #031121); font-size: 16px; font-weight: 600; }
+    .marke   { fill: #fcd430; }
+  </style>
+
+  <rect class="rahmen" x="0.75" y="0.75" width="1178.5" height="468.5"/>
+
+  <!-- Spaltenköpfe -->
+  <text class="kopf" x="160" y="38">Optisch,</text>
+  <text class="kopf" x="160" y="62">outside-in</text>
+  <text class="kopf" x="420" y="38">Optisch,</text>
+  <text class="kopf" x="420" y="62">inside-out</text>
+  <text class="kopf" x="680" y="50">Magnetisch</text>
+  <text class="kopf" x="940" y="38">Infrarot</text>
+  <text class="kopf" x="940" y="62">und Tiefe</text>
+  <line class="linie" x1="0" y1="80" x2="1180" y2="80"/>
+
+  <!-- Zeile: misst -->
+  <text class="zeilenkopf" x="24" y="118">MISST</text>
+  <text class="zelle" x="160" y="118">Marker am Objekt,</text>
+  <text class="zelle" x="160" y="140">Kameras im Raum</text>
+  <text class="zelle" x="420" y="118">Merkmale im Raum,</text>
+  <text class="zelle" x="420" y="140">Kameras am Objekt</text>
+  <text class="zelle" x="680" y="118">Feldstärke und</text>
+  <text class="zelle" x="680" y="140">Feldrichtung</text>
+  <text class="zelle" x="940" y="118">Laufzeit oder</text>
+  <text class="zelle" x="940" y="140">projiziertes Muster</text>
+  <line class="linie" x1="24" y1="162" x2="1156" y2="162"/>
+
+  <!-- Zeile: Stärke -->
+  <text class="zeilenkopf" x="24" y="200">STÄRKE</text>
+  <text class="soft" x="160" y="200">genau, aber teuer</text>
+  <text class="soft" x="160" y="222">und ortsgebunden</text>
+  <text class="soft" x="420" y="200">beweglich, billiger,</text>
+  <text class="soft" x="420" y="222">nimmt das Tracking mit</text>
+  <text class="soft" x="680" y="200">braucht keine Sichtlinie –</text>
+  <text class="soft" x="680" y="222">misst durch Körper hindurch</text>
+  <text class="soft" x="940" y="200">liefert Tiefe</text>
+  <text class="soft" x="940" y="222">für das ganze Bild</text>
+  <line class="linie" x1="24" y1="244" x2="1156" y2="244"/>
+
+  <!-- Zeile: versagt an (die Sortierzeile, gelb markiert) -->
+  <rect class="marke" x="24" y="264" width="4" height="150"/>
+  <text class="zeilenkopf" x="42" y="288">VERSAGT AN</text>
+  <text class="hart" x="160" y="288">Verdeckung</text>
+  <text class="hart" x="160" y="314">verschmutzten Markern</text>
+  <text class="hart" x="160" y="340">verrutschter Kalibrierung</text>
+  <text class="hart" x="420" y="288">weißer Wand</text>
+  <text class="hart" x="420" y="314">wechselndem Licht</text>
+  <text class="hart" x="420" y="340">bewegter Umgebung</text>
+  <text class="hart" x="680" y="288">Metall</text>
+  <text class="hart" x="680" y="314">Fremdfeldern</text>
+  <text class="hart" x="680" y="340">geringer Reichweite</text>
+  <text class="hart" x="940" y="288">Sonnenlicht –</text>
+  <text class="hart" x="940" y="314">es zerstört Laufzeit</text>
+  <text class="hart" x="940" y="340">wie Muster</text>
+
+  <text class="soft" x="42" y="440">Sortiert ist nach dieser Zeile: In Teil B wird nicht nach dem Können zugeordnet, sondern nach dem Versagen.</text>
+</svg>

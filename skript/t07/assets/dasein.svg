@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img">
+  <title>Dunkle Fläche mit angedeutetem Sensorkreis – Hintergrund für ein einzelnes Wort</title>
+  <defs>
+    <radialGradient id="grund" cx="72%" cy="28%" r="95%">
+      <stop offset="0" stop-color="#10233a"/>
+      <stop offset="0.55" stop-color="#0b1320"/>
+      <stop offset="1" stop-color="#05111f"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#grund)"/>
+  <!-- Sensorkreis: etwas misst, ohne dass etwas geschieht -->
+  <g fill="none" stroke="#1a2f6e">
+    <circle cx="1150" cy="255" r="235" stroke-width="1.5" opacity="0.55"/>
+    <circle cx="1150" cy="255" r="160" stroke-width="1.2" opacity="0.4"/>
+    <circle cx="1150" cy="255" r="90" stroke-width="1" opacity="0.3"/>
+  </g>
+  <circle cx="1150" cy="255" r="5" fill="#FCD430" opacity="0.9"/>
+</svg>

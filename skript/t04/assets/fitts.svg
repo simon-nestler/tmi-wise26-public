@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" role="img"
+     aria-labelledby="ft-titel ft-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="ft-titel">Distanz und Zielgröße gegen Zeit</title>
+  <desc id="ft-beschr">Links drei Bewegungen von einem gemeinsamen Startpunkt zu drei verschieden weit entfernten und verschieden breiten Zielen: nah und breit, weit und breit, weit und schmal. Rechts die zugehörige Kurve: Die Bewegungszeit wächst mit dem Schwierigkeitsindex, und der Schwierigkeitsindex wächst logarithmisch mit dem Verhältnis aus Distanz und Zielbreite. Am rechten Rand ist der Bildschirmrand als Sonderfall eingezeichnet – ein Ziel, das nicht überfahren werden kann, verhält sich wie ein unendlich breites.</desc>
+  <style>
+    .achse   { stroke: var(--ink, #031121); stroke-width: 1.5; fill: none; }
+    .ziel    { fill: #7fb6f6; stroke: #1a2f6e; stroke-width: 1.5; }
+    .ziel-r  { fill: #fcd430; stroke: #031121; stroke-width: 1.5; }
+    .start   { fill: var(--ink, #031121); }
+    .weg     { stroke: var(--ink-soft, #5a6472); stroke-width: 1.5; fill: none; stroke-dasharray: 5 4; }
+    .masz    { stroke: var(--ink, #031121); stroke-width: 1; }
+    .kurve   { stroke: #1a2f6e; stroke-width: 3; fill: none; }
+    .titel   { fill: var(--ink, #031121); font-size: 20px; font-weight: 600; }
+    .lab     { fill: var(--ink, #031121); font-size: 15px; }
+    .lab-s   { fill: var(--ink-soft, #5a6472); font-size: 14px; }
+    .zeit    { fill: var(--ink, #031121); font-size: 16px; font-weight: 600; }
+    .punkt   { fill: #1a2f6e; }
+  </style>
+
+  <!-- ══ links: drei Bewegungen ══ -->
+  <text class="titel" x="24" y="30">Dieselbe Hand, drei Ziele</text>
+
+  <!-- Startpunkt -->
+  <circle class="start" cx="60" cy="250" r="7"/>
+  <text class="lab-s" x="42" y="278">Start</text>
+
+  <!-- Ziel A: nah, breit -->
+  <path class="weg" d="M60 250 Q 130 160 190 120"/>
+  <rect class="ziel" x="180" y="98" width="86" height="44" rx="3"/>
+  <text class="lab" x="196" y="126">A</text>
+  <line class="masz" x1="180" y1="88" x2="266" y2="88"/>
+  <text class="lab-s" x="272" y="93">breit</text>
+  <text class="zeit" x="272" y="126">schnell</text>
+
+  <!-- Ziel B: weit, breit -->
+  <path class="weg" d="M60 250 Q 240 236 380 232"/>
+  <rect class="ziel" x="372" y="210" width="86" height="44" rx="3"/>
+  <text class="lab" x="388" y="238">B</text>
+  <line class="masz" x1="372" y1="200" x2="458" y2="200"/>
+  <text class="lab-s" x="464" y="205">breit</text>
+  <text class="zeit" x="464" y="238">mittel</text>
+
+  <!-- Ziel C: weit, schmal -->
+  <path class="weg" d="M60 250 Q 240 330 380 360"/>
+  <rect class="ziel" x="372" y="338" width="20" height="44" rx="2"/>
+  <text class="lab" x="398" y="366">C</text>
+  <line class="masz" x1="372" y1="328" x2="392" y2="328"/>
+  <text class="lab-s" x="398" y="333">schmal</text>
+  <text class="zeit" x="464" y="366">langsam</text>
+
+  <!-- Distanzmaß -->
+  <line class="masz" x1="60" y1="430" x2="380" y2="430"/>
+  <path class="masz" d="M60 425v10M380 425v10"/>
+  <text class="lab-s" x="180" y="448">Distanz D</text>
+
+  <!-- Trennlinie -->
+  <line class="achse" x1="540" y1="20" x2="540" y2="460" stroke-dasharray="4 6" stroke-width="1"/>
+
+  <!-- ══ rechts: die Kurve ══ -->
+  <text class="titel" x="580" y="30">Was daraus folgt</text>
+
+  <!-- Achsen -->
+  <line class="achse" x1="620" y1="400" x2="960" y2="400"/>
+  <line class="achse" x1="620" y1="400" x2="620" y2="80"/>
+  <text class="lab" x="596" y="74" text-anchor="end">Zeit</text>
+  <text class="lab" x="960" y="424" text-anchor="end">Schwierigkeit</text>
+  <text class="lab-s" x="960" y="444" text-anchor="end">log₂(2D / W)</text>
+
+  <!-- Kurve: linear in ID -->
+  <path class="kurve" d="M640 360 L 940 130"/>
+
+  <!-- Punkte A, B, C -->
+  <circle class="punkt" cx="680" cy="329" r="6"/>
+  <text class="lab" x="668" y="352">A</text>
+  <circle class="punkt" cx="790" cy="245" r="6"/>
+  <text class="lab" x="778" y="268">B</text>
+  <circle class="punkt" cx="900" cy="160" r="6"/>
+  <text class="lab" x="888" y="183">C</text>
+
+  <!-- Sonderfall Bildschirmrand -->
+  <rect class="ziel-r" x="626" y="392" width="46" height="14" rx="2"/>
+  <text class="lab" x="682" y="404">Bildschirmrand</text>
+  <text class="lab-s" x="682" y="422">nicht überfahrbar – wirkt unendlich breit</text>
+
+  <text class="lab-s" x="620" y="466">Fitts, P. M. (1954), Journal of Experimental Psychology 47(6), 381–391</text>
+</svg>

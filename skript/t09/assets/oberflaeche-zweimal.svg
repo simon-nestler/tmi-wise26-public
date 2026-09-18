@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 520" role="img"
+     aria-labelledby="oz-titel oz-beschr" font-family="Inter, 'Neue Haas Unica', Helvetica, Arial, sans-serif">
+  <title id="oz-titel">Dieselbe Oberfläche, zweimal: visuelle Anordnung gegen Vorleseabfolge</title>
+  <desc id="oz-beschr">Links ein Bildschirm-Wireframe: Logo oben links, daneben Suchfeld, groß in der Mitte ein Angebotsbild mit der Schaltfläche Jetzt kaufen, unten klein der Link Impressum. Rechts die Abfolge, in der ein Screenreader dieselbe Seite vorliest: erstens Logo, zweitens Navigation, drittens Fußzeile mit Impressum, viertens Suchfeld, fünftens Grafik ohne Namen, sechstens Schalter Jetzt kaufen an letzter Stelle. Die Grafik ohne Namen und die späte Schaltfläche sind hervorgehoben: Die Vorleseabfolge folgt der Struktur, nicht dem Layout.</desc>
+  <style>
+    .box  { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.5; }
+    .fl   { fill: var(--rule, #e2e6ea); stroke: none; }
+    .txt  { fill: var(--ink, #031121); font-size: 18px; }
+    .sub  { fill: var(--ink-soft, #5a6472); font-size: 15px; }
+    .kopfz { fill: var(--ink-soft, #5a6472); font-size: 15px; letter-spacing: 2px; }
+    .nr   { fill: var(--paper, #ffffff); font-size: 15px; font-weight: 700; text-anchor: middle; }
+    .nrk  { fill: var(--ink, #031121); }
+    .akz  { fill: #fcd430; }
+    .akztxt { fill: var(--ink, #031121); font-size: 15px; font-weight: 600; }
+  </style>
+
+  <text class="kopfz" x="20" y="34">LINKS: WAS DAS AUGE SIEHT</text>
+  <text class="kopfz" x="640" y="34">RECHTS: WAS DER SCREENREADER VORLIEST</text>
+
+  <!-- Linkes Panel: Wireframe -->
+  <rect class="box" x="20" y="56" width="540" height="420" rx="6"/>
+  <rect class="fl" x="44" y="80" width="96" height="34"/>
+  <text class="sub" x="52" y="102">Logo</text>
+  <rect class="fl" x="300" y="80" width="230" height="34"/>
+  <text class="sub" x="310" y="102">Suchfeld</text>
+  <rect class="fl" x="44" y="140" width="486" height="220"/>
+  <text class="sub" x="60" y="168">großes Angebotsbild</text>
+  <rect x="180" y="272" width="220" height="52" rx="4" fill="var(--ink, #031121)"/>
+  <text x="290" y="304" text-anchor="middle" font-size="19" font-weight="600" fill="var(--paper, #ffffff)">Jetzt kaufen</text>
+  <rect class="fl" x="44" y="400" width="150" height="26"/>
+  <text class="sub" x="52" y="418">Impressum</text>
+  <text class="sub" x="20" y="502">Das Layout führt den Blick: erst das Bild, dann die Schaltfläche.</text>
+
+  <!-- Rechtes Panel: Vorleseabfolge -->
+  <g>
+    <circle class="nrk" cx="660" cy="90" r="13"/><text class="nr" x="660" y="95">1</text>
+    <text class="txt" x="688" y="96">„Logo, Grafik, Link"</text>
+
+    <circle class="nrk" cx="660" cy="150" r="13"/><text class="nr" x="660" y="155">2</text>
+    <text class="txt" x="688" y="156">„Navigation, Liste mit 6 Einträgen"</text>
+
+    <circle class="nrk" cx="660" cy="210" r="13"/><text class="nr" x="660" y="215">3</text>
+    <text class="txt" x="688" y="216">„Fußzeile – Impressum, Link"</text>
+
+    <circle class="nrk" cx="660" cy="270" r="13"/><text class="nr" x="660" y="275">4</text>
+    <text class="txt" x="688" y="276">„Suchen, Eingabefeld"</text>
+
+    <rect class="akz" x="642" y="308" width="4" height="44"/>
+    <circle class="nrk" cx="660" cy="330" r="13"/><text class="nr" x="660" y="335">5</text>
+    <text class="txt" x="688" y="336">„Grafik" – das Angebotsbild hat keinen Namen</text>
+
+    <rect class="akz" x="642" y="368" width="4" height="44"/>
+    <circle class="nrk" cx="660" cy="390" r="13"/><text class="nr" x="660" y="395">6</text>
+    <text class="txt" x="688" y="396">„Jetzt kaufen, Schalter" – zuletzt</text>
+  </g>
+  <text class="akztxt" x="640" y="452">Die Abfolge folgt der Struktur im Code –</text>
+  <text class="akztxt" x="640" y="474">nicht der Anordnung auf dem Bildschirm.</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img"
+     aria-labelledby="bf-titel bf-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="bf-titel">Drei Bauformen, vier Größen</title>
+  <desc id="bf-beschr">Tabelle mit drei Spalten für die Bauformen Datenbrille, Passthrough-Headset und reine VR-Brille sowie vier Zeilen für die Größen Sichtfeld, Gewicht, Latenz und Alltagstauglichkeit. Die Datenbrille bietet rund 20 Grad Sichtfeld diagonal und monokular, ist leicht im Brillenformat, hat unkritische Latenz, weil die Welt direkt sichtbar bleibt, und hohe Alltagstauglichkeit. Das Passthrough-Headset bietet über 100 Grad, aber durch Kameras, ist schwer mit Rechner und Kühlung am Kopf, hat kritische Latenz, weil auch die Wirklichkeit durch die Kette läuft, und geringe Alltagstauglichkeit. Die reine VR-Brille bietet über 100 Grad binokular, ist schwer, hat beherrschbare Latenz, weil nur die virtuelle Szene gerendert wird, und geringe Alltagstauglichkeit als Gerät nur für die andere Welt. Gelb markiert ist je Bauform die geopferte Größe: bei der Datenbrille das Sichtfeld, beim Passthrough-Headset die Latenz, bei der reinen VR-Brille die Alltagstauglichkeit.</desc>
+  <style>
+    .rahmen  { fill: none; stroke: #c7cdd4; stroke-width: 1.5; }
+    .linie   { stroke: #c7cdd4; stroke-width: 1; }
+    .kopf    { fill: #031121; font-size: 19px; font-weight: 600; }
+    .kopf-s  { fill: #5a6472; font-size: 14px; }
+    .zeile   { fill: #031121; font-size: 16px; font-weight: 600; letter-spacing: .04em; }
+    .wert    { fill: #031121; font-size: 15.5px; }
+    .wert-s  { fill: #5a6472; font-size: 13.5px; }
+    .marke   { fill: #fcd430; }
+    .kopfband{ fill: #e2eefc; }
+    .legende { fill: #5a6472; font-size: 13.5px; }
+  </style>
+
+  <rect class="rahmen" x="0.75" y="0.75" width="998.5" height="518.5"/>
+
+  <!-- Kopfzeile -->
+  <rect class="kopfband" x="0.75" y="0.75" width="998.5" height="64"/>
+  <text class="kopf" x="250" y="30">Datenbrille</text>
+  <text class="kopf-s" x="250" y="52">Brillenformat, Bild vor einem Auge</text>
+  <text class="kopf" x="520" y="30">Passthrough-Headset</text>
+  <text class="kopf-s" x="520" y="52">geschlossen, Welt über Kameras</text>
+  <text class="kopf" x="790" y="30">Reine VR-Brille</text>
+  <text class="kopf-s" x="790" y="52">geschlossen, nur virtuelle Szene</text>
+  <line class="linie" x1="0" y1="65" x2="1000" y2="65"/>
+
+  <!-- Zeile 1 · Sichtfeld -->
+  <text class="zeile" x="28" y="108">SICHTFELD</text>
+  <rect class="marke" x="238" y="86" width="4" height="52"/>
+  <text class="wert" x="250" y="104">rund 20° diagonal,</text>
+  <text class="wert" x="250" y="124">monokular – geopfert</text>
+  <text class="wert" x="520" y="104">über 100° –</text>
+  <text class="wert-s" x="520" y="124">aber durch Kameras</text>
+  <text class="wert" x="790" y="104">über 100°,</text>
+  <text class="wert-s" x="790" y="124">binokular</text>
+  <line class="linie" x1="24" y1="152" x2="976" y2="152"/>
+
+  <!-- Zeile 2 · Gewicht -->
+  <text class="zeile" x="28" y="195">GEWICHT</text>
+  <text class="wert" x="250" y="191">leicht –</text>
+  <text class="wert-s" x="250" y="211">nichts als die Brille</text>
+  <text class="wert" x="520" y="191">schwer – Rechner und</text>
+  <text class="wert-s" x="520" y="211">Kühlung am Kopf</text>
+  <text class="wert" x="790" y="191">schwer –</text>
+  <text class="wert-s" x="790" y="211">plus Abschirmung</text>
+  <line class="linie" x1="24" y1="239" x2="976" y2="239"/>
+
+  <!-- Zeile 3 · Latenz -->
+  <text class="zeile" x="28" y="282">LATENZ</text>
+  <text class="wert" x="250" y="278">unkritisch – die Welt</text>
+  <text class="wert-s" x="250" y="298">bleibt direkt sichtbar</text>
+  <rect class="marke" x="508" y="260" width="4" height="52"/>
+  <text class="wert" x="520" y="278">kritisch – auch die Welt</text>
+  <text class="wert" x="520" y="298">läuft durch die Kette – geopfert</text>
+  <text class="wert" x="790" y="278">beherrschbar – nur</text>
+  <text class="wert-s" x="790" y="298">die virtuelle Szene</text>
+  <line class="linie" x1="24" y1="326" x2="976" y2="326"/>
+
+  <!-- Zeile 4 · Alltagstauglichkeit -->
+  <text class="zeile" x="28" y="360">ALLTAGS-</text>
+  <text class="zeile" x="28" y="382">TAUGLICHKEIT</text>
+  <text class="wert" x="250" y="365">hoch –</text>
+  <text class="wert-s" x="250" y="385">über Stunden tragbar</text>
+  <text class="wert" x="520" y="365">gering –</text>
+  <text class="wert-s" x="520" y="385">Minuten, nicht Stunden</text>
+  <rect class="marke" x="778" y="347" width="4" height="52"/>
+  <text class="wert" x="790" y="365">gering – ein Gerät nur für</text>
+  <text class="wert" x="790" y="385">die andere Welt – geopfert</text>
+  <line class="linie" x1="24" y1="413" x2="976" y2="413"/>
+
+  <!-- Fazitzeile -->
+  <text class="zeile" x="28" y="456">DAS OPFER</text>
+  <text class="wert" x="250" y="452">das Sichtfeld</text>
+  <text class="wert" x="520" y="452">die Latenz – und mit ihr</text>
+  <text class="wert-s" x="520" y="472">Auflösung, Farben, Tiefe</text>
+  <text class="wert" x="790" y="452">der Alltag</text>
+
+  <!-- Legende -->
+  <rect class="marke" x="28" y="537" width="14" height="14"/>
+  <text class="legende" x="52" y="548">Gelb markiert: die Größe, die diese Bauform opfert – keine der drei kommt ohne Opfer aus.</text>
+</svg>

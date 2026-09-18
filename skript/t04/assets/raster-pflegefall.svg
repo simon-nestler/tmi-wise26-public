@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" role="img"
+     aria-labelledby="rp-titel rp-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="rp-titel">Der Pflegefall als Rasterbelegung</title>
+  <desc id="rp-beschr">Tabelle mit sechs Zeilen, eine je Kontextdimension, jeweils mit der Belegung für den Fall: ein Formular auf einem Tablet in der Pflege. Umgebung: Station und Patientenzimmer, Desinfektionspflicht, geteiltes Gerät. Nutzerspektrum: Pflegekräfte im Schichtdienst, Handschuhe, Routine nach wenigen Tagen. Aufgabentyp: kurze Freitexte und Auswahlfelder, viele Male pro Schicht, unter Zeitdruck. Soziale Situation: Patientinnen und Angehörige lesen und hören mit. Fehlerkosten: Der Eintrag wandert in die Akte, ein Fehler ist ein Gesundheitsrisiko. Rechtsrahmen: Dokumentationspflicht und Patientendatenschutz. Die tragenden Werte Handschuhe, Desinfektion, Zeitdruck und Mitlesende sind hervorgehoben.</desc>
+  <style>
+    .rahmen  { fill: none; stroke: var(--rule, #c7cdd4); stroke-width: 1.5; }
+    .linie   { stroke: var(--rule, #c7cdd4); stroke-width: 1; }
+    .kopf    { fill: var(--ink, #031121); font-size: 17px; font-weight: 600; letter-spacing: .04em; }
+    .dim     { fill: var(--ink, #031121); font-size: 20px; font-weight: 600; }
+    .wert    { fill: var(--ink, #031121); font-size: 16px; }
+    .traegt  { fill: var(--ink, #031121); font-size: 16px; font-weight: 600; }
+    .nr      { fill: var(--ink, #031121); font-size: 15px; font-weight: 600; }
+    .marke   { fill: #fcd430; }
+  </style>
+
+  <rect class="rahmen" x="0.75" y="0.75" width="998.5" height="478.5"/>
+
+  <!-- Kopfzeile -->
+  <text class="kopf" x="70" y="30">DIMENSION</text>
+  <text class="kopf" x="400" y="30">BELEGUNG IM FALL: FORMULAR AUF EINEM TABLET IN DER PFLEGE</text>
+  <line class="linie" x1="0" y1="46" x2="1000" y2="46"/>
+
+  <!-- Zeile 1: Umgebung -->
+  <rect class="marke" x="24" y="60" width="4" height="46"/>
+  <text class="nr" x="42" y="80">1</text>
+  <text class="dim" x="70" y="80">Umgebung</text>
+  <text class="wert" x="400" y="76">Station und Patientenzimmer · geteiltes Gerät</text>
+  <text class="traegt" x="400" y="98">Desinfektionspflicht – jede Oberfläche muss abwischbar sein</text>
+  <line class="linie" x1="24" y1="116" x2="976" y2="116"/>
+
+  <!-- Zeile 2: Nutzerspektrum -->
+  <rect class="marke" x="24" y="130" width="4" height="46"/>
+  <text class="nr" x="42" y="150">2</text>
+  <text class="dim" x="70" y="150">Nutzerspektrum</text>
+  <text class="wert" x="400" y="146">Pflegekräfte im Schichtdienst · Routine nach wenigen Tagen</text>
+  <text class="traegt" x="400" y="168">Handschuhe – oft, nicht immer</text>
+  <line class="linie" x1="24" y1="186" x2="976" y2="186"/>
+
+  <!-- Zeile 3: Aufgabentyp -->
+  <rect class="marke" x="24" y="200" width="4" height="46"/>
+  <text class="nr" x="42" y="220">3</text>
+  <text class="dim" x="70" y="220">Aufgabentyp</text>
+  <text class="wert" x="400" y="216">kurze Freitexte und Auswahlfelder · viele Male pro Schicht</text>
+  <text class="traegt" x="400" y="238">Zeitdruck – die Dokumentation konkurriert mit der Pflege</text>
+  <line class="linie" x1="24" y1="256" x2="976" y2="256"/>
+
+  <!-- Zeile 4: Soziale Situation -->
+  <rect class="marke" x="24" y="270" width="4" height="46"/>
+  <text class="nr" x="42" y="290">4</text>
+  <text class="dim" x="70" y="290">Soziale Situation</text>
+  <text class="traegt" x="400" y="286">Patientinnen und Angehörige lesen und hören mit</text>
+  <text class="wert" x="400" y="308">Eingabe am Bett, nicht im Büro</text>
+  <line class="linie" x1="24" y1="326" x2="976" y2="326"/>
+
+  <!-- Zeile 5: Fehlerkosten -->
+  <rect class="marke" x="24" y="340" width="4" height="46"/>
+  <text class="nr" x="42" y="360">5</text>
+  <text class="dim" x="70" y="360">Fehlerkosten</text>
+  <text class="wert" x="400" y="356">der Eintrag wandert in die Akte und wird behandlungsrelevant</text>
+  <text class="wert" x="400" y="378">ein unbemerkter Fehler ist ein Gesundheitsrisiko</text>
+  <line class="linie" x1="24" y1="396" x2="976" y2="396"/>
+
+  <!-- Zeile 6: Rechtsrahmen -->
+  <rect class="marke" x="24" y="410" width="4" height="46"/>
+  <text class="nr" x="42" y="430">6</text>
+  <text class="dim" x="70" y="430">Rechtsrahmen</text>
+  <text class="wert" x="400" y="426">Dokumentationspflicht · Nachvollziehbarkeit der Einträge</text>
+  <text class="wert" x="400" y="448">Patientendatenschutz – nichts davon gehört in fremde Ohren</text>
+</svg>

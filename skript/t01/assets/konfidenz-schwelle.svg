@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 545" role="img"
+     aria-labelledby="ks-titel ks-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="ks-titel">Dieselbe Konfidenzverteilung, zwei Schwellen</title>
+  <desc id="ks-beschr">Zwei übereinanderliegende Verteilungskurven: links die Fälle, in denen die Person nicht berechtigt ist, rechts die Fälle, in denen sie berechtigt ist. Die Kurven überlappen sich. Zwei senkrechte Schwellenlinien werden verglichen: Eine niedrige Schwelle lässt viele unberechtigte Fälle durch, eine hohe Schwelle weist viele berechtigte Fälle zurück. Die Überlappung selbst bleibt in beiden Fällen gleich groß – verschoben wird nur, wer den Fehler trägt.</desc>
+  <style>
+    .achse   { stroke: #031121; stroke-width: 1.5; fill: none; }
+    .fill-n  { fill: #dfe3e8; }
+    .fill-j  { fill: #cfe4fb; }
+    .rand-n  { fill: none; stroke: #5a6472; stroke-width: 1.8; }
+    .rand-j  { fill: none; stroke: #1a2f6e; stroke-width: 1.8; }
+    .fehler  { fill: #fcd430; }
+    .schwelle{ stroke: #031121; stroke-width: 2.5; stroke-dasharray: 7 5; }
+    .titel   { fill: #031121; font-size: 21px; font-weight: 600; }
+    .kicker  { fill: #5a6472; font-size: 15px; }
+    .lab     { fill: #031121; font-size: 15px; }
+    .lab-s   { fill: #5a6472; font-size: 14px; }
+    .fehlerl { fill: #031121; font-size: 15px; font-weight: 600; }
+  </style>
+
+  <defs>
+    <path id="kurve-n" d="M120 210 C 240 210, 240 60, 330 60 C 420 60, 420 210, 540 210 Z"/>
+    <path id="kurve-j" d="M420 210 C 560 210, 560 60, 660 60 C 760 60, 760 210, 900 210 Z"/>
+    <clipPath id="rechts-von-schwelle"><rect x="390" y="30" width="560" height="190"/></clipPath>
+    <clipPath id="links-von-schwelle"><rect x="50" y="30" width="610" height="190"/></clipPath>
+  </defs>
+
+  <!-- ══ obere Hälfte: niedrige Schwelle ══ -->
+  <text class="titel" x="24" y="30">Niedrige Schwelle</text>
+  <text class="kicker" x="215" y="30">bequem – und lässt Unberechtigte durch</text>
+
+  <use href="#kurve-n" class="fill-n"/>
+  <use href="#kurve-j" class="fill-j"/>
+  <!-- Fehlerfläche liegt ÜBER den Kurven, sonst wird sie durchgefärbt -->
+  <use href="#kurve-n" class="fehler" clip-path="url(#rechts-von-schwelle)"/>
+  <use href="#kurve-n" class="rand-n"/>
+  <use href="#kurve-j" class="rand-j"/>
+
+  <line class="achse" x1="60" y1="210" x2="940" y2="210"/>
+  <line class="schwelle" x1="390" y1="40" x2="390" y2="228"/>
+  <text class="lab" x="398" y="54">Schwelle</text>
+
+  <text class="lab-s" x="230" y="234" text-anchor="middle">nicht berechtigt</text>
+  <text class="lab-s" x="700" y="234" text-anchor="middle">berechtigt</text>
+  <text class="fehlerl" x="452" y="192">falsch akzeptiert</text>
+
+  <!-- ══ untere Hälfte: hohe Schwelle ══ -->
+  <g transform="translate(0,270)">
+    <text class="titel" x="24" y="30">Hohe Schwelle</text>
+    <text class="kicker" x="188" y="30">sicher – und weist Berechtigte zurück</text>
+
+    <use href="#kurve-n" class="fill-n"/>
+    <use href="#kurve-j" class="fill-j"/>
+    <use href="#kurve-j" class="fehler" clip-path="url(#links-von-schwelle)"/>
+    <use href="#kurve-n" class="rand-n"/>
+    <use href="#kurve-j" class="rand-j"/>
+
+    <line class="achse" x1="60" y1="210" x2="940" y2="210"/>
+    <line class="schwelle" x1="660" y1="40" x2="660" y2="228"/>
+    <text class="lab" x="668" y="54">Schwelle</text>
+
+    <text class="lab-s" x="230" y="234" text-anchor="middle">nicht berechtigt</text>
+    <text class="lab-s" x="790" y="234" text-anchor="middle">berechtigt</text>
+    <text class="fehlerl" x="452" y="192">falsch zurückgewiesen</text>
+  </g>
+
+  <text class="lab-s" x="940" y="536" text-anchor="end">Konfidenz →</text>
+  <text class="lab-s" x="24" y="536">Die Überlappung bleibt gleich. Verschoben wird nur, wer den Fehler trägt.</text>
+</svg>

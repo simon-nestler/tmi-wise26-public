@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" role="img"
+     aria-labelledby="rs-titel rs-beschr" font-family="Inter, 'Neue Haas Unica', Helvetica, Arial, sans-serif">
+  <title id="rs-titel">Rasterbelegung: Smartwatch meldet einen kritischen Gesundheitswert</title>
+  <desc id="rs-beschr">Das Kontextraster mit sechs Zeilen, belegt für den Smartwatch-Fall. Umgebung: wechselt über den Tag, von laut bis still. Nutzerspektrum: eine Person, aber rund um die Uhr, auch schlafend, Hörminderung möglich. Aufgabentyp: eine einzige kritische Meldung, die ankommen muss. Soziale Situation: wechselt, Besprechung, Bahn, nachts neben einer zweiten Person. Fehlerkosten: Gesundheitsschaden, wenn die Meldung nicht bemerkt wird, gelb markiert. Rechtsrahmen: Gesundheitsfunktion, strengere Anforderungen als Unterhaltung.</desc>
+  <style>
+    .rahmen  { fill: none; stroke: var(--rule, #c7cdd4); stroke-width: 1.5; }
+    .linie   { stroke: var(--rule, #c7cdd4); stroke-width: 1; }
+    .kopf    { fill: var(--ink, #031121); font-size: 17px; font-weight: 600; letter-spacing: .04em; }
+    .dim     { fill: var(--ink, #031121); font-size: 20px; font-weight: 600; }
+    .wert    { fill: var(--ink, #031121); font-size: 17px; }
+    .nr      { fill: var(--ink, #031121); font-size: 15px; font-weight: 600; }
+    .marke   { fill: #fcd430; }
+  </style>
+
+  <rect class="rahmen" x="0.75" y="0.75" width="998.5" height="478.5"/>
+
+  <text class="kopf" x="70" y="30">DIMENSION</text>
+  <text class="kopf" x="380" y="30">BELEGUNG IM SMARTWATCH-FALL</text>
+  <line class="linie" x1="0" y1="46" x2="1000" y2="46"/>
+
+  <!-- Zeile 1 -->
+  <text class="nr" x="30" y="82">1</text>
+  <text class="dim" x="70" y="82">Umgebung</text>
+  <text class="wert" x="380" y="76">wechselt über den Tag – Straße, Büro, Schlafzimmer;</text>
+  <text class="wert" x="380" y="98">laut bis vollkommen still</text>
+  <line class="linie" x1="24" y1="114" x2="976" y2="114"/>
+
+  <!-- Zeile 2 -->
+  <text class="nr" x="30" y="150">2</text>
+  <text class="dim" x="70" y="150">Nutzerspektrum</text>
+  <text class="wert" x="380" y="144">eine Person, aber rund um die Uhr – wach, abgelenkt,</text>
+  <text class="wert" x="380" y="166">schlafend; Hörminderung möglich</text>
+  <line class="linie" x1="24" y1="182" x2="976" y2="182"/>
+
+  <!-- Zeile 3 -->
+  <text class="nr" x="30" y="218">3</text>
+  <text class="dim" x="70" y="218">Aufgabentyp</text>
+  <text class="wert" x="380" y="212">eine einzige Meldung, keine Routine –</text>
+  <text class="wert" x="380" y="234">sie muss ankommen, nicht gefallen</text>
+  <line class="linie" x1="24" y1="250" x2="976" y2="250"/>
+
+  <!-- Zeile 4 -->
+  <text class="nr" x="30" y="286">4</text>
+  <text class="dim" x="70" y="286">Soziale Situation</text>
+  <text class="wert" x="380" y="280">wechselt – Besprechung, Bahn, nachts neben</text>
+  <text class="wert" x="380" y="302">einer zweiten schlafenden Person</text>
+  <line class="linie" x1="24" y1="318" x2="976" y2="318"/>
+
+  <!-- Zeile 5: Fehlerkosten, Akzent -->
+  <rect class="marke" x="24" y="334" width="4" height="46"/>
+  <text class="nr" x="42" y="354">5</text>
+  <text class="dim" x="70" y="354">Fehlerkosten</text>
+  <text class="wert" x="380" y="348" font-weight="600">Gesundheitsschaden, wenn die Meldung nicht</text>
+  <text class="wert" x="380" y="370" font-weight="600">bemerkt wird – die Dimension, die alles bindet</text>
+  <line class="linie" x1="24" y1="386" x2="976" y2="386"/>
+
+  <!-- Zeile 6 -->
+  <text class="nr" x="30" y="422">6</text>
+  <text class="dim" x="70" y="422">Rechtsrahmen</text>
+  <text class="wert" x="380" y="416">Gesundheitsfunktion – strengere Anforderungen</text>
+  <text class="wert" x="380" y="438">als bei Unterhaltung, Grenze zum Medizinprodukt</text>
+</svg>

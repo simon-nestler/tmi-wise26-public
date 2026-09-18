@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" role="img"
+     aria-labelledby="kr-titel kr-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="kr-titel">Das Kontextraster: sechs Dimensionen</title>
+  <desc id="kr-beschr">Tabelle mit sechs Zeilen. Jede Zeile nennt eine Kontextdimension, ihre Leitfrage und Beispielwerte. Die Dimensionen sind Umgebung, Nutzerspektrum, Aufgabentyp, Soziale Situation, Fehlerkosten und Rechtsrahmen.</desc>
+  <style>
+    .rahmen  { fill: none; stroke: var(--rule, #c7cdd4); stroke-width: 1.5; }
+    .linie   { stroke: var(--rule, #c7cdd4); stroke-width: 1; }
+    .kopf    { fill: var(--ink, #031121); font-size: 17px; font-weight: 600; letter-spacing: .04em; }
+    .dim     { fill: var(--ink, #031121); font-size: 21px; font-weight: 600; }
+    .frage   { fill: var(--ink, #031121); font-size: 17px; }
+    .werte   { fill: var(--ink-soft, #5a6472); font-size: 15px; }
+    .nr      { fill: var(--ink, #031121); font-size: 15px; font-weight: 600; }
+    .marke   { fill: #fcd430; }
+  </style>
+
+  <rect class="rahmen" x="0.75" y="0.75" width="998.5" height="478.5"/>
+
+  <!-- Kopfzeile -->
+  <text class="kopf" x="70" y="30">DIMENSION</text>
+  <text class="kopf" x="360" y="30">LEITFRAGE</text>
+  <text class="kopf" x="650" y="30">BEISPIELWERTE</text>
+  <line class="linie" x1="0" y1="46" x2="1000" y2="46"/>
+
+  <!-- Zeile 1 -->
+  <rect class="marke" x="24" y="62" width="4" height="46"/>
+  <text class="nr" x="42" y="82">1</text>
+  <text class="dim" x="70" y="82">Umgebung</text>
+  <text class="frage" x="360" y="78">Was tut die physische Welt</text>
+  <text class="frage" x="360" y="98">dem Gerät an?</text>
+  <text class="werte" x="650" y="78">Sonnenlicht · Lärm · Frost · Regen</text>
+  <text class="werte" x="650" y="98">Desinfektionsmittel · Vibration · Dunkelheit</text>
+  <line class="linie" x1="24" y1="122" x2="976" y2="122"/>
+
+  <!-- Zeile 2 -->
+  <rect class="marke" x="24" y="134" width="4" height="46"/>
+  <text class="nr" x="42" y="154">2</text>
+  <text class="dim" x="70" y="154">Nutzerspektrum</text>
+  <text class="frage" x="360" y="150">Wer bedient –</text>
+  <text class="frage" x="360" y="170">und wer noch?</text>
+  <text class="werte" x="650" y="150">18 bis 90 · Handschuhe · Sehbeeinträchtigung</text>
+  <text class="werte" x="650" y="170">Tremor · Dialekt · Erstnutzung gegen Routine</text>
+  <line class="linie" x1="24" y1="194" x2="976" y2="194"/>
+
+  <!-- Zeile 3 -->
+  <rect class="marke" x="24" y="206" width="4" height="46"/>
+  <text class="nr" x="42" y="226">3</text>
+  <text class="dim" x="70" y="226">Aufgabentyp</text>
+  <text class="frage" x="360" y="222">Was wird eingegeben,</text>
+  <text class="frage" x="360" y="242">wie oft, wie genau?</text>
+  <text class="werte" x="650" y="222">diskrete Auswahl · kontinuierliches Steuern</text>
+  <text class="werte" x="650" y="242">Texteingabe · einmalig gegen hundertfach</text>
+  <line class="linie" x1="24" y1="266" x2="976" y2="266"/>
+
+  <!-- Zeile 4 -->
+  <rect class="marke" x="24" y="278" width="4" height="46"/>
+  <text class="nr" x="42" y="298">4</text>
+  <text class="dim" x="70" y="298">Soziale Situation</text>
+  <text class="frage" x="360" y="294">Wer sieht zu,</text>
+  <text class="frage" x="360" y="314">wer wartet?</text>
+  <text class="werte" x="650" y="294">öffentlich mit Warteschlange · allein zu Hause</text>
+  <text class="werte" x="650" y="314">im Meeting · beobachtet vom Arbeitgeber</text>
+  <line class="linie" x1="24" y1="338" x2="976" y2="338"/>
+
+  <!-- Zeile 5 -->
+  <rect class="marke" x="24" y="350" width="4" height="46"/>
+  <text class="nr" x="42" y="370">5</text>
+  <text class="dim" x="70" y="370">Fehlerkosten</text>
+  <text class="frage" x="360" y="366">Was kostet</text>
+  <text class="frage" x="360" y="386">die falsche Vermutung?</text>
+  <text class="werte" x="650" y="366">rücknehmbar mit einem Tipp · Geldverlust</text>
+  <text class="werte" x="650" y="386">verpasster Zug · Gesundheitsschaden</text>
+  <line class="linie" x1="24" y1="410" x2="976" y2="410"/>
+
+  <!-- Zeile 6 -->
+  <rect class="marke" x="24" y="422" width="4" height="46"/>
+  <text class="nr" x="42" y="442">6</text>
+  <text class="dim" x="70" y="442">Rechtsrahmen</text>
+  <text class="frage" x="360" y="438">Welche Pflichten</text>
+  <text class="frage" x="360" y="458">greifen?</text>
+  <text class="werte" x="650" y="438">BFSG-erfasst (Terminal, E-Book-Reader)</text>
+  <text class="werte" x="650" y="458">EN 301 549 · Übergangsfrist · keine</text>
+</svg>

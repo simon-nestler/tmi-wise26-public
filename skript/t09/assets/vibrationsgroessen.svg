@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 460" role="img"
+     aria-labelledby="vg-titel vg-beschr" font-family="Inter, 'Neue Haas Unica', Helvetica, Arial, sans-serif">
+  <title id="vg-titel">Vibration: vier gestaltbare Größen</title>
+  <desc id="vg-beschr">Vier Zeilen mit Schwingungsdarstellungen. Frequenz: dichte gegen weite Schwingung. Dauer: kurzer gegen langer Impuls. Amplitude: flache gegen hohe Schwingung. Muster: rhythmische Gruppen aus kurzen und langen Impulsen, als einzige Zeile gelb hervorgehoben, denn die Haut unterscheidet Rhythmus feiner als Intensität.</desc>
+  <style>
+    .lbl { fill: var(--ink, #031121); font-size: 21px; font-weight: 600; }
+    .sub { fill: var(--ink-soft, #5a6472); font-size: 16px; }
+    .wv  { fill: none; stroke: var(--ink, #031121); stroke-width: 2.5; }
+    .blk { fill: var(--ink, #031121); }
+    .linie { stroke: var(--rule, #c7cdd4); stroke-width: 1; }
+    .marke { fill: #fcd430; }
+  </style>
+
+  <!-- Zeile 1: Frequenz -->
+  <text class="lbl" x="24" y="66">Frequenz</text>
+  <text class="sub" x="24" y="92">wie schnell es schwingt</text>
+  <path class="wv" d="M320 70 q8 -26 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+  <path class="wv" d="M660 70 q24 -26 48 0 t48 0 t48 0 t48 0"/>
+  <line class="linie" x1="24" y1="112" x2="1156" y2="112"/>
+
+  <!-- Zeile 2: Dauer -->
+  <text class="lbl" x="24" y="166">Dauer</text>
+  <text class="sub" x="24" y="192">wie lange es anhält</text>
+  <rect class="blk" x="320" y="152" width="60" height="22" rx="4"/>
+  <rect class="blk" x="660" y="152" width="300" height="22" rx="4"/>
+  <line class="linie" x1="24" y1="212" x2="1156" y2="212"/>
+
+  <!-- Zeile 3: Amplitude -->
+  <text class="lbl" x="24" y="266">Amplitude</text>
+  <text class="sub" x="24" y="292">wie stark es ausschlägt</text>
+  <path class="wv" d="M320 270 q16 -10 32 0 t32 0 t32 0 t32 0"/>
+  <path class="wv" d="M660 270 q16 -44 32 0 t32 0 t32 0 t32 0"/>
+  <line class="linie" x1="24" y1="312" x2="1156" y2="312"/>
+
+  <!-- Zeile 4: Muster – der Akzent -->
+  <rect class="marke" x="24" y="336" width="4" height="84"/>
+  <text class="lbl" x="44" y="376">Muster</text>
+  <text class="sub" x="44" y="402">wie es sich wiederholt</text>
+  <rect class="blk" x="320" y="366" width="28" height="22" rx="4"/>
+  <rect class="blk" x="362" y="366" width="28" height="22" rx="4"/>
+  <rect class="blk" x="418" y="366" width="120" height="22" rx="4"/>
+  <rect class="blk" x="580" y="366" width="28" height="22" rx="4"/>
+  <rect class="blk" x="622" y="366" width="28" height="22" rx="4"/>
+  <rect class="blk" x="678" y="366" width="120" height="22" rx="4"/>
+  <text class="sub" x="860" y="384" font-weight="600" fill="var(--ink, #031121)">Rhythmus unterscheidet die Haut</text>
+  <text class="sub" x="860" y="406" font-weight="600" fill="var(--ink, #031121)">deutlich feiner als Stärke.</text>
+</svg>

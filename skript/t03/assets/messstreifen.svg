@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70mm" height="135mm" viewBox="0 0 70 135"
+     role="img" aria-labelledby="ms-titel ms-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="ms-titel">Messstreifen für Touch-Bedienelemente</title>
+  <desc id="ms-beschr">Ein zum Ausdrucken gedachter Streifen im Maßstab eins zu eins. Er enthält eine Millimeterskala von null bis hundert Millimetern, einen Kreis mit 23,25 Millimeter Durchmesser als Größe einer Ein-Euro-Münze zur Kontrolle des Ausdrucks, sowie drei Vergleichsquadrate mit 8, 10 und 14 Millimeter Kantenlänge für Fingerkuppe, Untergrenze nach Parhi und Fingerbeere.</desc>
+  <style>
+    .strich  { stroke: #031121; stroke-width: .2; }
+    .strich-m{ stroke: #031121; stroke-width: .35; }
+    .zahl    { fill: #031121; font-size: 2.6px; }
+    .titel   { fill: #031121; font-size: 3.4px; font-weight: 600; }
+    .lab     { fill: #031121; font-size: 2.6px; }
+    .lab-s   { fill: #5a6472; font-size: 2.3px; }
+    .kasten  { fill: none; stroke: #031121; stroke-width: .35; }
+    .quad    { fill: #e2eefc; stroke: #1a2f6e; stroke-width: .3; }
+    .muenze  { fill: none; stroke: #031121; stroke-width: .4; stroke-dasharray: 1 .8; }
+    .gelb    { fill: #fcd430; }
+  </style>
+
+  <rect class="kasten" x="1" y="1" width="68" height="133" rx="1"/>
+
+  <text class="titel" x="4" y="7">Messstreifen · TMI</text>
+  <text class="lab-s" x="4" y="11">Im Maßstab 1:1 drucken – Seitenanpassung ausschalten</text>
+
+  <!-- Millimeterskala, 0 bis 100 mm, senkrecht -->
+  <g transform="translate(6,16)">
+    <line class="strich-m" x1="0" y1="0" x2="0" y2="100"/>
+    <!-- Striche: 1 mm kurz, 5 mm mittel, 10 mm lang mit Zahl -->
+    <g id="skala">
+      <!-- 1-mm-Striche -->
+      <g class="strich">
+        <path d="M0 1h1.6M0 2h1.6M0 3h1.6M0 4h1.6M0 6h1.6M0 7h1.6M0 8h1.6M0 9h1.6M0 11h1.6M0 12h1.6M0 13h1.6M0 14h1.6M0 16h1.6M0 17h1.6M0 18h1.6M0 19h1.6M0 21h1.6M0 22h1.6M0 23h1.6M0 24h1.6M0 26h1.6M0 27h1.6M0 28h1.6M0 29h1.6M0 31h1.6M0 32h1.6M0 33h1.6M0 34h1.6M0 36h1.6M0 37h1.6M0 38h1.6M0 39h1.6M0 41h1.6M0 42h1.6M0 43h1.6M0 44h1.6M0 46h1.6M0 47h1.6M0 48h1.6M0 49h1.6"/>
+        <path d="M0 51h1.6M0 52h1.6M0 53h1.6M0 54h1.6M0 56h1.6M0 57h1.6M0 58h1.6M0 59h1.6M0 61h1.6M0 62h1.6M0 63h1.6M0 64h1.6M0 66h1.6M0 67h1.6M0 68h1.6M0 69h1.6M0 71h1.6M0 72h1.6M0 73h1.6M0 74h1.6M0 76h1.6M0 77h1.6M0 78h1.6M0 79h1.6M0 81h1.6M0 82h1.6M0 83h1.6M0 84h1.6M0 86h1.6M0 87h1.6M0 88h1.6M0 89h1.6M0 91h1.6M0 92h1.6M0 93h1.6M0 94h1.6M0 96h1.6M0 97h1.6M0 98h1.6M0 99h1.6"/>
+      </g>
+      <!-- 5-mm-Striche -->
+      <g class="strich-m">
+        <path d="M0 5h3M0 15h3M0 25h3M0 35h3M0 45h3M0 55h3M0 65h3M0 75h3M0 85h3M0 95h3"/>
+      </g>
+      <!-- 10-mm-Striche -->
+      <g class="strich-m">
+        <path d="M0 0h5M0 10h5M0 20h5M0 30h5M0 40h5M0 50h5M0 60h5M0 70h5M0 80h5M0 90h5M0 100h5"/>
+      </g>
+    </g>
+    <text class="zahl" x="6" y="1">0</text>
+    <text class="zahl" x="6" y="11">10</text>
+    <text class="zahl" x="6" y="21">20</text>
+    <text class="zahl" x="6" y="31">30</text>
+    <text class="zahl" x="6" y="41">40</text>
+    <text class="zahl" x="6" y="51">50</text>
+    <text class="zahl" x="6" y="61">60</text>
+    <text class="zahl" x="6" y="71">70</text>
+    <text class="zahl" x="6" y="81">80</text>
+    <text class="zahl" x="6" y="91">90</text>
+    <text class="zahl" x="6" y="101">100 mm</text>
+  </g>
+
+  <!-- Druckkontrolle: Ein-Euro-Münze -->
+  <g transform="translate(46,28)">
+    <circle class="muenze" cx="0" cy="0" r="11.625"/>
+    <text class="lab" x="-11" y="15.5">Druckkontrolle</text>
+    <text class="lab-s" x="-11" y="18.6">1 € = 23,25 mm</text>
+    <text class="lab-s" x="-11" y="21.4">Münze muss exakt passen</text>
+  </g>
+
+  <!-- Vergleichsquadrate -->
+  <g transform="translate(34,62)">
+    <text class="lab" x="0" y="0">Vergleichsgrößen</text>
+
+    <rect class="quad" x="0" y="4" width="8" height="8"/>
+    <text class="lab-s" x="10" y="9.5">8 mm · Fingerkuppe</text>
+
+    <rect class="quad" x="0" y="16" width="10" height="10"/>
+    <rect class="gelb" x="0" y="16" width="10" height="1"/>
+    <text class="lab-s" x="12" y="22">10 mm · Untergrenze</text>
+    <text class="lab-s" x="12" y="25">Parhi u. a. 2006</text>
+
+    <rect class="quad" x="0" y="30" width="14" height="14"/>
+    <text class="lab-s" x="16" y="37">14 mm · Fingerbeere</text>
+
+    <text class="lab-s" x="0" y="52">Fingerkuppe 8–10 mm</text>
+    <text class="lab-s" x="0" y="55">Fingerbeere 10–14 mm</text>
+    <text class="lab-s" x="0" y="58">Daumenauflage ca. 25 mm</text>
+    <text class="lab-s" x="0" y="61">Quelle: MIT Touch Lab</text>
+  </g>
+
+  <text class="lab-s" x="4" y="130">Keine ISO-Norm nennt eine Zielgröße in Millimetern. Diese Werte</text>
+  <text class="lab-s" x="4" y="133">stammen aus Forschung, nicht aus einer Norm – siehe T03 B.</text>
+</svg>

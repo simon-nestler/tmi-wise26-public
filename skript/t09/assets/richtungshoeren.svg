@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 400" role="img"
+     aria-labelledby="rh-titel rh-beschr" font-family="Inter, 'Neue Haas Unica', Helvetica, Arial, sans-serif">
+  <title id="rh-titel">Räumliches Hören: Laufzeit- und Pegeldifferenz</title>
+  <desc id="rh-beschr">Schema von oben: Ein Kopf mit linkem und rechtem Ohr, eine Schallquelle rechts vorn. Der Weg zum rechten Ohr ist kurz und direkt, der Weg zum linken Ohr ist länger und führt um den Kopf herum. Zwei Beschriftungen: Laufzeitdifferenz – der Schall kommt links später an; Pegeldifferenz – der Kopf schattet das linke Ohr ab. Randnotiz: Die Richtung oben oder unten liefert die Form der Ohrmuschel.</desc>
+  <style>
+    .k   { fill: none; stroke: var(--ink, #031121); stroke-width: 2.5; }
+    .weg { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 2; }
+    .txt { fill: var(--ink, #031121); font-size: 20px; }
+    .sub { fill: var(--ink-soft, #5a6472); font-size: 17px; }
+    .kopfz { fill: var(--ink-soft, #5a6472); font-size: 15px; letter-spacing: 2px; }
+    .akzent { stroke: #fcd430; }
+  </style>
+
+  <text class="kopfz" x="20" y="34">RICHTUNGSHÖREN – ANSICHT VON OBEN</text>
+
+  <!-- Kopf -->
+  <circle class="k" cx="360" cy="210" r="85"/>
+  <!-- Nase (Blickrichtung nach oben) -->
+  <path class="k" d="M348 128 q12 -18 24 0" fill="none"/>
+  <!-- Ohren -->
+  <rect x="263" y="192" width="14" height="36" rx="6" fill="var(--ink, #031121)"/>
+  <rect x="443" y="192" width="14" height="36" rx="6" fill="var(--ink, #031121)"/>
+  <text class="sub" x="240" y="258" text-anchor="middle">linkes Ohr</text>
+  <text class="sub" x="480" y="258" text-anchor="middle">rechtes Ohr</text>
+
+  <!-- Schallquelle rechts vorn -->
+  <circle cx="760" cy="110" r="10" fill="var(--ink, #031121)"/>
+  <path class="weg" d="M783 92 a30 30 0 0 1 0 36" />
+  <path class="weg" d="M797 78 a50 50 0 0 1 0 64" />
+  <text class="txt" x="840" y="118" font-weight="600">Schallquelle</text>
+
+  <!-- Weg zum rechten Ohr: kurz, direkt -->
+  <line class="weg" x1="748" y1="122" x2="462" y2="200" stroke-width="3"/>
+  <!-- Weg zum linken Ohr: länger, um den Kopf -->
+  <path class="weg" d="M748 124 C 620 170 520 96 400 118" stroke-dasharray="8 6"/>
+  <path class="weg" d="M400 118 A 92 92 0 0 0 268 196" stroke-dasharray="8 6"/>
+
+  <!-- Beschriftungen -->
+  <line x1="150" y1="300" x2="150" y2="346" class="akzent" stroke-width="4"/>
+  <text class="txt" x="168" y="316" font-weight="600">Laufzeitdifferenz</text>
+  <text class="sub" x="168" y="340">Der Umweg kostet Zeit – links kommt der Schall später an.</text>
+
+  <line x1="620" y1="300" x2="620" y2="346" class="akzent" stroke-width="4"/>
+  <text class="txt" x="638" y="316" font-weight="600">Pegeldifferenz</text>
+  <text class="sub" x="638" y="340">Der Kopf schattet ab – links kommt der Schall leiser an.</text>
+
+  <text class="sub" x="20" y="386">Oben oder unten? Diese Richtung liefert nicht das Ohrenpaar, sondern die Form der Ohrmuschel.</text>
+</svg>

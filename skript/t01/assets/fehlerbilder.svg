@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img"
+     aria-labelledby="fb-titel fb-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="fb-titel">Zwei Fehlerbilder: Streuung und Schieflage</title>
+  <desc id="fb-beschr">Zwei Zielscheiben nebeneinander, in beiden markiert ein Kreuz den wahren Wert in der Mitte. Links streuen die Messpunkte breit um die Mitte: der zufällige Fehler, Mitteln hilft. Rechts liegen die Messpunkte dicht beieinander, aber geschlossen neben der Mitte, ein gelber Pfeil zeigt die Verschiebung: der systematische Fehler, Mitteln hilft nicht.</desc>
+  <style>
+    .ring    { fill: none; stroke: #c7cdd4; stroke-width: 1.5; }
+    .kreuz   { stroke: #031121; stroke-width: 2.5; }
+    .punkt   { fill: #7fb6f6; stroke: #1a2f6e; stroke-width: 1.2; }
+    .pfeil   { stroke: #fcd430; stroke-width: 5; }
+    .pfeilk  { fill: #fcd430; }
+    .titel   { fill: #031121; font-size: 21px; font-weight: 600; }
+    .satz    { fill: #5a6472; font-size: 16px; }
+    .lab     { fill: #031121; font-size: 14px; }
+    .kopf    { fill: #5a6472; font-size: 15px; letter-spacing: 2px; }
+  </style>
+
+  <text class="kopf" x="14" y="30">ZWEI FEHLERBILDER</text>
+
+  <!-- ══ links: zufälliger Fehler ══ -->
+  <text class="titel" x="150" y="78">Zufälliger Fehler</text>
+  <circle class="ring" cx="290" cy="270" r="150"/>
+  <circle class="ring" cx="290" cy="270" r="90"/>
+  <circle class="ring" cx="290" cy="270" r="35"/>
+  <line class="kreuz" x1="278" y1="270" x2="302" y2="270"/>
+  <line class="kreuz" x1="290" y1="258" x2="290" y2="282"/>
+  <text class="lab" x="290" y="248" text-anchor="middle">wahrer Wert</text>
+
+  <circle class="punkt" cx="238" cy="205" r="7"/>
+  <circle class="punkt" cx="352" cy="322" r="7"/>
+  <circle class="punkt" cx="205" cy="295" r="7"/>
+  <circle class="punkt" cx="332" cy="192" r="7"/>
+  <circle class="punkt" cx="382" cy="262" r="7"/>
+  <circle class="punkt" cx="262" cy="352" r="7"/>
+  <circle class="punkt" cx="312" cy="238" r="7"/>
+  <circle class="punkt" cx="224" cy="240" r="7"/>
+  <circle class="punkt" cx="300" cy="308" r="7"/>
+  <circle class="punkt" cx="352" cy="270" r="7"/>
+
+  <text class="satz" x="290" y="470" text-anchor="middle">streut um den wahren Wert –<tspan x="290" dy="22">Mitteln hilft</tspan></text>
+
+  <!-- ══ rechts: systematischer Fehler ══ -->
+  <text class="titel" x="640" y="78">Systematischer Fehler</text>
+  <circle class="ring" cx="810" cy="270" r="150"/>
+  <circle class="ring" cx="810" cy="270" r="90"/>
+  <circle class="ring" cx="810" cy="270" r="35"/>
+  <line class="kreuz" x1="798" y1="270" x2="822" y2="270"/>
+  <line class="kreuz" x1="810" y1="258" x2="810" y2="282"/>
+  <text class="lab" x="796" y="304">wahrer Wert</text>
+
+  <line class="pfeil" x1="822" y1="258" x2="864" y2="216"/>
+  <path class="pfeilk" d="M872 208 l-20 5 15 15 z"/>
+  <text class="lab" x="836" y="152" font-weight="600">Schieflage</text>
+
+  <circle class="punkt" cx="878" cy="178" r="7"/>
+  <circle class="punkt" cx="902" cy="196" r="7"/>
+  <circle class="punkt" cx="886" cy="210" r="7"/>
+  <circle class="punkt" cx="912" cy="176" r="7"/>
+  <circle class="punkt" cx="872" cy="196" r="7"/>
+  <circle class="punkt" cx="896" cy="166" r="7"/>
+  <circle class="punkt" cx="906" cy="208" r="7"/>
+  <circle class="punkt" cx="882" cy="190" r="7"/>
+  <circle class="punkt" cx="866" cy="180" r="7"/>
+  <circle class="punkt" cx="894" cy="186" r="7"/>
+
+  <text class="satz" x="810" y="470" text-anchor="middle">liegt geschlossen daneben –<tspan x="810" dy="22">Mitteln hilft nicht</tspan></text>
+</svg>

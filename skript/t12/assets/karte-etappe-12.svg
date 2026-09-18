@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 851" role="img" aria-labelledby="t d">
+  <title id="t">Der Semesterplan TMI: Auftakt, 13 Themen mit Teil A und Teil B, drei Anker, das Praktikum von KW41 bis KW48, Klausurzulassung und Klausur</title>
+  <desc id="d">Hervorgehoben (gelber Rahmen, Marke HEUTE): Feld 12. Vierzehn Felder in drei Reihen, von links nach rechts zu lesen. Woche 1 ist der Auftakt T00 am Montag, 5.10., gestrichelt. Dann die Themen: 1 Messung und Vermutung; 2 Warum Konzepte scheitern; 3 Touch, Zielgrößen und Verdeckung; 4 Maus, Tastatur und Wertgeber, streichbar als erstes; 5 Anker 1, das Kontextraster; 6 Spracheingabe und ihre Fehlerquellen; 7 Blick, Muskel und Gesicht; 8 Displays und die Grenzen des Auges, streichbar als zweites; 9 Ton und Haptik; 10 Anker 2, Modalitätswahl unter Rollen; 11 Tracking und seine Störungen; 12 Sichtfeld und Latenz; 13 Anker 3, Technik und Recht. Die Anker 5, 10 und 13 sind dunkelblau. Jedes Thema hat Teil A und Teil B à 90 Minuten. Ein hellblauer Streifen unter Auftakt und Themen 1 bis 5 markiert das Praktikum: Aufgaben VA01 bis VA06 in KW41 bis KW46, vom 5.10. bis 12.11., mit v4-Tutorial am Montag, 12.10. Unter Thema 6 ein gestrichelter Reservetermin in KW47, unter Thema 7 der Hackathon in KW48. Gelbe Marken: Klausurzulassung nach allen sechs Aufgaben, Klausur mit 90 Minuten im Prüfungszeitraum. Ein gestricheltes Feld nach Thema 13: Kommt eine Woche hinzu, wird sie Fragestunde.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .num { font-size: 24px; font-weight: 700; }
+    .numw { font-size: 24px; font-weight: 700; fill: #ffffff; }
+    .tt { font-size: 18px; }
+    .ttw { font-size: 18px; fill: #dbe6f5; }
+    .utag { font-size: 18px; font-weight: 700; }
+    .mtag { font-size: 18px; font-weight: 700; }
+    .leg { font-size: 20px; fill: #5a6472; }
+    .foot { font-size: 20px; fill: #5a6472; }
+    .drop { font-size: 15px; font-style: italic; fill: #5a6472; }
+    .chip { font-size: 14px; font-weight: 700; letter-spacing: .06em; fill: #031121; }
+  </style>
+  <rect width="1200" height="851" fill="#ffffff"/>
+  <rect x="40" y="95" width="176" height="125" rx="10" fill="none" stroke="#5a6472" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="tt" x="60" y="152">Mo 5.10.:</text>
+  <text class="tt" x="60" y="175">Auftakt T00</text>
+  <rect x="228" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="248" y="129">1</text>
+  <text class="tt" x="248" y="159">Messung und</text>
+  <text class="tt" x="248" y="182">Vermutung</text>
+  <rect x="416" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="436" y="129">2</text>
+  <text class="tt" x="436" y="159">Warum Konzepte</text>
+  <text class="tt" x="436" y="182">scheitern</text>
+  <rect x="604" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="624" y="129">3</text>
+  <text class="tt" x="624" y="159">Touch: Ziele</text>
+  <text class="tt" x="624" y="182">und Verdeckung</text>
+  <rect x="792" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="812" y="129">4</text>
+  <text class="tt" x="812" y="159">Maus, Tastatur,</text>
+  <text class="tt" x="812" y="182">Wertgeber</text>
+  <text class="drop" x="812" y="214">streichbar · 1.</text>
+  <rect x="980" y="95" width="176" height="125" rx="10" fill="#1a2f6e"/>
+  <text class="numw" x="1000" y="129">5</text>
+  <text class="ttw" x="1000" y="159">Anker 1: das</text>
+  <text class="ttw" x="1000" y="182">Kontextraster</text>
+  <rect x="40" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="60" y="364">6</text>
+  <text class="tt" x="60" y="394">Spracheingabe</text>
+  <text class="tt" x="60" y="417">und Fehler</text>
+  <rect x="228" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="248" y="364">7</text>
+  <text class="tt" x="248" y="394">Blick, Muskel,</text>
+  <text class="tt" x="248" y="417">Gesicht</text>
+  <rect x="416" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="436" y="364">8</text>
+  <text class="tt" x="436" y="394">Displays und</text>
+  <text class="tt" x="436" y="417">das Auge</text>
+  <text class="drop" x="436" y="449">streichbar · 2.</text>
+  <rect x="604" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="624" y="364">9</text>
+  <text class="tt" x="624" y="394">Ton und</text>
+  <text class="tt" x="624" y="417">Haptik</text>
+  <rect x="792" y="330" width="176" height="125" rx="10" fill="#1a2f6e"/>
+  <text class="numw" x="812" y="364">10</text>
+  <text class="ttw" x="812" y="394">Anker 2:</text>
+  <text class="ttw" x="812" y="417">Modalität</text>
+  <text class="ttw" x="812" y="440">unter Rollen</text>
+  <rect x="980" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="1000" y="364">11</text>
+  <text class="tt" x="1000" y="394">Tracking und</text>
+  <text class="tt" x="1000" y="417">Störungen</text>
+  <rect x="40" y="525" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="60" y="559">12</text>
+  <text class="tt" x="60" y="589">Sichtfeld</text>
+  <text class="tt" x="60" y="612">und Latenz</text>
+  <rect x="35" y="520" width="186" height="135" rx="13" fill="none" stroke="#fcd430" stroke-width="6"/>
+  <rect x="137" y="537" width="71" height="26" rx="13" fill="#fcd430"/>
+  <text class="chip" x="172" y="555" text-anchor="middle">HEUTE</text>
+  <rect x="228" y="525" width="176" height="125" rx="10" fill="#1a2f6e"/>
+  <text class="numw" x="248" y="559">13</text>
+  <text class="ttw" x="248" y="589">Anker 3:</text>
+  <text class="ttw" x="248" y="612">Technik und</text>
+  <text class="ttw" x="248" y="635">Recht</text>
+  <rect x="416" y="525" width="176" height="125" rx="10" fill="none" stroke="#5a6472" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="tt" x="436" y="582">Woche extra?</text>
+  <text class="tt" x="436" y="605">Fragestunde</text>
+  <rect x="40" y="232" width="1116" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="598" y="254" text-anchor="middle">Praktikum VA01–VA06 · KW41–KW46 · 5.10. bis 12.11. · v4-Tutorial Mo 12.10.</text>
+  <rect x="40" y="467" width="176" height="32" rx="6" fill="#ffffff" stroke="#7fb6f6" stroke-width="2" stroke-dasharray="6 5"/>
+  <text class="utag" x="128" y="489" text-anchor="middle">Reserve KW47</text>
+  <rect x="228" y="467" width="176" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="316" y="489" text-anchor="middle">Hackathon KW48</text>
+  <rect x="228" y="282" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="246" y="305">Klausurzulassung · alle 6 Aufgaben</text>
+  <rect x="630" y="539" width="380" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="648" y="562">Klausur · 90 min · Prüfungszeitraum</text>
+  <line x1="40" y1="716" x2="1160" y2="716" stroke="#c7cdd4" stroke-width="1"/>
+  <rect x="40" y="733" width="26" height="26" rx="5" fill="#e2eefc"/>
+  <text class="leg" x="78" y="753">Thema · Teil A + Teil B, je 90 Minuten</text>
+  <rect x="640" y="733" width="26" height="26" rx="5" fill="#1a2f6e"/>
+  <text class="leg" x="678" y="753">Anker: trägt das Kontextraster</text>
+  <rect x="40" y="773" width="26" height="26" rx="5" fill="#7fb6f6"/>
+  <text class="leg" x="78" y="793">Praktikum, eigene Termine in G006</text>
+  <rect x="640" y="773" width="26" height="26" rx="5" fill="#fcd430"/>
+  <text class="leg" x="678" y="793">Zulassung und Klausur</text>
+  <text class="foot" x="40" y="833">Schema, TMI · Woche 1 = KW41 · 13 Themen in 14 Wochen · Weihnachtspause nach T10</text>
+</svg>

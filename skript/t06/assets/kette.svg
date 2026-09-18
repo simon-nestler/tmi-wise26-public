@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 250" role="img" font-family="inherit">
+  <g font-size="17" text-anchor="middle">
+    <!-- Stationen -->
+    <g stroke="var(--ink-soft)" fill="var(--paper)" stroke-width="1.5">
+      <rect x="10"  y="70" width="150" height="64" rx="4"/>
+      <rect x="178" y="70" width="150" height="64" rx="4"/>
+      <rect x="346" y="70" width="150" height="64" rx="4"/>
+      <rect x="514" y="70" width="150" height="64" rx="4"/>
+      <rect x="1018" y="70" width="150" height="64" rx="4"/>
+    </g>
+    <g stroke="var(--emph)" fill="var(--emph)" stroke-width="1.5">
+      <rect x="682" y="70" width="150" height="64" rx="4"/>
+      <rect x="850" y="70" width="150" height="64" rx="4"/>
+    </g>
+    <!-- Beschriftungen -->
+    <g fill="var(--ink)">
+      <text x="85"  y="108">Schallfeld</text>
+      <text x="253" y="108">Mikrofon</text>
+      <text x="421" y="99">Vorver-<tspan x="421" dy="20">arbeitung</tspan></text>
+      <text x="589" y="99">Aufwach-<tspan x="589" dy="20">wort</tspan></text>
+      <text x="1093" y="108">Aktion</text>
+    </g>
+    <g fill="var(--paper)">
+      <text x="757" y="99">Wort-<tspan x="757" dy="20">erkennung</tspan></text>
+      <text x="925" y="99">Absichts-<tspan x="925" dy="20">erkennung</tspan></text>
+    </g>
+    <!-- Pfeile -->
+    <g stroke="var(--ink-soft)" stroke-width="2" fill="var(--ink-soft)">
+      <line x1="160" y1="102" x2="171" y2="102"/><path d="M170 96 l10 6 -10 6 z" stroke="none"/>
+      <line x1="328" y1="102" x2="339" y2="102"/><path d="M338 96 l10 6 -10 6 z" stroke="none"/>
+      <line x1="496" y1="102" x2="507" y2="102"/><path d="M506 96 l10 6 -10 6 z" stroke="none"/>
+      <line x1="664" y1="102" x2="675" y2="102"/><path d="M674 96 l10 6 -10 6 z" stroke="none"/>
+      <line x1="832" y1="102" x2="843" y2="102"/><path d="M842 96 l10 6 -10 6 z" stroke="none"/>
+      <line x1="1000" y1="102" x2="1011" y2="102"/><path d="M1010 96 l10 6 -10 6 z" stroke="none"/>
+    </g>
+    <!-- Klammern unten -->
+    <g stroke="var(--ink-soft)" fill="none" stroke-width="1.5">
+      <path d="M14 158 v10 h646 v-10"/>
+    </g>
+    <g stroke="var(--emph)" fill="none" stroke-width="2" stroke-dasharray="6 4">
+      <path d="M686 158 v10 h310 v-10"/>
+    </g>
+    <g font-size="16">
+      <text x="337" y="192" fill="var(--ink-soft)">Messung – nachrechenbar</text>
+      <text x="841" y="192" fill="var(--emph)" font-weight="600">Vermutung – hier rät ein Modell</text>
+    </g>
+    <!-- Kopfzeile -->
+    <text x="14" y="30" text-anchor="start" font-size="15" fill="var(--ink-soft)" letter-spacing="2">DIE KETTE DER SPRACHEINGABE</text>
+  </g>
+</svg>

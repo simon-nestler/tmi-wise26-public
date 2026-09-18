@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-label="Zwei Kabel werden zu zwei ineinander hängenden Ringen verlötet">
+  <!-- Zwei kurze Kabel (links) -->
+  <line x1="60" y1="95" x2="320" y2="95" stroke="#0B1320" stroke-width="14" stroke-linecap="round"/>
+  <line x1="60" y1="130" x2="320" y2="130" stroke="#5A6472" stroke-width="14" stroke-linecap="round"/>
+  <!-- Pfeil (THI-Gelb als Akzent) -->
+  <path d="M 380 98 L 450 98 L 450 82 L 500 112 L 450 142 L 450 126 L 380 126 Z"
+        fill="#FCD430" stroke="#0B1320" stroke-width="2"/>
+  <!-- Zwei ineinander hängende Ringe (rechts) -->
+  <circle cx="640" cy="112" r="62" fill="none" stroke="#0B1320" stroke-width="12"/>
+  <circle cx="740" cy="112" r="62" fill="none" stroke="#5A6472" stroke-width="12"/>
+  <!-- Verkettung: der dunkle Ring läuft an der rechten Kreuzung vorne über den grauen -->
+  <path d="M 691 76 A 62 62 0 0 1 691 148" fill="none" stroke="#0B1320" stroke-width="12"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img"
+     aria-labelledby="sw-titel sw-beschr" font-family="Inter, system-ui, sans-serif">
+  <title id="sw-titel">Dieselbe Pixelzahl, drei Abstände</title>
+  <desc id="sw-beschr">Drei Zeilen zeigen dasselbe Display mit derselben Pixelzahl vor demselben Auge, nur der Betrachtungsabstand wächst von Zeile zu Zeile: Abstand d, doppelter Abstand, vierfacher Abstand. Von einem markierten Pixel laufen Sichtlinien zum Auge. Beim nahen Display subtendiert der Pixel zwei Bogenminuten und das Raster ist sichtbar, beim doppelten Abstand genau eine Bogenminute, die Grenze der Normalsichtigkeit, beim vierfachen Abstand eine halbe Bogenminute und liegt damit unterhalb der Grenze, was Hersteller Retina nennen. Die Aussage: Auflösung ohne Betrachtungsabstand ist keine Aussage, denn der Sehwinkel je Pixel halbiert sich mit jeder Verdopplung des Abstands.</desc>
+  <style>
+    .titel   { fill: #031121; font-size: 20px; font-weight: 600; }
+    .hinweis { fill: #5a6472; font-size: 15px; }
+    .auge    { fill: none; stroke: #031121; stroke-width: 1.5; }
+    .pupille { fill: #031121; }
+    .weg     { stroke: #5a6472; stroke-width: 1.5; fill: none; stroke-dasharray: 5 4; }
+    .display { fill: #e2eefc; stroke: #1a2f6e; stroke-width: 1.5; }
+    .raster  { stroke: #1a2f6e; stroke-width: 0.8; }
+    .pixel   { fill: #fcd430; stroke: #031121; stroke-width: 0.8; }
+    .winkel  { fill: #031121; font-size: 17px; font-weight: 600; }
+    .abstand { fill: #5a6472; font-size: 14px; }
+    .lab     { fill: #031121; font-size: 16px; font-weight: 600; }
+    .lab-s   { fill: #5a6472; font-size: 14px; }
+  </style>
+
+  <text class="titel" x="24" y="30">Dieselbe Pixelzahl, drei Abstände</text>
+  <text class="hinweis" x="976" y="30" text-anchor="end">Abstand verdoppelt – Sehwinkel je Pixel halbiert</text>
+
+  <!-- ══ Zeile 1: Abstand d, 2 Bogenminuten je Pixel ══ -->
+  <g>
+    <circle class="auge" cx="70" cy="100" r="13"/>
+    <circle class="pupille" cx="77" cy="100" r="4"/>
+    <text class="lab-s" x="70" y="132" text-anchor="middle">Auge</text>
+    <line class="weg" x1="85" y1="100" x2="300" y2="89"/>
+    <line class="weg" x1="85" y1="100" x2="300" y2="111"/>
+    <text class="winkel" x="118" y="105">2&#8242;</text>
+    <text class="abstand" x="195" y="78" text-anchor="middle">Abstand d</text>
+    <rect class="display" x="300" y="45" width="26" height="110"/>
+    <line class="raster" x1="300" y1="67" x2="326" y2="67"/>
+    <line class="raster" x1="300" y1="89" x2="326" y2="89"/>
+    <line class="raster" x1="300" y1="111" x2="326" y2="111"/>
+    <line class="raster" x1="300" y1="133" x2="326" y2="133"/>
+    <rect class="pixel" x="300" y="89" width="26" height="22"/>
+    <text class="lab" x="313" y="180" text-anchor="middle">2&#8242; je Pixel</text>
+    <text class="lab-s" x="313" y="200" text-anchor="middle">das Raster ist sichtbar</text>
+  </g>
+
+  <!-- ══ Zeile 2: Abstand 2 d, 1 Bogenminute je Pixel ══ -->
+  <g>
+    <circle class="auge" cx="70" cy="255" r="13"/>
+    <circle class="pupille" cx="77" cy="255" r="4"/>
+    <line class="weg" x1="85" y1="255" x2="560" y2="244"/>
+    <line class="weg" x1="85" y1="255" x2="560" y2="266"/>
+    <text class="winkel" x="118" y="260">1&#8242;</text>
+    <text class="abstand" x="322" y="233" text-anchor="middle">Abstand 2 d</text>
+    <rect class="display" x="560" y="200" width="26" height="110"/>
+    <line class="raster" x1="560" y1="222" x2="586" y2="222"/>
+    <line class="raster" x1="560" y1="244" x2="586" y2="244"/>
+    <line class="raster" x1="560" y1="266" x2="586" y2="266"/>
+    <line class="raster" x1="560" y1="288" x2="586" y2="288"/>
+    <rect class="pixel" x="560" y="244" width="26" height="22"/>
+    <text class="lab" x="573" y="335" text-anchor="middle">1&#8242; je Pixel</text>
+    <text class="lab-s" x="573" y="355" text-anchor="middle">die Grenze der Normalsichtigkeit</text>
+  </g>
+
+  <!-- ══ Zeile 3: Abstand 4 d, eine halbe Bogenminute je Pixel ══ -->
+  <g>
+    <circle class="auge" cx="70" cy="410" r="13"/>
+    <circle class="pupille" cx="77" cy="410" r="4"/>
+    <line class="weg" x1="85" y1="410" x2="820" y2="399"/>
+    <line class="weg" x1="85" y1="410" x2="820" y2="421"/>
+    <text class="winkel" x="118" y="415">0,5&#8242;</text>
+    <text class="abstand" x="452" y="388" text-anchor="middle">Abstand 4 d</text>
+    <rect class="display" x="820" y="355" width="26" height="110"/>
+    <line class="raster" x1="820" y1="377" x2="846" y2="377"/>
+    <line class="raster" x1="820" y1="399" x2="846" y2="399"/>
+    <line class="raster" x1="820" y1="421" x2="846" y2="421"/>
+    <line class="raster" x1="820" y1="443" x2="846" y2="443"/>
+    <rect class="pixel" x="820" y="399" width="26" height="22"/>
+    <text class="lab" x="833" y="490" text-anchor="middle">0,5&#8242; je Pixel</text>
+    <text class="lab-s" x="833" y="510" text-anchor="middle">unterhalb der Grenze – &#8222;Retina&#8220;</text>
+  </g>
+</svg>
