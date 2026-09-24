@@ -6,46 +6,44 @@ Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Or
 
 ## Skript
 
-- [T00 · Vision und Organisation](skript/t00/)
-- [T01 · Teil A+B](skript/t01/)
-- [T02 · Warum Interaktionskonzepte scheitern](skript/t02/)
-- [T03 · Touch: Zielgrößen und Verdeckung](skript/t03/)
-- [T04 · Maus, Tastatur und Wertgeber](skript/t04/)
-- [T05 · Teil A und B](skript/t05/)
-- [T06 · Teil A+B](skript/t06/)
-- [T07 · Blick, Muskel und Gesicht als Eingabe](skript/t07/)
-- [T08 · Displays: Grenzen des Auges und der Technik](skript/t08/)
-- [T09 · Akustische und haptische Ausgabe](skript/t09/)
-- [T10 · Anker 2: Modalitätswahl unter Rollen](skript/t10/)
-- [T11 · Tracking und seine Störungen](skript/t11/)
-- [T12 · Sichtfeld und Latenz](skript/t12/)
-- [T13 · Anker 3: Technik, Ausschluss und Zugang](skript/t13/)
-- [VA00 · Praktikum: Organisation](skript/praktikum-va00-organisation/)
-- [VA01 · Keyboard Hacking](skript/praktikum-va01-keyboard-hacking/)
-- [VA02 · vvvv Basics](skript/praktikum-va02-vvvv-basics/)
-- [VA02a · vvvv-Tutorial](skript/praktikum-va02a-vvvv-tutorial/)
-- [VA02b · Arduino-Einführung mit I/O-Kopplung](skript/praktikum-va02b-arduino-io-kopplung/)
-- [VA03 · vvvv Vertiefung](skript/praktikum-va03-vvvv-vertiefung/)
-- [VA04 · v4 (vvvv)-Arduino Integration](skript/praktikum-va04-arduino-vvvv-integration/)
-- [VA05 · Arduino: Ultraschall, IR & Displays](skript/praktikum-va05-arduino-ultraschall-ir-displays/)
-- [VA05b · Face- & Fiducialtracking mit vvvv](skript/praktikum-va05b-face-fiducial-tracking/)
-- [VA06 · RFID-Tracking mit vvvv](skript/praktikum-va06-rfid-tracking/)
-- [VA07 · Hackathon](skript/praktikum-va07-hackathon/)
+- [Auftakt · Vision und Organisation](skript/t00/)
+- [Thema 1 · Messung und Vermutung](skript/t01/)
+- [Thema 2 · Warum Interaktionskonzepte scheitern](skript/t02/)
+- [Thema 3 · Touch: Zielgrößen und Verdeckung](skript/t03/)
+- [Thema 4 · Maus, Tastatur und Wertgeber](skript/t04/)
+- [Thema 5 · Das Kontextraster](skript/t05/)
+- [Thema 6 · Spracheingabe und ihre Fehlerquellen](skript/t06/)
+- [Thema 7 · Blick, Muskel und Gesicht als Eingabe](skript/t07/)
+- [Thema 8 · Displays: Grenzen des Auges und der Technik](skript/t08/)
+- [Thema 9 · Akustische und haptische Ausgabe](skript/t09/)
+- [Thema 10 · Modalitätswahl unter Rollen](skript/t10/)
+- [Thema 11 · Tracking und seine Störungen](skript/t11/)
+- [Thema 12 · Sichtfeld und Latenz](skript/t12/)
+- [Thema 13 · Technik, Ausschluss und Zugang](skript/t13/)
 
-## Übungs- und Praktikumsblätter
+## Praktikumsblätter
 
-- [va01-keyboard-hacking](blaetter/va01-keyboard-hacking.pdf)
-- [va02-vvvv-basics](blaetter/va02-vvvv-basics.pdf)
-- [va02b-arduino-io-kopplung](blaetter/va02b-arduino-io-kopplung.pdf)
-- [va03-vvvv-vertiefung](blaetter/va03-vvvv-vertiefung.pdf)
-- [va04-arduino-vvvv-integration](blaetter/va04-arduino-vvvv-integration.pdf)
-- [va05-arduino-ultraschall-ir-displays](blaetter/va05-arduino-ultraschall-ir-displays.pdf)
-- [va05b-face-fiducial-tracking](blaetter/va05b-face-fiducial-tracking.pdf)
-- [va06-rfid-tracking](blaetter/va06-rfid-tracking.pdf)
+- [Praktikumsblatt 1 · Keyboard Hacking](blaetter/blatt-1-keyboard-hacking.pdf)
+- [Praktikumsblatt 2 · Visuelle Programmierung mit vvvv](blaetter/blatt-2-vvvv-vertiefung.pdf)
+- [Praktikumsblatt 3 · Arduino-Einführung mit I/O](blaetter/blatt-3-arduino-io-kopplung.pdf)
+- [Praktikumsblatt 4 · Arduino: Ultraschall, IR und Displays](blaetter/blatt-4-ultraschall-ir-displays.pdf)
+- [Praktikumsblatt 5 · Arduino und vvvv koppeln](blaetter/blatt-5-arduino-vvvv-integration.pdf)
+- [Praktikumsblatt 6 · Face- und Fiducialtracking](blaetter/blatt-6-face-fiducial-tracking.pdf)
+
+## Foliensätze zum Praktikum
+
+- [Blatt 1 · Keyboard Hacking](skript/praktikum-blatt-1-keyboard-hacking/)
+- [Blatt 2 · Visuelle Programmierung mit vvvv](skript/praktikum-blatt-2-vvvv-vertiefung/)
+- [Blatt 3 · Arduino-Einführung mit I/O-Kopplung](skript/praktikum-blatt-3-arduino-io-kopplung/)
+- [Blatt 4 · Arduino: Ultraschall, IR & Displays](skript/praktikum-blatt-4-ultraschall-ir-displays/)
+- [Blatt 5 · Arduino und vvvv koppeln](skript/praktikum-blatt-5-arduino-vvvv-integration/)
+- [Blatt 6 · Face- & Fiducialtracking mit vvvv](skript/praktikum-blatt-6-face-fiducial-tracking/)
+- [Praktikum · Organisation](skript/praktikum-va00-organisation/)
+- [Praktikum · Hackathon](skript/praktikum-va07-hackathon/)
 
 ## Probeklausur
 
-- [klausur](probeklausur/klausur.pdf)
+- [Probeklausur](probeklausur/klausur.pdf)
 
 ## Lern-Skills
 
