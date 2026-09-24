@@ -32,14 +32,14 @@ Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Or
 
 ## Foliensätze zum Praktikum
 
+- [Praktikum · Organisation](skript/praktikum-blatt-0-organisation/)
 - [Blatt 1 · Keyboard Hacking](skript/praktikum-blatt-1-keyboard-hacking/)
 - [Blatt 2 · Visuelle Programmierung mit vvvv](skript/praktikum-blatt-2-vvvv-vertiefung/)
 - [Blatt 3 · Arduino-Einführung mit I/O-Kopplung](skript/praktikum-blatt-3-arduino-io-kopplung/)
 - [Blatt 4 · Arduino: Ultraschall, IR & Displays](skript/praktikum-blatt-4-ultraschall-ir-displays/)
 - [Blatt 5 · Arduino und vvvv koppeln](skript/praktikum-blatt-5-arduino-vvvv-integration/)
 - [Blatt 6 · Face- & Fiducialtracking mit vvvv](skript/praktikum-blatt-6-face-fiducial-tracking/)
-- [Praktikum · Organisation](skript/praktikum-va00-organisation/)
-- [Praktikum · Hackathon](skript/praktikum-va07-hackathon/)
+- [Praktikum · Hackathon](skript/praktikum-blatt-7-hackathon/)
 
 ## Probeklausur
 
