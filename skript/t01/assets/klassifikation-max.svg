@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" role="img"
+     aria-labelledby="kmx-titel kmx-beschr" font-family="inherit">
+  <title id="kmx-titel">Klassifikation: jedes Modell rechnet, eines gewinnt</title>
+  <desc id="kmx-beschr">Links steht die Folge der Merkmalsvektoren. Sie läuft gleichzeitig in mehrere Modelle, eines je Klasse. Jedes Modell gibt eine Wahrscheinlichkeit zurück, wie gut die Folge zu ihm passt. Ein Vergleich wählt die größte dieser Wahrscheinlichkeiten aus, und der Name der zugehörigen Klasse verlässt die Kette als Ergebnis. Der Vergleich fragt nicht, ob die Zuordnung stimmt, sondern nur, welche Klasse besser abschneidet als die anderen.</desc>
+
+  <defs>
+    <marker id="kmx-pfeil" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--ink-soft, #5a6472)"/>
+    </marker>
+    <marker id="kmx-pfeil-i" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--ink, #031121)"/>
+    </marker>
+  </defs>
+
+  <style>
+    .kasten   { fill: var(--paper, #ffffff); stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; }
+    .kasten-e { fill: var(--paper, #ffffff); stroke: var(--ink, #031121); stroke-width: 3; }
+    .max      { fill: #fcd430; stroke: var(--ink, #031121); stroke-width: 3; }
+    .pfeil    { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; }
+    .pfeil-i  { fill: none; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .t        { fill: var(--ink, #031121); font-size: 19px; }
+    .t-e      { fill: var(--ink, #031121); font-size: 20px; font-weight: 600; }
+    .t-s      { fill: var(--ink-soft, #5a6472); font-size: 16px; }
+    .t-max    { fill: #031121; font-size: 30px; font-weight: 600; }
+    .punkte   { fill: var(--ink-soft, #5a6472); font-size: 26px; }
+  </style>
+
+  <!-- ══ Eingang ══ -->
+  <rect class="kasten-e" x="16" y="160" width="192" height="94" rx="4"/>
+  <text class="t-e" x="112" y="196" text-anchor="middle">Merkmale</text>
+  <text class="t-s" x="112" y="222" text-anchor="middle">12 Zahlen je</text>
+  <text class="t-s" x="112" y="242" text-anchor="middle">Zeitfenster</text>
+
+  <!-- ══ Verzweigung ══ -->
+  <path class="pfeil" d="M208 207 H 248 V 62  H 296" marker-end="url(#kmx-pfeil)"/>
+  <path class="pfeil" d="M208 207 H 248 V 156 H 296" marker-end="url(#kmx-pfeil)"/>
+  <path class="pfeil" d="M208 207 H 248 V 348 H 296" marker-end="url(#kmx-pfeil)"/>
+
+  <!-- ══ Modelle, eines je Klasse ══ -->
+  <rect class="kasten" x="302" y="30" width="224" height="64" rx="4"/>
+  <text class="t" x="414" y="70" text-anchor="middle">Modell für Klasse 1</text>
+
+  <rect class="kasten" x="302" y="124" width="224" height="64" rx="4"/>
+  <text class="t" x="414" y="164" text-anchor="middle">Modell für Klasse 2</text>
+
+  <text class="punkte" x="414" y="258" text-anchor="middle">⋮</text>
+
+  <rect class="kasten" x="302" y="316" width="224" height="64" rx="4"/>
+  <text class="t" x="414" y="356" text-anchor="middle">Modell für Klasse K</text>
+
+  <!-- ══ Wahrscheinlichkeiten ══ -->
+  <line class="pfeil" x1="526" y1="62"  x2="628" y2="62"  marker-end="url(#kmx-pfeil)"/>
+  <line class="pfeil" x1="526" y1="156" x2="628" y2="156" marker-end="url(#kmx-pfeil)"/>
+  <line class="pfeil" x1="526" y1="348" x2="628" y2="348" marker-end="url(#kmx-pfeil)"/>
+  <text class="t-s" x="622" y="48" text-anchor="end">passt zu … %</text>
+  <text class="t-s" x="622" y="142" text-anchor="end">passt zu … %</text>
+  <text class="t-s" x="622" y="334" text-anchor="end">passt zu … %</text>
+
+  <!-- ══ Vergleich ══ -->
+  <rect class="max" x="634" y="30" width="152" height="350" rx="4"/>
+  <text class="t-max" x="710" y="196" text-anchor="middle">max</text>
+  <text class="t-s" x="710" y="228" text-anchor="middle" fill="#031121">die größte</text>
+  <text class="t-s" x="710" y="250" text-anchor="middle" fill="#031121">gewinnt</text>
+
+  <!-- ══ Ausgang ══ -->
+  <line class="pfeil-i" x1="786" y1="205" x2="828" y2="205" marker-end="url(#kmx-pfeil-i)"/>
+  <rect class="kasten-e" x="834" y="160" width="150" height="94" rx="4"/>
+  <text class="t-e" x="909" y="196" text-anchor="middle">ein Name</text>
+  <text class="t-s" x="909" y="222" text-anchor="middle">die gewählte</text>
+  <text class="t-s" x="909" y="242" text-anchor="middle">Klasse</text>
+
+  <text class="t-s" x="16" y="414">Die zweitbeste Klasse steht daneben und verlässt die Kette nie. Ob die gewählte stimmt, sagt der Vergleich nicht.</text>
+</svg>

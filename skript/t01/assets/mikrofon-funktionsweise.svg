@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" role="img"
+     aria-labelledby="mik-titel mik-beschr" font-family="inherit">
+  <title id="mik-titel">Funktionsweise eines dynamischen Mikrofons</title>
+  <desc id="mik-beschr">Von links laufen Schallwellen auf eine Membran. Die Membran ist über einen Steg mit einer Schwingspule verbunden, die im Feld eines Magneten sitzt. Bewegt sich die Spule im Magnetfeld, entsteht an ihren Enden eine Spannung: am Ausgang steht ein elektrisches Signal. Gemessen wird die Bewegung der Luft, nicht die Sprache.</desc>
+
+  <defs>
+    <pattern id="mik-schraffur" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="var(--rule, #c7cdd4)" stroke-width="2.4"/>
+    </pattern>
+    <marker id="mik-pfeil" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--ink, #031121)"/>
+    </marker>
+  </defs>
+
+  <style>
+    .kontur   { fill: none; stroke: var(--ink, #031121); stroke-width: 2; }
+    .welle    { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 2.2; }
+    .welle-g  { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 2.2; stroke-dasharray: 9 8; }
+    .gehaeuse { fill: url(#mik-schraffur); stroke: var(--ink, #031121); stroke-width: 2; }
+    .spule    { fill: none; stroke: var(--ink, #031121); stroke-width: 2.6; }
+    .magnet   { fill: var(--paper, #ffffff); stroke: var(--ink, #031121); stroke-width: 2; }
+    .magnet-t { fill: var(--ink-soft, #5a6472); font-size: 20px; font-weight: 600; }
+    .leiter   { fill: none; stroke: var(--ink, #031121); stroke-width: 2.2; }
+    .fuehrung { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.2; }
+    .lab      { fill: var(--ink, #031121); font-size: 22px; }
+    .lab-s    { fill: var(--ink-soft, #5a6472); font-size: 18px; }
+  </style>
+
+  <!-- ══ Schallwellen ══ -->
+  <g>
+    <path class="welle"   d="M60 150 A 130 130 0 0 1 60 310"/>
+    <path class="welle-g" d="M96 146 A 140 140 0 0 1 96 314"/>
+    <path class="welle"   d="M132 142 A 150 150 0 0 1 132 318"/>
+    <path class="welle-g" d="M168 138 A 160 160 0 0 1 168 322"/>
+  </g>
+  <text class="lab"   x="56" y="396">Schall</text>
+  <text class="lab-s" x="56" y="422">Druck der Luft schwankt</text>
+
+  <!-- ══ Gehäuse im Schnitt: Deckel, Boden, Rückwand ══ -->
+  <path class="gehaeuse" d="M300 130 H790 V182 H300 Z"/>
+  <path class="gehaeuse" d="M300 330 H790 V278 H300 Z"/>
+  <path class="gehaeuse" d="M738 182 H790 V278 H738 Z"/>
+
+  <!-- ══ Membran ══ -->
+  <path class="kontur" d="M300 158 C 282 196, 282 264, 300 302" stroke-width="3.6"/>
+  <line class="fuehrung" x1="290" y1="300" x2="268" y2="372"/>
+  <text class="lab" x="262" y="396" text-anchor="middle">Membran</text>
+
+  <!-- ══ Steg Membran → Spule ══ -->
+  <line class="kontur" x1="298" y1="230" x2="424" y2="230"/>
+
+  <!-- ══ Schwingspule: Wicklung um den Spulenträger ══ -->
+  <rect class="kontur" x="424" y="196" width="76" height="68" fill="var(--paper, #ffffff)"/>
+  <g class="spule">
+    <path d="M432 196 V264"/><path d="M448 196 V264"/>
+    <path d="M464 196 V264"/><path d="M480 196 V264"/><path d="M496 196 V264"/>
+  </g>
+  <line class="fuehrung" x1="462" y1="194" x2="462" y2="102"/>
+  <text class="lab" x="462" y="86" text-anchor="middle">Schwingspule</text>
+
+  <!-- ══ Magnet ══ -->
+  <rect class="magnet" x="536" y="196" width="188" height="68" rx="3"/>
+  <text class="magnet-t" x="562" y="238">N</text>
+  <text class="magnet-t" x="694" y="238" text-anchor="end">S</text>
+  <line class="fuehrung" x1="630" y1="266" x2="630" y2="372"/>
+  <text class="lab" x="630" y="396" text-anchor="middle">Magnet</text>
+
+  <!-- ══ Ausgang ══ -->
+  <path class="leiter" d="M436 198 V156 H880" marker-end="url(#mik-pfeil)"/>
+  <path class="leiter" d="M492 262 V304 H880" marker-end="url(#mik-pfeil)"/>
+  <text class="lab"   x="896" y="222">Ausgang</text>
+  <text class="lab-s" x="896" y="248">elektrisches</text>
+  <text class="lab-s" x="896" y="270">Signal</text>
+</svg>

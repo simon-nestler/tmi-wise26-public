@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" role="img"
+     aria-labelledby="opt-titel opt-beschr" font-family="inherit">
+  <title id="opt-titel">Optisch: gemessen wird eine Verdeckung</title>
+  <desc id="opt-beschr">Ein Rahmen um die Fläche. Oben und links sitzen Infrarot-Leuchtdioden, unten und rechts die zugehörigen Fototransistoren. Zwischen ihnen spannt sich ein Gitter aus Lichtstrahlen knapp über der Oberfläche. Ein Gegenstand auf der Fläche unterbricht genau einen senkrechten und einen waagerechten Strahl; aus den beiden unterbrochenen Strahlen ergibt sich die Position. Wie fein das Gitter ist, entscheidet über die Auflösung – und ausgelöst wird von allem, was Licht stört, auch ohne die Fläche zu berühren.</desc>
+
+  <style>
+    .rahmen { fill: none; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .led    { fill: var(--ink-soft, #5a6472); }
+    .sensor { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; }
+    .strahl { fill: none; stroke: var(--rule, #c7cdd4); stroke-width: 1.4; stroke-dasharray: 4 5; }
+    .strahl-u { fill: none; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .objekt { fill: #fcd430; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .t-b    { fill: var(--ink, #031121); font-size: 21px; font-weight: 600; }
+    .t      { fill: var(--ink, #031121); font-size: 19px; }
+    .t-s    { fill: var(--ink-soft, #5a6472); font-size: 17px; }
+  </style>
+
+  <!-- ══ Rahmen ══ -->
+  <rect class="rahmen" x="70" y="58" width="420" height="300" rx="4"/>
+
+  <!-- ══ Leuchtdioden oben und links ══ -->
+  <g class="led">
+    <circle cx="112" cy="58" r="6"/><circle cx="166" cy="58" r="6"/><circle cx="220" cy="58" r="6"/>
+    <circle cx="274" cy="58" r="6"/><circle cx="328" cy="58" r="6"/><circle cx="382" cy="58" r="6"/>
+    <circle cx="436" cy="58" r="6"/>
+    <circle cx="70" cy="100" r="6"/><circle cx="70" cy="152" r="6"/><circle cx="70" cy="204" r="6"/>
+    <circle cx="70" cy="256" r="6"/><circle cx="70" cy="308" r="6"/>
+  </g>
+  <text class="t-s" x="70" y="38">Infrarot-Leuchtdioden</text>
+
+  <!-- ══ Fototransistoren unten und rechts ══ -->
+  <g class="sensor">
+    <circle cx="112" cy="358" r="6"/><circle cx="166" cy="358" r="6"/><circle cx="220" cy="358" r="6"/>
+    <circle cx="274" cy="358" r="6"/><circle cx="328" cy="358" r="6"/><circle cx="382" cy="358" r="6"/>
+    <circle cx="436" cy="358" r="6"/>
+    <circle cx="490" cy="100" r="6"/><circle cx="490" cy="152" r="6"/><circle cx="490" cy="204" r="6"/>
+    <circle cx="490" cy="256" r="6"/><circle cx="490" cy="308" r="6"/>
+  </g>
+  <text class="t-s" x="70" y="388">Fototransistoren</text>
+
+  <!-- ══ ungestörte Strahlen ══ -->
+  <g class="strahl">
+    <line x1="112" y1="58" x2="112" y2="358"/>
+    <line x1="166" y1="58" x2="166" y2="358"/>
+    <line x1="220" y1="58" x2="220" y2="358"/>
+    <line x1="328" y1="58" x2="328" y2="358"/>
+    <line x1="382" y1="58" x2="382" y2="358"/>
+    <line x1="436" y1="58" x2="436" y2="358"/>
+    <line x1="70" y1="100" x2="490" y2="100"/>
+    <line x1="70" y1="152" x2="490" y2="152"/>
+    <line x1="70" y1="256" x2="490" y2="256"/>
+    <line x1="70" y1="308" x2="490" y2="308"/>
+  </g>
+
+  <!-- ══ die beiden unterbrochenen Strahlen ══ -->
+  <line class="strahl-u" x1="274" y1="58" x2="274" y2="186"/>
+  <line class="strahl-u" x1="70"  y1="204" x2="256" y2="204"/>
+
+  <!-- ══ der Gegenstand ══ -->
+  <circle class="objekt" cx="274" cy="204" r="19"/>
+
+  <!-- ══ Erklärung rechts ══ -->
+  <g transform="translate(560,0)">
+    <text class="t-b" x="0" y="96">Zwei Strahlen fehlen</text>
+    <text class="t"   x="0" y="132">Ein Gegenstand unterbricht genau</text>
+    <text class="t"   x="0" y="158">einen senkrechten und einen</text>
+    <text class="t"   x="0" y="184">waagerechten Strahl. Daraus steht</text>
+    <text class="t"   x="0" y="210">die Position fest.</text>
+
+    <line x1="0" y1="248" x2="380" y2="248" stroke="var(--rule, #c7cdd4)" stroke-width="2"/>
+
+    <text class="t-b" x="0" y="292">Zwei Folgen</text>
+    <text class="t-s" x="0" y="324">Die Auflösung ist die Dichte des</text>
+    <text class="t-s" x="0" y="348">Gitters, nicht die des Displays.</text>
+    <text class="t-s" x="0" y="380">Und ausgelöst wird von allem, was</text>
+    <text class="t-s" x="0" y="404">Licht stört – auch ohne Berührung.</text>
+  </g>
+</svg>

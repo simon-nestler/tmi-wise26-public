@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" role="img"
+     aria-labelledby="dhs-titel dhs-beschr" font-family="inherit">
+  <title id="dhs-titel">Aufbau eines Datenhandschuhs</title>
+  <desc id="dhs-beschr">Über jedem Fingergelenk liegt eine Schleife aus Lichtleiter. Biegt sich der Finger, knickt die Schleife und lässt weniger Licht durch; aus dieser Dämpfung ergibt sich der Biegewinkel. Alle Schleifen laufen auf ein Interface-Board am Handrücken zusammen. Darauf sitzt zusätzlich ein Sensor für Position und Lage der ganzen Hand im Raum. Die Gelenke der Hand und die Länge der Fingerabschnitte sind von Person zu Person verschieden, deshalb muss jeder Handschuh je Person kalibriert werden.</desc>
+
+  <defs>
+    <marker id="dhs-pfeil" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--ink-soft, #5a6472)"/>
+    </marker>
+  </defs>
+
+  <style>
+    .hand    { fill: var(--paper, #ffffff); stroke: var(--ink, #031121); stroke-width: 2.6; }
+    .leiter  { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 2.2; }
+    .schleife{ fill: none; stroke: var(--ink, #031121); stroke-width: 3; }
+    .board   { fill: var(--rule, #c7cdd4); stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .sensor  { fill: #fcd430; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .fuehrung{ fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.2; }
+    .t-b     { fill: var(--ink, #031121); font-size: 21px; font-weight: 600; }
+    .t       { fill: var(--ink, #031121); font-size: 19px; }
+    .t-s     { fill: var(--ink-soft, #5a6472); font-size: 17px; }
+  </style>
+
+  <!-- ══ Handfläche ══ -->
+  <rect class="hand" x="150" y="190" width="210" height="170" rx="18"/>
+
+  <!-- ══ vier Finger ══ -->
+  <g class="hand">
+    <rect x="166" y="58" width="40" height="140" rx="18"/>
+    <rect x="218" y="40" width="40" height="158" rx="18"/>
+    <rect x="270" y="52" width="40" height="146" rx="18"/>
+    <rect x="322" y="78" width="40" height="120" rx="18"/>
+  </g>
+  <!-- ══ Daumen ══ -->
+  <rect class="hand" x="92" y="236" width="76" height="40" rx="18"/>
+
+  <!-- ══ Lichtleiterschleifen über den Gelenken ══ -->
+  <g class="schleife">
+    <path d="M170 108 q 16 -16 32 0"/>
+    <path d="M170 158 q 16 -16 32 0"/>
+    <path d="M222 92  q 16 -16 32 0"/>
+    <path d="M222 148 q 16 -16 32 0"/>
+    <path d="M274 100 q 16 -16 32 0"/>
+    <path d="M274 156 q 16 -16 32 0"/>
+    <path d="M326 124 q 16 -16 32 0"/>
+    <path d="M326 168 q 16 -16 32 0"/>
+    <path d="M112 244 q 0 16 0 24" transform="rotate(-90 124 256)"/>
+  </g>
+
+  <!-- ══ Leitungen zum Board ══ -->
+  <g class="leiter">
+    <path d="M186 198 V 236 H 250"/>
+    <path d="M238 198 V 226 H 250"/>
+    <path d="M290 198 V 226 H 258"/>
+    <path d="M342 198 V 236 H 258"/>
+    <path d="M150 256 H 236"/>
+  </g>
+
+  <!-- ══ Interface-Board und Lagesensor ══ -->
+  <rect class="board"  x="206" y="246" width="100" height="56" rx="4"/>
+  <rect class="sensor" x="222" y="308" width="70" height="38" rx="4"/>
+
+  <line class="fuehrung" x1="306" y1="274" x2="404" y2="274"/>
+  <text class="t" x="416" y="268">Interface-Board</text>
+  <text class="t-s" x="416" y="292">sammelt alle Schleifen ein</text>
+
+  <line class="fuehrung" x1="292" y1="327" x2="404" y2="356"/>
+  <text class="t" x="416" y="350">Sensor für Position und Lage</text>
+  <text class="t-s" x="416" y="374">wo die ganze Hand im Raum ist</text>
+
+  <line class="fuehrung" x1="196" y1="104" x2="150" y2="30"/>
+  <text class="t-s" x="146" y="24" text-anchor="end">eine Schleife je Gelenk</text>
+
+  <!-- ══ Erklärung rechts oben ══ -->
+  <g transform="translate(416,0)">
+    <text class="t-b" x="0" y="42">Gemessen wird Licht, nicht Winkel</text>
+    <text class="t"   x="0" y="78">Biegt sich der Finger, knickt die Schleife</text>
+    <text class="t"   x="0" y="104">und lässt weniger Licht durch. Aus der</text>
+    <text class="t"   x="0" y="130">Dämpfung rechnet das Board den Winkel.</text>
+    <text class="t-s" x="0" y="168">Hände sind verschieden lang – deshalb</text>
+    <text class="t-s" x="0" y="192">muss jede Person neu kalibrieren:</text>
+    <text class="t-s" x="0" y="216">Faust ballen, alle Finger strecken.</text>
+  </g>
+</svg>

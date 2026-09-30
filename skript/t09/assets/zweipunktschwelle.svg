@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" role="img"
+     aria-labelledby="zps-titel zps-beschr" font-family="inherit">
+  <title id="zps-titel">Die Zweipunktschwelle der Haut</title>
+  <desc id="zps-beschr">Links zwei Schnitte durch die Haut. Im ersten stehen die beiden Spitzen eines Zirkels so weit auseinander, dass sie getrennte Rezeptorfelder treffen; die Person spürt zwei Punkte. Im zweiten stehen sie enger zusammen und treffen dasselbe Feld; die Person spürt einen Punkt. Rechts eine Skala in Millimetern: An der Fingerkuppe liegt die Schwelle bei etwa zwei Millimetern, am Rücken bei etwa fünfundvierzig. Wo die Schwelle liegt, entscheidet die Körperregion, nicht der Reiz.</desc>
+
+  <defs>
+    <marker id="zps-spitze" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--ink, #031121)"/>
+    </marker>
+  </defs>
+
+  <style>
+    .haut    { fill: var(--rule, #c7cdd4); stroke: var(--ink, #031121); stroke-width: 2; }
+    .feld    { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; stroke-dasharray: 6 5; }
+    .nerv    { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; }
+    .nadel   { fill: none; stroke: var(--ink, #031121); stroke-width: 2.6; }
+    .achse   { fill: none; stroke: var(--ink, #031121); stroke-width: 2; }
+    .tick    { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.5; }
+    .marke   { fill: #fcd430; stroke: var(--ink, #031121); stroke-width: 2; }
+    .klammer { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.5; }
+    .t       { fill: var(--ink, #031121); font-size: 20px; }
+    .t-b     { fill: var(--ink, #031121); font-size: 20px; font-weight: 600; }
+    .t-s     { fill: var(--ink-soft, #5a6472); font-size: 16px; }
+  </style>
+
+  <!-- ══ links oben: Spitzen weit auseinander ══ -->
+  <g transform="translate(0,14)">
+    <line class="nadel" x1="58"  y1="0" x2="58"  y2="72" marker-end="url(#zps-spitze)"/>
+    <line class="nadel" x1="172" y1="0" x2="172" y2="72" marker-end="url(#zps-spitze)"/>
+    <rect class="haut" x="16" y="76" width="244" height="40" rx="3"/>
+    <circle class="feld" cx="58"  cy="116" r="32"/>
+    <circle class="feld" cx="172" cy="116" r="32"/>
+    <path class="nerv" d="M58 148 V 166 H 115"/>
+    <path class="nerv" d="M172 148 V 166 H 115"/>
+    <path class="nerv" d="M115 166 V 178"/>
+    <text class="t-b" x="292" y="92">zwei Punkte gespürt</text>
+    <text class="t-s" x="292" y="118">Die Spitzen treffen getrennte</text>
+    <text class="t-s" x="292" y="140">Rezeptorfelder.</text>
+  </g>
+
+  <!-- ══ links unten: Spitzen eng beieinander ══ -->
+  <g transform="translate(0,226)">
+    <line class="nadel" x1="100" y1="0" x2="100" y2="72" marker-end="url(#zps-spitze)"/>
+    <line class="nadel" x1="130" y1="0" x2="130" y2="72" marker-end="url(#zps-spitze)"/>
+    <rect class="haut" x="16" y="76" width="244" height="40" rx="3"/>
+    <circle class="feld" cx="115" cy="116" r="32"/>
+    <path class="nerv" d="M115 148 V 178"/>
+    <text class="t-b" x="292" y="92">ein Punkt gespürt</text>
+    <text class="t-s" x="292" y="118">Beide Spitzen treffen</text>
+    <text class="t-s" x="292" y="140">dasselbe Feld.</text>
+  </g>
+
+  <!-- ══ rechts: die Skala ══ -->
+  <g transform="translate(570,0)">
+    <text class="t-b" x="0" y="36">Wo die Schwelle liegt</text>
+    <text class="t-s" x="0" y="60">Abstand, ab dem zwei Punkte zwei bleiben</text>
+
+    <line class="achse" x1="16" y1="250" x2="404" y2="250"/>
+    <g class="tick">
+      <line x1="16"  y1="250" x2="16"  y2="262"/>
+      <line x1="94"  y1="250" x2="94"  y2="262"/>
+      <line x1="171" y1="250" x2="171" y2="262"/>
+      <line x1="249" y1="250" x2="249" y2="262"/>
+      <line x1="326" y1="250" x2="326" y2="262"/>
+      <line x1="404" y1="250" x2="404" y2="262"/>
+    </g>
+    <g class="t-s" text-anchor="middle">
+      <text x="16"  y="284">0</text>
+      <text x="94"  y="284">10</text>
+      <text x="171" y="284">20</text>
+      <text x="249" y="284">30</text>
+      <text x="326" y="284">40</text>
+      <text x="404" y="284">50</text>
+    </g>
+    <text class="t-s" x="404" y="310" text-anchor="end">Abstand in Millimetern</text>
+
+    <circle class="marke" cx="32" cy="250" r="11"/>
+    <line class="klammer" x1="32" y1="234" x2="32" y2="134"/>
+    <text class="t"   x="32" y="124" text-anchor="middle">Fingerkuppe</text>
+    <text class="t-s" x="32" y="102" text-anchor="middle">etwa 2 mm</text>
+
+    <circle class="marke" cx="365" cy="250" r="11"/>
+    <line class="klammer" x1="365" y1="234" x2="365" y2="188"/>
+    <text class="t"   x="365" y="178" text-anchor="middle">Rücken</text>
+    <text class="t-s" x="365" y="156" text-anchor="middle">etwa 45 mm</text>
+
+    <path class="klammer" d="M32 336 V 350 H 365 V 336"/>
+    <text class="t-s" x="198" y="378" text-anchor="middle">dazwischen alle übrigen Körperregionen</text>
+  </g>
+
+  <text class="t-s" x="16" y="422">Für Sitz, Gurt und Armband heißt das: Zwei Aktoren, die enger sitzen als die Schwelle, spürt man als einen.</text>
+</svg>

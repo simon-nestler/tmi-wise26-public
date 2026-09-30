@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" role="img"
+     aria-labelledby="mfc-titel mfc-beschr" font-family="inherit">
+  <title id="mfc-titel">Von der Schallwelle zu zwölf Zahlen</title>
+  <desc id="mfc-beschr">Eine Kette aus neun Stationen. Links steht das Sprachsignal, eine Schallwelle. Es folgen Aufzeichnung und Digitalisierung, Fensterung in Abschnitte von zehn bis dreißig Millisekunden, die Transformation in den Spektralbereich, die Melbewertung, der Logarithmus, die Rücktransformation in den Zeitbereich und die Vektorquantisierung. Rechts steht das Ergebnis: rund zwölf Koeffizienten je Zeitfenster. Was auf diesem Weg wegfällt, holt keine spätere Station zurück.</desc>
+
+  <defs>
+    <marker id="mfc-pfeil" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--ink-soft, #5a6472)"/>
+    </marker>
+  </defs>
+
+  <style>
+    .kasten  { fill: var(--paper, #ffffff); stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; }
+    .kasten-e{ fill: var(--paper, #ffffff); stroke: var(--ink, #031121); stroke-width: 3; }
+    .pfeil   { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; }
+    .umbruch { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; stroke-dasharray: 7 6; }
+    .t       { fill: var(--ink, #031121); font-size: 19px; }
+    .t-e     { fill: var(--ink, #031121); font-size: 20px; font-weight: 600; }
+    .t-s     { fill: var(--ink-soft, #5a6472); font-size: 16px; }
+    .welle   { fill: none; stroke: var(--ink, #031121); stroke-width: 2.2; }
+  </style>
+
+  <!-- ══ Reihe 1 ══ -->
+  <rect class="kasten-e" x="20"  y="56" width="210" height="80" rx="4"/>
+  <path class="welle" d="M46 112 q 13 -30 26 0 q 13 30 26 0 q 13 -30 26 0 q 13 30 26 0 q 13 -30 26 0 q 13 30 26 0"/>
+  <text class="t-e" x="125" y="84" text-anchor="middle">Sprache</text>
+
+  <rect class="kasten" x="264" y="56" width="210" height="80" rx="4"/>
+  <text class="t" x="369" y="90" text-anchor="middle">Aufzeichnung und</text>
+  <text class="t" x="369" y="114" text-anchor="middle">Digitalisierung</text>
+
+  <rect class="kasten" x="508" y="56" width="210" height="80" rx="4"/>
+  <text class="t"   x="613" y="92" text-anchor="middle">Fensterung</text>
+  <text class="t-s" x="613" y="116" text-anchor="middle">10 bis 30 ms je Fenster</text>
+
+  <rect class="kasten" x="752" y="56" width="210" height="80" rx="4"/>
+  <text class="t"   x="857" y="92" text-anchor="middle">Spektralbereich</text>
+  <text class="t-s" x="857" y="116" text-anchor="middle">Frequenzen statt Zeit</text>
+
+  <line class="pfeil" x1="230" y1="96" x2="258" y2="96" marker-end="url(#mfc-pfeil)"/>
+  <line class="pfeil" x1="474" y1="96" x2="502" y2="96" marker-end="url(#mfc-pfeil)"/>
+  <line class="pfeil" x1="718" y1="96" x2="746" y2="96" marker-end="url(#mfc-pfeil)"/>
+
+  <!-- ══ Zeilenumbruch ══ -->
+  <path class="umbruch" d="M962 136 V 168 H 20 V 194" marker-end="url(#mfc-pfeil)"/>
+
+  <!-- ══ Reihe 2 ══ -->
+  <rect class="kasten" x="20"  y="200" width="168" height="80" rx="4"/>
+  <text class="t" x="104" y="248" text-anchor="middle">Melbewertung</text>
+
+  <rect class="kasten" x="218" y="200" width="168" height="80" rx="4"/>
+  <text class="t" x="302" y="248" text-anchor="middle">Logarithmus</text>
+
+  <rect class="kasten" x="416" y="200" width="168" height="80" rx="4"/>
+  <text class="t" x="500" y="248" text-anchor="middle">Zeitbereich</text>
+
+  <rect class="kasten" x="614" y="200" width="168" height="80" rx="4"/>
+  <text class="t" x="698" y="236" text-anchor="middle">Vektor-</text>
+  <text class="t" x="698" y="260" text-anchor="middle">quantisierung</text>
+
+  <rect class="kasten-e" x="812" y="200" width="168" height="80" rx="4"/>
+  <text class="t-e" x="896" y="236" text-anchor="middle">12 Zahlen</text>
+  <text class="t-s" x="896" y="260" text-anchor="middle">je Zeitfenster</text>
+
+  <line class="pfeil" x1="188" y1="240" x2="212" y2="240" marker-end="url(#mfc-pfeil)"/>
+  <line class="pfeil" x1="386" y1="240" x2="410" y2="240" marker-end="url(#mfc-pfeil)"/>
+  <line class="pfeil" x1="584" y1="240" x2="608" y2="240" marker-end="url(#mfc-pfeil)"/>
+  <line class="pfeil" x1="782" y1="240" x2="806" y2="240" marker-end="url(#mfc-pfeil)"/>
+
+  <text class="t-s" x="20" y="322">Sieben Rechenschritte liegen dazwischen. Was sie verwerfen, findet keine spätere Station wieder.</text>
+</svg>

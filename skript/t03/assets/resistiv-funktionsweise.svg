@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img"
+     aria-labelledby="res-titel res-beschr" font-family="inherit">
+  <title id="res-titel">Resistiv: gemessen wird Druck</title>
+  <desc id="res-beschr">Zwei Schnitte durch einen resistiven Touchscreen. Oben liegt eine biegsame Deckfolie mit leitfähiger Beschichtung, darunter eine feste Grundschicht mit ebensolcher Beschichtung, dazwischen halten Abstandshalter einen Spalt offen. Ohne Druck bleibt der Spalt offen und es fließt kein Strom. Drückt etwas von oben, biegt sich die Deckfolie durch und die beiden Schichten berühren sich; an der Kontaktstelle fließt Strom, und daraus ergibt sich der Ort. Drücken kann alles: Finger, Handschuh, Stift, Fingernagel.</desc>
+
+  <defs>
+    <marker id="res-pfeil" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--ink, #031121)"/>
+    </marker>
+  </defs>
+
+  <style>
+    .folie   { fill: none; stroke: var(--ink, #031121); stroke-width: 3; }
+    .leit    { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 2; stroke-dasharray: 5 4; }
+    .grund   { fill: var(--rule, #c7cdd4); stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .halter  { fill: var(--ink-soft, #5a6472); }
+    .druck   { fill: none; stroke: var(--ink, #031121); stroke-width: 2.8; }
+    .kontakt { fill: #fcd430; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .t-b     { fill: var(--ink, #031121); font-size: 21px; font-weight: 600; }
+    .t-s     { fill: var(--ink-soft, #5a6472); font-size: 17px; }
+    .fuehrung{ fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.2; }
+  </style>
+
+  <!-- ══ links: ohne Druck ══ -->
+  <g transform="translate(20,0)">
+    <text class="t-b" x="0" y="40">ohne Druck</text>
+    <text class="t-s" x="0" y="66">Der Spalt bleibt offen, kein Strom.</text>
+
+    <path class="folie" d="M0 150 H 420"/>
+    <path class="leit"  d="M0 160 H 420"/>
+    <rect class="halter" x="60"  y="160" width="10" height="34"/>
+    <rect class="halter" x="200" y="160" width="10" height="34"/>
+    <rect class="halter" x="340" y="160" width="10" height="34"/>
+    <path class="leit"  d="M0 194 H 420"/>
+    <rect class="grund" x="0" y="200" width="420" height="40" rx="2"/>
+  </g>
+
+  <!-- ══ rechts: mit Druck ══ -->
+  <g transform="translate(540,0)">
+    <text class="t-b" x="0" y="40">mit Druck</text>
+    <text class="t-s" x="0" y="66">Die Schichten berühren sich.</text>
+
+    <line class="druck" x1="200" y1="88" x2="200" y2="136" marker-end="url(#res-pfeil)"/>
+
+    <path class="folie" d="M0 150 H 150 Q 200 150 200 192 Q 200 150 250 150 H 420"/>
+    <path class="leit"  d="M0 160 H 152 Q 200 160 200 194 Q 200 160 248 160 H 420"/>
+    <rect class="halter" x="60"  y="160" width="10" height="34"/>
+    <rect class="halter" x="340" y="160" width="10" height="34"/>
+    <path class="leit"  d="M0 194 H 420"/>
+    <rect class="grund" x="0" y="200" width="420" height="40" rx="2"/>
+    <circle class="kontakt" cx="200" cy="196" r="12"/>
+    <line class="fuehrung" x1="200" y1="208" x2="200" y2="268"/>
+    <text class="t-s" x="200" y="292" text-anchor="middle">hier fließt Strom</text>
+  </g>
+
+  <!-- ══ Legende ══ -->
+  <g transform="translate(20,330)">
+    <path class="folie" d="M0 8 H 40"/>
+    <text class="t-s" x="52" y="14">biegsame Deckfolie</text>
+
+    <path class="leit" d="M240 8 H 280"/>
+    <text class="t-s" x="292" y="14">leitfähige Beschichtung</text>
+
+    <rect class="halter" x="560" y="0" width="10" height="16"/>
+    <text class="t-s" x="582" y="14">Abstandshalter</text>
+
+    <rect class="grund" x="760" y="0" width="40" height="16" rx="2"/>
+    <text class="t-s" x="812" y="14">Glas oder Acryl</text>
+  </g>
+
+  <text class="t-s" x="20" y="404">Weil Druck die Messgröße ist, löst alles aus, was drückt: Finger, Handschuh, Stift, Fingernagel.</text>
+</svg>
