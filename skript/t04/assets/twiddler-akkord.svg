@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" role="img"
+     aria-labelledby="twd-titel twd-beschr" font-family="inherit">
+  <title id="twd-titel">Der Twiddler: zwölf Tasten, ein Akkord je Zeichen</title>
+  <desc id="twd-beschr">Schematische Vorderansicht eines handflächengroßen Geräts. Oben liegen vier Tasten für den Daumen, darunter ein Feld aus zwölf Tasten: vier Reihen für Zeigefinger, Mittelfinger, Ringfinger und kleinen Finger, je drei Tasten nebeneinander. Jede dieser Tasten trägt zwei Zeichen; in der Zeichnung stehen dafür zwei kurze Striche, die Beschriftung selbst ist weggelassen. Zwei Tasten sind hervorgehoben: Ein Zeichen entsteht nicht aus einem Anschlag, sondern aus mehreren gleichzeitig gedrückten Tasten. Weil das Gerät in der Hand liegt und nichts abzulesen ist, muss jeder Akkord gelernt sein.</desc>
+
+  <style>
+    .geraet  { fill: var(--paper, #ffffff); stroke: var(--ink, #031121); stroke-width: 2.8; }
+    .taste   { fill: var(--paper, #ffffff); stroke: var(--ink-soft, #5a6472); stroke-width: 1.8; }
+    .daumen  { fill: var(--rule, #c7cdd4); stroke: var(--ink-soft, #5a6472); stroke-width: 1.6; }
+    .gedrueckt { fill: #fcd430; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .strich  { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 2.4; stroke-linecap: round; }
+    .t-b     { fill: var(--ink, #031121); font-size: 21px; font-weight: 600; }
+    .t       { fill: var(--ink, #031121); font-size: 19px; }
+    .t-s     { fill: var(--ink-soft, #5a6472); font-size: 17px; }
+    .t-d     { fill: var(--ink, #031121); font-size: 15px; }
+    .fuehrung{ fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.2; }
+  </style>
+
+  <!-- ══ Gehäuse ══ -->
+  <rect class="geraet" x="60" y="40" width="300" height="360" rx="26"/>
+
+  <!-- ══ Daumentasten ══ -->
+  <g>
+    <rect class="daumen" x="80"  y="62" width="56" height="34" rx="6"/>
+    <rect class="daumen" x="144" y="62" width="56" height="34" rx="6"/>
+    <rect class="daumen" x="208" y="62" width="56" height="34" rx="6"/>
+    <rect class="daumen" x="272" y="62" width="56" height="34" rx="6"/>
+    <g class="t-d" text-anchor="middle">
+      <text x="108" y="85">Num</text>
+      <text x="172" y="85">Alt</text>
+      <text x="236" y="85">Ctrl</text>
+      <text x="300" y="85">Shift</text>
+    </g>
+  </g>
+  <line class="fuehrung" x1="328" y1="79" x2="376" y2="79"/>
+  <text class="t-s" x="384" y="85">für den Daumen</text>
+
+  <!-- ══ zwölf Tasten, vier Reihen zu drei ══ -->
+  <g>
+    <rect class="taste" x="76"  y="128" width="84" height="58" rx="8"/>
+    <rect class="gedrueckt" x="168" y="128" width="84" height="58" rx="8"/>
+    <rect class="taste" x="260" y="128" width="84" height="58" rx="8"/>
+
+    <rect class="taste" x="76"  y="194" width="84" height="58" rx="8"/>
+    <rect class="taste" x="168" y="194" width="84" height="58" rx="8"/>
+    <rect class="taste" x="260" y="194" width="84" height="58" rx="8"/>
+
+    <rect class="gedrueckt" x="76" y="260" width="84" height="58" rx="8"/>
+    <rect class="taste" x="168" y="260" width="84" height="58" rx="8"/>
+    <rect class="taste" x="260" y="260" width="84" height="58" rx="8"/>
+
+    <rect class="taste" x="76"  y="326" width="84" height="58" rx="8"/>
+    <rect class="taste" x="168" y="326" width="84" height="58" rx="8"/>
+    <rect class="taste" x="260" y="326" width="84" height="58" rx="8"/>
+  </g>
+
+  <!-- ══ je Taste zwei Striche: zwei Zeichen ══ -->
+  <g class="strich">
+    <path d="M96 148 H 140 M96 168 H 140"/>   <path d="M188 148 H 232 M188 168 H 232"/>  <path d="M280 148 H 324 M280 168 H 324"/>
+    <path d="M96 214 H 140 M96 234 H 140"/>   <path d="M188 214 H 232 M188 234 H 232"/>  <path d="M280 214 H 324 M280 234 H 324"/>
+    <path d="M96 280 H 140 M96 300 H 140"/>   <path d="M188 280 H 232 M188 300 H 232"/>  <path d="M280 280 H 324 M280 300 H 324"/>
+    <path d="M96 346 H 140 M96 366 H 140"/>   <path d="M188 346 H 232 M188 366 H 232"/>  <path d="M280 346 H 324 M280 366 H 324"/>
+  </g>
+
+  <!-- ══ Reihen = Finger ══ -->
+  <g class="t-s">
+    <text x="384" y="163">Zeigefinger</text>
+    <text x="384" y="229">Mittelfinger</text>
+    <text x="384" y="295">Ringfinger</text>
+    <text x="384" y="361">kleiner Finger</text>
+  </g>
+
+  <text class="t-s" x="60" y="440">Die zwei Striche stehen für die zwei Zeichen je Taste;</text>
+  <text class="t-s" x="60" y="464">die Beschriftung selbst ist hier weggelassen.</text>
+
+  <!-- ══ Erklärung rechts ══ -->
+  <g transform="translate(600,0)">
+    <text class="t-b" x="0" y="100">Ein Zeichen, mehrere Tasten</text>
+    <text class="t"   x="0" y="136">Zwölf Tasten reichen für ein ganzes</text>
+    <text class="t"   x="0" y="162">Alphabet, weil nicht die einzelne Taste</text>
+    <text class="t"   x="0" y="188">zählt, sondern die Kombination. Gelb:</text>
+    <text class="t"   x="0" y="214">zwei Tasten zugleich, ein Akkord.</text>
+
+    <line x1="0" y1="252" x2="360" y2="252" stroke="var(--rule, #c7cdd4)" stroke-width="2"/>
+
+    <text class="t-b" x="0" y="296">Der Preis ist derselbe wie 1968</text>
+    <text class="t-s" x="0" y="328">Das Gerät liegt in der Hand, die Hand</text>
+    <text class="t-s" x="0" y="352">bleibt liegen, nur die Finger bewegen</text>
+    <text class="t-s" x="0" y="376">sich. Abzulesen ist dabei nichts –</text>
+    <text class="t-s" x="0" y="400">jeder Akkord muss im Körper sitzen,</text>
+    <text class="t-s" x="0" y="424">bevor er schneller ist als eine Taste.</text>
+  </g>
+</svg>
