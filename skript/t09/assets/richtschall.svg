@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 545" role="img"
+     aria-labelledby="rs-titel rs-beschr" font-family="inherit">
+  <title id="rs-titel">Richtschall: ein schmaler Strahl statt einer breiten Keule</title>
+  <desc id="rs-beschr">Links ein Schnitt durch einen Raum: An der Decke hängt ein Lautsprecher, der Ultraschall abstrahlt. Erst in der Luft entsteht daraus hörbarer Schall, und zwar nur in einem schmalen, senkrechten Strahl. Die Person, die darin sitzt, hört; die beiden Personen daneben hören nichts. Rechts zwei Abstrahlbilder nebeneinander, schematisch und ohne Messwerte: ein gewöhnlicher Lautsprecher mit einer breiten Keule, die den halben Raum erfasst, und daneben der Richtlautsprecher mit einem schmalen Strahl nach unten. Darunter steht der Preis: Wer einen Schritt zur Seite geht, hört nichts mehr – die Information hängt am Standort.</desc>
+
+  <style>
+    .decke   { fill: var(--rule, #c7cdd4); stroke: var(--ink, #031121); stroke-width: 2; }
+    .box     { fill: var(--paper, #ffffff); stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .strahl  { fill: #fcd430; fill-opacity: .45; stroke: var(--ink, #031121); stroke-width: 1.6; }
+    .keule   { fill: var(--rule, #c7cdd4); fill-opacity: .55; stroke: var(--ink-soft, #5a6472); stroke-width: 1.6; }
+    .figur   { fill: none; stroke: var(--ink, #031121); stroke-width: 2.4; }
+    .figur-s { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 2; }
+    .boden   { fill: none; stroke: var(--ink-soft, #5a6472); stroke-width: 1.6; }
+    .t-b     { fill: var(--ink, #031121); font-size: 21px; font-weight: 600; }
+    .t       { fill: var(--ink, #031121); font-size: 19px; }
+    .t-s     { fill: var(--ink-soft, #5a6472); font-size: 17px; }
+  </style>
+
+  <!-- ══ links: der Raum ══ -->
+  <g transform="translate(30,0)">
+    <text class="t-b" x="0" y="34">Im Raum</text>
+
+    <!-- Decke und Lautsprecher -->
+    <line class="boden" x1="0" y1="58" x2="420" y2="58"/>
+    <rect class="decke" x="186" y="58" width="60" height="26" rx="3"/>
+    <text class="t-s" x="256" y="78">Ultraschall</text>
+
+    <!-- der schmale Strahl -->
+    <path class="strahl" d="M190 84 L182 330 L250 330 L242 84 Z"/>
+
+    <!-- Boden -->
+    <line class="boden" x1="0" y1="330" x2="420" y2="330"/>
+
+    <!-- drei Personen: nur die mittlere hört -->
+    <g class="figur-s" transform="translate(70,0)">
+      <circle cx="0" cy="268" r="14"/><path d="M0 282 V 330"/>
+    </g>
+    <g class="figur" transform="translate(216,0)">
+      <circle cx="0" cy="268" r="14"/><path d="M0 282 V 330"/>
+    </g>
+    <g class="figur-s" transform="translate(356,0)">
+      <circle cx="0" cy="268" r="14"/><path d="M0 282 V 330"/>
+    </g>
+
+    <text class="t-s" x="70"  y="364" text-anchor="middle">hört nichts</text>
+    <text class="t"   x="216" y="364" text-anchor="middle">hört</text>
+    <text class="t-s" x="356" y="364" text-anchor="middle">hört nichts</text>
+
+    <text class="t-s" x="0" y="412">Erst in der Luft entsteht aus dem Ultraschall</text>
+    <text class="t-s" x="0" y="434">hörbarer Schall – und nur im Strahl.</text>
+  </g>
+
+  <!-- ══ rechts: die beiden Abstrahlbilder ══ -->
+  <g transform="translate(520,0)">
+    <text class="t-b" x="0" y="34">Abstrahlung</text>
+    <text class="t-s" x="150" y="34">schematisch, keine Messkurve</text>
+
+    <!-- gewöhnlicher Lautsprecher -->
+    <g transform="translate(60,96)">
+      <rect class="decke" x="-26" y="-14" width="52" height="22" rx="3"/>
+      <path class="keule" d="M-20 8 C -150 110, -110 230, 0 244 C 110 230, 150 110, 20 8 Z"/>
+      <text class="t" x="0" y="286" text-anchor="middle">Lautsprecher</text>
+      <text class="t-s" x="0" y="312" text-anchor="middle">breite Keule</text>
+      <text class="t-s" x="0" y="336" text-anchor="middle">der halbe Raum hört mit</text>
+    </g>
+
+    <!-- Richtlautsprecher -->
+    <g transform="translate(330,96)">
+      <rect class="decke" x="-26" y="-14" width="52" height="22" rx="3"/>
+      <path class="strahl" d="M-18 8 C -34 110, -26 220, 0 244 C 26 220, 34 110, 18 8 Z"/>
+      <text class="t" x="0" y="286" text-anchor="middle">Richtlautsprecher</text>
+      <text class="t-s" x="0" y="312" text-anchor="middle">schmaler Strahl</text>
+      <text class="t-s" x="0" y="336" text-anchor="middle">ein Platz hört</text>
+    </g>
+
+    <line x1="0" y1="462" x2="440" y2="462" stroke="var(--rule, #c7cdd4)" stroke-width="2"/>
+    <text class="t"   x="0" y="496">Der Preis: Die Information hängt am Standort.</text>
+    <text class="t-s" x="0" y="520">Ein Schritt zur Seite, und sie ist weg.</text>
+  </g>
+</svg>
