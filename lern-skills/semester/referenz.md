@@ -14,11 +14,11 @@ Strang S: **Aus Messung wird Vermutung** – trägt T01, T06, T07, T11, T12. Er 
 | 1 | Messung und Vermutung | Jedes Gerät misst ein Signal und rät, was es bedeutet | Spiralgang | L1, L6 | ja | Grundlegung |
 | 2 | Warum Interaktionskonzepte scheitern | Seit dem Power Glove 1989 ist die Gestensteuerung dreimal angekündigt und dreimal wieder eingestellt worden | Spiralgang | L2 | ja | Methode |
 | 3 | Touch: Zielgrößen und Verdeckung | Touch macht seine Probleme unsichtbar und lässt sie bestehen | Fortsetzung | L3, L7 | ja | Aufbau |
-| 4 | Maus, Tastatur und Wertgeber | Die Maus ist seit 1968 unverändert erfolgreich | Fortsetzung | L2, L3 | nein | Aufbau · streichbar |
+| 4 | Maus, Tastatur und Wertgeber | Die Maus ist seit 1968 unverändert erfolgreich | Fortsetzung | L2, L3 | nein | Aufbau · entfällt als Präsenztermin, Stoff im Skript |
 | 5 | Anker 1: das Kontextraster | Welche Technologie taugt, hängt am Kontext, und jede Wahl kostet an anderer Stelle etwas | Spiralgang | L3, L8 | ja | **Anker 1: das Raster** |
 | 6 | Spracheingabe und ihre Fehlerquellen | Ein Sprachsystem misst Luftdruckschwankungen und schließt daraus in Stufen auf eine Wortfolge und eine Absicht | Spiralgang | L6, L7 | ja | Vertiefung |
 | 7 | Blick, Muskel und Gesicht als Eingabe | Blicksteuerung, sEMG und Biometrie lesen einen Körperzustand und behandeln ihn als Eingabe | Spiralgang | L5, L6, L7 | ja | Vertiefung |
-| 8 | Displays: Grenzen des Auges und der Technik | Das Display zeigt weniger, als das Auge könnte | Fortsetzung | L4 | nein | Aufbau · streichbar |
+| 8 | Displays: Grenzen des Auges und der Technik | Das Display zeigt weniger, als das Auge könnte | Fortsetzung | L4 | nein | Aufbau · bleibt in Präsenz |
 | 9 | Akustische und haptische Ausgabe | Ohr und Haut stehen als Ausgabekanäle frei, und fast jedes System lässt sie ungenutzt | Fortsetzung | L4, L7 | ja | Aufbau |
 | 10 | Anker 2: Modalitätswahl unter Rollen | Welcher Kanal eine Meldung trägt, entscheidet der Aufmerksamkeitszustand der Person im Moment der Ausgabe | Spiralgang | L4, L8 | ja | **Anker 2: Raster unter Rollen** |
 | 11 | Tracking und seine Störungen | Tracking funktioniert, bis der Raum sich wehrt | Spiralgang | L5 | ja | Vertiefung |
@@ -29,7 +29,7 @@ Etappentitel und Merksätze sind seit dem 18.09.2026 getrennt und beide entparol
 
 Wiederkehrende Leitartefakte: EMG-Armband, Sprachassistent, Face ID.
 
-Semesterlänge (Stand 15.09.2026): geplant sind 14 Wochen, T00 plus die 13 Themen. Fällt eine Woche aus, entfällt T04 als Präsenztermin, bei zwei Wochen zusätzlich T08. Ihr Stoff steht dann vollständig im Skript, ihre Klausurkeime entfallen. Eine zusätzliche Woche wird Fragestunde ohne neuen Stoff.
+Semesterlänge (Stand 25.09.2026): Der Stundenplan WS 2026/27 gibt eine Woche zu wenig her. Woche 1 trägt den Auftakt und gleich Thema 1, die letzte Themenwoche ist der 21./22.12., am 11./12.01. steht die Klausurvorbereitung mit einer zweiten Probeklausur, ab dem 16.01.2027 ist Prüfungszeit. **T04 entfällt als Präsenztermin**, sein Stoff steht vollständig im Skript, seine Klausurkeime (K-T04A-1, K-T04A-2, K-T04B-1, K-T04B-2) sind gestrichen. **T08 bleibt in Präsenz.**
 
 ## Die acht Lernziele
 
@@ -69,12 +69,13 @@ Prüfung: schrP90 (schriftlich, 90 Minuten). Bewertungsgrundsätze aus den Klaus
 - Kriterien müssen einer Rasterdimension zuordenbar sein; "Sprache ist moderner" ist kein Kriterium (Geschmackssperre).
 - Ein Preis braucht die Personengruppe, die ihn zahlt; "kostet mehr Geld" ohne Ausschlussbezug zählt nicht als Preis.
 - Kriterium für systematischen Ausschluss: Wiederholbarkeit bei derselben Person oder Sprechergruppe, unabhängig von der Umgebung.
-- Bei Ketten-Aufgaben (L6): die zwei Vermutungsstellen sind Spracherkennung und Absichtserkennung; "das Mikrofon war schlecht" ohne Bezug zur Fehlerart bleibt unterhalb der Punktschwelle.
+- Wissensfragen zum Skriptstoff von T04 bleiben zulässig, Urteilsaufgaben nach seinen (gestrichenen) Keimen nicht.
+- Bei Ketten-Aufgaben (L6): Die Sprachkette hat sieben Stationen; bis zur Aufwachwort-Detektion (Station 4) wird gemessen, die zwei Vermutungsstellen sind Worterkennung (Station 5) und Absichtserkennung (Station 6); "das Mikrofon war schlecht" ohne Bezug zur Fehlerart bleibt unterhalb der Punktschwelle.
 
 ## Modulkonventionen
 
 - UXD_TMI, SPO-Nr. 16 · User Experience Design, 3. Fachsemester, Pflichtfach · 7 ECTS, 6 SWS · nur Wintersemester, Unterrichtssprache Deutsch.
-- Lehrformen laut Modulbeschreibung: 16.1 seminaristischer Unterricht mit Übung (schrP90) · 16.2 Praktikum (praktische Arbeit, mit/ohne Erfolg). Tatsächlich bestehen die Lehrformen aus **Vorlesung und Praktikum; Übungen gibt es in TMI nicht**. Das Praktikum umfasst 6 Aufgaben in Zweiergruppen, verlangt Eigeninterpretation der Versuchsergebnisse, und die vollständige, fristgerechte Abgabe ist Antrittsvoraussetzung für die Klausur. Es läuft **KW41 bis KW48** (5.10. bis 28.11.2026): VA01–VA06 in KW41/42 bis KW46, Reservetermin KW47, Nachholtermin und Hackathon in KW48.
+- Lehrformen laut Modulbeschreibung: 16.1 seminaristischer Unterricht mit Übung (schrP90) · 16.2 Praktikum (praktische Arbeit, mit/ohne Erfolg). Tatsächlich bestehen die Lehrformen aus **Vorlesung und Praktikum; Übungen gibt es in TMI nicht**. Das Praktikum umfasst 6 Aufgaben in Zweiergruppen, verlangt Eigeninterpretation der Versuchsergebnisse, und die vollständige, fristgerechte Abgabe ist Antrittsvoraussetzung für die Klausur. Es läuft **KW41 bis KW48** (5.10. bis 28.11.2026): Praktikumsblätter 1 bis 6 in KW41 bis KW46 (dazu die v4-Einführung Mo 12.10.; TMIP.23 holt Blatt 6 in KW47 nach), Reservetermin KW47, Nachholtermin für die Blätter 1 bis 6 (Mo 23.11.) und Hackathon (Sa 28.11.) in KW48. Zur Klausur zugelassen ist, wer alle sechs Aufgaben abgegeben und erfolgreich am Hackathon teilgenommen hat.
 - Elf **Sammelaufträge** (T04 und T08 haben keinen). Der Sammelauftrag ist die letzte Folie von Teil A, er ist **freiwillig** und läuft über ein Padlet: keine Abgabe, keine Frist, keine Prüfer- oder Ersatzrolle als Folge. Teil B eröffnet mit **eigenen Beispielen auf den Folien** (Fundstücke aus den alten TMI-Vorlesungen); Padlet-Funde kommen dazu, höchstens zwei je Sitzung, ohne Namen. (Bis 17.09.2026 hießen sie Zwischenaufgaben und waren Moodle-Abgaben mit Frist am Vorabend von Teil B.)
 - TMI ist das erste MCI-Modul des Studiengangs; einzige Grundlage ist Informationspsychologie (2. Semester). "Prinzipien der Mensch-Maschine-Interaktion" liegt im 4. Semester, also nach TMI.
 - Grundlagenwissen (Funktionsweisen, Gerätekategorien, Begriffe, Chronologie, ISO 9241-410) steht im Skript-Abschnitt *Was Sie vorher wissen sollten* und bleibt klausurabfragbar, kostet aber keine Präsenzzeit.
@@ -85,4 +86,4 @@ Prüfung: schrP90 (schriftlich, 90 Minuten). Bewertungsgrundsätze aus den Klaus
 - **EMG-Zugangsforschung:** Utah NeuroRobotics Lab nennt Muskeldystrophie, Schlaganfall, Querschnittlähmung, ALS und Gliedmaßenverlust (geklärt 11.08.2026); die CMU-Kooperation von 2024 ist eine davon verschiedene Zusammenarbeit.
 - **Neural Band (2025):** Prüfstein in T02 – zwei der drei historischen Gestenprobleme gelöst (Ermüdung, fehlender Ruhezustand, soziale Auffälligkeit); ob das reicht, ist offen und wird von der Gruppe entschieden, nicht behauptet.
 - **Praktikum WS 2026/27:** KW41 bis KW48, zwei Gruppen in G006 (TMIP.21 Di, TMIP.23 Do), Hackathon Sa 28.11. (8–18 Uhr, Proposal bis Fr 30.10. in Moodle) mit dem Ersatztermin Sa 12.12., Oberthema „Wearables for Health & Wellbeing", verzahnt mit DMMS (dieselben Zweierteams wie dort); Abgabe je Aufgabe innerhalb von 48 Stunden, Klausurzulassung über sechs Aufgaben plus Hackathon. Terminplan „vorbehaltlich Änderungen → siehe Moodle".
-- **Wintersemester 2026/27:** Vorlesungszeit 01.10.2026 bis 22.01.2027, Weihnachtspause 23.12.–06.01.
+- **Wintersemester 2026/27:** Vorlesungszeit 01.10.2026 bis 22.01.2027, Weihnachtspause 23.12.–06.01., Prüfungszeit ab 16.01.2027.
