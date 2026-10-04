@@ -1,0 +1,147 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.030
+let's quickly just try we just want to
+
+00:00:01.040 --> 00:00:03.429
+have a quick try related to you know um
+
+00:00:03.439 --> 00:00:06.350
+text track how does it work and here you
+
+00:00:06.360 --> 00:00:10.310
+go so we are looking to analyze a past
+
+00:00:10.320 --> 00:00:12.670
+up that is you know your earnings your
+
+00:00:12.680 --> 00:00:14.749
+salary slip and all of that and you can
+
+00:00:14.759 --> 00:00:16.429
+see this is a pretty long salary slip
+
+00:00:16.439 --> 00:00:18.709
+with a lot of information available now
+
+00:00:18.719 --> 00:00:21.149
+you have one that is the raw text now
+
+00:00:21.159 --> 00:00:23.310
+this raw text on the right hand side is
+
+00:00:23.320 --> 00:00:25.590
+basically all the text that um you know
+
+00:00:25.600 --> 00:00:27.350
+Amazon text track was able to pick up
+
+00:00:27.360 --> 00:00:29.670
+now let's go to layout so it's saying
+
+00:00:29.680 --> 00:00:32.510
+that is it has basically laid out the
+
+00:00:32.520 --> 00:00:35.389
+you know uh page or the document in all
+
+00:00:35.399 --> 00:00:37.910
+of these sections let's go to forms you
+
+00:00:37.920 --> 00:00:40.869
+can see any form related data you can go
+
+00:00:40.879 --> 00:00:42.869
+to tables to see if there was any table
+
+00:00:42.879 --> 00:00:45.949
+ay um some queries and if there were any
+
+00:00:45.959 --> 00:00:47.869
+signature says that one signature was
+
+00:00:47.879 --> 00:00:50.390
+detected over here so there you go you
+
+00:00:50.400 --> 00:00:53.270
+can see this is how basically it is able
+
+00:00:53.280 --> 00:00:56.229
+to extract all your data you can see
+
+00:00:56.239 --> 00:00:58.150
+every single thing is extracted over
+
+00:00:58.160 --> 00:01:00.910
+here for example it's your in statement
+
+00:01:00.920 --> 00:01:03.949
+you know um this is the company's name
+
+00:01:03.959 --> 00:01:06.270
+um it's your your pay perod is between
+
+00:01:06.280 --> 00:01:09.190
+this date to this date it has couple of
+
+00:01:09.200 --> 00:01:12.270
+you know text CL you know some pii data
+
+00:01:12.280 --> 00:01:14.630
+is also available over here and all such
+
+00:01:14.640 --> 00:01:17.110
+good things so let's go ahead and choose
+
+00:01:17.120 --> 00:01:19.710
+something else let's take a a health
+
+00:01:19.720 --> 00:01:22.990
+insurance card for example so this is a
+
+00:01:23.000 --> 00:01:24.710
+insurance card you can see that we have
+
+00:01:24.720 --> 00:01:27.149
+the insurance company's name we have
+
+00:01:27.159 --> 00:01:29.670
+some user details some date related to
+
+00:01:29.680 --> 00:01:30.390
+the
+
+00:01:30.400 --> 00:01:32.630
+insurance and all of those things you
+
+00:01:32.640 --> 00:01:34.350
+can see it was able to detect all of
+
+00:01:34.360 --> 00:01:36.830
+these raw texts when we click on layout
+
+00:01:36.840 --> 00:01:39.149
+you can see that these are the layouts
+
+00:01:39.159 --> 00:01:40.630
+that it has directed you can see the
+
+00:01:40.640 --> 00:01:42.509
+company's name the person's name with
+
+00:01:42.519 --> 00:01:46.710
+his member ID um you can see that
+
+00:01:46.720 --> 00:01:49.670
+effective date dates contract code and
+
+00:01:49.680 --> 00:01:52.670
+all of that so you can see Amazon textt
+
+00:01:52.680 --> 00:01:56.309
+track is can basically extract anything
+
+00:01:56.319 --> 00:01:59.190
+and everything from a document for you
