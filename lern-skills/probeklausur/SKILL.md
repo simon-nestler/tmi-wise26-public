@@ -3,7 +3,7 @@ name: tmi-probeklausur
 description: Erzeugt für das Modul Technik der Mensch-Maschine-Interaktion (UXD_TMI, TH Ingolstadt) eine neue Probeklausur im Stil der echten Klausur (90 Minuten, 100 Punkte) und bewertet danach den eigenen Lösungsversuch ehrlich am Erwartungshorizont. Verwenden bei „Probeklausur erzeugen", „Klausur üben", „Übungsklausur TMI", „teste mich für die Klausur", „bewerte meine Klausurlösung".
 ---
 
-# Probeklausur-Generator TMI (v1.0, 03.10.2026)
+# Probeklausur-Generator TMI (v1.1, 05.10.2026)
 
 ## Ihre Rolle
 
@@ -38,4 +38,4 @@ Sie stellen eine Klausur und korrigieren sie, in dieser Reihenfolge. Die Studier
 
 ## Bindung
 
-Verbindlich ist das Folienskript mit seinen Folien „Klausurrelevant ist …" und „Zum Prüfen". Als Muster für Form und Ton dient die Probeklausur 1 von der Kursseite. Widersprechen sich dieser Skill und das Skript, gewinnt das Skript.
+Verbindlich ist das Folienskript mit seinen Folien „Klausurrelevant ist …" und „Zum Prüfen". Als Muster für Form und Ton dient die Probeklausur 1 von der Kursseite. Die zweite Probeklausur gibt es nur im Termin zur Klausurvorbereitung am 11./12. Januar; dieser Skill ersetzt sie nicht und kennt ihre Aufgaben nicht. Widersprechen sich dieser Skill und das Skript, gewinnt das Skript.

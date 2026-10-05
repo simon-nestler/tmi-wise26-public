@@ -3,7 +3,7 @@ name: tmi-zwischenaufgaben-reflexion
 description: Reflexionspartner für die wöchentlichen Sammelaufträge des Moduls Technik der Mensch-Maschine-Interaktion (UXD_TMI, TH Ingolstadt). Verwenden, wenn eine selbst gemachte Beobachtung aus einem Sammelauftrag nachstrukturiert und für Teil B aufbereitet werden soll.
 ---
 
-# Sammelauftrag-Reflexion (v1.1, 18.09.2026)
+# Sammelauftrag-Reflexion (v1.2, 05.10.2026)
 
 *Ordner- und Skill-Name bleiben aus Gründen der Stabilität `zwischenaufgaben-reflexion`; inhaltlich geht es seit dem 17.09.2026 um die freiwilligen Padlet-Sammelaufträge.*
 
@@ -26,9 +26,9 @@ Der Sammelauftrag ist das Scharnier des Themas: die letzte Folie von Teil A, die
 
 ## Die elf Sammelaufträge (Kurzform; T04 und T08 haben keinen)
 
-T01 Produktbeschreibung suchen, Stelle markieren, an der eine Vermutung als Erkennung ausgegeben wird (Screenshot genügt) · T02 Video einer aktuellen Gestenbedienung: Stelle notieren, an der die Person ermüdet, zögert oder korrigiert · T03 zu kleines Touch-Bedienelement fotografieren, mit Maßangabe · T05 eigene Entscheidung aus Teil A in drei Sätzen gegenüber einem fiktiven Auftraggeber begründen, der es billiger will · T06 Spracheingabe dreimal in schwieriger Umgebung, mitschreiben, was das System stattdessen verstanden hat · T07 einen Tag lang notieren, wie oft die biometrische Entsperrung fehlschlägt und was das System dann verlangt · T09 akustische und haptische Rückmeldungen des Telefons an einem Vormittag zählen: gestaltet oder Zufall? · T10 die drei Sätze der Gruppe aufs Padlet stellen und, wer mag, unter eine fremde Spalte einen Einwand schreiben · T11 Video eines sichtbar versagenden Trackingsystems suchen, Ursache benennen · T12 zwei aktuelle Brillen-/HMD-Ankündigungen vergleichen: Welche Zahl fehlt in beiden? · T13 ein Selbstbedienungsterminal prüfen, ob es ohne visuelle Wahrnehmung einschaltbar wäre.
+T01 Produkttext, der „erkennt" oder „versteht": Screenshot, gern mit einem Wort zum Muster · T02 Video einer Gestenbedienung: Link und Zeitmarke der Sekunde, in der die Person ermüdet, zögert oder korrigiert · T03 Touch-Bedienelement, das für die eigene Hand zu klein ist: Foto mit Maßstab im Bild · T05 die eigene Entscheidung aus Teil A in drei Sätzen an einen Auftraggeber, der es billiger will, gern mit Foto einer Werbezeile, die nur Eigenschaften nennt · T06 dreimal Spracheingabe in schwieriger Umgebung: gesagter Satz, verstandener Satz, Umgebung · T07 einen Tag lang Fehlschläge der Entsperrung: Situation, Fehlschlag, was danach kam · T09 was piept, klickt oder brummt: Gerät, Anlass, Ton oder Vibration · T10 die drei Sätze der Gruppe (Wahl, Begründung, Grenze) in die eigene Spalte, wer mag, einen Einwand unter eine fremde · T11 ein Trackingsystem, das sichtbar versagt, mit einer Zeile Vermutung zur Ursache; eine falsch geratene Ursache ist willkommen · T12 eine aktuelle Brillen- oder Headset-Ankündigung: Welche der vier Größen fehlt, und warum könnte sie fehlen? · T13 ein Selbstbedienungsterminal: Wäre es ohne visuelle Wahrnehmung einschaltbar? Foto, Ort, ein Satz zum Befund.
 
-Jeder dieser Aufträge dauert höchstens 15 Minuten und wandert aufs Padlet der jeweiligen Etappe, ohne Namen.
+Jeder Auftrag dauert höchstens 15 Minuten und kommt ohne Namen aufs Padlet der Etappe; der Link steht in Moodle. Bei T01 finden die Studierenden den Text selbst, die Markierung ist ihre eigene.
 
 ## Bindung
 

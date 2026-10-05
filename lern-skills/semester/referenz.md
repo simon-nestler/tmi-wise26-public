@@ -1,10 +1,10 @@
-# Referenz – Technik der Mensch-Maschine-Interaktion (Begleitdatei zum Semesterbegleiter, v1.1, 18.09.2026)
+# Referenz – Technik der Mensch-Maschine-Interaktion (Begleitdatei zum Semesterbegleiter, v1.2, 05.10.2026)
 
 *Alles hier steht auch im Skript; das Skript bleibt die verbindliche Quelle. Diese Datei existiert, damit der Assistent mit den Setzungen des Moduls arbeitet statt mit seinen eigenen.*
 
 ## Der rote Faden
 
-Dachthese des Semesters: **Eine Interaktionstechnik wählen heißt wählen, wie sie versagt.**
+Dachthese des Semesters: **Eine Interaktionstechnik wählen heißt wählen, wie sie versagt.** So steht sie in T01, T10 und T13. Die Thesenfolie im Auftakt T00 fasst sie als: *Jede Interaktionstechnik hat Limitationen. Eine reflektierte Auswahl berücksichtigt die technologischen Grenzen.*
 Strang S: **Aus Messung wird Vermutung** – trägt T01, T06, T07, T11, T12. Er ist nicht die Dachthese; für Maus, Touch und die Ausgabethemen wäre er falsch oder leer (Entscheidung vom 03.08.2026, Fassung 2 des Semesterbogens).
 
 ## Die dreizehn Themen
@@ -29,7 +29,7 @@ Etappentitel und Merksätze sind seit dem 18.09.2026 getrennt und beide entparol
 
 Wiederkehrende Leitartefakte: EMG-Armband, Sprachassistent, Face ID.
 
-Semesterlänge (Stand 25.09.2026): Der Stundenplan WS 2026/27 gibt eine Woche zu wenig her. Woche 1 trägt den Auftakt und gleich Thema 1, die letzte Themenwoche ist der 21./22.12., am 11./12.01. steht die Klausurvorbereitung mit einer zweiten Probeklausur, ab dem 16.01.2027 ist Prüfungszeit. **T04 entfällt als Präsenztermin**, sein Stoff steht vollständig im Skript, seine Klausurkeime (K-T04A-1, K-T04A-2, K-T04B-1, K-T04B-2) sind gestrichen. **T08 bleibt in Präsenz.**
+Semesterlänge (Stand 05.10.2026, nach dem Zeitplan in Moodle): Der Stundenplan WS 2026/27 gibt eine Woche zu wenig her. Woche 1 (05./06.10.) trägt den Auftakt und gleich Thema 1. Danach 12./13.10. T02 · 19./20.10. T03 · 26./27.10. T05 · 29.10. und 02.11. T06 (der Termin vom 03.11. ist auf Do 29.10., 13:15–14:45 Uhr verlegt) · 09./10.11. T07 · 16./17.11. T08 · 23./24.11. T09 · 30.11./01.12. T10 · 07./08.12. T11 · 14./15.12. T12 · 21./22.12. T13 als letzte Themenwoche. Am 11./12.01. steht die Klausurvorbereitung mit einer zweiten Probeklausur, ab dem 16.01.2027 ist Prüfungszeit. **T04 entfällt als Präsenztermin**, sein Stoff steht vollständig im Skript, seine Klausurkeime (K-T04A-1, K-T04A-2, K-T04B-1, K-T04B-2) sind gestrichen. **T08 bleibt in Präsenz.**
 
 ## Die acht Lernziele
 
@@ -75,15 +75,17 @@ Prüfung: schrP90 (schriftlich, 90 Minuten). Bewertungsgrundsätze aus den Klaus
 ## Modulkonventionen
 
 - UXD_TMI, SPO-Nr. 16 · User Experience Design, 3. Fachsemester, Pflichtfach · 7 ECTS, 6 SWS · nur Wintersemester, Unterrichtssprache Deutsch.
-- Lehrformen laut Modulbeschreibung: 16.1 seminaristischer Unterricht mit Übung (schrP90) · 16.2 Praktikum (praktische Arbeit, mit/ohne Erfolg). Tatsächlich bestehen die Lehrformen aus **Vorlesung und Praktikum; Übungen gibt es in TMI nicht**. Das Praktikum umfasst 6 Aufgaben in Zweiergruppen, verlangt Eigeninterpretation der Versuchsergebnisse, und die vollständige, fristgerechte Abgabe ist Antrittsvoraussetzung für die Klausur. Es läuft **KW41 bis KW48** (5.10. bis 28.11.2026): Praktikumsblätter 1 bis 6 in KW41 bis KW46 (dazu die v4-Einführung Mo 12.10.; TMIP.23 holt Blatt 6 in KW47 nach), Reservetermin KW47, Nachholtermin für die Blätter 1 bis 6 (Mo 23.11.) und Hackathon (Sa 28.11.) in KW48. Zur Klausur zugelassen ist, wer alle sechs Aufgaben abgegeben und erfolgreich am Hackathon teilgenommen hat.
-- Elf **Sammelaufträge** (T04 und T08 haben keinen). Der Sammelauftrag ist die letzte Folie von Teil A, er ist **freiwillig** und läuft über ein Padlet: keine Abgabe, keine Frist, keine Prüfer- oder Ersatzrolle als Folge. Teil B eröffnet mit **eigenen Beispielen auf den Folien** (Fundstücke aus den alten TMI-Vorlesungen); Padlet-Funde kommen dazu, höchstens zwei je Sitzung, ohne Namen. (Bis 17.09.2026 hießen sie Zwischenaufgaben und waren Moodle-Abgaben mit Frist am Vorabend von Teil B.)
+- Lehrformen laut Modulbeschreibung: 16.1 seminaristischer Unterricht mit Übung (schrP90) · 16.2 Praktikum (praktische Arbeit, mit/ohne Erfolg). Tatsächlich bestehen die Lehrformen aus **Vorlesung und Praktikum; Übungen gibt es in TMI nicht**.
+- **Praktikum** (Stand 05.10.2026, Organisationsdeck des Praktikums und Zeitplan in Moodle): zwei Gruppen im VR-Lab G006, je 09:00–12:20 Uhr, **TMIP.21 dienstags, TMIP.23 donnerstags**, je höchstens 18 Studierende, gearbeitet wird einzeln oder in **Zweiergruppen**. Es läuft **KW41 bis KW48**: Blätter 1 bis 6 in KW41 bis KW46 (dazu die v4-Einführung Mo 12.10. in L106, Notebooks mitbringen; TMIP.23 holt Blatt 6 am 19.11. nach), Reservetermin KW47, Nachholtermin für die Blätter 1 bis 6 am Mo 23.11. (beide Gruppen gemeinsam), Hackathon Sa 28.11. Abgabe **innerhalb von 48 Stunden nach dem eigenen Termin**: Blatt 1 im Padlet; Blätter 2 bis 6 im Moodle-Test „Abgabe Praktikumsblatt N“; beim Hackathon das Proposal in Moodle („Abgabe Hackathon-Proposal“), das Ergebnis im Padlet. In Zweiergruppen lädt nur die protokollführende Person hoch; im Protokoll stehen beide mit Namen und THI-Mail-Adresse. Bewertet wird „mit Erfolg teilgenommen“ oder „ohne Erfolg bzw. nicht teilgenommen“; **„mit Erfolg teilgenommen“ ist Voraussetzung für die Klausur** und verlangt alle sechs Blätter plus erfolgreiche Teilnahme am Hackathon. **Eine Abwesenheit** bei den Terminen 1 bis 6 wird toleriert und im Nachholtermin nachgeholt. Verlangt ist die eigene Interpretation der Versuchsergebnisse.
+- **Wochenablauf** (T00): Skriptabschnitt „Was Sie vorher wissen sollten“ vor Teil A lesen · Teil A beginnt ab T02 mit einem **Check** von fünf Minuten (zwei Fragen, unbenotet, sofort aufgelöst) · Sammelauftrag in höchstens 15 Minuten · Teil B setzt dieselbe Technik unter Widerstand. Mikroexperimente am eigenen Telefon gibt es in T03, T06 und T09. In der Vorlesung gibt es keine gestellten Geräte, gearbeitet wird mit Videos.
+- Elf **Sammelaufträge** (T04 und T08 haben keinen). Der Sammelauftrag ist die letzte Folie von Teil A, er ist **freiwillig** und läuft über ein Padlet je Thema, der Link steht in Moodle: keine Abgabe, keine Frist, keine Prüfer- oder Ersatzrolle als Folge. Teil B eröffnet mit **eigenen Beispielen auf den Folien** (Fundstücke aus den alten TMI-Vorlesungen); Padlet-Funde kommen dazu, höchstens zwei je Sitzung, ohne Namen. (Bis 17.09.2026 hießen sie Zwischenaufgaben und waren Moodle-Abgaben mit Frist am Vorabend von Teil B.)
 - TMI ist das erste MCI-Modul des Studiengangs; einzige Grundlage ist Informationspsychologie (2. Semester). "Prinzipien der Mensch-Maschine-Interaktion" liegt im 4. Semester, also nach TMI.
 - Grundlagenwissen (Funktionsweisen, Gerätekategorien, Begriffe, Chronologie, ISO 9241-410) steht im Skript-Abschnitt *Was Sie vorher wissen sollten* und bleibt klausurabfragbar, kostet aber keine Präsenzzeit.
 
-## Datierte Stände (Stand 05.09.2026 – vor Verlass prüfen)
+## Datierte Stände (Stand 05.10.2026 – vor Verlass prüfen)
 
 - **BFSG:** verbindlich seit Juni 2025. **BFSGV-Neufassung:** in Kraft seit 16.07.2026, vom Bundesrat als sprachliche Anpassung an die EU-Vorgaben eingestuft – der Zirkel des § 7 Abs. 2 (Barrierefreiheitsfunktion finden müssen, um Barrierefreiheit einzuschalten) ist seit Juni 2025 verbindlich, nicht neu. Technische Norm: EN 301 549.
 - **EMG-Zugangsforschung:** Utah NeuroRobotics Lab nennt Muskeldystrophie, Schlaganfall, Querschnittlähmung, ALS und Gliedmaßenverlust (geklärt 11.08.2026); die CMU-Kooperation von 2024 ist eine davon verschiedene Zusammenarbeit.
 - **Neural Band (2025):** Prüfstein in T02 – zwei der drei historischen Gestenprobleme gelöst (Ermüdung, fehlender Ruhezustand, soziale Auffälligkeit); ob das reicht, ist offen und wird von der Gruppe entschieden, nicht behauptet.
-- **Praktikum WS 2026/27:** KW41 bis KW48, zwei Gruppen in G006 (TMIP.21 Di, TMIP.23 Do), Hackathon Sa 28.11. (8–18 Uhr, Proposal bis Fr 30.10. in Moodle) mit dem Ersatztermin Sa 12.12., Oberthema „Wearables for Health & Wellbeing", verzahnt mit DMMS (dieselben Zweierteams wie dort); Abgabe je Aufgabe innerhalb von 48 Stunden, Klausurzulassung über sechs Aufgaben plus Hackathon. Terminplan „vorbehaltlich Änderungen → siehe Moodle".
+- **Hackathon WS 2026/27:** Sa 28.11., 8–18 Uhr, in G215, alle Gruppen gemeinsam, Ersatztermin Sa 12.12.; Oberthema „Wearables for Health & Wellbeing", verzahnt mit DMMS (dasselbe Zweierteam wie dort); Proposal bis Fr 30.10. (23:55 Uhr) in Moodle. Terminplan „vorbehaltlich Änderungen → siehe Moodle".
 - **Wintersemester 2026/27:** Vorlesungszeit 01.10.2026 bis 22.01.2027, Weihnachtspause 23.12.–06.01., Prüfungszeit ab 16.01.2027.
