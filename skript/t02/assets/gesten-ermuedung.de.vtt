@@ -1,0 +1,78 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:02.350
+als Tracking-System implementiert, um die
+
+00:00:02.360 --> 00:00:04.550
+verbrauchte Ausdauer in Echtzeit zu berechnen. Unsere
+
+00:00:04.560 --> 00:00:06.310
+Implementierung verfolgt die Armbewegung
+
+00:00:06.320 --> 00:00:08.550
+in drei Dimensionen und schätzt
+
+00:00:08.560 --> 00:00:10.350
+die beteiligten Kräfte zu jedem Zeitpunkt anhand von
+
+00:00:10.360 --> 00:00:12.710
+Standard-Körpermaßen wie
+
+00:00:12.720 --> 00:00:15.469
+Armlänge und -gewicht. Beispielsweise
+
+00:00:15.479 --> 00:00:17.469
+kann ein Benutzer seinen Arm 70 Sekunden lang in einem Winkel von
+
+00:00:17.479 --> 00:00:20.030
+90° halten; nach 10 Sekunden beträgt die verbrauchte
+
+00:00:20.040 --> 00:00:21.830
+Ausdauer dieses Arms … Die verbrauchte Ausdauer in dieser Position beträgt
+
+00:00:21.840 --> 00:00:24.350
+12 %. Das bedeutet, dass der Benutzer
+
+00:00:24.360 --> 00:00:26.069
+seinen Arm etwas mehr als eine Minute in dieser Position halten kann,
+
+00:00:26.079 --> 00:00:28.429
+bevor er eine Pause benötigt.
+
+00:00:28.439 --> 00:00:31.510
+Ebenso kann ein Benutzer seinen Arm 130 Sekunden lang in einem Winkel von 45° halten.
+
+00:00:31.520 --> 00:00:34.389
+Nach 10 Sekunden beträgt der
+
+00:00:34.399 --> 00:00:36.550
+Ausdauerverbrauch in dieser Position
+
+00:00:36.560 --> 00:00:39.030
+8 %. Das bedeutet, dass der Benutzer
+
+00:00:39.040 --> 00:00:40.950
+seinen Arm etwas mehr als zwei Minuten in dieser Position halten kann,
+
+00:00:40.960 --> 00:00:43.310
+bevor er eine Pause benötigt.
+
+00:00:43.320 --> 00:00:45.510
+Schließlich kann ein Benutzer seinen Arm für eine
+
+00:00:45.520 --> 00:00:46.000
+unbestimmte Zeit halten, wenn er sich in
+
+00:00:46.239 --> 00:00:48.430
+Auswahlmethoden. Wir evaluierten die folgenden
+
+00:00:48.440 --> 00:00:56.390
+Auswahlmethoden: Klicken,
+
+00:00:56.400 --> 00:01:01.190
+zweiter
+
+00:01:01.200 --> 00:01:06.949
+Arm, Verweilen, Wischen.
