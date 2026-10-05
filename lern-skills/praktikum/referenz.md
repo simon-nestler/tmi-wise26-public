@@ -29,14 +29,14 @@
 
 - **Innerhalb von 48 Stunden nach dem eigenen Praktikumstermin.**
 - **Blatt 1:** Dokumentation im Padlet „TMI Keyboard Hacking" (Link im Blatt), mit Text, Bildern, Videos und Programmcode.
-- **Blätter 2–6:** Protokoll im Moodle-Test **„Abgabe Praktikumsblatt N"** (Kursraum „Technik der Mensch-Maschine Interaktion"). Antworten, Code, Screenshots und Fotos in die Antwortfelder kopieren; Patches (.v4p) als Datei anhängen, wo das Blatt es verlangt. Geschrieben werden darf das Protokoll vorher im Angabe-Dokument oder in einer eigenen Textdatei. Hinweis aus den Blättern: Chromium-basierte Browser kopieren Bilder teils nicht ins Quiz; dann einen anderen Browser nehmen oder die Bilder anhängen.
+- **Blätter 2–6:** Protokoll im Moodle-Test **„Abgabe Praktikumsblatt N"** (Kursraum „Technik der Mensch-Maschine Interaktion"). Antworten, Code, Screenshots und Fotos in die Antwortfelder kopieren; Patches (vvvv gamma, .vl) als Datei anhängen, wo das Blatt es verlangt. Geschrieben werden darf das Protokoll vorher im Angabe-Dokument oder in einer eigenen Textdatei. Hinweis aus den Blättern: Chromium-basierte Browser kopieren Bilder teils nicht ins Quiz; dann einen anderen Browser nehmen oder die Bilder anhängen.
 - **Hackathon:** Proposal in Moodle („Abgabe Hackathon-Proposal"), Ergebnis im Padlet „TMI Hackathon". Die Frist für das Ergebnis nennt Moodle.
 - In Zweiergruppen lädt **nur die protokollführende Person** hoch. Im Protokoll stehen **beide** mit vollständigem Namen und THI-Mail-Adresse; die protokollführende Person ist gekennzeichnet.
 
 ## Was ins Protokoll gehört (Blätter 2–6)
 
 - Antworten auf **alle Fragen** des Blatts, in vollständigen Sätzen, wie ein Projektbericht in einem Unternehmen
-- **Screenshots** der Patches und Programme (in vvvv mit STRG + 1 bzw. STRG + 2) und **Fotos**, die die Lösung „in Aktion" zeigen
+- **Screenshots** der Patches und Programme (in vvvv gamma mit STRG + 2) und **Fotos**, die die Lösung „in Aktion" zeigen
 - **Code** bzw. gespeicherte Patches
 - Die **eigene Interpretation**: Was haben Sie im Experiment erkannt, was ist Ihnen aufgefallen?
 - **Probleme** und wie Sie sie gelöst haben
