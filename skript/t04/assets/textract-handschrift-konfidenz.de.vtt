@@ -1,0 +1,174 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:01.768
+kurz ausprobieren. Wir wollen einfach
+
+00:00:01.768 --> 00:00:03.700
+einen schnellen Test mit Textract
+
+00:00:03.700 --> 00:00:05.890
+machen. Wie funktioniert es? Und hier
+
+00:00:05.890 --> 00:00:09.179
+haben wir es. Wir analysieren gerade
+
+00:00:09.179 --> 00:00:11.470
+eine Lohnabrechnung, also Ihre
+
+00:00:11.470 --> 00:00:14.519
+Einkünfte, Gehaltszettel und all das.
+
+00:00:14.519 --> 00:00:15.797
+Wie Sie sehen können, ist das ein
+
+00:00:15.797 --> 00:00:17.038
+ziemlich langer Gehaltszettel mit
+
+00:00:17.038 --> 00:00:18.679
+vielen verfügbaren Informationen.
+
+00:00:18.679 --> 00:00:21.339
+Jetzt haben Sie hier den reinen Text.
+
+00:00:21.339 --> 00:00:23.697
+Dieser reine Text auf der rechten Seite
+
+00:00:23.697 --> 00:00:25.584
+ist im Grunde alles, was Amazon
+
+00:00:25.584 --> 00:00:28.153
+Textract erfassen konnte. Gehen wir nun
+
+00:00:28.153 --> 00:00:31.222
+zum Layout. Es zeigt, dass die Seite
+
+00:00:31.222 --> 00:00:33.617
+beziehungsweise das Dokument in all
+
+00:00:33.617 --> 00:00:36.720
+diese Abschnitte unterteilt wurde.
+
+00:00:36.720 --> 00:00:38.182
+Gehen wir zu den Formularen. Sie
+
+00:00:38.182 --> 00:00:39.721
+können hier alle formularbezogenen
+
+00:00:39.721 --> 00:00:41.270
+Daten sehen. Sie können zu den
+
+00:00:41.270 --> 00:00:42.545
+Tabellen gehen, um zu sehen, ob es
+
+00:00:42.545 --> 00:00:45.144
+Tabellen gab. Es gibt einige Abfragen
+
+00:00:45.144 --> 00:00:46.880
+und falls es eine Signatur gab, wird
+
+00:00:46.880 --> 00:00:48.522
+angezeigt, dass hier eine Signatur
+
+00:00:48.522 --> 00:00:50.531
+erkannt wurde. So sieht es also aus.
+
+00:00:50.531 --> 00:00:52.901
+Sie können sehen, wie es im Grunde in
+
+00:00:52.901 --> 00:00:54.845
+der Lage ist, all Ihre Daten zu
+
+00:00:54.845 --> 00:00:56.849
+extrahieren. Sie können sehen, dass
+
+00:00:56.849 --> 00:00:59.479
+hier wirklich alles extrahiert wurde.
+
+00:00:59.479 --> 00:01:01.351
+Zum Beispiel Ihre Verdienstabrechnung,
+
+00:01:01.351 --> 00:01:04.283
+hier der Name des Unternehmens. Der
+
+00:01:04.283 --> 00:01:06.248
+Abrechnungszeitraum liegt zwischen
+
+00:01:06.248 --> 00:01:09.257
+diesem und jenem Datum. Es enthält ein
+
+00:01:09.257 --> 00:01:11.035
+paar Texte, wissen Sie, einige
+
+00:01:11.035 --> 00:01:12.929
+personenbezogene Daten sind hier
+
+00:01:12.929 --> 00:01:14.994
+ebenfalls verfügbar und all solche
+
+00:01:14.994 --> 00:01:16.379
+Dinge. Also, lassen Sie uns
+
+00:01:16.379 --> 00:01:17.500
+weitermachen und etwas anderes
+
+00:01:17.500 --> 00:01:19.468
+auswählen. Nehmen wir zum Beispiel
+
+00:01:19.468 --> 00:01:22.241
+eine Krankenversicherungskarte. Dies
+
+00:01:22.241 --> 00:01:24.079
+ist also eine Versicherungskarte. Sie
+
+00:01:24.079 --> 00:01:25.414
+können sehen, dass wir den Namen der
+
+00:01:25.414 --> 00:01:27.158
+Versicherungsgesellschaft haben. Wir
+
+00:01:27.158 --> 00:01:29.370
+haben einige Benutzerdetails, einige
+
+00:01:29.370 --> 00:01:31.642
+Daten bezüglich der Versicherung und
+
+00:01:31.642 --> 00:01:33.377
+all diese Dinge. Sie können sehen,
+
+00:01:33.377 --> 00:01:34.628
+dass es in der Lage war, all diese
+
+00:01:34.628 --> 00:01:36.785
+Rohtexte zu erkennen. Wenn wir auf
+
+00:01:36.785 --> 00:01:38.472
+Layout klicken, können Sie sehen,
+
+00:01:38.472 --> 00:01:40.445
+welche Layouts es erkannt hat. Sie
+
+00:01:40.445 --> 00:01:41.879
+können den Namen der Firma sehen, den
+
+00:01:41.879 --> 00:01:42.871
+Namen der Person mit ihrer
+
+00:01:42.871 --> 00:01:46.020
+Mitgliedsnummer. Ähm, Sie können das
+
+00:01:46.020 --> 00:01:48.824
+Gültigkeitsdatum, Daten, Vertragscode
+
+00:01:48.824 --> 00:01:52.052
+und all das sehen. Sie sehen also,
+
+00:01:52.052 --> 00:01:55.044
+Amazon Textract kann im Grunde alles
+
+00:01:55.044 --> 00:01:58.198
+aus einem Dokument für Sie extrahieren
+
+00:01:58.198 --> 00:01:59.200
+. Das war also ein kurzer Überblick zu
