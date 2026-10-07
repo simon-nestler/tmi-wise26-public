@@ -21,6 +21,23 @@ Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Or
 - [Thema 12 · Sichtfeld und Latenz](skript/t12/)
 - [Thema 13 · Technik, Ausschluss und Zugang](skript/t13/)
 
+## Folien ohne Erklärtext
+
+- [Auftakt · Vision und Organisation](skript/t00/folien.html)
+- [Thema 1 · Messung und Vermutung](skript/t01/folien.html)
+- [Thema 2 · Warum Interaktionskonzepte scheitern](skript/t02/folien.html)
+- [Thema 3 · Touch: Zielgrößen und Verdeckung](skript/t03/folien.html)
+- [Thema 4 · Maus, Tastatur und Wertgeber](skript/t04/folien.html)
+- [Thema 5 · Das Kontextraster](skript/t05/folien.html)
+- [Thema 6 · Spracheingabe und ihre Fehlerquellen](skript/t06/folien.html)
+- [Thema 7 · Blick, Muskel und Gesicht als Eingabe](skript/t07/folien.html)
+- [Thema 8 · Displays: Grenzen des Auges und der Technik](skript/t08/folien.html)
+- [Thema 9 · Akustische und haptische Ausgabe](skript/t09/folien.html)
+- [Thema 10 · Modalitätswahl unter Rollen](skript/t10/folien.html)
+- [Thema 11 · Tracking und seine Störungen](skript/t11/folien.html)
+- [Thema 12 · Sichtfeld und Latenz](skript/t12/folien.html)
+- [Thema 13 · Technik, Ausschluss und Zugang](skript/t13/folien.html)
+
 ## Praktikumsblätter
 
 - [Praktikumsblatt 1 · Keyboard Hacking](blaetter/blatt-1-keyboard-hacking.pdf)
