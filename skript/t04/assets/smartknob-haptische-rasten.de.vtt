@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.119
+Feedback eines
+
+00:00:00.359 --> 00:00:03.000
+Tastendrucks zu simulieren. Und jetzt kommt der Clou: Der Drehknopf ist
+
+00:00:03.000 --> 00:00:05.400
+an einem bürstenlosen Gleichstrommotor montiert,
+
+00:00:05.400 --> 00:00:07.080
+der es dem Gerät ermöglicht,
+
+00:00:07.080 --> 00:00:11.640
+Bewegungen selektiv zu widerstehen und so softwarekonfigurierbare
+
+00:00:14.399 --> 00:00:16.640
+Endanschläge zu erzeugen. Da es sich um softwaredefinierte
+
+00:00:16.640 --> 00:00:18.480
+Endanschläge handelt, können wir problemlos
+
+00:00:18.480 --> 00:00:22.520
+mehrere volle Umdrehungen ermöglichen, was
+
+00:00:22.520 --> 00:00:24.879
+rein
+
+00:00:29.760 --> 00:00:31.840
+mechanisch schwierig umzusetzen wäre. Wir können auch
+
+00:00:31.840 --> 00:00:34.000
+virtuelle Schnapppunkte mithilfe des Motors implementieren, wie beispielsweise einen
+
+00:00:34.000 --> 00:00:36.640
+einfachen Ein-/Ausschalter. Der Motor
+
+00:00:36.640 --> 00:00:38.600
+bietet Widerstand, bis man den
+
+00:00:38.600 --> 00:00:41.120
+Mittelpunkt passiert, wodurch ein angenehmes Einrasten
+
+00:00:41.120 --> 00:00:43.640
+beim Überqueren entsteht.
+
+00:00:44.000 --> 00:00:47.439
+Oder, wenn wir einen einzelnen Schnapppunkt definieren,
+
+00:00:47.439 --> 00:00:49.400
+erhalten wir einen federbelasteten Drehknopf, der immer
+
+00:00:49.400 --> 00:00:51.960
+in die
+
+00:00:52.320 --> 00:00:55.040
+Mitte zurückkehrt. Dies wird durch einen
+
+00:00:55.040 --> 00:00:57.159
+hochauflösenden magnetischen Encoder-Chip realisiert, der eine
+
+00:00:57.159 --> 00:00:58.880
+Auflösung von einem Grad
+
+00:00:58.880 --> 00:01:01.759
+für eine präzise
+
+00:01:01.960 --> 00:01:04.280
+Steuerung ermöglicht. Wir können virtuelle
+
+00:01:04.280 --> 00:01:06.479
+Rastpunkte aktivieren, um haptisches Feedback
+
+00:01:06.479 --> 00:01:10.159
+entsprechend dieser hohen Auflösung zu liefern.
+
+00:01:14.040 --> 00:01:15.560
+Da dies alles softwaredefiniert ist,
+
+00:01:15.560 --> 00:01:17.560
+können wir natürlich die
+
+00:01:17.560 --> 00:01:22.399
+Größe und Die Feinheit dieser Details kann die Rotation
+
+00:01:23.439 --> 00:01:26.640
+gröber oder
+
+00:01:29.240 --> 00:01:31.560
+schwächer machen, und wir können jederzeit zu dieser
+
+00:01:31.560 --> 00:01:34.039
+butterweichen, grenzenlosen
+
+00:01:34.039 --> 00:01:36.039
+Rotation zurückkehren. Dies ist nur ein kleiner Einblick in das,
+
+00:01:36.039 --> 00:01:37.479
+was mit
+
+00:01:37.479 --> 00:01:39.159
+relativ preiswerten Teilen und
+
+00:01:39.159 --> 00:01:41.320
+Werkzeugen für Hobbybastler möglich ist.
+
+00:01:41.320 --> 00:01:43.000
+Abonniere den Kanal, um mehr über die
+
+00:01:43.000 --> 00:01:44.000
+Entwicklung und den Bau zu erfahren, und
