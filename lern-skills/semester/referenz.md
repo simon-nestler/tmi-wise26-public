@@ -4,7 +4,7 @@
 
 ## Der rote Faden
 
-Dachthese des Semesters: **Eine Interaktionstechnik wählen heißt wählen, wie sie versagt.** So steht sie in T01, T10 und T13. Die Thesenfolie im Auftakt T00 fasst sie als: *Jede Interaktionstechnik hat Limitationen. Eine reflektierte Auswahl berücksichtigt die technologischen Grenzen.*
+Dachthese des Semesters: **Jede Interaktion hat Limitationen.** So steht sie in T00, T01, T10 und T13. Daraus folgt: Wer eine Interaktionstechnik wählt, wählt, wie sie versagt – und eine reflektierte Auswahl berücksichtigt die technologischen Grenzen.
 Strang S: **Aus Messung wird Vermutung** – trägt T01, T06, T07, T11, T12. Er ist nicht die Dachthese; für Maus, Touch und die Ausgabethemen wäre er falsch oder leer (Entscheidung vom 03.08.2026, Fassung 2 des Semesterbogens).
 
 ## Die dreizehn Themen
