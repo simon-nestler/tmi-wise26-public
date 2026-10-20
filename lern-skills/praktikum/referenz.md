@@ -22,7 +22,7 @@
 | KW 45 | Di 03.11. | Do 05.11. | Blatt 5 · Arduino und vvvv koppeln |
 | KW 46 | Di 10.11. | verlegt auf Do 19.11. | Blatt 6 · Face- und Fiducialtracking |
 | KW 47 | Di 17.11. Reservetermin | Do 19.11. Blatt 6 | |
-| KW 48 | Mo 23.11. | Mo 23.11. | Nachholtermin für die Blätter 1–6, beide Gruppen gemeinsam |
+| KW 48 | Mo 23.11. | Mo 23.11. | Nachholtermin für die Blätter 1–6, beide Gruppen gemeinsam, Beginn 08:15 Uhr |
 | KW 48 | Sa 28.11. | Sa 28.11. | Hackathon, G215, 08:00–18:00 Uhr; Ersatztermin Sa 12.12. |
 
 ## Abgabe
