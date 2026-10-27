@@ -79,8 +79,8 @@
 
   <!-- Sonderfall Bildschirmrand -->
   <rect class="ziel-r" x="626" y="392" width="46" height="14" rx="2"/>
-  <text class="lab" x="682" y="404">Bildschirmrand</text>
-  <text class="lab-s" x="682" y="422">nicht überfahrbar – wirkt unendlich breit</text>
+  <text class="lab" x="700" y="370">Bildschirmrand (gelb)</text>
+  <text class="lab-s" x="700" y="388">nicht überfahrbar – wirkt unendlich breit</text>
 
-  <text class="lab-s" x="620" y="466">Fitts, P. M. (1954), Journal of Experimental Psychology 47(6), 381–391</text>
+  <text class="lab-s" x="620" y="466">Fitts, P. M. (1954), J. Exp. Psychol. 47(6), 381–391</text>
 </svg>
