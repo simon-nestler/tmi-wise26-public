@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 454" role="img" font-family="Inter, system-ui, sans-serif"><title>Rettungswagen: der Ausgangsfall als Belegung</title><desc>Sechs Dimensionen mit Werten; Standard ist Papier und spätere Digitalisierung.</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><rect class="rahmen" x="0.75" y="0.75" width="998.5" height="418.5"/><text class="kopf" x="70" y="30">DIMENSION</text><text class="kopf" x="330" y="30">BELEGUNG IM FALL</text><line class="linie" x1="0" y1="46" x2="1000" y2="46"/><text class="nr" x="42" y="76">1</text><text class="dim" x="70" y="76">Umgebung</text><text class="wert" x="330" y="76">Fahrzeug steht, Hände frei, Innenlicht</text><line class="linie" x1="24" y1="98" x2="976" y2="98"/><text class="nr" x="42" y="128">2</text><text class="dim" x="70" y="128">Nutzerspektrum</text><text class="wert" x="330" y="128">Notfallsanitäter, tägliche Routine</text><line class="linie" x1="24" y1="150" x2="976" y2="150"/><text class="nr" x="42" y="180">3</text><text class="dim" x="70" y="180">Aufgabentyp</text><text class="wert" x="330" y="180">Protokoll: Werte, Namen, Medikamente, Text</text><line class="linie" x1="24" y1="202" x2="976" y2="202"/><text class="nr" x="42" y="232">4</text><text class="dim" x="70" y="232">Soziale Situation</text><text class="wert" x="330" y="232">Zwei Einsatzkräfte, erwachsene Person ansprechbar</text><line class="linie" x1="24" y1="254" x2="976" y2="254"/><text class="nr" x="42" y="284">5</text><text class="dim" x="70" y="284">Fehlerkosten</text><text class="wert" x="330" y="284">Falsche Behandlung in der Klinik; Beweisnachteil</text><line class="linie" x1="24" y1="306" x2="976" y2="306"/><text class="nr" x="42" y="336">6</text><text class="dim" x="70" y="336">Rechtsrahmen</text><text class="wert" x="330" y="336">Dokumentationspflicht, Übergabe an die Klinik</text><line class="linie" x1="0" y1="358" x2="1000" y2="358"/><rect class="marke" x="24" y="368" width="4" height="36"/><text class="dim" x="42" y="394">Standard: Eingabe auf Papier, spätere Digitalisierung</text><text class="sub" x="0" y="444">Konstruierter Fall, von der Praxis gegenzulesen</text></svg>

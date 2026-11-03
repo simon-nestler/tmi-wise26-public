@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 298" role="img" font-family="Inter, system-ui, sans-serif"><title>Von 288 möglichen zu 193 erfassten Positionen</title><desc>möglich: 288; gespeichert: 252; mit GPS-Position: 193. Eine Übung, Feuerwehr TUM (Nestler 2010; Nestler et al. 2010)</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><text class="dim" x="0" y="48">möglich</text><text class="sub" x="0" y="72">24 Läufe × 12 Patienten</text><rect class="balken-s" x="290" y="24" width="514.9" height="52"/><text class="zahl" x="817" y="58">288</text><text class="dim" x="0" y="124">gespeichert</text><text class="sub" x="0" y="148">36 fehlen: Abstürze</text><rect class="balken-h" x="290" y="100" width="450.5" height="52"/><text class="zahl" x="753" y="134">252</text><text class="dim" x="0" y="200">mit GPS-Position</text><rect class="balken" x="290" y="176" width="345.1" height="52"/><text class="zahl" x="647" y="210">193</text><text class="sub" x="0" y="290">Eine Übung, Feuerwehr TUM (Nestler 2010; Nestler et al. 2010)</text></svg>

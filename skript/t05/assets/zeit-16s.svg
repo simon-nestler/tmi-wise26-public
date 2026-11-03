@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 226" role="img" font-family="Inter, system-ui, sans-serif"><title>Wo die Zeit bleibt</title><desc>Von 36 Sekunden je Sichtung entfallen 16 Sekunden nicht auf den protokollierten Dialog, sondern auf Nummerneingabe und Umhängen der Karte.</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><text class="dim" x="0" y="26">36 s je Sichtung am Handheld</text><rect class="balken" x="0" y="42" width="555.6" height="84"/><rect class="balken-m" x="555.6" y="42" width="444.4" height="84"/><text x="20" y="92" fill="#ffffff" font-size="24" font-weight="600">20 s im Gerät protokolliert</text><text class="zahl" x="574" y="92">16 s außerhalb</text><text class="wert" x="574" y="160">Nummer eingeben, Karte umhängen</text><text class="sub" x="0" y="214">Vergleich der Beobachterzeit mit der automatischen Protokollierung (Nestler 2010)</text></svg>

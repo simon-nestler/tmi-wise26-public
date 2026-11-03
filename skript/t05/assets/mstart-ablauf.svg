@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 466" role="img" font-family="Inter, system-ui, sans-serif"><title>mSTaRT: Ablauf der Sichtung</title><desc>Sieben Prüfschritte von Gehfähigkeit bis Befehlsbefolgung und die jeweilige Kategorie.</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><rect class="rahmen" x="0.75" y="0.75" width="998.5" height="430.5"/><text class="kopf" x="70" y="30">PRÜFSCHRITT</text><text class="kopf" x="680" y="30">ERGEBNIS</text><line class="linie" x1="0" y1="46" x2="1000" y2="46"/><text class="nr" x="42" y="80">1</text><text class="wert" x="70" y="80">Gehfähig?</text><text class="traegt" x="680" y="80">ja: T3</text><line class="linie" x1="24" y1="100" x2="976" y2="100"/><text class="nr" x="42" y="134">2</text><text class="wert" x="70" y="134">Tödliche Verletzung?</text><text class="traegt" x="680" y="134">ja: tot</text><line class="linie" x1="24" y1="154" x2="976" y2="154"/><text class="nr" x="42" y="188">3</text><text class="wert" x="70" y="188">Atmet nach Freimachen der Atemwege nicht?</text><text class="traegt" x="680" y="188">tot</text><line class="linie" x1="24" y1="208" x2="976" y2="208"/><text class="nr" x="42" y="242">4</text><text class="wert" x="70" y="242">Atmung erst danach oder über 30/min?</text><text class="traegt" x="680" y="242">ja: T1</text><line class="linie" x1="24" y1="262" x2="976" y2="262"/><text class="nr" x="42" y="296">5</text><text class="wert" x="70" y="296">Spritzende Blutung?</text><text class="traegt" x="680" y="296">Druckverband</text><line class="linie" x1="24" y1="316" x2="976" y2="316"/><text class="nr" x="42" y="350">6</text><text class="wert" x="70" y="350">Kein Puls am Handgelenk?</text><text class="traegt" x="680" y="350">ja: T1</text><line class="linie" x1="24" y1="370" x2="976" y2="370"/><text class="nr" x="42" y="404">7</text><text class="wert" x="70" y="404">Befolgt keine Befehle?</text><text class="traegt" x="680" y="404">ja: T1, sonst T2</text><text class="sub" x="0" y="456">mSTaRT, verkürzt nach Nestler 2010; Kategorien: T1 rot, T2 gelb, T3 grün, schwarz tot</text></svg>

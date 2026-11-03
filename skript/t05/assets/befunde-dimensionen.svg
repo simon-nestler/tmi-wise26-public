@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 424" role="img" font-family="Inter, system-ui, sans-serif"><title>Befunde aus Teil A, nach sechs Dimensionen geordnet</title><desc>Zu jeder Kontextdimension ein Befund aus den Papern.</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><rect class="rahmen" x="0.75" y="0.75" width="998.5" height="422.5"/><text class="kopf" x="70" y="30">DIMENSION</text><text class="kopf" x="330" y="30">ERGEBNIS AUS TEIL A</text><line class="linie" x1="0" y1="46" x2="1000" y2="46"/><text class="nr" x="42" y="86">1</text><text class="dim" x="70" y="86">Umgebung</text><text class="wert" x="330" y="86">Tablet spiegelt, Sonne und Regen offen, Funk fällt aus</text><line class="linie" x1="24" y1="108" x2="976" y2="108"/><text class="nr" x="42" y="148">2</text><text class="dim" x="70" y="148">Nutzerspektrum</text><text class="wert" x="330" y="148">Selten geübt, zweite Person im Team, Laien im Stromausfall</text><line class="linie" x1="24" y1="170" x2="976" y2="170"/><text class="nr" x="42" y="210">3</text><text class="dim" x="70" y="210">Aufgabentyp</text><text class="wert" x="330" y="210">Name: Freitext. Kategorie: 1 aus 4. Position: automatisch</text><line class="linie" x1="24" y1="232" x2="976" y2="232"/><text class="nr" x="42" y="272">4</text><text class="dim" x="70" y="272">Soziale Situation</text><text class="wert" x="330" y="272">Team fragt anders, als das Display fragt; Funk ist öffentlich</text><line class="linie" x1="24" y1="294" x2="976" y2="294"/><text class="nr" x="42" y="334">5</text><text class="dim" x="70" y="334">Fehlerkosten</text><text class="wert" x="330" y="334">Falsche Kategorie trifft Patienten; 7 s mehr kosten alle Zeit</text><line class="linie" x1="24" y1="356" x2="976" y2="356"/><text class="nr" x="42" y="396">6</text><text class="dim" x="70" y="396">Rechtsrahmen</text><text class="wert" x="330" y="396">Dokumentationspflicht; Prototyp nicht am Patienten</text></svg>

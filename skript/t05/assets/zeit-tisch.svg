@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 222" role="img" font-family="Inter, system-ui, sans-serif"><title>Sichtung am Touch-Tisch gegen Realübung</title><desc>Realübung: 41 s; Touch-Tisch: 22 s. Mittelwerte, zwei Gruppen, nicht dieselben Personen; Realübung nach Gutsch et al. 2006 (Nestler et al. 2009)</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><text class="dim" x="0" y="48">Realübung</text><text class="sub" x="0" y="72">132 Sichtungen</text><rect class="balken-s" x="290" y="24" width="483.8" height="52"/><text class="zahl" x="786" y="58">41 s</text><text class="dim" x="0" y="124">Touch-Tisch</text><text class="sub" x="0" y="148">160 Sichtungen</text><rect class="balken" x="290" y="100" width="259.6" height="52"/><text class="zahl" x="562" y="134">22 s</text><text class="sub" x="0" y="214">Mittelwerte, zwei Gruppen, nicht dieselben Personen; Realübung nach Gutsch et al. 2006 (Nestler et al. 2009)</text></svg>

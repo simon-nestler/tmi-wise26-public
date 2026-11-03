@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 382" role="img" font-family="Inter, system-ui, sans-serif"><title>Rettungswagen: Soziale Situation</title><desc>Zwei Einsatzkräfte, ruhige Lage: Eine behandelt, eine schreibt; Allein hinten, Kollege fährt: Weniger Felder, Nachtrag; Kind, Blick soll beim Kind bleiben: Schreiben zuletzt; Verdacht auf Gewalt, Person ist dabei: Kein Diktat; in der Klinik diskret melden</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><rect class="rahmen" x="0.75" y="0.75" width="998.5" height="346.5"/><text class="kopf" x="42" y="30">KONTEXT</text><text class="kopf" x="510" y="30">LÖSUNG</text><line class="linie" x1="0" y1="46" x2="1000" y2="46"/><text class="wert" x="42" y="90">Zwei Einsatzkräfte, ruhige Lage</text><text class="wert" x="510" y="90">Eine behandelt, eine schreibt</text><line class="linie" x1="24" y1="120" x2="976" y2="120"/><rect class="marke" x="24" y="134" width="4" height="46"/><text class="wert" x="42" y="164">Allein hinten, Kollege fährt</text><text class="traegt" x="510" y="164">Weniger Felder, Nachtrag</text><line class="linie" x1="24" y1="194" x2="976" y2="194"/><rect class="marke" x="24" y="208" width="4" height="46"/><text class="wert" x="42" y="238">Kind, Blick soll beim Kind bleiben</text><text class="traegt" x="510" y="238">Schreiben zuletzt</text><line class="linie" x1="24" y1="268" x2="976" y2="268"/><rect class="marke" x="24" y="282" width="4" height="46"/><text class="wert" x="42" y="312">Verdacht auf Gewalt, Person ist dabei</text><text class="traegt" x="510" y="312">Kein Diktat; in der Klinik diskret melden</text><text class="sub" x="0" y="372">Konstruierter Fall, von der Praxis gegenzulesen</text></svg>

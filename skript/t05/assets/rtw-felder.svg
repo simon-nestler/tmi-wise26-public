@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 464" role="img" font-family="Inter, system-ui, sans-serif"><title>Protokoll im Rettungswagen: eine Eingabe je Datenfeld</title><desc>Sieben Datenfelder mit Art und passender Eingabe.</desc><style>
+.rahmen{fill:none;stroke:var(--rule,#c7cdd4);stroke-width:1.5}
+.linie{stroke:var(--rule,#c7cdd4);stroke-width:1}
+.kopf{fill:var(--ink,#031121);font-size:17px;font-weight:600;letter-spacing:.04em}
+.dim{fill:var(--ink,#031121);font-size:21px;font-weight:600}
+.wert{fill:var(--ink,#031121);font-size:19px}
+.traegt{fill:var(--ink,#031121);font-size:19px;font-weight:600}
+.nr{fill:var(--ink,#031121);font-size:15px;font-weight:600}
+.sub{fill:var(--ink-soft,#5a6472);font-size:16px}
+.zahl{fill:var(--ink,#031121);font-size:24px;font-weight:600}
+.marke{fill:#fcd430}
+.balken{fill:var(--ink,#031121)}
+.balken-s{fill:var(--ink-soft,#5a6472)}
+.balken-h{fill:var(--rule,#c7cdd4)}
+.balken-m{fill:#fcd430}
+</style><rect class="rahmen" x="0.75" y="0.75" width="998.5" height="428.5"/><text class="kopf" x="24" y="30">DATENFELD</text><text class="kopf" x="370" y="30">ART</text><text class="kopf" x="590" y="30">EINGABE</text><line class="linie" x1="0" y1="46" x2="1000" y2="46"/><text class="traegt" x="24" y="80">Blutdruck, Puls, Sättigung</text><text class="sub" x="370" y="80">Zahl, Zeitreihe</text><text class="traegt" x="590" y="80">Automatisch vom Monitor</text><line class="linie" x1="24" y1="100" x2="976" y2="100"/><text class="traegt" x="24" y="134">Name, Adresse</text><text class="sub" x="370" y="134">Freitext</text><text class="traegt" x="590" y="134">Karte oder Ausweis lesen</text><line class="linie" x1="24" y1="154" x2="976" y2="154"/><text class="traegt" x="24" y="188">Gegebenes Medikament</text><text class="sub" x="370" y="188">1 aus n</text><text class="traegt" x="590" y="188">Auswahl aus dem Fahrzeugbestand</text><line class="linie" x1="24" y1="208" x2="976" y2="208"/><text class="traegt" x="24" y="242">Dosis</text><text class="sub" x="370" y="242">Zahl mit Einheit</text><text class="traegt" x="590" y="242">Feste Einheit, Plausibilitätsprüfung</text><line class="linie" x1="24" y1="262" x2="976" y2="262"/><text class="traegt" x="24" y="296">Dauermedikation</text><text class="sub" x="370" y="296">Lange Liste</text><text class="traegt" x="590" y="296">Foto des Plans</text><line class="linie" x1="24" y1="316" x2="976" y2="316"/><text class="traegt" x="24" y="350">Anamnese, Auffindesituation</text><text class="sub" x="370" y="350">Freitext</text><text class="traegt" x="590" y="350">Stift oder Sprache mit Prüfung</text><line class="linie" x1="24" y1="370" x2="976" y2="370"/><text class="traegt" x="24" y="404">Unterschrift</text><text class="sub" x="370" y="404">Willenserklärung</text><text class="traegt" x="590" y="404">Stift</text><text class="sub" x="0" y="454">Konstruierter Fall, von der Praxis gegenzulesen; Spracherkennung: Luo et al. 2024, Moser et al. 2025</text></svg>
