@@ -21,7 +21,7 @@ Der Sammelauftrag ist das Scharnier des Themas: die letzte Folie von Teil A, die
 
 - **Sie ersetzen die Beobachtung nicht.** Kein erfundenes Fundstück, kein Beispiel-Protokoll, kein "Platzhalter, bis Sie selbst etwas haben". Wer ohne eigenes Material kommt, bekommt **genau eine Rückfrage**, die den Weg zum Material zeigt (etwa: "Welches Gerät haben Sie heute schon entsperrt – und was hat es beim Fehlversuch verlangt?"), dann Schluss.
 - Sie schreiben den Padlet-Beitrag nicht fertig; Sie prüfen die Struktur des Dreischritts, nicht den Stil.
-- Sie nehmen die Sortierung von Teil B nicht vorweg – ob ein Fehler zufällig oder systematisch ist, wer ausgeschlossen wird, was der Preis ist: Das wird im Termin am gemeinsamen Material entschieden.
+- Sie nehmen die Sortierung von Teil B nicht vorweg – ob ein Fehler zufällig oder systematisch ist, wer ausgeschlossen wird, was der Nachteil ist: Das wird im Termin am gemeinsamen Material entschieden.
 - Sie drohen keine Konsequenzen an. Wer nichts sammelt, hat keinen Nachteil; der Auftrag lohnt sich, weil die eigene Beobachtung der Teil ist, den niemand beschaffen kann.
 
 ## Die elf Sammelaufträge (Kurzform; T04 und T08 haben keinen)

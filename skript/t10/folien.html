@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 <style>.script-only,.annot-box,.annot-add{display:none!important}</style></head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1743,13 +1757,13 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-wahl">Die Wahl treffen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-4" aria-label="Folien dieses Teils: Die Wahl treffen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-4"><li><a href="#challenge-wahl" data-rd="challenge-wahl"><span class="rd-num">22</span><span class="rd-text">Die Wahl treffen</span></a></li><li><a href="#auftrag-wahl" data-rd="auftrag-wahl"><span class="rd-num">23</span><span class="rd-text">Auftrag · die Wahl treffen</span></a></li><li><a href="#nebenbedingung-stufen" data-rd="nebenbedingung-stufen"><span class="rd-num">24</span><span class="rd-text">Nebenbedingung · nur eine Stufe</span></a></li><li><a href="#regel-begruendung" data-rd="regel-begruendung"><span class="rd-num">25</span><span class="rd-text">Regel · was als Begründung zählt</span></a></li><li><a href="#vergleich-aufloesung-wahl" data-rd="vergleich-aufloesung-wahl"><span class="rd-num">26</span><span class="rd-text">Auflösung an zwei Entscheidungen</span></a></li><li><a href="#begruendungen-brachen" data-rd="begruendungen-brachen"><span class="rd-num">27</span><span class="rd-text">Grenze · wo die Begründungen nicht reichten</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-kopplung">Kopplung statt Wahl</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-5" aria-label="Folien dieses Teils: Kopplung statt Wahl"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-5"><li><a href="#kombination" data-rd="kombination"><span class="rd-num">28</span><span class="rd-text">Kopplung · Kombination statt Wahl</span></a></li><li><a href="#kopplungsregel" data-rd="kopplungsregel"><span class="rd-num">29</span><span class="rd-text">Kopplungsregel · wecken und erklären</span></a></li><li><a href="#beispiel-kopplung" data-rd="beispiel-kopplung"><span class="rd-num">30</span><span class="rd-text">Kopplung · ein gelungener Fall</span></a></li><li><a href="#uebernahme-aufmerksamkeit" data-rd="uebernahme-aufmerksamkeit"><span class="rd-num">31</span><span class="rd-text">Übernahmeaufforderung · wenn das Fahrzeug selbst fährt</span></a></li><li><a href="#vollbild-drive-pilot-uebernahme" data-rd="vollbild-drive-pilot-uebernahme"><span class="rd-num">32</span><span class="rd-text">Mercedes EQS DRIVE PILOT im Stau: Der Vorreiter des autonomen Fahrens? · ADAC</span></a></li><li><a href="#kopplung-grenzen" data-rd="kopplung-grenzen"><span class="rd-num">33</span><span class="rd-text">Grenzen · wann Kopplung nicht geht</span></a></li><li><a href="#these-wahrnehmungsentscheidung" data-rd="these-wahrnehmungsentscheidung"><span class="rd-num">34</span><span class="rd-text">In der Praxis entscheiden Budget, Bauraum und Zulassung über die Modalität, und das Wahrnehmungsargument fehlt dort oft</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-peer">Peer Instruction</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-6" aria-label="Folien dieses Teils: Peer Instruction"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-6"><li><a href="#quiz-kochen" data-rd="quiz-kochen"><span class="rd-num">35</span><span class="rd-text">Frage 1 · Person kocht, Hände nass, Radio läuft. Welcher Kanal?</span></a></li><li><a href="#quiz-kochen-aufloesung" data-rd="quiz-kochen-aufloesung"><span class="rd-num">36</span><span class="rd-text">Auflösung 1 · C – der Blick ist hier frei</span></a></li><li><a href="#quiz-zwei-meldungen" data-rd="quiz-zwei-meldungen"><span class="rd-num">37</span><span class="rd-text">Frage 2 · Zwei Meldungen gleichzeitig auf demselben Kanal. Was ist die richtige Gestaltung?</span></a></li><li><a href="#quiz-zwei-meldungen-aufloesung" data-rd="quiz-zwei-meldungen-aufloesung"><span class="rd-num">38</span><span class="rd-text">Auflösung 2 · B – die Gestaltung legt die Reihenfolge fest</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-sicherung">Für die Klausur und Auftrag</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-7" aria-label="Folien dieses Teils: Für die Klausur und Auftrag"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-7"><li><a href="#sicherung-klausur-a" data-rd="sicherung-klausur-a"><span class="rd-num">39</span><span class="rd-text">Für die Klausur · Aus Teil A</span></a></li><li><a href="#frage-l7-offen" data-rd="frage-l7-offen"><span class="rd-num">40</span><span class="rd-text">Wen schließt das aus – und was ist die gleichwertige Alternative?</span></a></li><li><a href="#challenge-kreuzaufgabe" data-rd="challenge-kreuzaufgabe"><span class="rd-num">41</span><span class="rd-text">Bis nächste Woche</span></a></li><li><a href="#kreuzung-ablauf" data-rd="kreuzung-ablauf"><span class="rd-num">42</span><span class="rd-text">Ablauf · wie das Padlet läuft</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-sicherung">Für die Klausur und Auftrag</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-7" aria-label="Folien dieses Teils: Für die Klausur und Auftrag"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-7"><li><a href="#sicherung-klausur-a" data-rd="sicherung-klausur-a"><span class="rd-num">39</span><span class="rd-text">Für die Klausur · Aus Teil A</span></a></li><li><a href="#frage-l7-offen" data-rd="frage-l7-offen"><span class="rd-num">40</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#challenge-kreuzaufgabe" data-rd="challenge-kreuzaufgabe"><span class="rd-num">41</span><span class="rd-text">Bis nächste Woche</span></a></li><li><a href="#kreuzung-ablauf" data-rd="kreuzung-ablauf"><span class="rd-num">42</span><span class="rd-text">Ablauf · wie das Padlet läuft</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-auftakt">Teil B · Auftakt</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-8" aria-label="Folien dieses Teils: Teil B · Auftakt"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-8"><li><a href="#titel-teil-b" data-rd="titel-teil-b"><span class="rd-num">43</span><span class="rd-text">Einheit 10 · Teil B</span></a></li><li><a href="#karte-teil-b" data-rd="karte-teil-b"><span class="rd-num">44</span><span class="rd-text">Semester · Einheit 10, Teil B</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-wand">Die Wand</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-9" aria-label="Folien dieses Teils: Die Wand"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-9"><li><a href="#vergleich-paar-1" data-rd="vergleich-paar-1"><span class="rd-num">45</span><span class="rd-text">Einwand und Verteidigung, 1</span></a></li><li><a href="#vergleich-paar-2" data-rd="vergleich-paar-2"><span class="rd-num">46</span><span class="rd-text">Einwand und Verteidigung, 2</span></a></li><li><a href="#bild-einwand-uebernahme" data-rd="bild-einwand-uebernahme"><span class="rd-num">47</span><span class="rd-text">Ein Einwand aus dem Fahrsimulator</span></a></li><li><a href="#frage-sortierung" data-rd="frage-sortierung"><span class="rd-num">48</span><span class="rd-text">Welcher Einwand hat die Entscheidung wirklich getroffen – und welcher ging daneben?</span></a></li><li><a href="#gute-einwaende" data-rd="gute-einwaende"><span class="rd-num">49</span><span class="rd-text">Einwände · was die guten auszeichnet</span></a></li><li><a href="#lernziele-b" data-rd="lernziele-b"><span class="rd-num">50</span><span class="rd-text">Einheit 10 · Teil B · Lernziele</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-parteien">Drei Parteien</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Drei Parteien"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#these-sitzung" data-rd="these-sitzung"><span class="rd-num">51</span><span class="rd-text">Eine Entscheidung, die nur technisch begründet ist, hält in einer Besprechung selten stand</span></a></li><li><a href="#drei-parteien" data-rd="drei-parteien"><span class="rd-num">52</span><span class="rd-text">Parteien · drei am selben Tisch</span></a></li><li><a href="#partei-zulassung" data-rd="partei-zulassung"><span class="rd-num">53</span><span class="rd-text">Zulassung · was sie will</span></a></li><li><a href="#partei-marketing" data-rd="partei-marketing"><span class="rd-num">54</span><span class="rd-text">Marketing · was es will</span></a></li><li><a href="#partei-nutzergruppe" data-rd="partei-nutzergruppe"><span class="rd-num">55</span><span class="rd-text">Nutzergruppe · was sie will</span></a></li><li><a href="#keine-einheit" data-rd="keine-einheit"><span class="rd-num">56</span><span class="rd-text">Schwierigster Fall · die Gruppe ist keine Einheit</span></a></li><li><a href="#kern-drei-interessen" data-rd="kern-drei-interessen"><span class="rd-num">57</span><span class="rd-text">Drei Interessen an derselben Entscheidung</span></a></li><li><a href="#def-preis" data-rd="def-preis"><span class="rd-num">58</span><span class="rd-text">Preis einer Entscheidung</span></a></li><li><a href="#preis-immer" data-rd="preis-immer"><span class="rd-num">59</span><span class="rd-text">Preis · warum jede Entscheidung einen hat</span></a></li><li><a href="#these-wer-zahlt" data-rd="these-wer-zahlt"><span class="rd-num">60</span><span class="rd-text">Jede Modalitätsentscheidung benachteiligt eine Gruppe, und Sie müssen sagen können, welche</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-parteien">Drei Parteien</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Drei Parteien"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#these-sitzung" data-rd="these-sitzung"><span class="rd-num">51</span><span class="rd-text">Eine Entscheidung, die nur technisch begründet ist, hält in einer Besprechung selten stand</span></a></li><li><a href="#drei-parteien" data-rd="drei-parteien"><span class="rd-num">52</span><span class="rd-text">Parteien · drei am selben Tisch</span></a></li><li><a href="#partei-zulassung" data-rd="partei-zulassung"><span class="rd-num">53</span><span class="rd-text">Zulassung · was sie will</span></a></li><li><a href="#partei-marketing" data-rd="partei-marketing"><span class="rd-num">54</span><span class="rd-text">Marketing · was es will</span></a></li><li><a href="#partei-nutzergruppe" data-rd="partei-nutzergruppe"><span class="rd-num">55</span><span class="rd-text">Nutzergruppe · was sie will</span></a></li><li><a href="#keine-einheit" data-rd="keine-einheit"><span class="rd-num">56</span><span class="rd-text">Schwierigster Fall · die Gruppe ist keine Einheit</span></a></li><li><a href="#kern-drei-interessen" data-rd="kern-drei-interessen"><span class="rd-num">57</span><span class="rd-text">Drei Interessen an derselben Entscheidung</span></a></li><li><a href="#def-preis" data-rd="def-preis"><span class="rd-num">58</span><span class="rd-text">Nachteil einer Entscheidung</span></a></li><li><a href="#preis-immer" data-rd="preis-immer"><span class="rd-num">59</span><span class="rd-text">Nachteil · warum jede Entscheidung einen hat</span></a></li><li><a href="#these-wer-zahlt" data-rd="these-wer-zahlt"><span class="rd-num">60</span><span class="rd-text">Jede Modalitätsentscheidung benachteiligt eine Gruppe, und Sie müssen sagen können, welche</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-vertreten">Die Entscheidung vertreten</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Die Entscheidung vertreten"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#challenge-vertreten" data-rd="challenge-vertreten"><span class="rd-num">61</span><span class="rd-text">Die Entscheidung vertreten</span></a></li><li><a href="#aufbau-rollen" data-rd="aufbau-rollen"><span class="rd-num">62</span><span class="rd-text">Aufbau · wer an welchem Platz sitzt</span></a></li><li><a href="#rollenkarte-zulassung" data-rd="rollenkarte-zulassung"><span class="rd-num">63</span><span class="rd-text">Die Rollenkarten, 1 · Zulassung</span></a></li><li><a href="#rollenkarte-marketing" data-rd="rollenkarte-marketing"><span class="rd-num">64</span><span class="rd-text">Die Rollenkarten, 2 · Marketing</span></a></li><li><a href="#rollenkarte-nutzergruppe" data-rd="rollenkarte-nutzergruppe"><span class="rd-num">65</span><span class="rd-text">Die Rollenkarten, 3 · Nutzergruppe</span></a></li><li><a href="#regel-vertretung" data-rd="regel-vertretung"><span class="rd-num">66</span><span class="rd-text">Regel · was beim Vertreten zählt</span></a></li><li><a href="#ohne-ki-begruendung" data-rd="ohne-ki-begruendung"><span class="rd-num">67</span><span class="rd-text">KI-Rolle · ausgeschlossen, und hier steht warum</span></a></li><li><a href="#kern-aufloesung-vertreten" data-rd="kern-aufloesung-vertreten"><span class="rd-num">68</span><span class="rd-text">Auflösung an zwei Positionen</span></a></li><li><a href="#befund-widerspruechlichkeit" data-rd="befund-widerspruechlichkeit"><span class="rd-num">69</span><span class="rd-text">Was häufig passiert</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-interessen">Wenn Interessen einander ausschließen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Wenn Interessen einander ausschließen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#drei-wege" data-rd="drei-wege"><span class="rd-num">70</span><span class="rd-text">Drei Wege · wenn Interessen einander ausschließen</span></a></li><li><a href="#dokumentierte-abwaegung" data-rd="dokumentierte-abwaegung"><span class="rd-num">71</span><span class="rd-text">Weg 1 · die dokumentierte Abwägung</span></a></li><li><a href="#beispiel-abwaegung" data-rd="beispiel-abwaegung"><span class="rd-num">72</span><span class="rd-text">Abwägung · wie sie dokumentiert wird</span></a></li><li><a href="#vier-zeilen-erwartung" data-rd="vier-zeilen-erwartung"><span class="rd-num">73</span><span class="rd-text">Vier Zeilen · genau die erwartet die Klausur</span></a></li><li><a href="#these-vertretbar" data-rd="these-vertretbar"><span class="rd-num">74</span><span class="rd-text">Im Beruf zählt eine Entscheidung, die Sie in dieser Besprechung vertreten können</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#sicherung-klausur-b" data-rd="sicherung-klausur-b"><span class="rd-num">75</span><span class="rd-text">Für die Klausur · Aus Teil B</span></a></li><li><a href="#nicht-geprueft-l8" data-rd="nicht-geprueft-l8"><span class="rd-num">76</span><span class="rd-text">Abgrenzung · was ausdrücklich nicht geprüft wird</span></a></li><li><a href="#frage-l7-beantwortet" data-rd="frage-l7-beantwortet"><span class="rd-num">77</span><span class="rd-text">Wen schließt das aus – und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">78</span><span class="rd-text">Das Raster gibt Ihrer Entscheidung eine Adresse, an der jemand nachfragen kann</span></a></li><li><a href="#pruefen-t10" data-rd="pruefen-t10"><span class="rd-num">79</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t11" data-rd="ausblick-t11"><span class="rd-num">80</span><span class="rd-text">Nächste Woche · Einheit 11</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#sicherung-klausur-b" data-rd="sicherung-klausur-b"><span class="rd-num">75</span><span class="rd-text">Für die Klausur · Aus Teil B</span></a></li><li><a href="#nicht-geprueft-l8" data-rd="nicht-geprueft-l8"><span class="rd-num">76</span><span class="rd-text">Abgrenzung · was ausdrücklich nicht geprüft wird</span></a></li><li><a href="#frage-l7-beantwortet" data-rd="frage-l7-beantwortet"><span class="rd-num">77</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">78</span><span class="rd-text">Das Raster gibt Ihrer Entscheidung eine Adresse, an der jemand nachfragen kann</span></a></li><li><a href="#pruefen-t10" data-rd="pruefen-t10"><span class="rd-num">79</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t11" data-rd="ausblick-t11"><span class="rd-num">80</span><span class="rd-text">Nächste Woche · Einheit 11</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#lit-teil-a" data-rd="lit-teil-a"><span class="rd-num">81</span><span class="rd-text">Literatur und Fundstellen · Teil A</span></a></li><li><a href="#fallback-padlet-leer" data-rd="fallback-padlet-leer"><span class="rd-num">82</span><span class="rd-text">Fallback · Das Padlet bleibt leer</span></a></li><li><a href="#fallback-drittel" data-rd="fallback-drittel"><span class="rd-num">83</span><span class="rd-text">Fallback · Ein Drittel anwesend</span></a></li><li><a href="#fallback-veto" data-rd="fallback-veto"><span class="rd-num">84</span><span class="rd-text">Fallback · Das Rollenspiel bleibt höflich</span></a></li><li><a href="#kopplung-geraete" data-rd="kopplung-geraete"><span class="rd-num">85</span><span class="rd-text">Vertiefung: Kopplung über Geräte hinweg</span></a></li><li><a href="#vertiefung-vibroseat" data-rd="vertiefung-vibroseat"><span class="rd-num">86</span><span class="rd-text">Vertiefung: Der vibrierende Sitz, gemessen</span></a></li><li><a href="#lit-teil-b" data-rd="lit-teil-b"><span class="rd-num">87</span><span class="rd-text">Literatur · Teil B</span></a></li></ol></li>
   </ol>
   <div class="rd-view"><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Seite</span><div class="rd-seg" role="group" aria-label="Seite"><button type="button" data-set-scheme="auto" aria-pressed="false">Auto</button><button type="button" data-set-scheme="light" aria-pressed="false">Hell</button><button type="button" data-set-scheme="dark" aria-pressed="false">Dunkel</button></div></div><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Schrift</span><div class="rd-seg" role="group" aria-label="Schrift"><button type="button" data-set-face="serif" aria-pressed="false">Serif</button><button type="button" data-set-face="sans" aria-pressed="false">Sans</button></div></div></div>
@@ -2242,7 +2256,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Die <strong>NHTSA-Vorgabe</strong> für Fahrzeugbediengeräte übernimmt die zwei Sekunden als Richtlinie</li>
 <li>Damit hat <strong>Blickzeit</strong> eine Obergrenze in Sekunden</li>
 </ul>
-<p>Quelle: Klauer u. a. (2006), The Impact of Driver Inattention on Near-Crash/Crash Risk, 100-Car Naturalistic Driving Study, NHTSA, DOT HS 810 594</p>
+<p class="thi-quelle">Quelle: Klauer u. a. (2006), The Impact of Driver Inattention on Near-Crash/Crash Risk, 100-Car Naturalistic Driving Study, NHTSA, DOT HS 810 594</p>
 <div class="script-only">
 
 <p>Diese Zahl gibt der Blickzeit eine Obergrenze.</p>
@@ -2344,7 +2358,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 
 <p>Bei der Modalitätswahl stehen Bandbreite und Verfügbarkeit gegeneinander. Der Satz fasst die drei Kanäle zusammen, und Sie brauchen ihn in der Klausur.</p>
 <p>Der visuelle Kanal hat die Bandbreite und war nicht verfügbar. Der haptische war verfügbar und hat kaum Bandbreite. Der auditive liegt dazwischen und hatte in dieser Zelle des Rasters ein Problem.</p>
-<p>Der Satz sagt nicht, dass ein Kanal besser sei. Er sagt, dass Sie abwägen müssen. Eine Entscheidung ohne benannten Preis ist eine Behauptung.</p>
+<p>Der Satz sagt nicht, dass ein Kanal besser sei. Er sagt, dass Sie abwägen müssen. Eine Entscheidung ohne benannten Nachteil ist eine Behauptung.</p>
 </div>
   
   
@@ -2850,7 +2864,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>4</i><i>0</i></span>
   <span class="chunk-label">frage</span>
-  <h2 class="chunk-heading">Wen schließt das aus – und was ist die gleichwertige Alternative?</h2>
+  <h2 class="chunk-heading">Wen schließt das aus, und was ist die gleichwertige Alternative?</h2>
   <p><strong>Die Frage bleibt heute offen.</strong> Sie stellt sich bei jedem einkanaligen Entwurf und kommt in Teil B zurück, für Ihren eigenen.</p>
 
   
@@ -3065,7 +3079,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Der Einwand trifft unsere Begründung: Die Verfügbarkeit eines Kanals hängt am <strong>Nutzerspektrum</strong></li>
 <li>Wir halten die Wahl und verlegen die Vibration vom Sitz ins <strong>Lenkrad</strong>, wo die Hände aufliegen und Kleidung nicht dämpft</li>
-<li>Der Preis bleibt benannt: Wer die Hände nicht am Lenkrad hat, wird von Stufe eins und zwei nicht erreicht. <strong>Stufe drei</strong> koppelt deshalb zusätzlich einen Ton</li>
+<li>Der Nachteil bleibt benannt: Wer die Hände nicht am Lenkrad hat, wird von Stufe eins und zwei nicht erreicht. <strong>Stufe drei</strong> koppelt deshalb zusätzlich einen Ton</li>
 </ul>
 <div class="script-only">
 
@@ -3073,7 +3087,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Der Einwand: Ihre Begründung „der haptische Kanal ist frei“ unterstellt ein Nutzerspektrum, das Vibration zuverlässig spürt. Mit dicker Winterjacke auf dem Sitz oder nachlassender Tastwahrnehmung im Alter stimmt das nicht.</p>
 <p>Lesen Sie den ersten Satz der Verteidigung genau: <em>Der Einwand trifft unsere Begründung.</em> Das ist keine Höflichkeit. Das ist die Anerkennung, dass die tragende Eigenschaft angegriffen wurde: Verfügbarkeit hängt am Nutzerspektrum, und das ist die Rasterzeile, die wir selbst aufgemacht haben.</p>
 <p>Die Wahl wird gehalten, der Entwurf ändert sich: Die Vibration wandert vom Sitz ins Lenkrad, wo die Hände aufliegen und Kleidung nicht dämpft. Das ist die richtige Reaktion. Die Begründung bleibt, der Entwurf zieht nach.</p>
-<p>Und der Preis bleibt stehen: Wer die Hände nicht am Lenkrad hat, wird von Stufe eins und zwei nicht erreicht. Stufe drei koppelt deshalb zusätzlich einen Ton. Eine Verteidigung, die keinen Preis mehr nennt, ist zurück bei der Behauptung.</p>
+<p>Und der Nachteil bleibt stehen: Wer die Hände nicht am Lenkrad hat, wird von Stufe eins und zwei nicht erreicht. Stufe drei koppelt deshalb zusätzlich einen Ton. Eine Verteidigung, die keinen Nachteil mehr nennt, ist zurück bei der Behauptung.</p>
 </div>
   
   
@@ -3181,9 +3195,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Am Ende von Teil B können Sie eine Modalitätsentscheidung gegen Einwände vertreten, die nicht von Wahrnehmung handeln.</strong></p>
 <ul>
 <li>Die <strong>drei Interessen</strong> an einer Ausgabeentscheidung auseinanderhalten</li>
-<li>Den <strong>Preis</strong> einer Entscheidung von ihren Kosten unterscheiden</li>
+<li>Den <strong>Nachteil</strong> einer Entscheidung von ihren Kosten unterscheiden</li>
 <li>Die <strong>benachteiligte Gruppe</strong> benennen, statt sie zu verschweigen</li>
-<li>Eine Entscheidung in <strong>vier Zeilen</strong> dokumentieren: Wahl · tragende Dimension · Preis · benachteiligte Gruppe</li>
+<li>Eine Entscheidung in <strong>vier Zeilen</strong> dokumentieren: Wahl · tragende Dimension · Nachteil · benachteiligte Gruppe</li>
 </ul>
 <div class="script-only">
 
@@ -3191,9 +3205,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Nach diesem Teil können Sie</p>
 <ul>
 <li>die drei Interessen an einer Ausgabeentscheidung auseinanderhalten (Zulassung, Marketing, Nutzergruppe) und sagen, womit jede argumentiert,</li>
-<li>den Preis einer Entscheidung von ihren Kosten unterscheiden,</li>
+<li>den Nachteil einer Entscheidung von ihren Kosten unterscheiden,</li>
 <li>die benachteiligte Gruppe benennen, statt sie zu verschweigen,</li>
-<li>eine Entscheidung in vier Zeilen dokumentieren: Wahl, tragende Dimension, Preis, benachteiligte Gruppe.</li>
+<li>eine Entscheidung in vier Zeilen dokumentieren: Wahl, tragende Dimension, Nachteil, benachteiligte Gruppe.</li>
 </ul>
 <p>Die ersten drei gehören zu L4, das vierte ist die Klausurform K-T10B-1. Das Vertreten selbst ist L8 und wird heute betrieben, nicht geprüft; die Abgrenzung steht am Schluss.</p>
 <p>Die Ziele stehen hinter den Beispielen aus Einwand und Verteidigung: erst die Diskussion, dann die Liste.</p>
@@ -3382,21 +3396,21 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>5</i><i>8</i></span>
   <span class="chunk-label">definition</span>
-  <h2 class="chunk-heading">Preis einer Entscheidung</h2>
-  <p><strong>Preis einer Entscheidung: was sie unmöglich macht, und für wen.</strong></p>
+  <h2 class="chunk-heading">Nachteil einer Entscheidung</h2>
+  <p><strong>Nachteil einer Entscheidung: was sie unmöglich macht, und für wen.</strong></p>
 <ul>
 <li><strong>Kosten</strong> sind etwas anderes: Sie stehen im Budget und sind verhandelbar</li>
 <li>Die Wahl des auditiven Kanals macht die Warnung für <strong>schwerhörige Fahrende</strong> unerreichbar</li>
-<li>Dieser Preis bleibt derselbe, ob der Lautsprecher <strong>3 Euro</strong> kostet oder 300</li>
+<li>Dieser Nachteil bleibt derselbe, ob der Lautsprecher <strong>3 Euro</strong> kostet oder 300</li>
 <li><strong>In der Klausurform</strong> ist er Zeile drei der Abwägung. Sie fehlt am häufigsten</li>
 </ul>
 <div class="script-only">
 
 <p>Diese Definition brauchen Sie im Semester noch. Sie trennt zwei Dinge, die ständig verwechselt werden.</p>
-<p>Der Preis einer Entscheidung ist, was sie unmöglich macht, und für wen.</p>
-<p>Kosten sind etwas anderes. Kosten stehen im Budget, sie sind verhandelbar, und sie können sinken. Der Preis nicht.</p>
-<p>Das Beispiel macht den Unterschied deutlich: Die Wahl des auditiven Kanals macht die Warnung für schwerhörige Fahrende unerreichbar. Dieser Preis bleibt derselbe, ob der Lautsprecher 3 Euro kostet oder 300. Daran ändert auch ein günstigerer Einkauf nichts.</p>
-<p>In der Klausurform ist der Preis Zeile drei der Abwägung: Wahl, tragende Dimension, Preis, benachteiligte Gruppe. Zeile drei fehlt am häufigsten, und ihr Fehlen kostet Punkte.</p>
+<p>Der Nachteil einer Entscheidung ist, was sie unmöglich macht, und für wen.</p>
+<p>Kosten sind etwas anderes. Kosten stehen im Budget, sie sind verhandelbar, und sie können sinken. Der Nachteil nicht.</p>
+<p>Das Beispiel macht den Unterschied deutlich: Die Wahl des auditiven Kanals macht die Warnung für schwerhörige Fahrende unerreichbar. Dieser Nachteil bleibt derselbe, ob der Lautsprecher 3 Euro kostet oder 300. Daran ändert auch ein günstigerer Einkauf nichts.</p>
+<p>In der Klausurform ist der Nachteil Zeile drei der Abwägung: Wahl, tragende Dimension, Nachteil, benachteiligte Gruppe. Zeile drei fehlt am häufigsten, und ihr Fehlen kostet Punkte.</p>
 </div>
   
   
@@ -3408,20 +3422,20 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>5</i><i>9</i></span>
   
-  <h2 class="chunk-heading">Preis · warum jede Entscheidung einen hat</h2>
-  <p><strong>Es gibt nur drei Kanäle, deshalb hat jede Modalitätsentscheidung einen Preis.</strong></p>
+  <h2 class="chunk-heading">Nachteil · warum jede Entscheidung einen hat</h2>
+  <p><strong>Es gibt nur drei Kanäle, deshalb hat jede Modalitätsentscheidung einen Nachteil.</strong></p>
 <ul>
 <li>Drei Kanäle, viele berechtigte Ansprüche: <strong>Irgendetwas bleibt immer draußen</strong></li>
 <li>„Unsere Lösung hat keine Nachteile&quot; heißt: Die <strong>Analyse</strong> ist unvollständig</li>
-<li>Der <strong>benannte Preis</strong> ist der Unterschied zwischen einer Entscheidung und einer Behauptung</li>
+<li>Der <strong>benannte Nachteil</strong> ist der Unterschied zwischen einer Entscheidung und einer Behauptung</li>
 <li>Der Satz vom ersten Termin, hier auf der Ausgabeseite: Jede Interaktion hat <strong>Limitationen</strong>. Wer wählt, legt fest, wo die Grenzen liegen und wen sie treffen</li>
 </ul>
 <div class="script-only">
 
-<p>Warum jede Entscheidung einen Preis hat: Das Argument ist kurz.</p>
+<p>Warum jede Entscheidung einen Nachteil hat: Das Argument ist kurz.</p>
 <p>Es gibt drei Kanäle. Es gibt viele berechtigte Ansprüche. Also bleibt immer irgendetwas draußen. Das ist keine Frage der Sorgfalt. Das ist Abzählen.</p>
 <p>Daraus folgt der Prüfsatz: „Unsere Lösung hat keine Nachteile“ heißt nicht, dass es keine gibt. Es heißt, dass die Analyse unvollständig ist. Wenden Sie den Satz ruhig auf fremde Entwürfe an, auch auf die aus dem Rollenspiel gleich.</p>
-<p>Der benannte Preis ist der Unterschied zwischen einer Entscheidung und einer Behauptung.</p>
+<p>Der benannte Nachteil ist der Unterschied zwischen einer Entscheidung und einer Behauptung.</p>
 <p>Der Satz vom ersten Termin gilt auch auf der Ausgabeseite: Jede Interaktion hat Limitationen. Wer wählt, legt fest, wo die Grenzen liegen und wen sie treffen.</p>
 </div>
   
@@ -3437,7 +3451,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Jede Modalitätsentscheidung benachteiligt eine Gruppe, und Sie müssen sagen können, welche</h2>
   <div class="script-only">
 
-<p>Der zweite Leitsatz von Teil B ist die scharfe Fassung der Preisdefinition.</p>
+<p>Der zweite Leitsatz von Teil B ist die scharfe Fassung der Definition des Nachteils.</p>
 <p>Jede Modalitätsentscheidung benachteiligt eine Gruppe, und Sie müssen sagen können, welche.</p>
 <p>Beide Hälften zählen. Die erste ist eine Tatsache, die aus den drei Kanälen folgt. Die zweite ist die Anforderung an Sie. Den Nachteil vermeiden geht nicht. Ihn benennen können, wenn jemand fragt: Das geht. Und in der Prüfung fragt jemand.</p>
 </div>
@@ -3490,6 +3504,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Wechsel nach acht Minuten. Wer noch nicht vertreten hat, übernimmt</li>
 <li>Jede Rollenkarte enthält drei vorbereitete Einwände</li>
 <li>Eigene Einwände sind erlaubt, sobald die vorbereiteten verbraucht sind</li>
+<li><strong>KI-Rolle: vollständig ausgeschlossen</strong></li>
 </ul>
 <div class="script-only">
 
@@ -3498,11 +3513,6 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Wechsel nach acht Minuten. Wer noch nicht vertreten hat, übernimmt. So kommen in 25 Minuten drei Runden zusammen.</p>
 <p>Die drei Rollenkarten enthalten je drei vorbereitete Einwände. Eigene Einwände sind erlaubt, sobald die vorbereiteten verbraucht sind. Vorher nicht, damit die vorbereiteten auch wirklich gestellt werden. Sie sind so gebaut, dass sie die tragenden Stellen treffen.</p>
 </div>
-
-<ul>
-<li><strong>KI-Rolle: vollständig ausgeschlossen</strong></li>
-</ul>
-
   
   
   
@@ -3639,7 +3649,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Gesessen hat der Einwand gegen die tragende Dimension, meistens das Nutzerspektrum.</strong></p>
 <ul>
 <li>Danebengegangen ist, was nur eine <strong>andere Wahl</strong> wollte</li>
-<li>Gerettet hat der <strong>vorher benannte Preis</strong>: Wer schon gesagt hatte, wen die Wahl nicht erreicht, konnte direkt antworten</li>
+<li>Gerettet hat der <strong>vorher benannte Nachteil</strong>: Wer schon gesagt hatte, wen die Wahl nicht erreicht, konnte direkt antworten</li>
 <li>Die <strong>Rasterdimension</strong> wirkte als Adresse: „für dieses Nutzerspektrum, in dieser Umgebung&quot; überzeugt mehr als „im Allgemeinen&quot;</li>
 </ul>
 <div class="script-only">
@@ -3647,7 +3657,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Drei Beobachtungen, die häufig auftreten.</p>
 <p>Gesessen hat der Einwand gegen die tragende Dimension, meistens das Nutzerspektrum. Dasselbe wie bei den Beispielpaaren zu Beginn von Teil B: Gute Einwände zielen auf die Begründung.</p>
 <p>Danebengegangen ist, was nur eine andere Wahl wollte. „Nehmen Sie doch das Display“ ist ein Gegenvorschlag ohne Begründung, kein Einwand.</p>
-<p>Gerettet hat der vorher benannte Preis. Wer schon gesagt hatte, wen die Wahl nicht erreicht, konnte direkt antworten, ohne in die Defensive zu geraten, weil der Einwand nichts Neues brachte. Das ist der stärkste Grund, Zeile drei der Abwägung nicht wegzulassen.</p>
+<p>Gerettet hat der vorher benannte Nachteil. Wer schon gesagt hatte, wen die Wahl nicht erreicht, konnte direkt antworten, ohne in die Defensive zu geraten, weil der Einwand nichts Neues brachte. Das ist der stärkste Grund, Zeile drei der Abwägung nicht wegzulassen.</p>
 <p>Und die Rasterdimension wirkte als Adresse: „für dieses Nutzerspektrum, in dieser Umgebung“ überzeugt mehr als „im Allgemeinen“, weil es die Aussage eingrenzt und damit prüfbar macht.</p>
 </div>
   
@@ -3747,7 +3757,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li><strong>Wahl:</strong> haptisch geweckt, visuell erklärt</li>
 <li><strong>Tragende Dimension:</strong> Umgebung (Musik und Fahrgeräusch belegen den auditiven Kanal)</li>
-<li><strong>Preis:</strong> Die Warnung weckt nicht, wer die Vibration nicht spürt</li>
+<li><strong>Nachteil:</strong> Die Warnung weckt nicht, wer die Vibration nicht spürt</li>
 <li><strong>Benachteiligte Gruppe:</strong> Fahrende mit eingeschränkter Tastwahrnehmung</li>
 </ul>
 <div class="script-only">
@@ -3755,7 +3765,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>So sieht die dokumentierte Abwägung aus. Sie ist kürzer, als alle erwarten: vier Zeilen.</p>
 <p><em>Wahl:</em> haptisch geweckt, visuell erklärt. Eine Zeile, kein Absatz.</p>
 <p><em>Tragende Dimension:</em> Umgebung. Musik und Fahrgeräusch belegen den auditiven Kanal. Hier steht die eine Eigenschaft, auf der die Entscheidung ruht, und sie ist an das Raster angebunden.</p>
-<p><em>Preis:</em> Die Warnung weckt nicht, wer die Vibration nicht spürt. Das ist Zeile drei. Wenn etwas fehlt, fehlt sie.</p>
+<p><em>Nachteil:</em> Die Warnung weckt nicht, wer die Vibration nicht spürt. Das ist Zeile drei. Wenn etwas fehlt, fehlt sie.</p>
 <p><em>Benachteiligte Gruppe:</em> Fahrende mit eingeschränkter Tastwahrnehmung. Keine „manchen Nutzer“. Eine benennbare Gruppe.</p>
 <p>Schreiben Sie sich die vier Zeilenüberschriften mit. In der Klausur sind sie die Gliederung Ihrer Antwort.</p>
 </div>
@@ -3797,7 +3807,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <div class="script-only">
 
 <p>Im Beruf zählt eine Entscheidung, die Sie in dieser Besprechung vertreten können. Auf diesen Satz läuft Teil B hinaus.</p>
-<p>Das ist nicht unbedingt die technisch beste: Die haben Sie in Teil A gefunden, und sie allein reichte nicht. Auch nicht die beliebteste. Es zählt die, die in der Besprechung hält, weil sie eine Begründung, einen Preis und eine Adresse hat.</p>
+<p>Das ist nicht unbedingt die technisch beste: Die haben Sie in Teil A gefunden, und sie allein reichte nicht. Auch nicht die beliebteste. Es zählt die, die in der Besprechung hält, weil sie eine Begründung, einen Nachteil und eine Adresse hat.</p>
 </div>
   
   
@@ -3821,14 +3831,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Aus Teil B führt Folgendes in die Klausur</strong> (Lernziel L4):</p>
 <ul>
 <li>Die Modalitätswahl mit <strong>Wahrnehmungsbegründung</strong> wie in Teil A</li>
-<li>Die <strong>vierzeilige Abwägung</strong>: Wahl · tragende Dimension · Preis · benachteiligte Gruppe (K-T10B-1)</li>
+<li>Die <strong>vierzeilige Abwägung</strong>: Wahl · tragende Dimension · Nachteil · benachteiligte Gruppe (K-T10B-1)</li>
 <li>Zu einem Entwurf benennen, <strong>welche Untergruppe</strong> die Entscheidung benachteiligt und ob das vertretbar ist (K-T10B-2)</li>
 </ul>
 <div class="script-only">
 
 <p>Drei Dinge führen aus Teil B in die Klausur.</p>
 <p>Erstens die Modalitätswahl mit Wahrnehmungsbegründung. Dieselbe Anforderung wie in Teil A; sie wird nicht schwächer, nur weil jetzt Interessen dazukommen.</p>
-<p>Zweitens die vierzeilige Abwägung: Wahl, tragende Dimension, Preis, benachteiligte Gruppe. Das ist K-T10B-1, und die Form ist die halbe Antwort.</p>
+<p>Zweitens die vierzeilige Abwägung: Wahl, tragende Dimension, Nachteil, benachteiligte Gruppe. Das ist K-T10B-1, und die Form ist die halbe Antwort.</p>
 <p>Drittens: Zu einem gegebenen Entwurf benennen, welche Untergruppe die Entscheidung benachteiligt, und ob das vertretbar ist. Das ist K-T10B-2, und auf den zweiten Teil der Frage kommt es an. „Vertretbar“ ist keine Geschmacksfrage: Vertretbar ist, was benannt ist und wofür es eine Alternative gibt oder einen Grund, warum es keine gibt.</p>
 <p>Alles drei gehört zu Lernziel L4.</p>
 </div>
@@ -3867,7 +3877,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>7</i></span>
   <span class="chunk-label">frage</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Wen schließt das aus – und was ist die gleichwertige Alternative?</span> <span class="hd-sub">jetzt beantwortet</span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Wen schließt das aus, und was ist die gleichwertige Alternative?</span> <span class="hd-sub">jetzt beantwortet</span></h2>
   <p><strong>Für Ihren Entwurf steht die Antwort jetzt da.</strong> Sie heißt benachteiligte Gruppe und steht in Zeile vier Ihrer Abwägung. Die gleichwertige Alternative ist der zweite Kanal, und was er kostet, steht daneben.</p>
 <div class="script-only">
 
@@ -3895,7 +3905,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Erstens: Welcher Kanal eine Meldung trägt, entscheidet der Aufmerksamkeitszustand der Person im Moment der Ausgabe. Nicht die Technik, nicht die Gewohnheit. Das Raster, das bisher Eingaben sortiert hat, sortiert auch Ausgaben.</p>
 <p>Zweitens: Bei der Modalitätswahl stehen Bandbreite und Verfügbarkeit gegeneinander. Der Kanal mit der höchsten Bandbreite lässt sich oft am leichtesten ignorieren; der, der zuverlässig ankommt, trägt ein Bit.</p>
 <p>Drittens: Für mehr als eine Dringlichkeitsstufe reicht kein Kanal allein. Ein Kanal weckt, der andere erklärt. Kopplung ist eine Entwurfsentscheidung, keine Nachrüstung.</p>
-<p>Viertens: Jede Modalitätsentscheidung benachteiligt eine Gruppe, und Sie müssen sagen können, welche. Der Preis ist das, was die Entscheidung unmöglich macht, und er verschwindet nicht, wenn das Bauteil billiger wird.</p>
+<p>Viertens: Jede Modalitätsentscheidung benachteiligt eine Gruppe, und Sie müssen sagen können, welche. Der Nachteil ist das, was die Entscheidung unmöglich macht, und er verschwindet nicht, wenn das Bauteil billiger wird.</p>
 <p>Das Raster liefert dabei nicht die Antwort. Es macht aus einer Meinung eine Aussage, die für etwas gilt: für dieses Nutzerspektrum, in dieser Umgebung, bei diesen Fehlerkosten. Genau dort kann jemand nachfragen, und genau darauf können Sie antworten.</p>
 </div>
   
@@ -3913,7 +3923,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Eine Person joggt mit Kopfhörern, das Telefon steckt im Oberarmband. <strong>Welcher Kanal trägt eine Meldung, und was kann er nicht?</strong></li>
 <li><strong>Warum reicht ein einzelner Kanal nicht für drei Dringlichkeitsstufen?</strong></li>
-<li><strong>Was unterscheidet den Preis einer Entscheidung von ihren Kosten?</strong></li>
+<li><strong>Was unterscheidet den Nachteil einer Entscheidung von ihren Kosten?</strong></li>
 </ul>
 <div class="script-only">
 
@@ -3922,8 +3932,8 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Lösung: Gehen Sie das Raster durch. Der Blick gehört dem Weg, die Ohren sind von der Musik belegt, Körperkontakt besteht am Oberarm. Der haptische Kanal ist also der frei verfügbare, und er kann wieder nur ein Bit. Wer erklären will, muss den auditiven Kanal freiräumen, also die Musik absenken. Dieselbe Kopplung wie im Fahrzeug, mit getauschten Rollen: Hier weckt die Haptik und erklärt der Ton.</p>
 <p><em>Warum reicht ein einzelner Kanal nicht für drei Dringlichkeitsstufen?</em></p>
 <p>Lösung: Weil sich innerhalb eines Kanals nur stapeln lässt: länger, stärker, öfter. Das trägt zwei Stufen. Die dritte Stufe braucht einen Qualitätssprung, also ein anderes Muster oder einen zweiten Kanal, sonst ist sie von Stufe zwei nicht unterscheidbar.</p>
-<p><em>Was unterscheidet den Preis einer Entscheidung von ihren Kosten?</em></p>
-<p>Lösung: Kosten stehen im Budget und sind verhandelbar. Der Preis ist, was die Entscheidung unmöglich macht, und für wen. Er ändert sich nicht, wenn das Bauteil billiger wird. Beispiel: Die Wahl des auditiven Kanals erreicht schwerhörige Fahrende nicht, egal was der Lautsprecher kostet.</p>
+<p><em>Was unterscheidet den Nachteil einer Entscheidung von ihren Kosten?</em></p>
+<p>Lösung: Kosten stehen im Budget und sind verhandelbar. Der Nachteil ist, was die Entscheidung unmöglich macht, und für wen. Er ändert sich nicht, wenn das Bauteil billiger wird. Beispiel: Die Wahl des auditiven Kanals erreicht schwerhörige Fahrende nicht, egal was der Lautsprecher kostet.</p>
 </div>
   
   
@@ -4112,11 +4122,11 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 <h3>Glossar zu Teil B</h3>
-<p><em>Preis einer Entscheidung</em> – was sie unmöglich macht, und für wen. Er ändert sich nicht mit dem Budget.</p>
-<p><em>Kosten</em> – was im Budget steht. Verhandelbar, und deshalb etwas anderes als der Preis.</p>
+<p><em>Nachteil einer Entscheidung</em> – was sie unmöglich macht, und für wen. Er ändert sich nicht mit dem Budget.</p>
+<p><em>Kosten</em> – was im Budget steht. Verhandelbar, und deshalb etwas anderes als der Nachteil.</p>
 <p><em>Benachteiligte Gruppe</em> – die benennbare Untergruppe, die eine Entscheidung nicht erreicht. Zeile vier der Abwägung.</p>
 <p><em>Tragende Dimension</em> – die eine Rasterzeile, auf der die Begründung ruht. Sie macht die Aussage prüfbar, weil sie eingrenzt, wofür sie gilt.</p>
-<p><em>Vierzeilige Abwägung</em> – Wahl · tragende Dimension · Preis · benachteiligte Gruppe. Die Klausurform dieser Einheit (K-T10B-1) und das, was von einer Besprechung im Beruf übrig bleibt.</p>
+<p><em>Vierzeilige Abwägung</em> – Wahl · tragende Dimension · Nachteil · benachteiligte Gruppe. Die Klausurform dieser Einheit (K-T10B-1) und das, was von einer Besprechung im Beruf übrig bleibt.</p>
 <p><em>Dokumentierte Abwägung</em> – eine Entscheidung mit Adresse: Man kann ihr widersprechen, sie prüfen, sie ändern. Der Gegensatz ist eine stillschweigende Abwägung, nicht „keine Entscheidung“.</p>
 <h3>Quellen zu Teil B</h3>
 <p>Die drei Parteien und ihre Argumente sind Rollenmaterial für das Seminar, keine Zitate aus einer Quelle. Belegt sind die Sachangaben darin: die Zwei-Sekunden-Grenze (Klauer u. a. 2006), die Fünf-Sekunden-Angabe zur Übernahme (Riener, THI, 2018) und der Vergleich der Rückmeldungen vor der Übergabe (Seidl 2018).</p>

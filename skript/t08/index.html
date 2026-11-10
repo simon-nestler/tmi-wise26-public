@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1749,8 +1763,8 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-aufmerksamkeit">Aufmerksamkeit als Ressource</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Aufmerksamkeit als Ressource"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#def-aufmerksamkeit" data-rd="def-aufmerksamkeit"><span class="rd-num">50</span><span class="rd-text">Aufmerksamkeit als begrenzte Ressource</span></a></li><li><a href="#unaufmerksamkeitsblindheit" data-rd="unaufmerksamkeitsblindheit"><span class="rd-num">51</span><span class="rd-text">Unaufmerksamkeitsblindheit</span></a></li><li><a href="#example-experiment" data-rd="example-experiment"><span class="rd-num">52</span><span class="rd-text">Das klassische Experiment</span></a></li><li><a href="#change-blindness" data-rd="change-blindness"><span class="rd-num">53</span><span class="rd-text">Change Blindness</span></a></li><li><a href="#warnhinweis-aufgabe" data-rd="warnhinweis-aufgabe"><span class="rd-num">54</span><span class="rd-text">Was das für Warnhinweise heißt</span></a></li><li><a href="#kern-drei-wege" data-rd="kern-drei-wege"><span class="rd-num">55</span><span class="rd-text">Drei Wege, Aufmerksamkeit zu erzwingen</span></a></li><li><a href="#modalitaetswechsel-staerke" data-rd="modalitaetswechsel-staerke"><span class="rd-num">56</span><span class="rd-text">Modalitätswechsel · warum er besonders wirksam ist</span></a></li><li><a href="#modalitaetswechsel-preis" data-rd="modalitaetswechsel-preis"><span class="rd-num">57</span><span class="rd-text">Modalitätswechsel · warum er selten genutzt wird</span></a></li><li><a href="#stat-zwei-grad" data-rd="stat-zwei-grad"><span class="rd-num">58</span><span class="rd-text">2°</span></a></li><li><a href="#blickfuehrung" data-rd="blickfuehrung"><span class="rd-num">59</span><span class="rd-text">Blickführung · als Gestaltungsmittel</span></a></li><li><a href="#these-wahrnehmung-kontext" data-rd="these-wahrnehmung-kontext"><span class="rd-num">60</span><span class="rd-text">Jeder Rettungsvorschlag muss sagen, ob er am Display ansetzt oder an der Aufgabe daneben</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-aktivierung-1">Aktivierung · Den Hinweis retten</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Aktivierung · Den Hinweis retten"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#challenge-hinweis-retten" data-rd="challenge-hinweis-retten"><span class="rd-num">61</span><span class="rd-text">Den Hinweis retten</span></a></li><li><a href="#fall-warnhinweis" data-rd="fall-warnhinweis"><span class="rd-num">62</span><span class="rd-text">Fall · der Warnhinweis</span></a></li><li><a href="#auftraege-drei-wege" data-rd="auftraege-drei-wege"><span class="rd-num">63</span><span class="rd-text">Aufträge · drei Wege</span></a></li><li><a href="#nebenbedingung-dauerton" data-rd="nebenbedingung-dauerton"><span class="rd-num">64</span><span class="rd-text">Nebenbedingung · kein Dauerton</span></a></li><li><a href="#kern-wirkung-preis" data-rd="kern-wirkung-preis"><span class="rd-num">65</span><span class="rd-text">Auflösung an zwei Vorschlägen</span></a></li><li><a href="#missverstaendnis-groesser-heller" data-rd="missverstaendnis-groesser-heller"><span class="rd-num">66</span><span class="rd-text">Missverständnis · größer und heller</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-dauerhaft">Wenn Aufmerksamkeit dauerhaft fehlt</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Wenn Aufmerksamkeit dauerhaft fehlt"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#aufmerksamkeit-dauerhaft" data-rd="aufmerksamkeit-dauerhaft"><span class="rd-num">67</span><span class="rd-text">Dauerzustand · wenn Aufmerksamkeit immer fehlt</span></a></li><li><a href="#schlechtester-zustand" data-rd="schlechtester-zustand"><span class="rd-num">68</span><span class="rd-text">Auslegung · für den schlechtesten Zustand</span></a></li><li><a href="#example-alarmmuedigkeit" data-rd="example-alarmmuedigkeit"><span class="rd-num">69</span><span class="rd-text">Alarmmüdigkeit · der Alarm, der abgeschaltet wird</span></a></li><li><a href="#bilanzfrage-hinweise" data-rd="bilanzfrage-hinweise"><span class="rd-num">70</span><span class="rd-text">Bilanzfrage · lohnt der Hinweis</span></a></li><li><a href="#these-entwertung" data-rd="these-entwertung"><span class="rd-num">71</span><span class="rd-text">Jeder zusätzliche Hinweis schwächt die Wirkung der Hinweise, die schon da sind</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-aktivierung-2">Aktivierung · Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Aktivierung · Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung-preis" data-rd="challenge-entscheidung-preis"><span class="rd-num">72</span><span class="rd-text">Entscheidung mit Preis</span></a></li><li><a href="#raster-klinikmonitor" data-rd="raster-klinikmonitor"><span class="rd-num">73</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#fangfrage-sieben" data-rd="fangfrage-sieben"><span class="rd-num">74</span><span class="rd-text">Fangfrage · die siebte Meldung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">75</span><span class="rd-text">Zwei Gegenpositionen</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#sicherung-b" data-rd="sicherung-b"><span class="rd-num">76</span><span class="rd-text">Für die Klausur · Teil B</span></a></li><li><a href="#frage-l7-ausschluss" data-rd="frage-l7-ausschluss"><span class="rd-num">77</span><span class="rd-text">Wen schließt das aus – und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">78</span><span class="rd-text">Ob ein Hinweis beim Menschen ankommt, entscheidet die Aufgabe, die neben dem Display läuft</span></a></li><li><a href="#pruefen-t08" data-rd="pruefen-t08"><span class="rd-num">79</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t09" data-rd="ausblick-t09"><span class="rd-num">80</span><span class="rd-text">Nächste Woche · Einheit 9</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-aktivierung-2">Aktivierung · Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Aktivierung · Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung-preis" data-rd="challenge-entscheidung-preis"><span class="rd-num">72</span><span class="rd-text">Entscheidung mit Nachteil</span></a></li><li><a href="#raster-klinikmonitor" data-rd="raster-klinikmonitor"><span class="rd-num">73</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#fangfrage-sieben" data-rd="fangfrage-sieben"><span class="rd-num">74</span><span class="rd-text">Fangfrage · die siebte Meldung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">75</span><span class="rd-text">Zwei Gegenpositionen</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#sicherung-b" data-rd="sicherung-b"><span class="rd-num">76</span><span class="rd-text">Für die Klausur · Teil B</span></a></li><li><a href="#frage-l7-ausschluss" data-rd="frage-l7-ausschluss"><span class="rd-num">77</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">78</span><span class="rd-text">Ob ein Hinweis beim Menschen ankommt, entscheidet die Aufgabe, die neben dem Display läuft</span></a></li><li><a href="#pruefen-t08" data-rd="pruefen-t08"><span class="rd-num">79</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t09" data-rd="ausblick-t09"><span class="rd-num">80</span><span class="rd-text">Nächste Woche · Einheit 9</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#fallback-teil-a" data-rd="fallback-teil-a"><span class="rd-num">81</span><span class="rd-text">Fallbacks Teil A</span></a></li><li><a href="#fallback-aktivierung-leer" data-rd="fallback-aktivierung-leer"><span class="rd-num">82</span><span class="rd-text">Fallback: Aktivierung läuft leer</span></a></li><li><a href="#fallback-teil-b" data-rd="fallback-teil-b"><span class="rd-num">83</span><span class="rd-text">Fallbacks Teil B</span></a></li><li><a href="#vertiefung-eyetracking-messung" data-rd="vertiefung-eyetracking-messung"><span class="rd-num">84</span><span class="rd-text">Vertiefung: Blickführung messen, und was der Tracker nicht sieht</span></a></li><li><a href="#example-wagenreihung" data-rd="example-wagenreihung"><span class="rd-num">85</span><span class="rd-text">Die geänderte Wagenreihung</span></a></li><li><a href="#projektion-schatten" data-rd="projektion-schatten"><span class="rd-num">86</span><span class="rd-text">Vertiefung: Aufprojektion gegen Rückprojektion</span></a></li><li><a href="#lit-teil-a" data-rd="lit-teil-a"><span class="rd-num">87</span><span class="rd-text">Literatur Teil A</span></a></li><li><a href="#lit-teil-b" data-rd="lit-teil-b"><span class="rd-num">88</span><span class="rd-text">Literatur Teil B</span></a></li></ol></li>
   </ol>
   <div class="rd-view"><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Seite</span><div class="rd-seg" role="group" aria-label="Seite"><button type="button" data-set-scheme="auto" aria-pressed="false">Auto</button><button type="button" data-set-scheme="light" aria-pressed="false">Hell</button><button type="button" data-set-scheme="dark" aria-pressed="false">Dunkel</button></div></div><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Schrift</span><div class="rd-seg" role="group" aria-label="Schrift"><button type="button" data-set-face="serif" aria-pressed="false">Serif</button><button type="button" data-set-face="sans" aria-pressed="false">Sans</button></div></div></div>
@@ -1784,7 +1798,7 @@ strong { color: var(--ink); }
     <li><a href="#b-aufmerksamkeit">Aufmerksamkeit als Ressource</a></li>
     <li><a href="#b-aktivierung-1">Aktivierung · Den Hinweis retten</a></li>
     <li><a href="#b-dauerhaft">Wenn Aufmerksamkeit dauerhaft fehlt</a></li>
-    <li><a href="#b-aktivierung-2">Aktivierung · Entscheidung mit Preis</a></li>
+    <li><a href="#b-aktivierung-2">Aktivierung · Entscheidung mit Nachteil</a></li>
     <li><a href="#b-sicherung">Für die Klausur und Bilanz</a></li>
     <li><a href="#anhang">Anhang</a></li>
   </ol>
@@ -2748,7 +2762,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>3</i><i>5</i></span>
   
   <h2 class="chunk-heading">Was in den Antworten oft fehlt</h2>
-  <p><strong>Häufig fehlt das Umgebungslicht: die Grenzgröße, die im Datenblatt nicht steht.</strong></p>
+  <p><strong>In früheren Durchläufen fehlte häufig das Umgebungslicht: die Grenzgröße, die im Datenblatt nicht steht.</strong></p>
 <ul>
 <li>Viele Gruppen argumentieren mit <strong>Auflösung, Helligkeit, Farbe</strong>. Genau die liefert die Recherche</li>
 <li>Die Grenzgröße, die bei der <strong>Werbetafel am Bahnsteig</strong> ausschlaggebend ist, taucht selten auf</li>
@@ -2756,7 +2770,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </ul>
 <div class="script-only">
 
-<p>Häufig fehlt in den Antworten dasselbe: das Umgebungslicht, die Grenzgröße, die im Datenblatt nicht steht.</p>
+<p>In früheren Durchläufen fehlte in den Antworten häufig dasselbe: das Umgebungslicht, die Grenzgröße, die im Datenblatt nicht steht.</p>
 <p>Viele Gruppen argumentieren mit Auflösung, Helligkeit und Farbe. Genau die liefert die Recherche, und genau die stehen im Datenblatt.</p>
 <p>Die Grenzgröße, die bei der Werbetafel am Bahnsteig ausschlaggebend ist, taucht selten auf.</p>
 <p>Der Grund: Die Recherche findet nur, was Hersteller aufschreiben. Ein Sprachmodell hat dasselbe Problem: Es gibt wieder, was in den Quellen steht.</p>
@@ -3058,7 +3072,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 
-<p>Zweiter Stoffblock derselben Einheit, nebengeordnet. Leitartefakte: der übersehene Warnhinweis · der Klinikmonitor. Ziel: erklären, warum ein technisch sichtbarer Hinweis nicht wahrgenommen wird, und daraus eine Gestaltungsentscheidung mit benanntem Preis ableiten. Lernziel bleibt L4: die Wahrnehmungsgrenze als Auswahlkriterium.</p>
+<p>Zweiter Stoffblock derselben Einheit, nebengeordnet. Leitartefakte: der übersehene Warnhinweis · der Klinikmonitor. Ziel: erklären, warum ein technisch sichtbarer Hinweis nicht wahrgenommen wird, und daraus eine Gestaltungsentscheidung mit benanntem Nachteil ableiten. Lernziel bleibt L4: die Wahrnehmungsgrenze als Auswahlkriterium.</p>
 </div>
   
   
@@ -3138,7 +3152,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li><strong>Unaufmerksamkeitsblindheit</strong> und <strong>Change Blindness</strong> unterscheiden und je einem Fall zuordnen</li>
 <li>Erklären, warum <strong>größer und heller</strong> gegen eine laufende Aufgabe nicht hilft</li>
-<li>Die <strong>drei Wege</strong> benennen, Aufmerksamkeit zu erzwingen, samt ihrem jeweiligen Preis</li>
+<li>Die <strong>drei Wege</strong> benennen, Aufmerksamkeit zu erzwingen, samt ihrem jeweiligen Nachteil</li>
 <li>Sagen, warum ein zusätzlicher Hinweis <strong>alle anderen schwächt</strong></li>
 </ul>
 <div class="script-only">
@@ -3148,7 +3162,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Unaufmerksamkeitsblindheit und Change Blindness unterscheiden und je einem Fall zuordnen; die Trennlinie liegt daran, was die Zuteilung bindet: eine Aufgabe oder die Blickbewegung,</li>
 <li>erklären, warum eine Gestaltung, die nur größer und heller wird, gegen eine laufende Aufgabe nicht hilft,</li>
-<li>die drei Wege benennen, Aufmerksamkeit auch gegen eine laufende Aufgabe zu erzwingen, und zu jedem den Preis angeben,</li>
+<li>die drei Wege benennen, Aufmerksamkeit auch gegen eine laufende Aufgabe zu erzwingen, und zu jedem den Nachteil angeben,</li>
 <li>sagen, warum ein zusätzlicher Hinweis alle anderen schwächt, die schon da sind.</li>
 </ul>
 <p>Alle vier gehören zu L4. Das vierte hat in der Praxis besonders große Folgen.</p>
@@ -3719,7 +3733,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="b-aktivierung-2">
-  <h1 class="column-heading">Aktivierung · Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Aktivierung · Entscheidung mit Nachteil</h1>
   
   
   
@@ -3729,20 +3743,20 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>2</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis</span> <span class="hd-sub">14 Minuten · Vierergruppen</span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil</span> <span class="hd-sub">14 Minuten · Vierergruppen</span></h2>
   <p><strong>Ein Klinikmonitor hat sieben Alarmzustände. Sie dürfen drei behalten.</strong></p>
 <ul>
 <li><strong>Zeit:</strong> 10 Minuten Arbeit, danach 4 Minuten Auflösung an zwei Gegenpositionen</li>
 <li><strong>Sozialform:</strong> Vierergruppen</li>
-<li><strong>Ergebnis:</strong> drei behaltene Alarme mit Begründung, dazu der benannte Preis der vier gestrichenen</li>
-<li><strong>KI-Rolle: Prüfobjekt.</strong> Fragen Sie das Modell, welche drei es behielte. Prüfen Sie, ob es den Preis der Streichungen benennt oder alle sieben schönredet. Die Entscheidung bleibt bei Ihnen.</li>
+<li><strong>Ergebnis:</strong> drei behaltene Alarme mit Begründung, dazu der benannte Nachteil der vier gestrichenen</li>
+<li><strong>KI-Rolle: Prüfobjekt.</strong> Fragen Sie das Modell, welche drei es behielte. Prüfen Sie, ob es den Nachteil der Streichungen benennt oder alle sieben schönredet. Die Entscheidung bleibt bei Ihnen.</li>
 </ul>
 <div class="script-only">
 
 <p>Die letzte Aktivierung, 14 Minuten in Vierergruppen. Sie setzt die These unmittelbar um.</p>
 <p>Der Fall: Ein Klinikmonitor hat sieben Alarmzustände. Sie dürfen drei behalten.</p>
-<p>Das Ergebnis besteht aus zwei Teilen: drei behaltene Alarme mit Begründung, und der benannte Preis der vier gestrichenen. Der zweite Teil ist der schwierigere.</p>
-<p>Die KI-Rolle ist hier eine Prüfung mit Ansage: Fragen Sie das Modell, welche drei es behielte. Und prüfen Sie dann, ob es den Preis der Streichungen benennt oder ob es alle sieben schönredet und erklärt, warum keiner entbehrlich ist.</p>
+<p>Das Ergebnis besteht aus zwei Teilen: drei behaltene Alarme mit Begründung, und der benannte Nachteil der vier gestrichenen. Der zweite Teil ist der schwierigere.</p>
+<p>Die KI-Rolle ist hier eine Prüfung mit Ansage: Fragen Sie das Modell, welche drei es behielte. Und prüfen Sie dann, ob es den Nachteil der Streichungen benennt oder ob es alle sieben schönredet und erklärt, warum keiner entbehrlich ist.</p>
 <p>Häufig tut es Letzteres, überzeugend formuliert. Die Entscheidung bleibt bei Ihnen.</p>
 </div>
   
@@ -3789,15 +3803,15 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Wer alle sieben behält, hat auch entschieden, nur ohne es zu benennen.</strong></p>
 <ul>
 <li>Wer nicht streicht, überlässt die Priorisierung der <strong>müden Nachtschicht</strong>: der Person mit der schlechtesten Informationslage und der geringsten verbleibenden Aufmerksamkeit</li>
-<li>Die Klausur verlangt für die gewählte Seite den <strong>benannten Preis</strong>; welche Seite, ist frei</li>
+<li>Die Klausur verlangt für die gewählte Seite den <strong>benannten Nachteil</strong>; welche Seite, ist frei</li>
 </ul>
 <div class="script-only">
 
 <p>Eine Frage, die häufig kommt: Darf man nicht einfach alle sieben behalten?</p>
 <p>Die Antwort: Wer alle sieben behält, hat auch entschieden, nur ohne es zu benennen.</p>
 <p>Wer nicht streicht, überlässt die Priorisierung der müden Nachtschicht: der Person mit der schlechtesten Informationslage und der geringsten verbleibenden Aufmerksamkeit, und ohne Anleitung, nach welchen Kriterien sie priorisieren soll.</p>
-<p>Dieselbe Struktur wie der dritte Weg in Einheit 5, den Preis akzeptieren: Wer die Wahl offenlässt und den Preis nicht benennt, hat die Entscheidung nur verschoben.</p>
-<p>Für die Klausur gilt: Welche Seite Sie wählen, ist frei. Verlangt wird für die gewählte Seite der benannte Preis.</p>
+<p>Dieselbe Struktur wie der dritte Weg in Einheit 5, den Nachteil akzeptieren: Wer die Wahl offenlässt und den Nachteil nicht benennt, hat die Entscheidung nur verschoben.</p>
+<p>Für die Klausur gilt: Welche Seite Sie wählen, ist frei. Verlangt wird für die gewählte Seite der benannte Nachteil.</p>
 </div>
   
   
@@ -3813,18 +3827,18 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Streng priorisieren</strong></p>
 <ul>
 <li>Drei Alarme, die <strong>zuverlässiger ankommen</strong>, statt sieben, die sich gegenseitig schwächen</li>
-<li>Preis: Die gestrichenen Zustände brauchen einen <strong>anderen Weg</strong>, und der muss benannt werden</li>
+<li>Nachteil: Die gestrichenen Zustände brauchen einen <strong>anderen Weg</strong>, und der muss benannt werden</li>
 </ul>
 <p><strong>Nichts streichen</strong></p>
 <ul>
 <li>Jeder Zustand ist <strong>medizinisch begründet</strong>; die Verantwortung bleibt vollständig sichtbar</li>
-<li>Preis: Die Priorisierung passiert trotzdem, ungeplant, im <strong>Kopf der Person am Monitor</strong></li>
+<li>Nachteil: Die Priorisierung passiert trotzdem, ungeplant, im <strong>Kopf der Person am Monitor</strong></li>
 </ul>
 <div class="script-only">
 
 <p>Zwei Gegenpositionen. Beide sind vertretbar.</p>
-<p>Streng priorisieren: drei Alarme, die zuverlässiger ankommen, statt sieben, die sich gegenseitig schwächen. Der Preis: Die gestrichenen Zustände brauchen einen anderen Weg, eine stille Protokollierung, eine Anzeige ohne Alarm, eine Sammelmeldung, und dieser Weg muss benannt werden. Streichen ohne Ersatz ist bloß Weglassen.</p>
-<p>Nichts streichen: Jeder Zustand ist medizinisch begründet, und die Verantwortung bleibt vollständig sichtbar. Gerade beim Medizinprodukt ein ernstes Argument. Der Preis: Die Priorisierung passiert trotzdem, ungeplant, im Kopf der Person am Monitor.</p>
+<p>Streng priorisieren: drei Alarme, die zuverlässiger ankommen, statt sieben, die sich gegenseitig schwächen. Der Nachteil: Die gestrichenen Zustände brauchen einen anderen Weg, eine stille Protokollierung, eine Anzeige ohne Alarm, eine Sammelmeldung, und dieser Weg muss benannt werden. Streichen ohne Ersatz ist bloß Weglassen.</p>
+<p>Nichts streichen: Jeder Zustand ist medizinisch begründet, und die Verantwortung bleibt vollständig sichtbar. Gerade beim Medizinprodukt ein ernstes Argument. Der Nachteil: Die Priorisierung passiert trotzdem, ungeplant, im Kopf der Person am Monitor.</p>
 <p>Priorisiert wird also in beiden Fällen. Der Unterschied liegt darin, ob es dokumentiert und verantwortet geschieht oder stillschweigend in der Nachtschicht.</p>
 </div>
   
@@ -3849,14 +3863,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Aus Teil B führt Folgendes in die Klausur</strong> (Lernziel L4):</p>
 <ul>
 <li>zwei <strong>Modalitäten gegeneinanderstellen</strong> und die Wahrnehmungsgrenze als Kriterium anführen</li>
-<li>einen übersehenen Hinweis <strong>retten</strong>: Vorschlag mit benanntem Preis und betroffener Gruppe (K-T08B-1)</li>
+<li>einen übersehenen Hinweis <strong>retten</strong>: Vorschlag mit benanntem Nachteil und betroffener Gruppe (K-T08B-1)</li>
 <li>begründen, warum ein sichtbarer Hinweis <strong>nicht wahrgenommen</strong> wurde, ohne auf Helligkeit oder Größe zu verweisen (K-T08B-2)</li>
 </ul>
 <div class="script-only">
 
 <p>Aus Teil B gehen drei Aufgabenformen in die Klausur, wieder zu L4.</p>
 <p>Erstens: zwei Modalitäten gegeneinanderstellen und die Wahrnehmungsgrenze als Kriterium anführen. „Ton ist besser&quot; reicht nicht. Die Frage lautet: Welcher Kanal ist in diesem Kontext frei?</p>
-<p>Zweitens: einen übersehenen Hinweis retten, mit benanntem Preis und betroffener Gruppe. Genau das Format der Aktivierung.</p>
+<p>Zweitens: einen übersehenen Hinweis retten, mit benanntem Nachteil und betroffener Gruppe. Genau das Format der Aktivierung.</p>
 <p>Drittens die Aufgabe mit einer bewussten Einschränkung: begründen, warum ein sichtbarer Hinweis nicht wahrgenommen wurde, ohne auf Helligkeit oder Größe zu verweisen.</p>
 <p>Diese Einschränkung ist keine Schikane. Sie prüft genau die Unterscheidung, um die es in Teil B geht: Sichtbarkeit gegen Zuteilung.</p>
 </div>
@@ -3870,7 +3884,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>7</i></span>
   <span class="chunk-label">frage</span>
-  <h2 class="chunk-heading">Wen schließt das aus – und was ist die gleichwertige Alternative?</h2>
+  <h2 class="chunk-heading">Wen schließt das aus, und was ist die gleichwertige Alternative?</h2>
   <p><strong>Beim rein visuellen Hinweis:</strong> ausgeschlossen ist, wer nicht hinsehen kann, dauerhaft oder in dieser Sekunde. Die gleichwertige Alternative ist der freie Kanal: Ton oder Vibration, gleiche Aufgabe, gleiches Ergebnis, vergleichbarer Aufwand.</p>
 <div class="script-only">
 

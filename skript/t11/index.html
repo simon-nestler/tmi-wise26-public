@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1749,7 +1763,7 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-stoerungen">Fünf Störungen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Fünf Störungen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#lernziele-b" data-rd="lernziele-b"><span class="rd-num">53</span><span class="rd-text">Einheit 11 · Teil B · Lernziele</span></a></li><li><a href="#kern-stoerungen" data-rd="kern-stoerungen"><span class="rd-num">54</span><span class="rd-text">Störungen · fünf Arten im Raum</span></a></li><li><a href="#stoerung-verdeckung" data-rd="stoerung-verdeckung"><span class="rd-num">55</span><span class="rd-text">Verdeckung · die Sichtlinie reißt ab</span></a></li><li><a href="#stoerung-reflexion" data-rd="stoerung-reflexion"><span class="rd-num">56</span><span class="rd-text">Reflexion · das Licht kommt zweimal an</span></a></li><li><a href="#stoerung-metall" data-rd="stoerung-metall"><span class="rd-num">57</span><span class="rd-text">Metall · das Feld verzieht sich</span></a></li><li><a href="#stoerung-licht" data-rd="stoerung-licht"><span class="rd-num">58</span><span class="rd-text">Licht · was sich ändert, ohne dass etwas passiert</span></a></li><li><a href="#stoerung-menschen" data-rd="stoerung-menschen"><span class="rd-num">59</span><span class="rd-text">Menschen im Bild · der Raum bewegt sich mit</span></a></li><li><a href="#fig-stoermatrix" data-rd="fig-stoermatrix"><span class="rd-num">60</span><span class="rd-text">Störmatrix · fünf Störungen gegen vier Verfahren</span></a></li><li><a href="#verlustverhalten" data-rd="verlustverhalten"><span class="rd-num">61</span><span class="rd-text">Verlust · was das System dann tut</span></a></li><li><a href="#vermutungsstelle" data-rd="vermutungsstelle"><span class="rd-num">62</span><span class="rd-text">Vermutungsstelle · wo das Tracking rät</span></a></li><li><a href="#these-luege" data-rd="these-luege"><span class="rd-num">63</span><span class="rd-text">Verliert ein System das Signal, zeigt es die Position aus dem Bewegungsmodell weiter, ohne den Wechsel anzuzeigen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-autopsie">Analyse der Fälle</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Analyse der Fälle"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#challenge-autopsie" data-rd="challenge-autopsie"><span class="rd-num">64</span><span class="rd-text">Analyse der Fälle</span></a></li><li><a href="#auftrag-autopsie" data-rd="auftrag-autopsie"><span class="rd-num">65</span><span class="rd-text">Auftrag · die Analyse</span></a></li><li><a href="#ki-werkzeug" data-rd="ki-werkzeug"><span class="rd-num">66</span><span class="rd-text">KI-Rolle · Werkzeug, und hier steht die Grenze</span></a></li><li><a href="#prueferrolle" data-rd="prueferrolle"><span class="rd-num">67</span><span class="rd-text">Prüferrolle · eine Person hält dagegen</span></a></li><li><a href="#aufloesung-drei-videos" data-rd="aufloesung-drei-videos"><span class="rd-num">68</span><span class="rd-text">Auflösung · an vier Fällen</span></a></li><li><a href="#zuordnungsfehler" data-rd="zuordnungsfehler"><span class="rd-num">69</span><span class="rd-text">Zittern · der häufigste Zuordnungsfehler</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-auswahl">Von den Fehlerquellen zur Auswahl</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Von den Fehlerquellen zur Auswahl"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#versagen-zur-auswahl" data-rd="versagen-zur-auswahl"><span class="rd-num">70</span><span class="rd-text">Auswahl · von den Fehlerquellen her</span></a></li><li><a href="#example-werkshalle" data-rd="example-werkshalle"><span class="rd-num">71</span><span class="rd-text">Werkshalle · Metall, Staub, Sichtlinien</span></a></li><li><a href="#example-op" data-rd="example-op"><span class="rd-num">72</span><span class="rd-text">Operationssaal · Licht, Sterilität, Fehlerkosten</span></a></li><li><a href="#example-wohnzimmer" data-rd="example-wohnzimmer"><span class="rd-num">73</span><span class="rd-text">Wohnzimmer · wechselndes Licht, wechselnde Möbel</span></a></li><li><a href="#drei-rasterbelegungen" data-rd="drei-rasterbelegungen"><span class="rd-num">74</span><span class="rd-text">Drei Räume · drei Rasterbelegungen</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">75</span><span class="rd-text">Entscheidung mit Preis</span></a></li><li><a href="#fall-rasterbelegung" data-rd="fall-rasterbelegung"><span class="rd-num">76</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#nebenbedingung" data-rd="nebenbedingung"><span class="rd-num">77</span><span class="rd-text">Nebenbedingung · was die Lösung tragen muss</span></a></li><li><a href="#ohne-ki" data-rd="ohne-ki"><span class="rd-num">78</span><span class="rd-text">KI-Rolle · ausgeschlossen, und hier steht warum</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">79</span><span class="rd-text">Auflösung · zwei Gegenpositionen</span></a></li><li><a href="#latenz-vergessen" data-rd="latenz-vergessen"><span class="rd-num">80</span><span class="rd-text">Latenz · was häufig vergessen wird</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">75</span><span class="rd-text">Entscheidung mit Nachteil</span></a></li><li><a href="#fall-rasterbelegung" data-rd="fall-rasterbelegung"><span class="rd-num">76</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#nebenbedingung" data-rd="nebenbedingung"><span class="rd-num">77</span><span class="rd-text">Nebenbedingung · was die Lösung tragen muss</span></a></li><li><a href="#ohne-ki" data-rd="ohne-ki"><span class="rd-num">78</span><span class="rd-text">KI-Rolle · ausgeschlossen, und hier steht warum</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">79</span><span class="rd-text">Auflösung · zwei Gegenpositionen</span></a></li><li><a href="#latenz-vergessen" data-rd="latenz-vergessen"><span class="rd-num">80</span><span class="rd-text">Latenz · was häufig vergessen wird</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#sicherung-b" data-rd="sicherung-b"><span class="rd-num">81</span><span class="rd-text">Für die Klausur · Aus Teil B</span></a></li><li><a href="#frage-l7" data-rd="frage-l7"><span class="rd-num">82</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#standard-person-im-bild" data-rd="standard-person-im-bild"><span class="rd-num">83</span><span class="rd-text">Ausschluss · die Person im Bild</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">84</span><span class="rd-text">Ein Trackingverfahren wählt man nach dem Raum, in dem es stehen soll</span></a></li><li><a href="#pruefen-t11" data-rd="pruefen-t11"><span class="rd-num">85</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t12" data-rd="ausblick-t12"><span class="rd-num">86</span><span class="rd-text">Nächste Woche · Einheit 12</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#lit-teil-a" data-rd="lit-teil-a"><span class="rd-num">87</span><span class="rd-text">Literatur und Material · Teil A</span></a></li><li><a href="#vollbild-tracking-versagensvideos" data-rd="vollbild-tracking-versagensvideos"><span class="rd-num">88</span><span class="rd-text">Sparkfun IMU Yaw Drift test</span></a></li><li><a href="#fallback-autopsie" data-rd="fallback-autopsie"><span class="rd-num">89</span><span class="rd-text">Fallback · weniger Fälle bei geringer Anwesenheit</span></a></li><li><a href="#fallback-byod" data-rd="fallback-byod"><span class="rd-num">90</span><span class="rd-text">Fallback · das IMU-Experiment misslingt</span></a></li><li><a href="#example-kinect-wheels" data-rd="example-kinect-wheels"><span class="rd-num">91</span><span class="rd-text">Die Alternative, gebaut: KINECT Wheels</span></a></li><li><a href="#vollbild-kinect-wheels-rollstuhl" data-rd="vollbild-kinect-wheels-rollstuhl"><span class="rd-num">92</span><span class="rd-text">KINECT wheels: wheelchair-accessible motion-based game interaction</span></a></li><li><a href="#standard-mechanisches-tracking" data-rd="standard-mechanisches-tracking"><span class="rd-num">93</span><span class="rd-text">Vertiefung · das Verfahren, das den Raum kaum braucht</span></a></li><li><a href="#quiz-freier-fall" data-rd="quiz-freier-fall"><span class="rd-num">94</span><span class="rd-text">Vertiefung · was zeigt der Beschleunigungssensor im freien Fall?</span></a></li><li><a href="#quiz-freier-fall-aufloesung" data-rd="quiz-freier-fall-aufloesung"><span class="rd-num">95</span><span class="rd-text">Auflösung · C, der Sensor fällt mit</span></a></li><li><a href="#standard-wagenrad-abtastung" data-rd="standard-wagenrad-abtastung"><span class="rd-num">96</span><span class="rd-text">Vertiefung · das Rad, das rückwärts läuft</span></a></li><li><a href="#vollbild-wagenrad-effekt" data-rd="vollbild-wagenrad-effekt"><span class="rd-num">97</span><span class="rd-text">Why car wheels rotate backwards in movies</span></a></li><li><a href="#lit-teil-b" data-rd="lit-teil-b"><span class="rd-num">98</span><span class="rd-text">Literatur · Teil B</span></a></li></ol></li>
   </ol>
@@ -1784,7 +1798,7 @@ strong { color: var(--ink); }
     <li><a href="#b-stoerungen">Fünf Störungen</a></li>
     <li><a href="#b-autopsie">Analyse der Fälle</a></li>
     <li><a href="#b-auswahl">Von den Fehlerquellen zur Auswahl</a></li>
-    <li><a href="#b-entscheidung">Entscheidung mit Preis</a></li>
+    <li><a href="#b-entscheidung">Entscheidung mit Nachteil</a></li>
     <li><a href="#b-sicherung">Für die Klausur und Bilanz</a></li>
     <li><a href="#anhang">Anhang</a></li>
   </ol>
@@ -2999,7 +3013,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Für die Klausur · Aus Teil A</h2>
   <p><strong>Aus Teil A führt Folgendes in die Klausur</strong> (Lernziel L5):</p>
 <ul>
-<li>Vier Trackingverfahren <strong>nach ihrem Versagensverhalten</strong> unterscheiden und einem Raum zuordnen</li>
+<li>Vier Trackingverfahren <strong>nach ihren Fehlerquellen</strong> unterscheiden und einem Raum zuordnen</li>
 <li><strong>Latenz von Abtastrate trennen</strong> und begründen, welche der beiden über die Nutzbarkeit entscheidet</li>
 </ul>
 <p>Die zugehörigen Klausuraufgaben sind K-T11A-1 und K-T11A-2. Die Klausur stellt dieselbe Art von Frage an einem verschobenen Fall.</p>
@@ -3007,7 +3021,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 
 <h3>Bilanz von Teil A</h3>
 <p>Zwei Dinge führen aus Teil A in die Klausur, beide zu Lernziel L5.</p>
-<p>Erstens: vier Trackingverfahren nach ihrem Versagensverhalten unterscheiden und einem Raum zuordnen. Sortiert wird nach den typischen Fehlerquellen, nicht nach Genauigkeit.</p>
+<p>Erstens: vier Trackingverfahren nach ihren Fehlerquellen unterscheiden und einem Raum zuordnen. Sortiert wird nach den typischen Fehlerquellen, nicht nach Genauigkeit.</p>
 <p>Zweitens: Latenz von Abtastrate trennen und begründen, welche der beiden über die Nutzbarkeit entscheidet.</p>
 <p>Die Klausuraufgaben sind K-T11A-1 und K-T11A-2. Die Klausur stellt dieselbe Art von Frage an einem verschobenen Fall: ein Raum, den wir hier nicht behandelt haben, mit einer Rasterbelegung, die Sie selbst aufstellen.</p>
 <h3>Prüffragen zu Teil A</h3>
@@ -3290,7 +3304,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Die <strong>fünf Störungen</strong> benennen und jeder das betroffene Verfahren zuordnen</li>
 <li>Einen Fehler nach <strong>Sensor, Modell und Raum</strong> einordnen</li>
 <li>Die drei <strong>Verlustverhalten</strong> unterscheiden und ihre Wirkung auf die bedienende Person</li>
-<li>Ein Verfahren für einen gegebenen Raum <strong>wählen, mit Preis und benachteiligter Gruppe</strong></li>
+<li>Ein Verfahren für einen gegebenen Raum <strong>wählen, mit Nachteil und benachteiligter Gruppe</strong></li>
 </ul>
 <div class="script-only">
 
@@ -3300,7 +3314,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>die fünf Störungen benennen und jeder das betroffene Verfahren zuordnen,</li>
 <li>einen beobachteten Fehler nach Sensor, Modell und Raum einordnen, die Frage vom Anfang von Teil A,</li>
 <li>die drei Verlustverhalten unterscheiden, einfrieren, extrapolieren, zurücksetzen, und sagen, was jedes bei der bedienenden Person auslöst,</li>
-<li>ein Verfahren für einen gegebenen Raum wählen und die Wahl mit Preis und benachteiligter Gruppe vertreten.</li>
+<li>ein Verfahren für einen gegebenen Raum wählen und die Wahl mit Nachteil und benachteiligter Gruppe vertreten.</li>
 </ul>
 <p>Die ersten drei gehören zu L5, das vierte zu L4 und ist die Klausurform K-T11B-1.</p>
 <p>Die Ziele stehen absichtlich hinter den vier Archivfällen.</p>
@@ -3921,7 +3935,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li><strong>Werkshalle:</strong> Die Umgebung streicht magnetisch, Licht und Menschen erschweren inside-out</li>
 <li>Im <strong>Operationssaal</strong> entscheiden die Fehlerkosten; die Umgebung allein hätte anders entschieden</li>
-<li>Im Wohnzimmer entscheiden <strong>Nutzerspektrum und Preis</strong> mit</li>
+<li>Im Wohnzimmer entscheiden <strong>Nutzerspektrum und Nachteil</strong> mit</li>
 <li>Sechs Dimensionen hat das <strong>Kontextraster aus Einheit 5</strong>, und heute stand vor allem eine im Vordergrund</li>
 </ul>
 <div class="script-only">
@@ -3930,7 +3944,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Die Umgebung entscheidet hier viel, aber nicht allein.</p>
 <p>In der Werkshalle streicht die Umgebung das magnetische Verfahren, und Licht und Menschen erschweren inside-out.</p>
 <p>Im Operationssaal entscheiden die Fehlerkosten. Die Umgebung allein hätte anders entschieden: Sie hätte magnetisch ebenfalls gewählt, aber aus Verdeckungsgründen, nicht wegen der Sicherheit.</p>
-<p>Im Wohnzimmer entscheiden Nutzerspektrum und Preis mit; die Umgebung wäre mit mehreren Verfahren zufrieden.</p>
+<p>Im Wohnzimmer entscheiden Nutzerspektrum und Nachteil mit; die Umgebung wäre mit mehreren Verfahren zufrieden.</p>
 <p>Sechs Dimensionen hat das Kontextraster aus Einheit 5, und heute stand vor allem eine im Vordergrund. Gehen Sie trotzdem alle sechs durch.</p>
 </div>
   
@@ -3941,7 +3955,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="b-entscheidung">
-  <h1 class="column-heading">Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Entscheidung mit Nachteil</h1>
   
   
   
@@ -3951,19 +3965,19 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>5</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis</span> <span class="hd-sub">12 Minuten · Vierergruppen</span></h2>
-  <p><strong>Auftrag:</strong> Ein Trainingssystem für die Werkshalle. Verfahren wählen, zwei Kriterien nennen, den Preis benennen.</p>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil</span> <span class="hd-sub">12 Minuten · Vierergruppen</span></h2>
+  <p><strong>Auftrag:</strong> Ein Trainingssystem für die Werkshalle. Verfahren wählen, zwei Kriterien nennen, den Nachteil benennen.</p>
 <ul>
 <li><strong>Zeit:</strong> 8 Minuten Arbeit, danach 4 Minuten Auflösung</li>
 <li><strong>Sozialform:</strong> Vierergruppen</li>
-<li><strong>Ergebnis:</strong> eine Wahl, zwei Kriterien, ein benannter Preis</li>
+<li><strong>Ergebnis:</strong> eine Wahl, zwei Kriterien, ein benannter Nachteil</li>
 <li><strong>KI-Rolle: ausgeschlossen.</strong> Die Abwägung ist die Übung.</li>
 </ul>
 <div class="script-only">
 
 <p>Die zweite Aktivierung ist die Klausurübung dieser Einheit.</p>
-<p>Ein Trainingssystem für die Werkshalle. Sie wählen ein Verfahren, nennen zwei Kriterien und benennen den Preis.</p>
-<p>Acht Minuten Arbeit, vier Minuten Auflösung, Vierergruppen. Ergebnis: eine Wahl, zwei Kriterien, ein benannter Preis.</p>
+<p>Ein Trainingssystem für die Werkshalle. Sie wählen ein Verfahren, nennen zwei Kriterien und benennen den Nachteil.</p>
+<p>Acht Minuten Arbeit, vier Minuten Auflösung, Vierergruppen. Ergebnis: eine Wahl, zwei Kriterien, ein benannter Nachteil.</p>
 <p>Die KI-Rolle ist hier ausgeschlossen. Die Begründung unterscheidet sich von der in Einheit 10.</p>
 <p>Zum Fall gehören eine Rasterbelegung und eine Nebenbedingung. Lesen Sie beide, bevor Sie anfangen. Zwei Rasterzeilen sind gegenüber dem Werkshallen-Beispiel verschoben.</p>
 </div>
@@ -4036,14 +4050,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Die Abwägung selbst ist die Übung, und die Klausur stellt sie ohne Modell.</strong></p>
 <ul>
 <li>In der Analyse war <strong>KI Werkzeug</strong>, denn Fakten zum Gerät sind delegierbar</li>
-<li>Die <strong>Wahl mit Preis</strong> ist es nicht: Ein Modell wählt plausibel, verantwortet aber die Nachteile nicht und kennt die Halle nicht</li>
+<li>Die <strong>Wahl mit Nachteil</strong> ist es nicht: Ein Modell wählt plausibel, verantwortet aber die Nachteile nicht und kennt die Halle nicht</li>
 <li><strong>K-T11B-2</strong> stellt genau diese Aufgabe unter Klausurbedingungen</li>
 </ul>
 <div class="script-only">
 
 <p>Die Begründung für den Ausschluss unterscheidet sich von der in der Analyse.</p>
 <p>In der Analyse war KI Werkzeug, denn Fakten zum Gerät sind delegierbar. Was ein Gerät verbaut, steht geschrieben.</p>
-<p>Die Wahl mit Preis ist es nicht. Ein Modell wählt plausibel. Es wird Ihnen inside-out mit Fusion vorschlagen, und das ist nicht einmal falsch. Was es nicht kann: die Nachteile verantworten und die Halle kennen. Es weiß nicht, dass die Produktion keinen Aufbau duldet, und es haftet nicht für eine falsch trainierte Bewegung.</p>
+<p>Die Wahl mit Nachteil ist es nicht. Ein Modell wählt plausibel. Es wird Ihnen inside-out mit Fusion vorschlagen, und das ist nicht einmal falsch. Was es nicht kann: die Nachteile verantworten und die Halle kennen. Es weiß nicht, dass die Produktion keinen Aufbau duldet, und es haftet nicht für eine falsch trainierte Bewegung.</p>
 <p>Der praktische Grund: K-T11B-2 stellt genau diese Aufgabe unter Klausurbedingungen. Wer die Abwägung heute delegiert, übt nichts für den Tag, an dem sie zählt.</p>
 </div>
   
@@ -4060,7 +4074,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Inside-out mit IMU-Fusion</strong></p>
 <ul>
 <li>Erfüllt die <strong>Nebenbedingung</strong>: Alles steckt am Gerät</li>
-<li>Preis: Lichtwechsel und Laufwege. Das <strong>Verlustverhalten</strong> muss gutmütig sein</li>
+<li>Nachteil: Lichtwechsel und Laufwege. Das <strong>Verlustverhalten</strong> muss gutmütig sein</li>
 </ul>
 <p><strong>Outside-in, fest installiert</strong></p>
 <ul>
@@ -4070,9 +4084,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 <p>Zwei Gegenpositionen, beide vertretbar, auf verschiedene Weise.</p>
-<p>Inside-out mit IMU-Fusion erfüllt die Nebenbedingung: Alles steckt am Gerät, nichts wird in der Halle montiert. Der Preis gehört dazu: Lichtwechsel und Laufwege. Daraus folgt eine Entwurfsanforderung: Das Verlustverhalten muss gutmütig sein. Kein stilles Extrapolieren in einer Halle, in der falsch Trainiertes in den Ernstfall wandert.</p>
+<p>Inside-out mit IMU-Fusion erfüllt die Nebenbedingung: Alles steckt am Gerät, nichts wird in der Halle montiert. Der Nachteil gehört dazu: Lichtwechsel und Laufwege. Daraus folgt eine Entwurfsanforderung: Das Verlustverhalten muss gutmütig sein. Kein stilles Extrapolieren in einer Halle, in der falsch Trainiertes in den Ernstfall wandert.</p>
 <p>Outside-in, fest installiert, ist am genauesten, aber nur gegen die Nebenbedingung verhandelbar. Vertretbar ist diese Position allein über die Fehlerkosten. Wer so argumentiert, muss den Umbau begründen und mit der Produktion verhandeln.</p>
-<p>Dieselbe Figur wie in Einheit 10: Bewertet wird, ob Begründung und Preis zusammenpassen. Nicht die Wahl.</p>
+<p>Dieselbe Figur wie in Einheit 10: Bewertet wird, ob Begründung und Nachteil zusammenpassen. Nicht die Wahl.</p>
 </div>
   
   
@@ -4087,14 +4101,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Latenz · was häufig vergessen wird</h2>
   <p><strong>Die Latenz aus Teil A.</strong></p>
 <ul>
-<li>Gewählt wird nach <strong>Genauigkeit und Preis</strong>. Die dritte Zahl fehlt</li>
+<li>Gewählt wird nach <strong>Genauigkeit und Nachteil</strong>. Die dritte Zahl fehlt</li>
 <li><strong>Ein Trainingssystem mit träger Anzeige</strong> trainiert falsche Bewegungen</li>
 <li>Aus Teil A: Ab <strong>50–60 ms</strong> steigt das Übelkeitsrisiko deutlich</li>
 </ul>
 <div class="script-only">
 
 <p>Häufig vergessen wird die Latenz aus Teil A.</p>
-<p>Gewählt wird nach Genauigkeit und Preis. Die dritte Zahl fehlt, obwohl sie in Teil A eine eigene These hatte.</p>
+<p>Gewählt wird nach Genauigkeit und Nachteil. Die dritte Zahl fehlt, obwohl sie in Teil A eine eigene These hatte.</p>
 <p>Warum das hier besonders ins Gewicht fällt: Ein Trainingssystem mit träger Anzeige trainiert falsche Bewegungen. Die Person passt ihre Bewegung an das verzögerte Bild an und lernt diese Anpassung mit. Das wandert in den Ernstfall, die verschobene Fehlerkostenzeile.</p>
 <p>Die Zahl aus Teil A: Ab 50 bis 60 Millisekunden steigt das Übelkeitsrisiko deutlich. In einer Halle, in der Kolleginnen zusehen, ist das zusätzlich ein soziales Problem.</p>
 </div>
@@ -4120,14 +4134,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Aus Teil B führt Folgendes in die Klausur</strong> (Lernziel L5):</p>
 <ul>
 <li>Aus einer Fehlerbeschreibung <strong>Verfahren und Störung rückschließen</strong> und begründen</li>
-<li>Für einen beschriebenen Raum ein Verfahren wählen, <strong>zwei Kriterien und den Preis</strong> benennen</li>
+<li>Für einen beschriebenen Raum ein Verfahren wählen, <strong>zwei Kriterien und den Nachteil</strong> benennen</li>
 </ul>
 <p>Die zugehörigen Klausuraufgaben sind K-T11B-1 und K-T11B-2, Erwartungshorizonte in <code class="nb">aufgaben/klausurkeime.md</code>.</p>
 <div class="script-only">
 
 <p>Zwei Dinge führen aus Teil B in die Klausur, beide zu Lernziel L5.</p>
 <p>Erstens: Aus einer Fehlerbeschreibung Verfahren und Störung rückschließen und begründen. Das ist die Analyse, schriftlich.</p>
-<p>Zweitens: Für einen beschriebenen Raum ein Verfahren wählen, zwei Kriterien und den Preis benennen. Das ist die zweite Aktivierung, schriftlich.</p>
+<p>Zweitens: Für einen beschriebenen Raum ein Verfahren wählen, zwei Kriterien und den Nachteil benennen. Das ist die zweite Aktivierung, schriftlich.</p>
 <p>Die Klausuraufgaben sind K-T11B-1 und K-T11B-2; die Erwartungshorizonte stehen in <code class="nb">aufgaben/klausurkeime.md</code>.</p>
 <p>Ein Hinweis zur Bewertung: „Nicht entscheidbar&quot; ist auch in der Klausur eine zulässige Antwort, wenn die Aufgabe die Information nicht hergibt. Mit Begründung, warum sie fehlt.</p>
 </div>
@@ -4218,7 +4232,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Eine Brille zeigt eine Hand, die längst aus dem Bild ist. <strong>Sensor, Modell oder Raum, und was genau tut das System?</strong></li>
 <li><strong>Warum hilft gegen Drift keine bessere Fertigung?</strong></li>
-<li>Ein Messestand, viel Publikum, Glasvitrinen, Deckenspots. <strong>Welches Verfahren wählen Sie, und was ist der Preis?</strong></li>
+<li>Ein Messestand, viel Publikum, Glasvitrinen, Deckenspots. <strong>Welches Verfahren wählen Sie, und was ist der Nachteil?</strong></li>
 </ul>
 <div class="script-only">
 
@@ -4227,8 +4241,8 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Alle drei sind beteiligt, und die Reihenfolge ist die Antwort: Der Raum hat die Sichtlinie genommen, der Sensor hat daraufhin aufgehört zu liefern, und das Modell extrapoliert, es schreibt die letzte Bewegung fort. Der Fehler, über den man reden muss, liegt im dritten Schritt: Der Wechsel von Messung zu Schätzung wird nicht angezeigt.</p>
 <p><em>Warum hilft gegen Drift keine bessere Fertigung?</em></p>
 <p>Weil Drift nicht aus einem großen Messfehler entsteht, sondern daraus, dass jeder noch so kleine Fehler zweimal integriert wird. Ein besserer Sensor verlangsamt das Weglaufen, er beendet es nicht. Beenden kann es nur eine Korrektur von außen: Kamera, Funk, Marker.</p>
-<p><em>Ein Messestand, viel Publikum, Glasvitrinen, Deckenspots. Welches Verfahren wählen Sie, und was ist der Preis?</em></p>
-<p>Gehen Sie die Matrix durch: Publikum heißt bewegte Merkmale und Verdeckung, Glas heißt Reflexion, Spots heißen wechselndes Licht. Inside-out steht damit schlecht, outside-in ebenfalls. Magnetisch bleibt: Der Messestand hat meist wenig Stahl, und die Reichweite von rund zwei Metern genügt für einen Stand. Der Preis: geringe Reichweite, Empfindlichkeit gegen Metallteile im Aufbau, und benachteiligt sind Besucherinnen und Besucher, die nicht an den Sender herankommen. Wer stattdessen outside-in wählt und die Kameras hoch über das Publikum hängt, hat ebenfalls eine vertretbare Antwort, mit dem Preis Aufbauaufwand und Standfläche.</p>
+<p><em>Ein Messestand, viel Publikum, Glasvitrinen, Deckenspots. Welches Verfahren wählen Sie, und was ist der Nachteil?</em></p>
+<p>Gehen Sie die Matrix durch: Publikum heißt bewegte Merkmale und Verdeckung, Glas heißt Reflexion, Spots heißen wechselndes Licht. Inside-out steht damit schlecht, outside-in ebenfalls. Magnetisch bleibt: Der Messestand hat meist wenig Stahl, und die Reichweite von rund zwei Metern genügt für einen Stand. Der Nachteil: geringe Reichweite, Empfindlichkeit gegen Metallteile im Aufbau, und benachteiligt sind Besucherinnen und Besucher, die nicht an den Sender herankommen. Wer stattdessen outside-in wählt und die Kameras hoch über das Publikum hängt, hat ebenfalls eine vertretbare Antwort, mit dem Nachteil Aufbauaufwand und Standfläche.</p>
 </div>
   
   

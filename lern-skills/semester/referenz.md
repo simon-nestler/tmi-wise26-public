@@ -25,7 +25,7 @@ Strang S: **Aus Messung wird Vermutung** – trägt T01, T06, T07, T11, T12. Er 
 | 12 | Sichtfeld und Latenz | Keine Bauform bekommt Sichtfeld, Gewicht, Latenz und Bildqualität zugleich | Spiralgang | L2, L4, L5 | ja | Vertiefung |
 | 13 | Anker 3: Technik, Ausschluss und Zugang | Ein Terminal, das verlangt, dass man die Barrierefreiheit findet, um sie einzuschalten, hat die Anforderung schon verfehlt | Spiralgang | L7, L8 | ja | **Anker 3: Raster am Recht** |
 
-Etappentitel und Merksätze sind seit dem 18.09.2026 getrennt und beide entparolt; die ältere Fassung (etwa „Kein Gerät erkennt etwas – es misst und rät", „Es gibt keine beste Technologie, nur bezahlte Preise", „Sprache versteht nichts, sie rät sehr gut") steht in der Notiz der jeweiligen Folie und darf nicht mehr als Stand des Moduls ausgegeben werden.
+Etappentitel und Merksätze sind seit dem 18.09.2026 getrennt und beide entparolt; die ältere Fassung (etwa „Kein Gerät erkennt etwas – es misst und rät", „Es gibt keine beste Technologie, nur in Kauf genommene Nachteile", „Sprache versteht nichts, sie rät sehr gut") steht in der Notiz der jeweiligen Folie und darf nicht mehr als Stand des Moduls ausgegeben werden.
 
 Wiederkehrende Leitartefakte: EMG-Armband, Sprachassistent, Face ID.
 
@@ -37,9 +37,9 @@ Semesterlänge (Stand 05.10.2026, nach dem Zeitplan in Moodle): Der Stundenplan 
 |---|---|---|
 | L1 | erkennen, wenn Fachbegriffe der MMI in Produktbeschreibungen, Anforderungen oder Modellausgaben falsch verwendet werden, und die korrekte Verwendung begründen | 1 |
 | L2 | ein aktuelles Interaktionskonzept auf ein historisch gescheitertes zurückführen und die wiederkehrende Ursache benennen | 1 |
-| L3 | für einen konkreten Nutzungskontext eine 2D-Eingabetechnologie begründet auswählen und den Preis dieser Wahl benennen | 1 |
+| L3 | für einen konkreten Nutzungskontext eine 2D-Eingabetechnologie begründet auswählen und den Nachteil dieser Wahl benennen | 1 |
 | L4 | zwei Ausgabemodalitäten für einen gegebenen Kontext gegeneinanderstellen und die Grenze der jeweiligen Wahrnehmung als Auswahlkriterium anführen | 1 |
-| L5 | 3D-Trackingverfahren nach ihrem Versagensverhalten unterscheiden und einem Anwendungsfall zuordnen | 1 |
+| L5 | 3D-Trackingverfahren nach ihren Fehlerquellen unterscheiden und einem Anwendungsfall zuordnen | 1 |
 | L6 | in einer Interaktionskette bestimmen, an welcher Stelle aus einem Signal eine Vermutung wird, und beurteilen, was beim Fehlschlag dieser Vermutung geschieht | 1 |
 | L7 | zu einem Eingabe- oder Ausgabekonzept benennen, welche Personengruppen es ausschließt, und eine gleichwertige Alternative angeben | 1 |
 | L8 | die Auswahl einer Interaktionstechnologie gegenüber Beteiligten mit widersprüchlichen Interessen vertreten | 2 |
@@ -67,7 +67,7 @@ Prüfung: schrP90 (schriftlich, 90 Minuten). Bewertungsgrundsätze aus den Klaus
 
 - Die Entscheidung selbst ist frei und bekommt keine Punkte; bewertet wird die Begründung.
 - Kriterien müssen einer Rasterdimension zuordenbar sein; "Sprache ist moderner" ist kein Kriterium (Geschmackssperre).
-- Ein Preis braucht die Personengruppe, die ihn zahlt; "kostet mehr Geld" ohne Ausschlussbezug zählt nicht als Preis.
+- Ein Nachteil braucht die Personengruppe, die ihn trägt; "kostet mehr Geld" ohne Ausschlussbezug zählt nicht als Nachteil.
 - Kriterium für systematischen Ausschluss: Wiederholbarkeit bei derselben Person oder Sprechergruppe, unabhängig von der Umgebung.
 - Wissensfragen zum Skriptstoff von T04 bleiben zulässig, Urteilsaufgaben nach seinen (gestrichenen) Keimen nicht.
 - Bei Ketten-Aufgaben (L6): Die Sprachkette hat sieben Stationen; bis zur Aufwachwort-Detektion (Station 4) wird gemessen, die zwei Vermutungsstellen sind Worterkennung (Station 5) und Absichtserkennung (Station 6); "das Mikrofon war schlecht" ohne Bezug zur Fehlerart bleibt unterhalb der Punktschwelle.
@@ -87,5 +87,5 @@ Prüfung: schrP90 (schriftlich, 90 Minuten). Bewertungsgrundsätze aus den Klaus
 - **BFSG:** verbindlich seit Juni 2025. **BFSGV-Neufassung:** in Kraft seit 16.07.2026, vom Bundesrat als sprachliche Anpassung an die EU-Vorgaben eingestuft – der Zirkel des § 7 Abs. 2 (Barrierefreiheitsfunktion finden müssen, um Barrierefreiheit einzuschalten) ist seit Juni 2025 verbindlich, nicht neu. Technische Norm: EN 301 549.
 - **EMG-Zugangsforschung:** Utah NeuroRobotics Lab nennt Muskeldystrophie, Schlaganfall, Querschnittlähmung, ALS und Gliedmaßenverlust (geklärt 11.08.2026); die CMU-Kooperation von 2024 ist eine davon verschiedene Zusammenarbeit.
 - **Neural Band (2025):** Prüfstein in T02 – zwei der drei historischen Gestenprobleme gelöst (Ermüdung, fehlender Ruhezustand, soziale Auffälligkeit); ob das reicht, ist offen und wird von der Gruppe entschieden, nicht behauptet.
-- **Hackathon WS 2026/27:** Sa 28.11., 8–18 Uhr, in G215, alle Gruppen gemeinsam, Ersatztermin Sa 12.12.; Oberthema „Wearables for Health & Wellbeing", verzahnt mit DMMS (dasselbe Zweierteam wie dort); Proposal bis Fr 30.10. (23:55 Uhr) in Moodle. Terminplan „vorbehaltlich Änderungen → siehe Moodle".
+- **Hackathon WS 2026/27:** Sa 28.11., 8–18 Uhr, in G215, alle Gruppen gemeinsam, Ersatztermin Sa 12.12.; Oberthema „Wearables for Health & Wellbeing", verzahnt mit DMMS (dasselbe Zweierteam wie dort); Proposal bis Fr 06.11. (23:55 Uhr, verlängert vom 30.10.) in Moodle. Terminplan „vorbehaltlich Änderungen → siehe Moodle".
 - **Wintersemester 2026/27:** Vorlesungszeit 01.10.2026 bis 22.01.2027, Weihnachtspause 23.12.–06.01., Prüfungszeit ab 16.01.2027.

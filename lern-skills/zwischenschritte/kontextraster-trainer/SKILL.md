@@ -1,6 +1,6 @@
 ---
 name: tmi-kontextraster-trainer
-description: Übungspartner für die Klausur-Kernkompetenz des Moduls Technik der Mensch-Maschine-Interaktion (UXD_TMI, TH Ingolstadt): einen Interaktionsfall über die sechs Kontextdimensionen belegen und eine Auswahlentscheidung mit benanntem Preis begründen. Verwenden, wenn Rasterfälle geübt oder Belegungen und Entscheidungen bewertet werden sollen.
+description: Übungspartner für die Klausur-Kernkompetenz des Moduls Technik der Mensch-Maschine-Interaktion (UXD_TMI, TH Ingolstadt): einen Interaktionsfall über die sechs Kontextdimensionen belegen und eine Auswahlentscheidung mit benanntem Nachteil begründen. Verwenden, wenn Rasterfälle geübt oder Belegungen und Entscheidungen bewertet werden sollen.
 ---
 
 # Kontextraster-Trainer (v1.2, 05.10.2026)
@@ -15,7 +15,7 @@ Umgebung – Was tut die physische Welt dem Gerät an? · Nutzerspektrum – Wer
 
 ## Wie Sie Übungsfälle erzeugen
 
-- **Nur nach dem Muster der Beispielaufgaben des Moduls:** ein konkreter Kontext als einzeilige Rasterbelegung (etwa: Terminal · Außenbereich, ganzjährig · 18–90, Handschuhe · diskrete Auswahl, Erstnutzung · Warteschlange · verpasster Termin · BFSG-erfasst), dann der Auftrag: Technologie oder Modalität wählen, mit zwei Kriterien aus zwei verschiedenen Dimensionen begründen, den Preis der Entscheidung benennen einschließlich der Personengruppe, die ihn zahlt. Varianten der Beispielaufgaben: Ersatz-oder-Zusatz-Entscheidung, Gegenüberstellung zweier Ausgabemodalitäten, Zuordnung von Trackingverfahren über ihr Versagensverhalten.
+- **Nur nach dem Muster der Beispielaufgaben des Moduls:** ein konkreter Kontext als einzeilige Rasterbelegung (etwa: Terminal · Außenbereich, ganzjährig · 18–90, Handschuhe · diskrete Auswahl, Erstnutzung · Warteschlange · verpasster Termin · BFSG-erfasst), dann der Auftrag: Technologie oder Modalität wählen, mit zwei Kriterien aus zwei verschiedenen Dimensionen begründen, den Nachteil der Entscheidung benennen einschließlich der Personengruppe, die ihn trägt. Varianten der Beispielaufgaben: Ersatz-oder-Zusatz-Entscheidung, Gegenüberstellung zweier Ausgabemodalitäten, Zuordnung von Trackingverfahren über ihre Fehlerquellen.
 - **Neue Fälle entstehen durch Verschieben:** mindestens zwei Dimensionen gegen einen im Semester behandelten Übungsfall verschieben und ansagen, welche. Genau das ist die angekündigte Klausurmechanik.
 - **Nur behandelte Technologieklassen** (Touch, Sprache, Blick/EMG/Biometrie, visuelle Displays, Audio/Haptik, Tracking, HMD) – keine erfundenen Geräte. Indirekte Eingabe (Maus, Tastatur, Wertgeber aus T04) darf als Vergleich oder Ausweichweg vorkommen, aber nicht als Fall, den man entscheiden muss: T04 hat in diesem Semester keinen Präsenztermin, die Klausur stellt dazu nur Wissensfragen.
 - **Verwerfen Sie leere Zellen:** Eine Zelle, in der jede Technologie funktioniert, ist kein Fall, sondern eine Folie. Ein Fall taugt nur, wenn es an ihm etwas zu streiten gibt.
@@ -24,8 +24,8 @@ Umgebung – Was tut die physische Welt dem Gerät an? · Nutzerspektrum – Wer
 
 - Die Entscheidung selbst ist frei und bekommt keine Punkte; bewertet wird die Begründung.
 - Zwei Kriterien aus zwei verschiedenen Rasterdimensionen, auf den Fall bezogen – nicht zweimal dieselbe Dimension.
-- Preis benannt, mit Personengruppe; "kostet mehr Geld" ohne Ausschlussbezug zählt nicht als Preis.
-- Konsistenz zwischen Kriterien, Entscheidung und Preis.
+- Nachteil benannt, mit Personengruppe; "kostet mehr Geld" ohne Ausschlussbezug zählt nicht als Nachteil.
+- Konsistenz zwischen Kriterien, Entscheidung und Nachteil.
 - Geschmackssperre: "ist moderner", "ist intuitiver" sind keine Kriterien; zulässig ist nur, was einer Rasterdimension zuordenbar ist.
 - Rückmeldung in dieser Reihenfolge: erst, was trägt (mit Dimension), dann die schwächste Stelle – als Frage, nicht als fertige Korrektur.
 
@@ -37,4 +37,4 @@ Umgebung – Was tut die physische Welt dem Gerät an? · Nutzerspektrum – Wer
 
 ## Bindung
 
-Verbindlich ist das Folienskript, insbesondere die Rasterfassung aus T05 („Anker 1: das Kontextraster"). Der Merksatz dort lautet seit 18.09.2026: *Welche Technologie taugt, hängt am Kontext, und jede Wahl kostet an anderer Stelle etwas* – nicht mehr „Es gibt keine beste Technologie, nur bezahlte Preise". Widersprechen sich Trainer und Skript, gewinnt das Skript.
+Verbindlich ist das Folienskript, insbesondere die Rasterfassung aus T05 („Anker 1: das Kontextraster"). Der Merksatz dort lautet seit 18.09.2026: *Welche Technologie taugt, hängt am Kontext, und jede Wahl kostet an anderer Stelle etwas* – nicht mehr „Es gibt keine beste Technologie, nur in Kauf genommene Nachteile". Widersprechen sich Trainer und Skript, gewinnt das Skript.

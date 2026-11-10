@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 <style>.script-only,.annot-box,.annot-add{display:none!important}</style></head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1750,8 +1764,8 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-generationen">Vier Generationen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Vier Generationen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#raster-t02" data-rd="raster-t02"><span class="rd-num">53</span><span class="rd-text">Raster aus Einheit 2 · zurückgeholt</span></a></li><li><a href="#vierte-frage" data-rd="vierte-frage"><span class="rd-num">54</span><span class="rd-text">Vierte Frage · die für diese Kategorie fehlt</span></a></li><li><a href="#timeline-generationen" data-rd="timeline-generationen"><span class="rd-num">55</span><span class="rd-text">Vier Gerätegenerationen · von 1968 bis heute</span></a></li><li><a href="#vr-welle-1995" data-rd="vr-welle-1995"><span class="rd-num">56</span><span class="rd-text">VR 1995 · warum die erste Welle scheiterte</span></a></li><li><a href="#vollbild-vr-welle-1995" data-rd="vollbild-vr-welle-1995"><span class="rd-num">57</span><span class="rd-text">Virtuality - Virtual Reality Demo 1994</span></a></li><li><a href="#google-glass" data-rd="google-glass"><span class="rd-num">58</span><span class="rd-text">Google Glass · woran es scheiterte</span></a></li><li><a href="#vollbild-google-glass-2013" data-rd="vollbild-google-glass-2013"><span class="rd-num">59</span><span class="rd-text">Tech Report: Google Glass User Gets Unwanted Attention</span></a></li><li><a href="#vr-welle-2016" data-rd="vr-welle-2016"><span class="rd-num">60</span><span class="rd-text">VR 2016 · die zweite Welle</span></a></li><li><a href="#vergleich-geloest-geblieben" data-rd="vergleich-geloest-geblieben"><span class="rd-num">61</span><span class="rd-text">Vergleich · was gelöst wurde und was blieb</span></a></li><li><a href="#muster-sozial" data-rd="muster-sozial"><span class="rd-num">62</span><span class="rd-text">Muster · die soziale Zeile entscheidet</span></a></li><li><a href="#these-nie-technik" data-rd="these-nie-technik"><span class="rd-num">63</span><span class="rd-text">Bessere Technik allein hat in dieser Kategorie bisher kein Gerät alltagstauglich gemacht</span></a></li><li><a href="#prognose-2027" data-rd="prognose-2027"><span class="rd-num">64</span><span class="rd-text">2027 · was das Muster für die Ankündigung heißt</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-rueckfuehrung">Aktivierung · Die Rückführung</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Aktivierung · Die Rückführung"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#challenge-rueckfuehrung" data-rd="challenge-rueckfuehrung"><span class="rd-num">65</span><span class="rd-text">Die Rückführung</span></a></li><li><a href="#auftrag-rueckfuehrung" data-rd="auftrag-rueckfuehrung"><span class="rd-num">66</span><span class="rd-text">Auftrag · die Rückführung</span></a></li><li><a href="#falsifikationsauflage" data-rd="falsifikationsauflage"><span class="rd-num">67</span><span class="rd-text">Auflage · die Rückführung muss falsifizierbar sein</span></a></li><li><a href="#ohne-ki" data-rd="ohne-ki"><span class="rd-num">68</span><span class="rd-text">KI-Rolle · ausgeschlossen, und hier steht warum</span></a></li><li><a href="#rolle-pruefer" data-rd="rolle-pruefer"><span class="rd-num">69</span><span class="rd-text">Prüferrolle · eine Person hält dagegen</span></a></li><li><a href="#kern-rueckfuehrungen" data-rd="kern-rueckfuehrungen"><span class="rd-num">70</span><span class="rd-text">Auflösung · an zwei Rückführungen</span></a></li><li><a href="#fehler-zeit-nicht-reif" data-rd="fehler-zeit-nicht-reif"><span class="rd-num">71</span><span class="rd-text">Der häufigste Fehler</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-analogie">Wo die Analogie nicht mehr passt</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Wo die Analogie nicht mehr passt"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#unterschiede-1995" data-rd="unterschiede-1995"><span class="rd-num">72</span><span class="rd-text">Analogie · drei Unterschiede zu 1995</span></a></li><li><a href="#muster-grenze" data-rd="muster-grenze"><span class="rd-num">73</span><span class="rd-text">Grenze · wann ein Muster nicht mehr passt</span></a></li><li><a href="#these-werkzeug" data-rd="these-werkzeug"><span class="rd-num">74</span><span class="rd-text">Ein Muster liefert die Bedingung, die Sie am nächsten Gerät nachprüfen müssen</span></a></li><li><a href="#professionelle-aussage" data-rd="professionelle-aussage"><span class="rd-num">75</span><span class="rd-text">Aussage · was Sie stattdessen sagen können</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">76</span><span class="rd-text">Entscheidung mit Preis</span></a></li><li><a href="#rasterbelegung" data-rd="rasterbelegung"><span class="rd-num">77</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">78</span><span class="rd-text">Auflösung · zwei Gegenpositionen</span></a></li><li><a href="#tragedauer" data-rd="tragedauer"><span class="rd-num">79</span><span class="rd-text">Tragedauer · die Zahl, an der es hängt</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#sicherung-teil-b" data-rd="sicherung-teil-b"><span class="rd-num">80</span><span class="rd-text">Für die Klausur · Aus Teil B</span></a></li><li><a href="#frage-l7" data-rd="frage-l7"><span class="rd-num">81</span><span class="rd-text">Wen schließt das aus – und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">82</span><span class="rd-text">Über diese Kategorie entscheidet, ob Menschen das Gerät im Alltag vor anderen tragen wollen</span></a></li><li><a href="#pruefen-t12" data-rd="pruefen-t12"><span class="rd-num">83</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t13" data-rd="ausblick-t13"><span class="rd-num">84</span><span class="rd-text">Nächste Woche · Einheit 13</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">76</span><span class="rd-text">Entscheidung mit Nachteil</span></a></li><li><a href="#rasterbelegung" data-rd="rasterbelegung"><span class="rd-num">77</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">78</span><span class="rd-text">Auflösung · zwei Gegenpositionen</span></a></li><li><a href="#tragedauer" data-rd="tragedauer"><span class="rd-num">79</span><span class="rd-text">Tragedauer · die Zahl, an der es hängt</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#sicherung-teil-b" data-rd="sicherung-teil-b"><span class="rd-num">80</span><span class="rd-text">Für die Klausur · Aus Teil B</span></a></li><li><a href="#frage-l7" data-rd="frage-l7"><span class="rd-num">81</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">82</span><span class="rd-text">Über diese Kategorie entscheidet, ob Menschen das Gerät im Alltag vor anderen tragen wollen</span></a></li><li><a href="#pruefen-t12" data-rd="pruefen-t12"><span class="rd-num">83</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t13" data-rd="ausblick-t13"><span class="rd-num">84</span><span class="rd-text">Nächste Woche · Einheit 13</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-16" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-16"><li><a href="#lit-teil-a" data-rd="lit-teil-a"><span class="rd-num">85</span><span class="rd-text">Literatur und Material · Teil A</span></a></li><li><a href="#standard-raum-als-display" data-rd="standard-raum-als-display"><span class="rd-num">86</span><span class="rd-text">Vertiefung · die Bauform ohne Gewicht: der Raum als Display</span></a></li><li><a href="#vollbild-cave-mehrbenutzer" data-rd="vollbild-cave-mehrbenutzer"><span class="rd-num">87</span><span class="rd-text">VisCube CAVE head-tracking</span></a></li><li><a href="#standard-bewegungsplattform" data-rd="standard-bewegungsplattform"><span class="rd-num">88</span><span class="rd-text">Vertiefung · wie Simulatoren das Gleichgewichtsorgan überlisten</span></a></li><li><a href="#fallback-ankuendigungen" data-rd="fallback-ankuendigungen"><span class="rd-num">89</span><span class="rd-text">Fallback · Die Auszählung bleibt dünn</span></a></li><li><a href="#fallback-ursachenzeilen" data-rd="fallback-ursachenzeilen"><span class="rd-num">90</span><span class="rd-text">Fallback · Rückführungen bleiben oberflächlich</span></a></li><li><a href="#example-3d-fernseher" data-rd="example-3d-fernseher"><span class="rd-num">91</span><span class="rd-text">3D-Fernseher · „heutzutage allgegenwärtig“</span></a></li><li><a href="#standard-pilotenhelm" data-rd="standard-pilotenhelm"><span class="rd-num">92</span><span class="rd-text">Vertiefung · wo das Helmdisplay nicht gescheitert ist: im Cockpit</span></a></li><li><a href="#lit-teil-b" data-rd="lit-teil-b"><span class="rd-num">93</span><span class="rd-text">Literatur · Teil B</span></a></li></ol></li>
   </ol>
   <div class="rd-view"><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Seite</span><div class="rd-seg" role="group" aria-label="Seite"><button type="button" data-set-scheme="auto" aria-pressed="false">Auto</button><button type="button" data-set-scheme="light" aria-pressed="false">Hell</button><button type="button" data-set-scheme="dark" aria-pressed="false">Dunkel</button></div></div><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Schrift</span><div class="rd-seg" role="group" aria-label="Schrift"><button type="button" data-set-face="serif" aria-pressed="false">Serif</button><button type="button" data-set-face="sans" aria-pressed="false">Sans</button></div></div></div>
@@ -1786,7 +1800,7 @@ strong { color: var(--ink); }
     <li><a href="#b-generationen">Vier Generationen</a></li>
     <li><a href="#b-rueckfuehrung">Aktivierung · Die Rückführung</a></li>
     <li><a href="#b-analogie">Wo die Analogie nicht mehr passt</a></li>
-    <li><a href="#b-entscheidung">Entscheidung mit Preis</a></li>
+    <li><a href="#b-entscheidung">Entscheidung mit Nachteil</a></li>
     <li><a href="#b-sicherung">Für die Klausur und Bilanz</a></li>
     <li><a href="#anhang">Anhang</a></li>
   </ol>
@@ -2063,7 +2077,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <div class="script-only">
 
 <p>Beide heißen „Brille&quot;. Welche Zahl trennt sie?</p>
-<p>Gemeinsam gesammelt werden meist Gewicht, Preis, Auflösung, manchmal Akkulaufzeit. Alles plausibel, aber nicht die Antwort, um die es hier geht.</p>
+<p>Gemeinsam gesammelt werden meist Gewicht, Nachteil, Auflösung, manchmal Akkulaufzeit. Alles plausibel, aber nicht die Antwort, um die es hier geht.</p>
 <p>Die Antwort ist das Sichtfeld: 20 Grad gegen über 100. Das ist mehr als eine Abstufung.</p>
 <p>Notieren Sie die anderen Kandidaten: Gewicht und Auflösung kommen wieder.</p>
 </div>
@@ -2144,7 +2158,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading has-sub"><span class="hd-main">20° diagonal</span> <span class="hd-sub">gegen mehr als 100° – zwei Geräte, dieselbe Kategorie</span></h2>
   <p>Ray-Ban Display: 600 px ÷ 42 ppd ≈ 14,3° je Achse · √2 × 14,3° ≈ 20,2° diagonal. Horizontal sind es rund 14°. Monokular, vor dem rechten Auge.</p>
 <p>Eine VR-Brille deckt über 100° ab, meist horizontal und binokular gemessen. Ohne Angabe der Messart lässt sich eine Sichtfeldzahl nicht vergleichen.</p>
-<p>Quelle: Herstellerangaben Ray-Ban Display (600 × 600 px, 42 ppd, 90 Hz), geprüft 11.08.2026</p>
+<p class="thi-quelle">Quelle: Herstellerangaben Ray-Ban Display (600 × 600 px, 42 ppd, 90 Hz), geprüft 11.08.2026</p>
 <div class="script-only">
 
 
@@ -2800,14 +2814,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li><strong>Messen:</strong> mit Werkzeug, am realen Gerät</li>
 <li>Oder <strong>testen</strong>, mit den Menschen, die das Gerät tragen sollen, in ihrer Umgebung</li>
 <li>Eine scharfe Auflösung sagt <strong>nichts über die Latenz</strong></li>
-<li>Die Auswahl läuft über das <strong>Versagensverhalten</strong> (L5)</li>
+<li>Die Auswahl läuft über das <strong>Fehlerquellen</strong> (L5)</li>
 </ul>
 <div class="script-only">
 
 <p>Ohne Latenzangabe ist keine begründete Auswahl möglich. Wer trotzdem entscheiden muss, muss selbst prüfen, und dafür gibt es zwei Wege.</p>
 <p>Messen, mit Werkzeug, am realen Gerät. Oder testen, mit den Menschen, die das Gerät tragen sollen, in ihrer Umgebung.</p>
 <p>Eine scharfe Auflösung sagt nichts über die Latenz. Die beiden haben nichts miteinander zu tun. Die eine wird genannt, weil sie leicht zu nennen ist.</p>
-<p>Die Auswahl läuft über das Versagensverhalten, wie in Einheit 11. Die Frage ist nicht, welches Gerät am besten ist. Die Frage ist: Was passiert, wenn es an seine Grenze kommt, und trifft das meine Nutzung?</p>
+<p>Die Auswahl läuft über die Fehlerquellen, wie in Einheit 11. Die Frage ist nicht, welches Gerät am besten ist. Die Frage ist: Was passiert, wenn es an seine Grenze kommt, und trifft das meine Nutzung?</p>
 </div>
   
   
@@ -3008,7 +3022,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Aus Teil A führt Folgendes in die Klausur:</strong></p>
 <ul>
 <li><strong>L4:</strong> zwei Ausgabegrößen für einen gegebenen Kontext gegeneinanderstellen</li>
-<li><strong>L5:</strong> eine Auswahl über das Versagensverhalten begründen, nicht über die Werbezahl</li>
+<li><strong>L5:</strong> eine Auswahl über die Fehlerquellen begründen, nicht über die Werbezahl</li>
 <li>Die <strong>vier Größen</strong> benennen und zu jeder Sichtfeldangabe die <strong>Messart</strong> verlangen können</li>
 </ul>
 <p>Die zugehörigen Klausuraufgaben sind K-T12A-1 bis K-T12A-3. Die Klausur stellt dieselbe Art von Frage an einem verschobenen Fall.</p>
@@ -3017,13 +3031,13 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <h3>Bilanz von Teil A</h3>
 <p>Drei Dinge führen aus Teil A in die Klausur, verteilt auf zwei Lernziele.</p>
 <p>L4: zwei Ausgabegrößen für einen gegebenen Kontext gegeneinanderstellen. Das ist die Abwägung wie in Einheit 10, nur heißen die Größen hier Sichtfeld, Gewicht, Latenz und Alltagstauglichkeit.</p>
-<p>L5: eine Auswahl über das Versagensverhalten begründen, nicht über die Werbezahl.</p>
+<p>L5: eine Auswahl über die Fehlerquellen begründen, nicht über die Werbezahl.</p>
 <p>Und drittens: die vier Größen benennen und zu jeder Sichtfeldangabe die Messart verlangen können. Eine Kleinigkeit, die in der Korrektur regelmäßig Punkte bringt.</p>
 <p>Die Klausuraufgaben sind K-T12A-1 bis K-T12A-3, wie immer an einem verschobenen Fall.</p>
 <h3>Prüffragen zu Teil A</h3>
 <p><em>Warum macht ein größeres Sichtfeld das Gerät schwerer?</em> Über die Kaskade: größere Optik, größeres Display, mehr Energie, Kühlung. Jeder Schritt wiegt, und alles landet auf Nase und Ohren.</p>
 <p><em>Warum ist die Latenz die einzige der vier Größen, die körperlich wirkt?</em> Weil das Gleichgewichtsorgan die Bewegung ohne Verzögerung meldet und das Auge sie verspätet sieht. Der Widerspruch zwischen zwei Sinnen erzeugt Unbehagen bis Übelkeit; die anderen drei entscheiden nur über Gefallen.</p>
-<p><em>Eine Produktseite nennt Auflösung, Gewicht und Preis. Was folgt daraus?</em> Dass die Latenz fehlt und das Sichtfeld ohne Messart dasteht. Die Seite taugt damit nicht als Auswahlgrundlage; entschieden wird nach Messung oder Test, ersatzweise über Bauform, Kühlung und Akkulaufzeit.</p>
+<p><em>Eine Produktseite nennt Auflösung, Gewicht und Nachteil. Was folgt daraus?</em> Dass die Latenz fehlt und das Sichtfeld ohne Messart dasteht. Die Seite taugt damit nicht als Auswahlgrundlage; entschieden wird nach Messung oder Test, ersatzweise über Bauform, Kühlung und Akkulaufzeit.</p>
 </div>
   
   
@@ -3229,7 +3243,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>4</i><i>8</i></span>
   
   <h2 class="chunk-heading">Archiv · vier weitere Ankündigungen</h2>
-  <p><strong>Ein Preis, eine Bildrate, ein Versprechen ohne Zahl und ein verschobener Termin.</strong></p>
+  <p><strong>Ein Nachteil, eine Bildrate, ein Versprechen ohne Zahl und ein verschobener Termin.</strong></p>
 <ul>
 <li>Zur <strong>Oculus Rift</strong> von 2012 hält die Meilensteinliste im Archiv genau eine Zahl fest: 350 US-$ für das Development Kit</li>
 <li>Samsungs <strong>Dual-View-Prototyp</strong> zeigt vier Personen über Shutterbrillen verschiedene Bilder. Aus 200 Hz werden 50 Hz je Person</li>
@@ -3243,7 +3257,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Samsungs Dual-View-Prototyp zeigt vier Personen über Shutterbrillen verschiedene Bilder. Aus 200 Hertz werden dabei 50 Hertz je Person: 200 geteilt durch vier.</p>
 <p>E-Ink Prism trat als „Revolutionäres Produkt&quot; auf; farbige Displays sollten Wandfarbe und Tapeten ersetzen. Im Archiv steht dazu keine einzige Zahl.</p>
 <p>Und die N50: sollte Ende 2026 vorgestellt werden, rückt laut Berichten vom Mai 2026 auf Ende 2027.</p>
-<p>Ein Preis, eine Bildrate, ein Versprechen ohne Zahl, ein verschobener Termin. Diese vier zählen wir jetzt aus.</p>
+<p>Ein Nachteil, eine Bildrate, ein Versprechen ohne Zahl, ein verschobener Termin. Diese vier zählen wir jetzt aus.</p>
 </div>
   
   
@@ -3909,7 +3923,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="b-entscheidung">
-  <h1 class="column-heading">Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Entscheidung mit Nachteil</h1>
   
   
   
@@ -3919,20 +3933,20 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>6</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis</span> <span class="hd-sub">Vierergruppen<span class="thi-zeit">10 Minuten</span></span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil</span> <span class="hd-sub">Vierergruppen<span class="thi-zeit">10 Minuten</span></span></h2>
   <p><strong>Fall:</strong> Ein Ausbildungsbetrieb will Brillen für die Wartung anschaffen: Datenbrille oder Passthrough-Headset?</p>
 <ul>
 <li><strong>Zeit:</strong> 8 Minuten Arbeit, danach 2 Minuten Auflösung</li>
 <li><strong>Sozialform:</strong> Vierergruppen</li>
-<li><strong>Ergebnis:</strong> eine Entscheidung, mit benanntem Preis</li>
-<li><strong>KI-Rolle: ausgeschlossen.</strong> Die Entscheidung ist Ihr Urteil, der Preis Ihre Begründung.</li>
+<li><strong>Ergebnis:</strong> eine Entscheidung, mit benanntem Nachteil</li>
+<li><strong>KI-Rolle: ausgeschlossen.</strong> Die Entscheidung ist Ihr Urteil, der Nachteil Ihre Begründung.</li>
 </ul>
 <div class="script-only">
 
 <p>Die letzte Aktivierung der Einheit, kurz: zehn Minuten.</p>
 <p>Der Fall: Ein Ausbildungsbetrieb will Brillen für die Wartung anschaffen. Datenbrille oder Passthrough-Headset?</p>
-<p>Acht Minuten Arbeit, zwei Minuten Auflösung, Vierergruppen. Ergebnis: eine Entscheidung, mit benanntem Preis.</p>
-<p>Die KI-Rolle ist ausgeschlossen: Die Entscheidung ist Ihr Urteil, der Preis Ihre Begründung. Dieselbe Begründung wie in Einheit 10.</p>
+<p>Acht Minuten Arbeit, zwei Minuten Auflösung, Vierergruppen. Ergebnis: eine Entscheidung, mit benanntem Nachteil.</p>
+<p>Die KI-Rolle ist ausgeschlossen: Die Entscheidung ist Ihr Urteil, der Nachteil Ihre Begründung. Dieselbe Begründung wie in Einheit 10.</p>
 <p>In der Rasterbelegung sind zwei Zeilen gegenüber dem Fall aus Einheit 11 verschoben. Achten Sie darauf, sonst entscheiden Sie den falschen Fall.</p>
 </div>
   
@@ -3986,14 +4000,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li><strong>Überlagerung</strong> direkt am Bauteil, großes Sichtfeld</li>
 <li>Ein Gerät für Anleitung und Training: <strong>eine Anschaffung</strong></li>
-<li>Der Preis: <strong>Gewicht, Kamera-Latenz, Tragedauer</strong></li>
+<li>Der Nachteil: <strong>Gewicht, Kamera-Latenz, Tragedauer</strong></li>
 </ul>
 <div class="script-only">
 
 <p>Zwei Gegenpositionen, und beide sind vertretbar.</p>
 <p>Für die Datenbrille: Eine Anleitung braucht Hinweise am Rand des Blicks, nicht mitten darin. Dafür sind 20 Grad gebaut. Die reale Maschine bleibt direkt sichtbar; zwischen Auge und Gefahr liegt kein Kameraweg. In einer Werkshalle ist das ein Sicherheitsargument, nicht nur ein Komfortargument. Und das Gerät ist leicht genug für die Schicht und unauffällig genug fürs Team.</p>
 <p>Für das Passthrough-Headset: Überlagerung direkt am Bauteil, großes Sichtfeld. Wer zeigen will, wo eine Schraube sitzt, kann sie markieren. Und ein Gerät für Anleitung und Training heißt eine Anschaffung statt zwei.</p>
-<p>Der Preis steht daneben und ist zu nennen: Gewicht, Kamera-Latenz, Tragedauer.</p>
+<p>Der Nachteil steht daneben und ist zu nennen: Gewicht, Kamera-Latenz, Tragedauer.</p>
 <p>Achten Sie in der Auflösung auf die Kamera-Latenz. Wer das Headset wählt, muss sagen, was passiert, wenn die Wirklichkeit 50 Millisekunden alt an einer laufenden Maschine ankommt.</p>
 </div>
   
@@ -4044,7 +4058,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li><strong>L2:</strong> eine aktuelle Ankündigung auf ein Konzept vor 2015 zurückführen, die Ursache benennen und eine Falsifikationsbedingung angeben</li>
 <li><strong>L4:</strong> Ausgabegrößen für einen Kontext gegeneinanderstellen</li>
-<li><strong>L5:</strong> die Auswahl über das Versagensverhalten begründen</li>
+<li><strong>L5:</strong> die Auswahl über die Fehlerquellen begründen</li>
 </ul>
 <p>Die zugehörigen Klausuraufgaben sind K-T12B-1 und K-T12B-2, dazu aus Teil A K-T12A-1 und K-T12A-2. Die vierzeilige Form der Begründung kennen Sie aus Einheit 10.</p>
 <div class="script-only">
@@ -4052,7 +4066,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Diese Einheit ist die einzige mit drei Lernzielen. Aus Teil B führt in die Klausur:</p>
 <p>L2: eine aktuelle Ankündigung auf ein Konzept vor 2015 zurückführen, die Ursache benennen und eine Falsifikationsbedingung angeben. Das letzte Stück muss man üben.</p>
 <p>L4: Ausgabegrößen für einen Kontext gegeneinanderstellen.</p>
-<p>L5: die Auswahl über das Versagensverhalten begründen.</p>
+<p>L5: die Auswahl über die Fehlerquellen begründen.</p>
 <p>Die Klausuraufgaben sind K-T12B-1 und K-T12B-2, dazu aus Teil A K-T12A-1 und K-T12A-2. Die vierzeilige Form der Begründung kennen Sie aus Einheit 10. Sie gilt hier unverändert.</p>
 <p>Zur Bewertung: Eine Rückführung ohne Falsifikationsbedingung bekommt Teilpunkte. Eine Falsifikationsbedingung, die sich 2029 nicht eindeutig entscheiden lässt, ebenso.</p>
 </div>
@@ -4066,7 +4080,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>8</i><i>1</i></span>
   <span class="chunk-label">frage</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Wen schließt das aus – und was ist die gleichwertige Alternative?</span> <span class="hd-sub">Die L7-Frage · kurz beantwortet</span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Wen schließt das aus, und was ist die gleichwertige Alternative?</span> <span class="hd-sub">Die L7-Frage · kurz beantwortet</span></h2>
   <p><strong>Kurz beantwortet:</strong> Menschen mit Sehbeeinträchtigung, Brillenträgerinnen und Brillenträger, Personen mit Anfallsleiden. Die gleichwertige Alternative muss dieselbe Aufgabe ohne Gerät am Kopf lösen, etwa die Anleitung am fest montierten Display. Um diese Frage geht es in Einheit 13 ausführlich.</p>
 <div class="script-only">
 
@@ -4111,7 +4125,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Drei Fragen über beide Teile dieser Einheit.</strong></p>
 <ul>
 <li><strong>Warum macht ein größeres Sichtfeld das Gerät schwerer?</strong> Nennen Sie die Kaskade</li>
-<li>Eine Produktseite nennt Auflösung, Gewicht und Preis. <strong>Was folgt daraus für eine Auswahl?</strong></li>
+<li>Eine Produktseite nennt Auflösung, Gewicht und Nachteil. <strong>Was folgt daraus für eine Auswahl?</strong></li>
 <li><strong>Warum ist „die Zeit war noch nicht reif&quot; keine Aussage</strong>, und wie sieht die brauchbare Form aus?</li>
 </ul>
 <div class="script-only">
@@ -4119,7 +4133,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <h3>Die Prüffragen der Einheit, mit Lösungen</h3>
 <p><em>Warum macht ein größeres Sichtfeld das Gerät schwerer? Nennen Sie die Kaskade.</em></p>
 <p>Größeres Sichtfeld verlangt eine größere Optik, die größere Optik ein größeres Display, das Display mehr Energie, die Energie Kühlung. Jeder dieser Schritte wiegt, und das Gewicht landet auf Nase und Ohren. Gefragt ist die Kaskade, nicht nur das Ergebnis.</p>
-<p><em>Eine Produktseite nennt Auflösung, Gewicht und Preis. Was folgt daraus für eine Auswahl?</em></p>
+<p><em>Eine Produktseite nennt Auflösung, Gewicht und Nachteil. Was folgt daraus für eine Auswahl?</em></p>
 <p>Dass die Latenz fehlt und das Sichtfeld, falls genannt, ohne Messart dasteht. Damit ist die Seite als Auswahlgrundlage unbrauchbar. Wer trotzdem entscheiden muss, misst am realen Gerät oder testet mit den Menschen, die es tragen sollen; ersatzweise liest er Bauform, Kühlung und Akkulaufzeit als Indizien.</p>
 <p><em>Warum ist „die Zeit war noch nicht reif&quot; keine Aussage, und wie sieht die brauchbare Form aus?</em></p>
 <p>Weil der Satz zu jedem Ausgang passt und sich deshalb nicht widerlegen lässt. Eine Ursache, die alles erklärt, erklärt nichts. Die brauchbare Form nennt die Bedingung: „Es scheitert, wenn X&quot;, dazu ein Ereignis mit Datum und Quelle, an dem sich die Aussage prüfen ließe.</p>

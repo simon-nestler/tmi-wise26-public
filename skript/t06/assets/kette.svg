@@ -45,6 +45,6 @@
       <text x="841" y="192" fill="var(--emph)" font-weight="600">Vermutung – hier rät ein Modell</text>
     </g>
     <!-- Kopfzeile -->
-    <text x="14" y="30" text-anchor="start" font-size="15" fill="var(--ink-soft)" letter-spacing="2">DIE KETTE DER SPRACHEINGABE</text>
+    <text x="14" y="30" text-anchor="start" font-size="15" fill="var(--ink-soft)" letter-spacing="2">DIE ABFOLGE DER SPRACHEINGABE</text>
   </g>
 </svg>

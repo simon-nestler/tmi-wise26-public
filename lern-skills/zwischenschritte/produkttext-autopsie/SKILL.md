@@ -1,9 +1,9 @@
 ---
 name: tmi-produkttext-autopsie
-description: Übungspartner für die Produkttext-Autopsie aus Thema 1 des Moduls Technik der Mensch-Maschine-Interaktion (UXD_TMI, TH Ingolstadt) – selbst gesuchte Produkttexte markieren, den vier Verrutschmustern zuordnen und fachlich korrekt umformulieren. Verwenden, wenn ein Produkttext auf „erkennt", „versteht" oder Genauigkeitsangaben geprüft oder eine eigene Markierung und Umformulierung bewertet werden soll.
+description: Übungspartner für die Produkttext-Analyse aus Thema 1 des Moduls Technik der Mensch-Maschine-Interaktion (UXD_TMI, TH Ingolstadt) – selbst gesuchte Produkttexte markieren, den vier Verrutschmustern zuordnen und fachlich korrekt umformulieren. Verwenden, wenn ein Produkttext auf „erkennt", „versteht" oder Genauigkeitsangaben geprüft oder eine eigene Markierung und Umformulierung bewertet werden soll.
 ---
 
-# Produkttext-Autopsie (v1.0, 05.10.2026)
+# Produkttext-Analyse (v1.0, 05.10.2026)
 
 ## Ihre Rolle
 
@@ -37,4 +37,4 @@ Die Frage, an welcher Station der Kette aus Messung Vermutung wird, gehört zu L
 
 ## Bindung
 
-Verbindlich ist das Folienskript T01, Abschnitt „Produkttext-Autopsie" und die Sicherungsfolie von Teil A. Widersprechen sich dieser Skill und das Skript, gewinnt das Skript.
+Verbindlich ist das Folienskript T01, Abschnitt „Produkttext-Analyse" und die Sicherungsfolie von Teil A. Widersprechen sich dieser Skill und das Skript, gewinnt das Skript.

@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1751,7 +1765,7 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-midas">Midas-Touch</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Midas-Touch"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#def-midas-touch" data-rd="def-midas-touch"><span class="rd-num">59</span><span class="rd-text">Midas-Touch-Problem</span></a></li><li><a href="#example-kauf" data-rd="example-kauf"><span class="rd-num">60</span><span class="rd-text">Versehentlicher Kauf · ein Fingerbreit daneben</span></a></li><li><a href="#reparaturen" data-rd="reparaturen"><span class="rd-num">61</span><span class="rd-text">Reparaturen · was nach dem Fehlgriff hilft</span></a></li><li><a href="#these-eingestaendnis" data-rd="these-eingestaendnis"><span class="rd-num">62</span><span class="rd-text">Ein Bestätigungsdialog ist ein Hinweis auf den fehlenden Ruhezustand</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-nachrechnen">Nachrechnen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Nachrechnen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-nachrechnen" data-rd="challenge-nachrechnen"><span class="rd-num">63</span><span class="rd-text">Nachrechnen und Quelle prüfen</span></a></li><li><a href="#auftrag-nachrechnen" data-rd="auftrag-nachrechnen"><span class="rd-num">64</span><span class="rd-text">Auftrag · nachrechnen und belegen</span></a></li><li><a href="#rolle-pruefer" data-rd="rolle-pruefer"><span class="rd-num">65</span><span class="rd-text">Rolle · eine Person je Gruppe prüft</span></a></li><li><a href="#kern-fundstuecke" data-rd="kern-fundstuecke"><span class="rd-num">66</span><span class="rd-text">Auflösung an drei Fällen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-druck">Die physische Seite</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Die physische Seite"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#druck-freiheitsgrad" data-rd="druck-freiheitsgrad"><span class="rd-num">67</span><span class="rd-text">Druck · die physische Seite der Berührung</span></a></li><li><a href="#kraft-messung" data-rd="kraft-messung"><span class="rd-num">68</span><span class="rd-text">Kraft · was gemessen wird</span></a></li><li><a href="#kraft-loest" data-rd="kraft-loest"><span class="rd-num">69</span><span class="rd-text">Kraft · was sie ermöglicht</span></a></li><li><a href="#kraft-durchsetzung" data-rd="kraft-durchsetzung"><span class="rd-num">70</span><span class="rd-text">Durchsetzung · warum Kraft kaum ankam</span></a></li><li><a href="#kern-3d-touch" data-rd="kern-3d-touch"><span class="rd-num">71</span><span class="rd-text">3D Touch, eingeführt 2015 und wieder entfernt</span></a></li><li><a href="#haptik-ersatz" data-rd="haptik-ersatz"><span class="rd-num">72</span><span class="rd-text">Haptik · Rückmeldung als Ersatz</span></a></li><li><a href="#these-lernen-lohnt" data-rd="these-lernen-lohnt"><span class="rd-num">73</span><span class="rd-text">Eine unsichtbare Eingabe wie 3D Touch muss gelernt werden. Dieser zusätzliche Lernaufwand muss dann wiederum einen signifikanten Mehrwert bieten.</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">74</span><span class="rd-text">Entscheidung mit Preis</span></a></li><li><a href="#rasterbelegung-automat" data-rd="rasterbelegung-automat"><span class="rd-num">75</span><span class="rd-text">Der Fall als Rasterbelegung</span></a></li><li><a href="#nebenbedingung-budget" data-rd="nebenbedingung-budget"><span class="rd-num">76</span><span class="rd-text">Die Nebenbedingung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">77</span><span class="rd-text">Zwei Gegenpositionen</span></a></li><li><a href="#frage-ohne-sehen" data-rd="frage-ohne-sehen"><span class="rd-num">78</span><span class="rd-text">Und wer bedient dieses Terminal ohne Sehen?</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">74</span><span class="rd-text">Entscheidung mit Nachteil</span></a></li><li><a href="#rasterbelegung-automat" data-rd="rasterbelegung-automat"><span class="rd-num">75</span><span class="rd-text">Der Fall als Rasterbelegung</span></a></li><li><a href="#nebenbedingung-budget" data-rd="nebenbedingung-budget"><span class="rd-num">76</span><span class="rd-text">Die Nebenbedingung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">77</span><span class="rd-text">Zwei Gegenpositionen</span></a></li><li><a href="#frage-ohne-sehen" data-rd="frage-ohne-sehen"><span class="rd-num">78</span><span class="rd-text">Und wer bedient dieses Terminal ohne Sehen?</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Die L7-Antwort · Für die Klausur</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-16" aria-label="Folien dieses Teils: Die L7-Antwort · Für die Klausur"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-16"><li><a href="#alternative-terminal" data-rd="alternative-terminal"><span class="rd-num">79</span><span class="rd-text">Die gleichwertige Alternative beim Terminal</span></a></li><li><a href="#frage-l7-beantwortet" data-rd="frage-l7-beantwortet"><span class="rd-num">80</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#sicherung-teil-b" data-rd="sicherung-teil-b"><span class="rd-num">81</span><span class="rd-text">Für die Klausur · Teil B</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">82</span><span class="rd-text">Touch hat sich durchgesetzt, weil die Fläche frei gestaltbar ist. Der Nachteil trifft vor allem Menschen, die auf eine Rückmeldung ohne Blick angewiesen sind</span></a></li><li><a href="#pruefen-t03" data-rd="pruefen-t03"><span class="rd-num">83</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t04" data-rd="ausblick-t04"><span class="rd-num">84</span><span class="rd-text">Nächste Woche</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-17" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-17"><li><a href="#lit-teil-a" data-rd="lit-teil-a"><span class="rd-num">85</span><span class="rd-text">Literatur und Bildquellen · Teil A</span></a></li><li><a href="#vergleich-weitere-messprinzipien" data-rd="vergleich-weitere-messprinzipien"><span class="rd-num">86</span><span class="rd-text">Eine Bauvariante, zwei weitere Messprinzipien</span></a></li><li><a href="#fallback-padlet" data-rd="fallback-padlet"><span class="rd-num">87</span><span class="rd-text">Fallback: Padlet leer oder voll</span></a></li><li><a href="#fallback-richtwerte" data-rd="fallback-richtwerte"><span class="rd-num">88</span><span class="rd-text">Fallback: kein Zugriff auf den Normtext</span></a></li><li><a href="#standard-mechanische-sperre" data-rd="standard-mechanische-sperre"><span class="rd-num">89</span><span class="rd-text">Die Sperre in der Mechanik</span></a></li><li><a href="#lit-teil-b" data-rd="lit-teil-b"><span class="rd-num">90</span><span class="rd-text">Literatur · Teil B</span></a></li></ol></li>
   </ol>
@@ -1788,7 +1802,7 @@ strong { color: var(--ink); }
     <li><a href="#b-midas">Midas-Touch</a></li>
     <li><a href="#b-nachrechnen">Nachrechnen</a></li>
     <li><a href="#b-druck">Die physische Seite</a></li>
-    <li><a href="#b-entscheidung">Entscheidung mit Preis</a></li>
+    <li><a href="#b-entscheidung">Entscheidung mit Nachteil</a></li>
     <li><a href="#b-sicherung">Die L7-Antwort · Für die Klausur</a></li>
     <li><a href="#anhang">Anhang</a></li>
   </ol>
@@ -3008,7 +3022,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Die Direktheit: Zeigen und Treffen fallen zusammen, weil Bedienfläche und Anzeigefläche dieselbe Fläche sind. Deshalb liegt die Hand im Moment der Eingabe über der Stelle, an der die Rückmeldung erscheint. Vorteil und Verdeckung entstehen aus demselben Merkmal.</p>
 <p>Die freie Fläche: Sie lässt sich heute als Tastatur und morgen als Klavier beschriften, weil nichts fest ist. Deshalb ist nichts davon ertastbar. Wer nicht hinsehen kann, findet kein Bedienelement.</p>
 <p>Das fehlende Zwischengerät: Kein Mechanismus steht zwischen Hand und Funktion. Deshalb gibt es auch keinen Druckpunkt, der eine mechanische Rückmeldung geben könnte.</p>
-<p>In der Klausur heißt „den Preis benennen&quot;: den Nachteil nennen, der zu genau diesem Vorteil gehört. Irgendein Nachteil zählt nicht.</p>
+<p>In der Klausur heißt „den Nachteil benennen&quot;: den Nachteil nennen, der zu genau diesem Vorteil gehört. Irgendein Nachteil zählt nicht.</p>
 </div>
   
   
@@ -3117,7 +3131,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>B, resistiv. Das tragende Kriterium ist das Nutzerspektrum.</strong></p>
 <ul>
 <li>Ganzjährig im Außenbereich heißt Handschuhe, Regen, Frost. <strong>Druck</strong> kommt durch alles davon an</li>
-<li>Der benannte <strong>Preis</strong>: geringere Präzision, kein Multitouch, Verschleiß der Deckschicht</li>
+<li>Der benannte <strong>Nachteil</strong>: geringere Präzision, kein Multitouch, Verschleiß der Deckschicht</li>
 <li>A vergleicht nur <strong>Datenblattzeilen</strong> und übersieht den Kontext</li>
 <li>D übersieht Sonne und Regen: <strong>Große Ziele</strong> helfen nicht, wenn die Messgröße gestört ist</li>
 </ul>
@@ -3125,9 +3139,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 
 <p>Die Antwort ist B, resistiv. Gezählt wird aber das Kriterium, nicht der Buchstabe.</p>
 <p>Ganzjährig im Außenbereich heißt: Handschuhe im Winter, Regen, Frost. Alle drei stören die kapazitive Messung, und für die Messung von Druck spielen sie keine Rolle. Das tragende Kriterium liegt im Nutzerspektrum und in der Umgebung, nicht in der Technik.</p>
-<p>Dazu gehört der benannte Preis: geringere Präzision, keine Mehrfingerbedienung, eine Deckschicht, die verschleißt. Wer resistiv wählt, weiß das und plant die Bedienelemente entsprechend groß.</p>
+<p>Dazu gehört der benannte Nachteil: geringere Präzision, keine Mehrfingerbedienung, eine Deckschicht, die verschleißt. Wer resistiv wählt, weiß das und plant die Bedienelemente entsprechend groß.</p>
 <p>Antwort A vergleicht nur Datenblattzeilen und übersieht den Kontext: Präzision und Multitouch sind echte Vorteile, sie helfen aber nicht, wenn die Messung gar nicht erst zustande kommt. Antwort D ist eine naheliegende Ausrede: Große Ziele helfen nicht, wenn die Messgröße gestört ist. Mit einem Handschuh wird auch eine große Fläche nicht erkannt.</p>
-<p>In der Klausur gilt: Wer nur den Buchstaben nennt, hat nicht geantwortet. Gezählt wird das ausgesprochene Kriterium samt Preis.</p>
+<p>In der Klausur gilt: Wer nur den Buchstaben nennt, hat nicht geantwortet. Gezählt wird das ausgesprochene Kriterium samt Nachteil.</p>
 </div>
   
   
@@ -3193,14 +3207,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Für die Klausur · Teil A</h2>
   <p><strong>Aus Teil A führt Folgendes in die Klausur</strong> (Lernziel L3):</p>
 <ul>
-<li>Eine Touchscreen-Technologie für einen Kontext mit zwei Kriterien <strong>begründet wählen und den Preis benennen</strong> (K-T03A-1)</li>
+<li>Eine Touchscreen-Technologie für einen Kontext mit zwei Kriterien <strong>begründet wählen und den Nachteil benennen</strong> (K-T03A-1)</li>
 <li>Aus einer Fehlerbeschreibung die <strong>Technologie und die Ursache rückschließen</strong> (K-T03A-2)</li>
 </ul>
 <p>Die Klausur stellt dieselbe Frage an einem verschobenen Fall: bekannte Technologie, unbekannter Kontext.</p>
 <div class="script-only">
 
 <p>Aus Teil A gehen zwei Aufgabentypen in die Klausur, beide zu L3.</p>
-<p>Der erste: eine Touchscreen-Technologie für einen gegebenen Kontext mit zwei Kriterien begründet wählen und den Preis benennen. Der zweite: aus einer Fehlerbeschreibung auf Technologie und Ursache zurückschließen.</p>
+<p>Der erste: eine Touchscreen-Technologie für einen gegebenen Kontext mit zwei Kriterien begründet wählen und den Nachteil benennen. Der zweite: aus einer Fehlerbeschreibung auf Technologie und Ursache zurückschließen.</p>
 <p>Beides haben Sie heute geübt. Die Peer Instruction war die Generalprobe, einmal vorwärts und einmal rückwärts.</p>
 <p>Zur Form der Klausuraufgabe: Sie stellt dieselbe Frage an einem verschobenen Fall. Die Technologie kennen Sie, der Kontext ist neu. Das ist kein Trick. Geprüft wird, ob Sie ein Verfahren haben oder eine Liste auswendig gelernt haben. Eine Liste trägt den verschobenen Fall nicht.</p>
 </div>
@@ -4043,7 +4057,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="b-entscheidung">
-  <h1 class="column-heading">Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Entscheidung mit Nachteil</h1>
   
   
   
@@ -4053,20 +4067,20 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>4</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">12 Minuten</span></span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">12 Minuten</span></span></h2>
   <p><strong>Der Fahrkartenautomat im Außenbereich wird erneuert: kapazitiv mit Handschuherkennung oder resistiv?</strong></p>
 <ul>
 <li><strong>Wie?</strong></li>
-<li>Vierergruppen · Entscheidung am Raster: Technologie wählen, mit zwei Kriterien begründen, den Preis benennen</li>
+<li>Vierergruppen · Entscheidung am Raster: Technologie wählen, mit zwei Kriterien begründen, den Nachteil benennen</li>
 <li>12 Minuten Arbeit, danach Auflösung an zwei Gegenpositionen</li>
-<li><strong>KI-Rolle: ausgeschlossen.</strong> Die Entscheidung mit Preis ist die Klausurform, und in der Klausur gibt es kein Modell.</li>
+<li><strong>KI-Rolle: ausgeschlossen.</strong> Die Entscheidung mit Nachteil ist die Klausurform, und in der Klausur gibt es kein Modell.</li>
 </ul>
 <div class="script-only">
 
 <p>Die letzte Aktivierung: 12 Minuten in Vierergruppen, in der Form der Klausuraufgabe.</p>
-<p>Der Fall: Ein Fahrkartenautomat im Außenbereich wird erneuert. Zur Wahl stehen kapazitiv mit Handschuherkennung oder resistiv. Sie wählen, begründen mit zwei Kriterien aus dem Raster und benennen den Preis.</p>
+<p>Der Fall: Ein Fahrkartenautomat im Außenbereich wird erneuert. Zur Wahl stehen kapazitiv mit Handschuherkennung oder resistiv. Sie wählen, begründen mit zwei Kriterien aus dem Raster und benennen den Nachteil.</p>
 <p>Der Fall ist absichtlich nicht eindeutig. In der Peer Instruction war „resistiv&quot; die richtige Antwort; die Handschuherkennung macht diese naheliegende Antwort jetzt angreifbar. Wer resistiv trotzdem wählt, muss sagen, warum die Handschuherkennung nicht ausreicht.</p>
-<p>KI ist ausgeschlossen. Die Entscheidung mit Preis ist die Klausurform, und in der Klausur gibt es kein Modell.</p>
+<p>KI ist ausgeschlossen. Die Entscheidung mit Nachteil ist die Klausurform, und in der Klausur gibt es kein Modell.</p>
 </div>
   
   
@@ -4116,7 +4130,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 <p>Eine Nebenbedingung kommt dazu: Das Budget reicht für genau einen Bedienweg. Kein zweiter Screen, keine Fallback-Taste, kein „sowohl als auch&quot;.</p>
-<p>Ohne diese Bedingung lautet jede Antwort „beides&quot;, und dann gibt es keinen Preis zu benennen. Ein Preis entsteht erst, wenn man etwas aufgeben muss.</p>
+<p>Ohne diese Bedingung lautet jede Antwort „beides&quot;, und dann gibt es keinen Nachteil zu benennen. Ein Nachteil entsteht erst, wenn man etwas aufgeben muss.</p>
 <p>Konkret: Wer kapazitiv wählt, ist auf die Handschuherkennung angewiesen, bei Regen und bei minus zehn Grad. Wer resistiv wählt, nimmt geringere Präzision, Verschleiß und einen einzigen Berührpunkt in Kauf.</p>
 <p>Die Nebenbedingung gilt auch in der Auflösung. „Mehr Budget beantragen&quot; ist keine zulässige Antwort, in der Klausur ebenfalls nicht.</p>
 </div>
@@ -4135,21 +4149,21 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Präzision und Haltbarkeit hinter durchgehendem Vollglas</li>
 <li>Die Handschuherkennung deckt den Winter ab, sofern sie funktioniert</li>
-<li>Preis: Regen und dicke Handschuhe bleiben ein Restrisiko an einem Automaten, an dem kein Personal steht</li>
+<li>Nachteil: Regen und dicke Handschuhe bleiben ein Restrisiko an einem Automaten, an dem kein Personal steht</li>
 </ul>
 <p><strong>POSITION RESISTIV</strong></p>
 <ul>
 <li>Druck funktioniert bei Regen, Frost und mit jedem Handschuh</li>
 <li>Bewährt im Automatenbau, ein Berührpunkt genügt der Aufgabe</li>
-<li>Preis: Verschleiß der Deckschicht, geringere Präzision, keine Wischgesten</li>
+<li>Nachteil: Verschleiß der Deckschicht, geringere Präzision, keine Wischgesten</li>
 </ul>
-<p><strong>Beide Positionen sind vertretbar, solange der Preis benannt ist.</strong></p>
+<p><strong>Beide Positionen sind vertretbar, solange der Nachteil benannt ist.</strong></p>
 <div class="script-only">
 
 <p>Zur Auflösung trägt je eine Gruppe pro Position vor.</p>
-<p>Position kapazitiv: Präzision und Haltbarkeit hinter durchgehendem Vollglas, die Handschuherkennung deckt den Winter ab, sofern sie funktioniert. Der Preis: Regen und dicke Handschuhe bleiben ein Restrisiko an einem Automaten, an dem kein Personal aushelfen kann.</p>
-<p>Position resistiv: Druck funktioniert bei Regen, Frost und mit jedem Handschuh; die Bauart ist im Automatenbau bewährt, und ein Berührpunkt genügt der Aufgabe. Der Preis: Verschleiß der Deckschicht, geringere Präzision, keine Wischgesten.</p>
-<p>Nach beiden Vorträgen folgt der Schlusssatz: Beide Positionen sind vertretbar, solange der Preis benannt ist. Das ist der Bewertungsmaßstab der Klausur. Welche Position richtig ist, bleibt offen, weil beide Lösungen echte Nachteile haben. Wer ohne Preis entscheidet, hat die Abwägung ausgelassen.</p>
+<p>Position kapazitiv: Präzision und Haltbarkeit hinter durchgehendem Vollglas, die Handschuherkennung deckt den Winter ab, sofern sie funktioniert. Der Nachteil: Regen und dicke Handschuhe bleiben ein Restrisiko an einem Automaten, an dem kein Personal aushelfen kann.</p>
+<p>Position resistiv: Druck funktioniert bei Regen, Frost und mit jedem Handschuh; die Bauart ist im Automatenbau bewährt, und ein Berührpunkt genügt der Aufgabe. Der Nachteil: Verschleiß der Deckschicht, geringere Präzision, keine Wischgesten.</p>
+<p>Nach beiden Vorträgen folgt der Schlusssatz: Beide Positionen sind vertretbar, solange der Nachteil benannt ist. Das ist der Bewertungsmaßstab der Klausur. Welche Position richtig ist, bleibt offen, weil beide Lösungen echte Nachteile haben. Wer ohne Nachteil entscheidet, hat die Abwägung ausgelassen.</p>
 </div>
   
   
@@ -4166,7 +4180,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 <p>Nach beiden Vorträgen kommt eine weitere Frage: Wer bedient dieses Terminal ohne Sehen?</p>
-<p>Sechs Dimensionen lagen auf dem Tisch, zwei Gruppen haben begründet, beide haben einen Preis benannt. Die Zeile zum Rechtsrahmen beantwortet keine der beiden Positionen. Das Selbstbedienungsterminal fällt unter das Barrierefreiheitsstärkungsgesetz.</p>
+<p>Sechs Dimensionen lagen auf dem Tisch, zwei Gruppen haben begründet, beide haben einen Nachteil benannt. Die Zeile zum Rechtsrahmen beantwortet keine der beiden Positionen. Das Selbstbedienungsterminal fällt unter das Barrierefreiheitsstärkungsgesetz.</p>
 <p>Das ist kein Vorwurf an die Gruppen. Es zeigt ein häufiges Muster: Die Zeile, die niemand bearbeitet, ist oft die, in der die Ausgeschlossenen stehen.</p>
 </div>
   
@@ -4234,14 +4248,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Für die Klausur · Teil B</h2>
   <p><strong>Aus Teil B führt Folgendes in die Klausur</strong> (Lernziele L3 und L7):</p>
 <ul>
-<li><strong>L3:</strong> Die Auswahl mit Preis, am Raster begründet, wie in der Aktivierung geübt</li>
+<li><strong>L3:</strong> Die Auswahl mit Nachteil, am Raster begründet, wie in der Aktivierung geübt</li>
 <li><strong>L7:</strong> Zu einem Bedienelement <strong>zwei ausgeschlossene Gruppen</strong> und je eine <strong>gleichwertige Alternative</strong> angeben (K-T03B-1)</li>
 <li>Zielgrößen <strong>nachrechnen und die Quelle benennen</strong> (K-T03B-2). Eine Antwort, die eine ISO-Norm als Quelle für eine Millimeterzahl nennt, ist falsch</li>
 </ul>
 <div class="script-only">
 
 <p>Aus Teil B gehen zwei Lernziele in die Klausur.</p>
-<p>Zu L3: die Auswahl mit Preis, am Raster begründet, in der Form der letzten Aktivierung.</p>
+<p>Zu L3: die Auswahl mit Nachteil, am Raster begründet, in der Form der letzten Aktivierung.</p>
 <p>Zu L7: zu einem Bedienelement zwei ausgeschlossene Gruppen und je eine gleichwertige Alternative angeben. Die Definition von Gleichwertigkeit wird dabei angewandt, nicht nur genannt.</p>
 <p>Dazu kommt das Nachrechnen von Zielgrößen mit Quellenangabe (K-T03B-2). Eine Antwort, die eine ISO-Norm als Quelle für eine Millimeterzahl angibt, ist falsch, nicht nur ungenau. Der Erwartungshorizont sieht dafür den Verlust der ganzen Aufgabe vor. Der Grund: Wer eine Zahl mit einer Quelle belegt, die sie nicht enthält, hat genau das Verfahren verfehlt, um das es in dieser Einheit geht: die Quelle prüfen.</p>
 </div>
@@ -4259,7 +4273,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <div class="script-only">
 
 <p>Die Bilanz dieser Einheit: Touch hat sich durchgesetzt, weil die Fläche frei gestaltbar ist. Der Nachteil trifft vor allem Menschen, die auf eine Rückmeldung ohne Blick angewiesen sind.</p>
-<p>Der erste Satz beschreibt den Erfolg. Der zweite nennt den Preis in zwei Formen: technisch als fehlende Rückmeldung, und bei den Menschen, für die diese Rückmeldung Voraussetzung der Bedienung ist.</p>
+<p>Der erste Satz beschreibt den Erfolg. Der zweite nennt den Nachteil in zwei Formen: technisch als fehlende Rückmeldung, und bei den Menschen, für die diese Rückmeldung Voraussetzung der Bedienung ist.</p>
 <p>Damit schließt sich der Bogen zum Kernkonflikt vom Anfang: Die Probleme mit Touch sind häufig unsichtbar. Für Menschen, die nicht hinsehen können, sind sie sehr konkret.</p>
 </div>
   

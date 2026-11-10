@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -2661,7 +2675,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Weil er bei <strong>jeder Bedienung</strong> anfällt, wird er im Projektalltag oft gestrichen</li>
 <li>Dazu kommt eine Frage aus Einheit 6: Wer spricht in einer <strong>Warteschlange</strong> sein Fahrtziel aus? Dauerhafte Sprachausgabe macht jede Eingabe öffentlich</li>
 <li>Die Gestaltungsantwort steht am Gerät selbst: <strong>Kopfhörerbuchse</strong> statt Lautsprecher. Der Weg bleibt immer an, die Ausgabe wird privat</li>
-<li>Wählt das Lastenheft trotzdem Weg zwei oder drei, gehören Fläche, Aufwand und Privatsphäre als <strong>Preis</strong> in die Begründung, so wie in Einheit 10</li>
+<li>Wählt das Lastenheft trotzdem Weg zwei oder drei, gehören Fläche, Aufwand und Privatsphäre als <strong>Nachteil</strong> in die Begründung, so wie in Einheit 10</li>
 </ul>
 <div class="script-only">
 
@@ -2670,7 +2684,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Weil diese Nachteile bei jeder Bedienung anfallen, wird Weg eins im Projektalltag oft gestrichen.</p>
 <p>Dazu kommt eine Frage aus Einheit 6: Wer spricht in einer Warteschlange sein Fahrtziel aus? Dauerhafte Sprachausgabe macht jede Eingabe öffentlich.</p>
 <p>Die Gestaltungsantwort steht am Gerät selbst: Kopfhörerbuchse statt Lautsprecher. Der Weg bleibt immer an, die Ausgabe wird privat. Zwei Anforderungen, die einander zu widersprechen scheinen, aufgelöst durch ein einfaches Bauteil.</p>
-<p>Wählt das Lastenheft trotzdem Weg zwei oder drei, gehören Fläche, Aufwand und Privatsphäre als Preis in die Begründung. So wie in Einheit 10.</p>
+<p>Wählt das Lastenheft trotzdem Weg zwei oder drei, gehören Fläche, Aufwand und Privatsphäre als Nachteil in die Begründung. So wie in Einheit 10.</p>
 </div>
   
   
@@ -3556,17 +3570,17 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>6</i><i>3</i></span>
   <span class="chunk-label">aufgabe</span>
   <h2 class="chunk-heading has-sub"><span class="hd-main">Die letzte Verschiebung</span> <span class="hd-sub">Aktivierung 1 · 22 Minuten · Vierergruppen</span></h2>
-  <p><strong>Auftrag:</strong> Der Fahrkartenautomat aus Teil A wird neu gebaut, mit Budget für genau zwei Bedienwege. Wählen Sie beide, begründen Sie mit je zwei Kriterien, benennen Sie den Preis und sagen Sie, wen er trifft.</p>
+  <p><strong>Auftrag:</strong> Der Fahrkartenautomat aus Teil A wird neu gebaut, mit Budget für genau zwei Bedienwege. Wählen Sie beide, begründen Sie mit je zwei Kriterien, benennen Sie den Nachteil und sagen Sie, wen er trifft.</p>
 <ul>
 <li><strong>Zeit:</strong> 15 Minuten Arbeit, dann 7 Minuten Auflösung</li>
 <li><strong>Sozialform:</strong> Vierergruppen</li>
-<li><strong>Ergebnis:</strong> zwei Bedienwege, je zwei Kriterien, ein benannter Preis mit benannter Gruppe</li>
+<li><strong>Ergebnis:</strong> zwei Bedienwege, je zwei Kriterien, ein benannter Nachteil mit benannter Gruppe</li>
 <li><strong>KI-Rolle: ausgeschlossen.</strong> Die Begründung bauen Sie selbst.</li>
 </ul>
 <div class="script-only">
 
 <p>Die letzte große Aktivierung des Semesters führt alles zusammen.</p>
-<p>Der Fahrkartenautomat aus Teil A wird neu gebaut, mit Budget für genau zwei Bedienwege. Sie wählen beide, begründen mit je zwei Kriterien, benennen den Preis und sagen, wen er trifft.</p>
+<p>Der Fahrkartenautomat aus Teil A wird neu gebaut, mit Budget für genau zwei Bedienwege. Sie wählen beide, begründen mit je zwei Kriterien, benennen den Nachteil und sagen, wen er trifft.</p>
 <p>15 Minuten Arbeit, 7 Minuten Auflösung, Vierergruppen.</p>
 <p>Die Budgetgrenze zählt: genau zwei. Die Aufgabe ist so gebaut, dass Sie jemanden zurücklassen müssen. Der Kern der Übung ist, das zu benennen statt zu umgehen.</p>
 <p>KI-Rolle ausgeschlossen: Die Begründung bauen Sie selbst.</p>
@@ -3630,15 +3644,15 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ol>
 <li>Zwei Bedienwege wählen</li>
 <li>Je Bedienweg zwei Kriterien nennen – aus verschiedenen Rasterdimensionen</li>
-<li>Den Preis benennen: Was kostet die Kombination – und <strong>wen trifft er?</strong></li>
+<li>Den Nachteil benennen: Was kostet die Kombination – und <strong>wen trifft er?</strong></li>
 </ol>
 <div class="script-only">
 
 <p>Drei Schritte, in dieser Reihenfolge.</p>
 <p>Erstens: zwei Bedienwege wählen.</p>
 <p>Zweitens: je Bedienweg zwei Kriterien nennen, aus verschiedenen Rasterdimensionen. Zweimal Nutzerspektrum zählt als eins. Diese Auflage zwingt dazu, das Raster wirklich durchzugehen.</p>
-<p>Drittens: den Preis benennen. Was kostet die Kombination, und wen trifft er?</p>
-<p>Auf die zweite Hälfte der dritten Frage kommt es an. „Es kostet mehr Zeit&quot; ist kein Preis im Sinn dieser Vorlesung, solange nicht dasteht, wem die Zeit abgeht.</p>
+<p>Drittens: den Nachteil benennen. Was kostet die Kombination, und wen trifft er?</p>
+<p>Auf die zweite Hälfte der dritten Frage kommt es an. „Es kostet mehr Zeit&quot; ist kein Nachteil im Sinn dieser Vorlesung, solange nicht dasteht, wem die Zeit abgeht.</p>
 </div>
   
   
@@ -3703,18 +3717,18 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Touch plus Sprachbedienung</strong></p>
 <ul>
 <li>Kriterien: Nutzerspektrum (ohne Sehen bedienbar), Aufgabentyp (schnelle Routine)</li>
-<li>Preis: Wer nicht sprechen kann oder im Bahnhofslärm nicht verstanden wird, bleibt draußen. Und die Warteschlange hört mit</li>
+<li>Nachteil: Wer nicht sprechen kann oder im Bahnhofslärm nicht verstanden wird, bleibt draußen. Und die Warteschlange hört mit</li>
 </ul>
 <p><strong>Touch plus taktiler Tastenblock mit Sprachausgabe am Kopfhörer</strong></p>
 <ul>
 <li>Kriterien: Nutzerspektrum (ohne Sehen: Tasten plus Audio), Umgebung (Lärm, öffentlicher Raum)</li>
-<li>Preis: langsamere Eingabe in jeder Routine, und wer weder sieht noch hört, bleibt trotzdem draußen</li>
+<li>Nachteil: langsamere Eingabe in jeder Routine, und wer weder sieht noch hört, bleibt trotzdem draußen</li>
 </ul>
 <div class="script-only">
 
 <p>Zwei Entscheidungen, beide vertretbar.</p>
-<p>Erste: Touch plus Sprachbedienung. Kriterien aus zwei Dimensionen: Nutzerspektrum, weil ohne Sehen bedienbar, und Aufgabentyp, weil eine schnelle Routine. Der Preis: Wer nicht sprechen kann oder im Bahnhofslärm nicht verstanden wird, bleibt draußen. Und die Warteschlange hört mit. Das ist die Privatsphärenfrage aus Einheit 6 und von Weg eins.</p>
-<p>Zweite: Touch plus taktiler Tastenblock mit Sprachausgabe am Kopfhörer. Kriterien: Nutzerspektrum, weil Tasten plus Audio ohne Sehen tragen, und Umgebung, weil Lärm und öffentlicher Raum. Der Preis: langsamere Eingabe in jeder Routine. Und wer weder sieht noch hört, bleibt trotzdem draußen.</p>
+<p>Erste: Touch plus Sprachbedienung. Kriterien aus zwei Dimensionen: Nutzerspektrum, weil ohne Sehen bedienbar, und Aufgabentyp, weil eine schnelle Routine. Der Nachteil: Wer nicht sprechen kann oder im Bahnhofslärm nicht verstanden wird, bleibt draußen. Und die Warteschlange hört mit. Das ist die Privatsphärenfrage aus Einheit 6 und von Weg eins.</p>
+<p>Zweite: Touch plus taktiler Tastenblock mit Sprachausgabe am Kopfhörer. Kriterien: Nutzerspektrum, weil Tasten plus Audio ohne Sehen tragen, und Umgebung, weil Lärm und öffentlicher Raum. Der Nachteil: langsamere Eingabe in jeder Routine. Und wer weder sieht noch hört, bleibt trotzdem draußen.</p>
 <p>Achten Sie auf den gemeinsamen letzten Halbsatz. Beide Lösungen lassen dieselbe Gruppe zurück, und keine kann das beheben.</p>
 </div>
   
@@ -3865,18 +3879,18 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>5</i></span>
   
   <h2 class="chunk-heading">Abwägung · die vier Zeilen, ein letztes Mal</h2>
-  <p><strong>Wahl · tragende Dimension · Preis · benachteiligte Gruppe: Mit diesen vier Zeilen haben wir in diesem Semester Entscheidungen begründet.</strong></p>
+  <p><strong>Wahl · tragende Dimension · Nachteil · benachteiligte Gruppe: Mit diesen vier Zeilen haben wir in diesem Semester Entscheidungen begründet.</strong></p>
 <p>Aus Einheit 10, heute am Rechtsfall:</p>
 <ul>
 <li><strong>Wahl:</strong> Touch plus taktiler Tastenblock mit Sprachausgabe</li>
 <li><strong>Tragende Dimension:</strong> Nutzerspektrum, einschließlich blinder Personen, tägliche Routine</li>
-<li><strong>Preis:</strong> langsamere Eingabe für alle</li>
+<li><strong>Nachteil:</strong> langsamere Eingabe für alle</li>
 <li><strong>Benachteiligte Gruppe:</strong> Menschen, die weder sehen noch hören</li>
 </ul>
 <div class="script-only">
 
 <p>Die vier Zeilen, ein letztes Mal, heute am Rechtsfall.</p>
-<p>Wahl: Touch plus taktiler Tastenblock mit Sprachausgabe. Tragende Dimension: Nutzerspektrum, einschließlich blinder Personen, tägliche Routine. Preis: langsamere Eingabe für alle. Benachteiligte Gruppe: Menschen, die weder sehen noch hören.</p>
+<p>Wahl: Touch plus taktiler Tastenblock mit Sprachausgabe. Tragende Dimension: Nutzerspektrum, einschließlich blinder Personen, tägliche Routine. Nachteil: langsamere Eingabe für alle. Benachteiligte Gruppe: Menschen, die weder sehen noch hören.</p>
 <p>Mit diesen vier Zeilen haben wir in diesem Semester Entscheidungen begründet. Sie stammen aus Einheit 10, sie galten in Einheit 11 und 12, und heute stehen sie an einem Fall, bei dem auch ein Gesetz mitredet.</p>
 <p>Diese vier Zeilen werden Sie im Beruf sehr wahrscheinlich brauchen. Die Gerätezahlen veralten, die Norm bekommt eine neue Fassung. Die Form bleibt.</p>
 </div>

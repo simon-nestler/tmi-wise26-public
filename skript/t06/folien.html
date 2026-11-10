@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 <style>.script-only,.annot-box,.annot-add{display:none!important}</style></head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1740,18 +1754,18 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#auftakt">Auftakt</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-1" aria-label="Folien dieses Teils: Auftakt"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-1"><li><a href="#karte-position" data-rd="karte-position"><span class="rd-num">2</span><span class="rd-text">Semester · Einheit 6 von 13</span></a></li><li><a href="#quiz-check-niere" data-rd="quiz-check-niere"><span class="rd-num">3</span><span class="rd-text">Check 1 · Was nimmt ein Mikrofon mit Nierencharakteristik vor allem auf?</span></a></li><li><a href="#quiz-check-aufloesung-1" data-rd="quiz-check-aufloesung-1"><span class="rd-num">4</span><span class="rd-text">Auflösung 1 · B: was von vorn kommt</span></a></li><li><a href="#quiz-check-erkennungsrate" data-rd="quiz-check-erkennungsrate"><span class="rd-num">5</span><span class="rd-text">Check 2 · Was heißt eine Worterkennungsrate von 95 Prozent für einen Satz mit 20 Wörtern?</span></a></li><li><a href="#quiz-check-aufloesung-2" data-rd="quiz-check-aufloesung-2"><span class="rd-num">6</span><span class="rd-text">Auflösung 2 · B: ein Wort pro Satz</span></a></li><li><a href="#agenda" data-rd="agenda"><span class="rd-num">7</span><span class="rd-text">Einheit 6 · Teil A · Lernziele</span></a></li><li><a href="#kernkonflikt" data-rd="kernkonflikt"><span class="rd-num">8</span><span class="rd-text">Ein Sprachsystem misst Luftdruckschwankungen und schließt daraus in Stufen auf eine Wortfolge und eine Absicht</span></a></li><li><a href="#stat-nutzung" data-rd="stat-nutzung"><span class="rd-num">9</span><span class="rd-text">62 %</span></a></li><li><a href="#vergleich-fehlversteher" data-rd="vergleich-fehlversteher"><span class="rd-num">10</span><span class="rd-text">Zwei dokumentierte Fehlversteher</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#kette">Die Abfolge</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-2" aria-label="Folien dieses Teils: Die Abfolge"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-2"><li><a href="#def-kette" data-rd="def-kette"><span class="rd-num">11</span><span class="rd-text">Interaktionsabfolge</span></a></li><li><a href="#fig-kette" data-rd="fig-kette"><span class="rd-num">12</span><span class="rd-text">Sieben Stationen, zwei Vermutungen</span></a></li><li><a href="#station-schallfeld" data-rd="station-schallfeld"><span class="rd-num">13</span><span class="rd-text">Station 1 · Schallfeld</span></a></li><li><a href="#station-mikrofon" data-rd="station-mikrofon"><span class="rd-num">14</span><span class="rd-text">Station 2 · Mikrofon und Charakteristik</span></a></li><li><a href="#station-vorverarbeitung" data-rd="station-vorverarbeitung"><span class="rd-num">15</span><span class="rd-text">Station 3 · Vorverarbeitung</span></a></li><li><a href="#station-aufwachwort" data-rd="station-aufwachwort"><span class="rd-num">16</span><span class="rd-text">Station 4 · Aufwachwort-Detektion</span></a></li><li><a href="#station-worterkennung" data-rd="station-worterkennung"><span class="rd-num">17</span><span class="rd-text">Station 5 · Worterkennung</span></a></li><li><a href="#station-absicht" data-rd="station-absicht"><span class="rd-num">18</span><span class="rd-text">Station 6 · Absichtserkennung</span></a></li><li><a href="#station-aktion" data-rd="station-aktion"><span class="rd-num">19</span><span class="rd-text">Station 7 · Aktion</span></a></li><li><a href="#zwei-stellen" data-rd="zwei-stellen"><span class="rd-num">20</span><span class="rd-text">Zwei Vermutungsstellen</span></a></li><li><a href="#these-zwei-stellen" data-rd="these-zwei-stellen"><span class="rd-num">21</span><span class="rd-text">In der Abfolge der Spracheingabe wird zweimal vermutet: bei der Wortfolge und bei der Absicht</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#test">Der Test im Raum</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-3" aria-label="Folien dieses Teils: Der Test im Raum"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-3"><li><a href="#diktattest" data-rd="diktattest"><span class="rd-num">22</span><span class="rd-text">Diktattest am eigenen Telefon</span></a></li><li><a href="#drei-saetze" data-rd="drei-saetze"><span class="rd-num">23</span><span class="rd-text">Diktattest · die drei Sätze</span></a></li><li><a href="#stoerauftrag" data-rd="stoerauftrag"><span class="rd-num">24</span><span class="rd-text">Störauftrag · und das Protokoll</span></a></li><li><a href="#datenschutz-einwand" data-rd="datenschutz-einwand"><span class="rd-num">25</span><span class="rd-text">Datenschutz · der Einwand ist legitim</span></a></li><li><a href="#kern-protokolle" data-rd="kern-protokolle"><span class="rd-num">26</span><span class="rd-text">Auflösung an drei Protokollen</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#konfidenz">Konfidenz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-4" aria-label="Folien dieses Teils: Konfidenz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-4"><li><a href="#konfidenz-intern" data-rd="konfidenz-intern"><span class="rd-num">27</span><span class="rd-text">Konfidenz · existiert, wird aber nicht angezeigt</span></a></li><li><a href="#stat-konfidenz" data-rd="stat-konfidenz"><span class="rd-num">28</span><span class="rd-text">0</span></a></li><li><a href="#def-fehlerarten" data-rd="def-fehlerarten"><span class="rd-num">29</span><span class="rd-text">Falsch-Akzeptanz und Falsch-Zurückweisung</span></a></li><li><a href="#vergleich-preis" data-rd="vergleich-preis"><span class="rd-num">30</span><span class="rd-text">Fehlerarten</span></a></li><li><a href="#schwelle-nach-oben" data-rd="schwelle-nach-oben"><span class="rd-num">31</span><span class="rd-text">Schwelle · warum sie nach oben gesetzt wird</span></a></li><li><a href="#these-schwelle" data-rd="these-schwelle"><span class="rd-num">32</span><span class="rd-text">Über die Erkennungsschwelle entscheidet eine Interessenabwägung des Herstellers</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#konfidenz">Konfidenz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-4" aria-label="Folien dieses Teils: Konfidenz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-4"><li><a href="#konfidenz-intern" data-rd="konfidenz-intern"><span class="rd-num">27</span><span class="rd-text">Konfidenz · existiert, wird aber nicht angezeigt</span></a></li><li><a href="#kern-konfidenz-anzeige" data-rd="kern-konfidenz-anzeige"><span class="rd-num">28</span><span class="rd-text">Konfidenz · die Assistenten in diesem Raum</span></a></li><li><a href="#def-fehlerarten" data-rd="def-fehlerarten"><span class="rd-num">29</span><span class="rd-text">Falsch-Akzeptanz und Falsch-Zurückweisung</span></a></li><li><a href="#vergleich-preis" data-rd="vergleich-preis"><span class="rd-num">30</span><span class="rd-text">Fehlerarten</span></a></li><li><a href="#schwelle-nach-oben" data-rd="schwelle-nach-oben"><span class="rd-num">31</span><span class="rd-text">Schwelle · warum sie nach oben gesetzt wird</span></a></li><li><a href="#these-schwelle" data-rd="these-schwelle"><span class="rd-num">32</span><span class="rd-text">Über die Erkennungsschwelle entscheidet eine Interessenabwägung des Herstellers</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#lernkontrolle">Lernkontrolle</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-5" aria-label="Folien dieses Teils: Lernkontrolle"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-5"><li><a href="#quiz-kettenstelle" data-rd="quiz-kettenstelle"><span class="rd-num">33</span><span class="rd-text">Frage 1 · „Licht aus&quot; stoppt die Musik: welche Station?</span></a></li><li><a href="#quiz-kettenstelle-aufloesung" data-rd="quiz-kettenstelle-aufloesung"><span class="rd-num">34</span><span class="rd-text">Auflösung 1 · Das Transkript entscheidet</span></a></li><li><a href="#quiz-lernkontrolle" data-rd="quiz-lernkontrolle"><span class="rd-num">35</span><span class="rd-text">Lernkontrolle</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#sicherung">Für die Klausur</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-6" aria-label="Folien dieses Teils: Für die Klausur"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-6"><li><a href="#sicherung-liste" data-rd="sicherung-liste"><span class="rd-num">36</span><span class="rd-text">Für die Klausur · Teil A</span></a></li><li><a href="#zwischenaufgabe" data-rd="zwischenaufgabe"><span class="rd-num">37</span><span class="rd-text">Sammelauftrag fürs Padlet</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-start">Teil B</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-7" aria-label="Folien dieses Teils: Teil B"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-7"><li><a href="#titel-teil-b" data-rd="titel-teil-b"><span class="rd-num">38</span><span class="rd-text">Einheit 6 · Teil B</span></a></li><li><a href="#karte-semester" data-rd="karte-semester"><span class="rd-num">39</span><span class="rd-text">Semester · Einheit 6, Teil B</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-wand">Fehlversteher aus dem Archiv</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-8" aria-label="Folien dieses Teils: Fehlversteher aus dem Archiv"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-8"><li><a href="#bildpaar-siri-anziehen" data-rd="bildpaar-siri-anziehen"><span class="rd-num">40</span><span class="rd-text">Was soll ich heute anziehen?</span></a></li><li><a href="#bildpaar-siri-sinn" data-rd="bildpaar-siri-sinn"><span class="rd-num">41</span><span class="rd-text">Was ist der Sinn des Lebens?</span></a></li><li><a href="#kern-fehlerquellen-altfolie" data-rd="kern-fehlerquellen-altfolie"><span class="rd-num">42</span><span class="rd-text">Vier Fehlerquellen aus dem Archiv</span></a></li><li><a href="#lernziele-b" data-rd="lernziele-b"><span class="rd-num">43</span><span class="rd-text">Einheit 6 · Teil B · Lernziele</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-bricht">Für wen die Erkennung schlechter funktioniert</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-9" aria-label="Folien dieses Teils: Für wen die Erkennung schlechter funktioniert"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-9"><li><a href="#these-systematik" data-rd="these-systematik"><span class="rd-num">44</span><span class="rd-text">Zufallsfehler streuen über alle, systematische treffen immer wieder dieselben Stimmen</span></a></li><li><a href="#betroffene-gruppen" data-rd="betroffene-gruppen"><span class="rd-num">45</span><span class="rd-text">Betroffene · für wen die Erkennung schlechter funktioniert</span></a></li><li><a href="#vollbild-sprache-akzent" data-rd="vollbild-sprache-akzent"><span class="rd-num">46</span><span class="rd-text">Burnistoun - Voice Recognition Lift</span></a></li><li><a href="#grund-trainingsmaterial" data-rd="grund-trainingsmaterial"><span class="rd-num">47</span><span class="rd-text">Ursache · der Grund liegt im Trainingsmaterial</span></a></li><li><a href="#stat-koenecke" data-rd="stat-koenecke"><span class="rd-num">48</span><span class="rd-text">0,35 gegen 0,19</span></a></li><li><a href="#studie-grenzen" data-rd="studie-grenzen"><span class="rd-num">49</span><span class="rd-text">Grenzen · was die Studie misst und was nicht</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-systematik">Systematisch gegen zufällig</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Systematisch gegen zufällig"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#def-systematischer-fehler" data-rd="def-systematischer-fehler"><span class="rd-num">50</span><span class="rd-text">Systematischer Fehler</span></a></li><li><a href="#vergleich-fehlerarten" data-rd="vergleich-fehlerarten"><span class="rd-num">51</span><span class="rd-text">Zufällig gegen systematisch</span></a></li><li><a href="#haertere-fehlerklasse" data-rd="haertere-fehlerklasse"><span class="rd-num">52</span><span class="rd-text">Systematische Fehler · warum sie schwerer wiegen</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-autopsie">Autopsie</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Autopsie"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#challenge-autopsie" data-rd="challenge-autopsie"><span class="rd-num">53</span><span class="rd-text">Autopsie der eigenen Protokolle</span></a></li><li><a href="#vergleich-aufloesung-wand" data-rd="vergleich-aufloesung-wand"><span class="rd-num">54</span><span class="rd-text">Auflösung, sortiert</span></a></li><li><a href="#sortierung-befund" data-rd="sortierung-befund"><span class="rd-num">55</span><span class="rd-text">Was die Sortierung zeigt</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-autopsie">Fehleranalyse</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Fehleranalyse"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#challenge-autopsie" data-rd="challenge-autopsie"><span class="rd-num">53</span><span class="rd-text">Fehleranalyse der eigenen Protokolle</span></a></li><li><a href="#vergleich-aufloesung-wand" data-rd="vergleich-aufloesung-wand"><span class="rd-num">54</span><span class="rd-text">Auflösung, sortiert</span></a></li><li><a href="#sortierung-befund" data-rd="sortierung-befund"><span class="rd-num">55</span><span class="rd-text">Was die Sortierung zeigt</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-fallback">Der zweite Weg</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Der zweite Weg"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#fallback-gestaltung" data-rd="fallback-gestaltung"><span class="rd-num">56</span><span class="rd-text">Fallback · der zweite Weg als Gestaltungsaufgabe</span></a></li><li><a href="#kern-reaktionen" data-rd="kern-reaktionen"><span class="rd-num">57</span><span class="rd-text">Drei gestaltbare Reaktionen</span></a></li><li><a href="#example-rueckfrage" data-rd="example-rueckfrage"><span class="rd-num">58</span><span class="rd-text">Rückfrage · gezielt statt pauschal</span></a></li><li><a href="#zweiter-weg" data-rd="zweiter-weg"><span class="rd-num">59</span><span class="rd-text">Alternative · eingebaut statt nachgereicht</span></a></li><li><a href="#these-zweiter-weg" data-rd="these-zweiter-weg"><span class="rd-num">60</span><span class="rd-text">Ohne zweiten Weg ist die Nutzergruppe eines Systems bereits eingeschränkt</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">61</span><span class="rd-text">Entscheidung mit Preis</span></a></li><li><a href="#rasterbelegung" data-rd="rasterbelegung"><span class="rd-num">62</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">63</span><span class="rd-text">Auflösung an zwei Gegenpositionen</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">61</span><span class="rd-text">Entscheidung mit Nachteil</span></a></li><li><a href="#rasterbelegung" data-rd="rasterbelegung"><span class="rd-num">62</span><span class="rd-text">Fall · die Rasterbelegung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">63</span><span class="rd-text">Auflösung an zwei Gegenpositionen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#sicherung-teil-b" data-rd="sicherung-teil-b"><span class="rd-num">64</span><span class="rd-text">Für die Klausur · Teil B</span></a></li><li><a href="#antwort-drei-zeilen" data-rd="antwort-drei-zeilen"><span class="rd-num">65</span><span class="rd-text">Wen schließt Sprachbedienung aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">66</span><span class="rd-text">Bei Sprache ist der Abstand zwischen Vorführung und Betrieb besonders groß</span></a></li><li><a href="#pruefen-t06" data-rd="pruefen-t06"><span class="rd-num">67</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t07" data-rd="ausblick-t07"><span class="rd-num">68</span><span class="rd-text">Nächste Woche · Einheit 7</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#anhang-fallback-diktat" data-rd="anhang-fallback-diktat"><span class="rd-num">69</span><span class="rd-text">Fallback Teil A · Der Diktattest scheitert</span></a></li><li><a href="#anhang-fallback-padlet-leer" data-rd="anhang-fallback-padlet-leer"><span class="rd-num">70</span><span class="rd-text">Fallback Teil B · Das Padlet bleibt leer</span></a></li><li><a href="#fallback-verschaerfung" data-rd="fallback-verschaerfung"><span class="rd-num">71</span><span class="rd-text">Fallback Teil B · Die Gruppe einigt sich zu schnell</span></a></li><li><a href="#anhang-fallback-drittel" data-rd="anhang-fallback-drittel"><span class="rd-num">72</span><span class="rd-text">Fallback Teil B · Ein Drittel anwesend</span></a></li><li><a href="#standard-wahrscheinlich-schlaegt-gesagt" data-rd="standard-wahrscheinlich-schlaegt-gesagt"><span class="rd-num">73</span><span class="rd-text">Vertiefung · Warum das Wahrscheinliche Vorrang vor dem Gesagten hat</span></a></li><li><a href="#example-duplex-vorfuehrung" data-rd="example-duplex-vorfuehrung"><span class="rd-num">74</span><span class="rd-text">Vertiefung · Die Vorführung: Google Duplex, Mai 2018</span></a></li><li><a href="#vollbild-duplex-vorfuehrung-2018" data-rd="vollbild-duplex-vorfuehrung-2018"><span class="rd-num">75</span><span class="rd-text">Google Duplex Demo (Google I/O 2018)</span></a></li><li><a href="#standard-mikrofon-nie-aus" data-rd="standard-mikrofon-nie-aus"><span class="rd-num">76</span><span class="rd-text">Vertiefung · Das Mikrofon, das nie aus ist</span></a></li><li><a href="#lit-quellen" data-rd="lit-quellen"><span class="rd-num">77</span><span class="rd-text">Literatur und Beispiele</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#anhang-fallback-padlet-leer" data-rd="anhang-fallback-padlet-leer"><span class="rd-num">69</span><span class="rd-text">Fallback Teil B · Das Padlet bleibt leer</span></a></li><li><a href="#fallback-verschaerfung" data-rd="fallback-verschaerfung"><span class="rd-num">70</span><span class="rd-text">Fallback Teil B · Die Gruppe einigt sich zu schnell</span></a></li><li><a href="#anhang-fallback-drittel" data-rd="anhang-fallback-drittel"><span class="rd-num">71</span><span class="rd-text">Fallback Teil B · Ein Drittel anwesend</span></a></li><li><a href="#standard-wahrscheinlich-schlaegt-gesagt" data-rd="standard-wahrscheinlich-schlaegt-gesagt"><span class="rd-num">72</span><span class="rd-text">Vertiefung · Warum das Wahrscheinliche Vorrang vor dem Gesagten hat</span></a></li><li><a href="#example-duplex-vorfuehrung" data-rd="example-duplex-vorfuehrung"><span class="rd-num">73</span><span class="rd-text">Vertiefung · Die Vorführung: Google Duplex, Mai 2018</span></a></li><li><a href="#vollbild-duplex-vorfuehrung-2018" data-rd="vollbild-duplex-vorfuehrung-2018"><span class="rd-num">74</span><span class="rd-text">Google Duplex Demo (Google I/O 2018)</span></a></li><li><a href="#standard-mikrofon-nie-aus" data-rd="standard-mikrofon-nie-aus"><span class="rd-num">75</span><span class="rd-text">Vertiefung · Das Mikrofon, das nie aus ist</span></a></li><li><a href="#lit-quellen" data-rd="lit-quellen"><span class="rd-num">76</span><span class="rd-text">Literatur und Beispiele</span></a></li></ol></li>
   </ol>
   <div class="rd-view"><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Seite</span><div class="rd-seg" role="group" aria-label="Seite"><button type="button" data-set-scheme="auto" aria-pressed="false">Auto</button><button type="button" data-set-scheme="light" aria-pressed="false">Hell</button><button type="button" data-set-scheme="dark" aria-pressed="false">Dunkel</button></div></div><div class="rd-view-row"><span class="rd-view-label" aria-hidden="true">Schrift</span><div class="rd-seg" role="group" aria-label="Schrift"><button type="button" data-set-face="serif" aria-pressed="false">Serif</button><button type="button" data-set-face="sans" aria-pressed="false">Sans</button></div></div></div>
   <div class="rd-foot" data-reader-slot="tools"></div>
@@ -1782,9 +1796,9 @@ strong { color: var(--ink); }
     <li><a href="#b-wand">Fehlversteher aus dem Archiv</a></li>
     <li><a href="#b-bricht">Für wen die Erkennung schlechter funktioniert</a></li>
     <li><a href="#b-systematik">Systematisch gegen zufällig</a></li>
-    <li><a href="#b-autopsie">Autopsie</a></li>
+    <li><a href="#b-autopsie">Fehleranalyse</a></li>
     <li><a href="#b-fallback">Der zweite Weg</a></li>
-    <li><a href="#b-entscheidung">Entscheidung mit Preis</a></li>
+    <li><a href="#b-entscheidung">Entscheidung mit Nachteil</a></li>
     <li><a href="#b-sicherung">Für die Klausur und Bilanz</a></li>
     <li><a href="#anhang">Anhang</a></li>
   </ol>
@@ -2071,7 +2085,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Bei den <strong>Über-65-Jährigen</strong> sind es 30 Prozent, die Nutzung ist über die Altersgruppen ungleich verteilt</li>
 <li>Jeder Fehler der Spracheingabe betrifft entsprechend <strong>viele Menschen</strong></li>
 </ul>
-<p>Quelle: Bitkom, Zukunft der Consumer Technology 2025 (02.09.2025), n = 1 159</p>
+<p class="thi-quelle">Quelle: Bitkom, Zukunft der Consumer Technology 2025 (02.09.2025), n = 1 159</p>
 <div class="script-only">
 
 <p>Eine Zahl zur Einordnung: 62 Prozent der Menschen in Deutschland nutzen Sprachassistenten zumindest gelegentlich.</p>
@@ -2156,7 +2170,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <h2 class="chunk-heading">Sieben Stationen, zwei Vermutungen</h2>
   <p>Bis zur Aufwachwort-Detektion wird gemessen und über Schwellen entschieden; das lässt sich nachrechnen. Ab der Worterkennung vermutet ein Modell.</p>
-<p><figure class="figure-img" data-fig-id="kette"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 250" font-family="inherit" id="psiINT-fig-2-root" role="img" aria-label="Interaktionskette der Spracheingabe mit den zwei markierten Vermutungsstellen">
+<p><figure class="figure-img" data-fig-id="kette"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 250" font-family="inherit" id="psiINT-fig-2-root" role="img" aria-label="Interaktionsabfolge der Spracheingabe mit den zwei markierten Vermutungsstellen">
   <g font-size="17" text-anchor="middle">
     <!-- Stationen -->
     <g stroke="var(--ink-soft)" fill="var(--paper)" stroke-width="1.5">
@@ -2203,9 +2217,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
       <text x="841" y="192" fill="var(--emph)" font-weight="600">Vermutung – hier rät ein Modell</text>
     </g>
     <!-- Kopfzeile -->
-    <text x="14" y="30" text-anchor="start" font-size="15" fill="var(--ink-soft)" letter-spacing="2">DIE KETTE DER SPRACHEINGABE</text>
+    <text x="14" y="30" text-anchor="start" font-size="15" fill="var(--ink-soft)" letter-spacing="2">DIE ABFOLGE DER SPRACHEINGABE</text>
   </g>
-</svg><figcaption>Interaktionskette der Spracheingabe mit den zwei markierten Vermutungsstellen</figcaption></figure></p>
+</svg><figcaption>Interaktionsabfolge der Spracheingabe mit den zwei markierten Vermutungsstellen</figcaption></figure></p>
 <div class="script-only">
 
 <p>Sieben Stationen. Die Trennlinie liegt zwischen Station 4 und Station 5.</p>
@@ -2504,14 +2518,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Wer nicht in das eigene Telefon diktieren will, muss das nicht begründen.</strong></p>
 <ul>
 <li>Ein Diktat in die Cloud ist eine <strong>Datenweitergabe</strong> an den Anbieter. Wer darauf verzichtet, handelt im Sinne dieses Moduls</li>
-<li>Die Alternative liegt bereit: die vorbereitete <strong>Fehltranskript-Sammlung</strong> im Anhang</li>
+<li>Die Alternative: im Team das <strong>Protokoll</strong> führen, während die andere Person diktiert</li>
 <li>Die <strong>Auswertungsfrage</strong> bleibt dieselbe: An welcher Station ist jeder Fehler entstanden?</li>
 </ul>
 <div class="script-only">
 
 <p>Der Einwand zum Datenschutz ist ernst gemeint.</p>
 <p>Wer nicht in das eigene Telefon diktieren will, muss das nicht begründen. Ein Diktat in die Cloud ist eine Datenweitergabe an den Anbieter. Wer darauf verzichtet, handelt im Sinne dieses Moduls und arbeitet mit vorbereitetem Material weiter.</p>
-<p>Die Alternative ist die Fehltranskript-Sammlung im Anhang; bis sie vollständig ist, dienen die Siri-Paare aus Teil B als Material.</p>
+<p>Die Alternative: Sie führen im Team das Protokoll, während die andere Person diktiert. Wer gar nicht diktieren mag, arbeitet mit den Protokollen der anderen Teams.</p>
 <p>Die Auswertungsfrage bleibt dieselbe: An welcher Station ist jeder Fehler entstanden? Der Lerngegenstand ist die Diagnose, nicht das Erzeugen der Daten.</p>
 </div>
   
@@ -2588,23 +2602,22 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-free width-wide" id="stat-konfidenz" data-chunk-num="28">
+<article class="chunk chunk-free width-wide" id="kern-konfidenz-anzeige" data-chunk-num="28">
   
   <span class="chunk-num" aria-hidden="true"><i>2</i><i>8</i></span>
   
-  <h2 class="chunk-heading has-sub"><span class="hd-main">0</span> <span class="hd-sub">Assistenten in diesem Raum, die ihre Konfidenz anzeigen.</span></h2>
-  <ul>
-<li>Jedes Telefon hier <strong>rechnet</strong> den Wert bei jeder einzelnen Erkennung mit. Angezeigt wird er von keinem</li>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Konfidenz · die Assistenten in diesem Raum</span> <span class="hd-sub">rechnen sie mit, zeigen sie nicht</span></h2>
+  <p><strong>Die Assistenten in diesem Raum zeigen nicht an, wie sicher sie sich sind.</strong></p>
+<ul>
+<li>Jedes Telefon hier <strong>rechnet</strong> den Wert bei jeder einzelnen Erkennung mit. Angezeigt wird er nicht</li>
 <li>Für eine Anzeige läge der <strong>Wert</strong> also schon bereit</li>
 <li>Im Produkt hat der <strong>souveräne Auftritt</strong> offenbar Vorrang vor der Anzeige von Unsicherheit</li>
 <li>Was bei unsicherer Erkennung auf dem Bildschirm steht, legt die <strong>Gestaltung</strong> fest</li>
 </ul>
-<p>Zählung im Hörsaal, jederzeit wiederholbar.</p>
 <div class="script-only">
 
-<p>Eine Zahl, die Sie im Raum selbst erheben können: null. So viele Assistenten in diesem Raum zeigen ihre Konfidenz an.</p>
-<p>Die Zählung lässt sich im Raum durchführen: Wer hat ein Gerät mit Sprachassistent dabei, und bei wem davon erscheint eine Unsicherheitsangabe? In der Regel lautet die Antwort null. Selbst erhoben wirkt die Zahl anders als nur behauptet.</p>
-<p>Jedes dieser Geräte rechnet den Wert bei jeder Erkennung mit. Für eine Anzeige läge er bereit. Gemessen oder trainiert werden müsste dafür nichts Neues, zu gestalten wäre die Anzeige.</p>
+<p>Die Assistenten auf den Telefonen in diesem Raum zeigen nicht an, wie sicher sie sich bei einer Erkennung sind. Sie sagen „Okay&quot; oder führen den Befehl aus, ob die Erkennung knapp war oder eindeutig.</p>
+<p>Dabei rechnet jedes dieser Geräte den Wert bei jeder Erkennung mit. Für eine Anzeige läge er bereit. Gemessen oder trainiert werden müsste dafür nichts Neues, zu gestalten wäre die Anzeige.</p>
 <p>Im Produkt hat der souveräne Auftritt offenbar Vorrang vor der Anzeige von Unsicherheit.</p>
 <p>Was bei unsicherer Erkennung auf dem Bildschirm steht, legt die Gestaltung fest. Das entscheiden Gestalterinnen und Gestalter.</p>
 </div>
@@ -2770,7 +2783,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>3</i><i>5</i></span>
   <span class="chunk-label">beispiel</span>
   <h2 class="chunk-heading has-sub"><span class="hd-main">Lernkontrolle</span> <span class="hd-sub">Welche Antwort stimmt?</span></h2>
-  <p><strong>Ein Hersteller verschärft die Schwelle des Aufwachworts, um Fehlauslösungen durch Fernsehton zu reduzieren. Wer zahlt den Preis?</strong></p>
+  <p><strong>Ein Hersteller verschärft die Schwelle des Aufwachworts, um Fehlauslösungen durch Fernsehton zu reduzieren. Wen trifft der Nachteil?</strong></p>
 <ol>
 <li>Niemand – die Erkennung wird insgesamt besser</li>
 <li>Alle gleichermaßen, das Gerät reagiert langsamer</li>
@@ -2804,7 +2817,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Die Abfolge der Spracheingabe zeichnen und <strong>beide Vermutungsstellen</strong> markieren können</li>
 <li>Die <strong>zwei Fehlerklassen</strong> unterscheiden und am Transkript begründen, welche vorliegt</li>
-<li>Am Aufwachwort erklären, <strong>wer den Preis</strong> einer verschobenen Erkennungsschwelle zahlt</li>
+<li>Am Aufwachwort erklären, <strong>wer den Nachteil</strong> einer verschobenen Erkennungsschwelle trägt</li>
 </ul>
 <p>Offen bis Teil B: <strong>Wen schließt Sprachbedienung aus, und was ist die gleichwertige Alternative?</strong> Die zugehörigen Klausuraufgaben sind K-T06A-1 und K-T06A-2. Die Klausur stellt dieselbe Art von Frage an einem verschobenen Fall: bekannte Technologie, unbekannter Kontext.</p>
 <div class="script-only">
@@ -2812,7 +2825,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Aus Teil A gehen drei Dinge in die Klausur.</p>
 <p>Erstens: die Abfolge der Spracheingabe zeichnen und beide Vermutungsstellen markieren. Ohne das gehen die anderen beiden nicht.</p>
 <p>Zweitens: die zwei Fehlerklassen unterscheiden und am Transkript begründen, welche vorliegt. Das Wort <em>begründen</em> zählt. Die bloße Zuordnung reicht nicht.</p>
-<p>Drittens: am Aufwachwort erklären, wer den Preis einer verschobenen Erkennungsschwelle zahlt. „Die Nutzer&quot; ist hier keine Antwort. Erwartet wird eine benennbare Gruppe: leise, dialektale, untrainierte Stimmen.</p>
+<p>Drittens: am Aufwachwort erklären, wer den Nachteil einer verschobenen Erkennungsschwelle trägt. „Die Nutzer&quot; ist hier keine Antwort. Erwartet wird eine benennbare Gruppe: leise, dialektale, untrainierte Stimmen.</p>
 <p>Die Klausur stellt dieselbe Art Frage an einem verschobenen Fall: bekannte Technologie, unbekannter Kontext. Die Mechanik dazu kennen Sie aus Einheit 5.</p>
 <p>Die L7-Frage am Ende von Teil A, in der Standardformulierung: Wen schließt Sprachbedienung aus – und was ist die gleichwertige Alternative?</p>
 <p>Sie bleibt hier offen. Teil B beantwortet sie an Fällen, dann mit Zahlen.</p>
@@ -2980,7 +2993,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 
-<p>Einheit 6 von 13, Teil B. Leitgedanke: Aus Messung wird Vermutung. In Teil A haben wir die Abfolge der Spracheingabe Station für Station aufgebaut. Jetzt geht es um die Fälle, in denen sie danebenliegt, und um die Menschen, bei denen das immer wieder passiert. Das Material sind zuerst Fehlversteher-Beispiele aus dem Archiv, Ihre Padlet-Funde kommen dazu. Danach trennen wir systematische von zufälligen Fehlern, gestalten den Fallback und treffen eine Entscheidung mit Preis.</p>
+<p>Einheit 6 von 13, Teil B. Leitgedanke: Aus Messung wird Vermutung. In Teil A haben wir die Abfolge der Spracheingabe Station für Station aufgebaut. Jetzt geht es um die Fälle, in denen sie danebenliegt, und um die Menschen, bei denen das immer wieder passiert. Das Material sind zuerst Fehlversteher-Beispiele aus dem Archiv, Ihre Padlet-Funde kommen dazu. Danach trennen wir systematische von zufälligen Fehlern, gestalten den Fallback und treffen eine Entscheidung mit Nachteil.</p>
 </div>
   
   
@@ -3049,7 +3062,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li><strong>Umgebung:</strong> andere Sprecher im Einflussbereich des Mikrofons, viele Umgebungsgeräusche</li>
 <li><strong>Wortschatz:</strong> Verwechslung von ähnlichen Begriffen und Namen</li>
 </ul>
-<p><strong>Sortierfrage:</strong> Welche davon wären auch beim zweiten Versuch passiert?</p>
+<p><strong>Sortierfrage fürs Padlet:</strong> Welche davon wären auch beim zweiten Versuch passiert?</p>
 <div class="script-only">
 
 <p>Vier Fehlerquellen der Spracherkennung. Diese Liste stand jahrelang so in dieser Vorlesung.</p>
@@ -3196,7 +3209,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Ein <strong>Messwert</strong>, gewonnen aus 19,8 Stunden Audio</li>
 <li>Die Studie hat <strong>klare Grenzen</strong>: englischsprachig, USA, Stand 2020</li>
 </ul>
-<p>Quelle: Koenecke u. a., PNAS 117(14), 7684–7689 (2020)</p>
+<p class="thi-quelle">Quelle: Koenecke u. a., PNAS 117(14), 7684–7689 (2020)</p>
 <div class="script-only">
 
 <p>Jetzt Zahlen, damit die These nicht Behauptung bleibt: 0,35 gegen 0,19.</p>
@@ -3325,7 +3338,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="b-autopsie">
-  <h1 class="column-heading">Autopsie</h1>
+  <h1 class="column-heading">Fehleranalyse</h1>
   
   
   
@@ -3335,7 +3348,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>5</i><i>3</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Autopsie der eigenen Protokolle</span> <span class="hd-sub">Arbeitsauftrag · 15 Minuten · Kleingruppen</span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Fehleranalyse der eigenen Protokolle</span> <span class="hd-sub">Arbeitsauftrag · 15 Minuten · Kleingruppen</span></h2>
   <p><strong>Auftrag:</strong> Untersuchen Sie vier bis fünf Fälle: die Siri-Antworten und die vier Fehlerquellen aus dem Archiv, dazu Ihre Diktatprotokolle aus Teil A und Protokolle vom Padlet.</p>
 <ul>
 <li><strong>Zeit:</strong> 15 Minuten Arbeit, danach 10 Minuten Auflösung</li>
@@ -3348,7 +3361,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </ul>
 <div class="script-only">
 
-<p>Die Aktivierung von Teil B, 15 Minuten in Kleingruppen: die Autopsie der eigenen Protokolle.</p>
+<p>Die Aktivierung von Teil B, 15 Minuten in Kleingruppen: die Fehleranalyse der eigenen Protokolle.</p>
 <p>Untersuchen Sie vier bis fünf Fälle: die Siri-Antworten und die vier Fehlerquellen aus dem Archiv, dazu Ihre eigenen Diktatprotokolle aus Teil A und, was auf dem Padlet steht.</p>
 <p>Zwei Aufträge, der zweite ist der schwierigere. Erstens: jeden Fehler einer Station der Abfolge zuordnen, die Diagnose aus Teil A. Zweitens: je Fehler urteilen, ob er zufällig oder systematisch ist, mit Kriterium.</p>
 <p>Warum das zusammengehört: Die Station sagt, <em>wo</em> der Fehler entstand. Die Systematikfrage sagt, <em>wen</em> er trifft. Erst beide zusammen ergeben ein belastbares Urteil.</p>
@@ -3440,14 +3453,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Aus Teil A: Die <strong>Konfidenz existiert intern</strong> und bleibt per Produktentscheidung unsichtbar</li>
 <li>Dieselbe Produktentscheidung bestimmt auch, was beim <strong>Scheitern</strong> passiert</li>
 <li>Was im <strong>Moment des Fehlschlags</strong> passiert, legt also jemand fest</li>
-<li>Wie oft dieser Moment eintritt, zeigt <strong>die Autopsie</strong></li>
+<li>Wie oft dieser Moment eintritt, zeigt <strong>die Fehleranalyse</strong></li>
 </ul>
 <div class="script-only">
 
 <p>Die Gestaltungsaufgabe, die aus alldem folgt: Was zeigt ein System beim Fehlschlag, und was sollte es zeigen?</p>
 <p>Der Faden aus Teil A: Die Konfidenz existiert intern und bleibt per Produktentscheidung unsichtbar. Dieselbe Art Entscheidung bestimmt auch, was beim Scheitern passiert.</p>
 <p>Ab hier hört die Diagnose auf und die Entwurfsarbeit beginnt. Was im Moment des Fehlschlags passiert, legt jemand fest. In Ihrem Berufsleben sind Sie dieser Jemand.</p>
-<p>Wie oft dieser Moment eintritt, hat die Autopsie gezeigt. Sie gestalten nicht für einen seltenen Ausnahmefall.</p>
+<p>Wie oft dieser Moment eintritt, hat die Fehleranalyse gezeigt. Sie gestalten nicht für einen seltenen Ausnahmefall.</p>
 </div>
   
   
@@ -3543,7 +3556,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="b-entscheidung">
-  <h1 class="column-heading">Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Entscheidung mit Nachteil</h1>
   
   
   
@@ -3553,11 +3566,11 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>6</i><i>1</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis</span> <span class="hd-sub">Arbeitsauftrag · 12 Minuten · Kleingruppen</span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil</span> <span class="hd-sub">Arbeitsauftrag · 12 Minuten · Kleingruppen</span></h2>
   <p><strong>Der Fall:</strong> Ein Fahrkartenautomat bekommt Sprachbedienung: als Ersatz der Touch-Bedienung oder als Zusatz?</p>
 <ul>
 <li><strong>Zeit:</strong> 12 Minuten Entscheidung, danach 6 Minuten Auflösung</li>
-<li><strong>Ergebnis:</strong> eine Entscheidung, zwei Kriterien aus verschiedenen Dimensionen des Kontextrasters, der benannte Preis, und wen er trifft</li>
+<li><strong>Ergebnis:</strong> eine Entscheidung, zwei Kriterien aus verschiedenen Dimensionen des Kontextrasters, der benannte Nachteil, und wen er trifft</li>
 <li><strong>Zwei Fragen tragen die Entscheidung:</strong> Wer spricht in einer Warteschlange sein Fahrtziel aus? Wer kann nicht sprechen, und wer kann nicht tippen?</li>
 <li><strong>KI-Rolle:</strong> ausgeschlossen, denn die Klausur fragt nach Ihrer eigenen Begründung. Nach dem Termin mit einem Modell weiterdenken ist erwünscht</li>
 </ul>
@@ -3565,8 +3578,8 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 
 <p>Die letzte Aktivierung, zwölf Minuten in Kleingruppen. Sie hat die Form der Klausuraufgabe.</p>
 <p>Der Fall: Ein Fahrkartenautomat bekommt Sprachbedienung. Als Ersatz der Touch-Bedienung oder als Zusatz?</p>
-<p>Das Ergebnis besteht aus drei Teilen: eine Entscheidung, zwei Kriterien aus <em>verschiedenen</em> Dimensionen des Kontextrasters, und der benannte Preis, samt der Angabe, wen er trifft.</p>
-<p>Der letzte Halbsatz ist neu gegenüber Einheit 5 und folgt aus dieser Einheit: Nach einer Stunde über die Verteilung von Fehlern auf Menschen genügt „der Preis ist geringere Zuverlässigkeit&quot; nicht mehr. Die Frage lautet: Für wen?</p>
+<p>Das Ergebnis besteht aus drei Teilen: eine Entscheidung, zwei Kriterien aus <em>verschiedenen</em> Dimensionen des Kontextrasters, und der benannte Nachteil, samt der Angabe, wen er trifft.</p>
+<p>Der letzte Halbsatz ist neu gegenüber Einheit 5 und folgt aus dieser Einheit: Nach einer Stunde über die Verteilung von Fehlern auf Menschen genügt „der Nachteil ist geringere Zuverlässigkeit&quot; nicht mehr. Die Frage lautet: Für wen?</p>
 <p>KI ist ausgeschlossen. Die Entscheidung entsteht in der Diskussion der Gruppe.</p>
 <p>Zwei Fragen tragen die Entscheidung.</p>
 <p>Die erste: Wer spricht in einer Warteschlange sein Fahrtziel aus? Das ist die Zeile <em>soziale Situation</em>. Sie wiegt hier schwerer als die technischen Schwächen der Sprachbedienung. Ein Fahrtziel ist eine persönliche Information, und hinter der Person stehen fünf andere.</p>
@@ -3593,7 +3606,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </ul>
 <div class="script-only">
 
-<p>In der Notation aus Einheit 5 verschieben sich zwei Zeilen. Soziale Situation: Aus dem stillen Hörsaal mit Zweierteam wird die öffentliche Warteschlange unter Zeitdruck. Nutzerspektrum: Aus geübten Sprechenden wird jede Person, die eine Fahrkarte braucht. Zwei Sätze zählen dabei nicht als Kriterium. „Sprache ist moderner&quot; zeigt auf keine Dimension. Und „kostet mehr Geld&quot; ist ohne benannte Personengruppe kein Preis im Sinn dieser Aufgabe.</p>
+<p>In der Notation aus Einheit 5 verschieben sich zwei Zeilen. Soziale Situation: Aus dem stillen Hörsaal mit Zweierteam wird die öffentliche Warteschlange unter Zeitdruck. Nutzerspektrum: Aus geübten Sprechenden wird jede Person, die eine Fahrkarte braucht. Zwei Sätze zählen dabei nicht als Kriterium. „Sprache ist moderner&quot; zeigt auf keine Dimension. Und „kostet mehr Geld&quot; ist ohne benannte Personengruppe kein Nachteil im Sinn dieser Aufgabe.</p>
 </div>
   
   
@@ -3609,18 +3622,18 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Position Ersatz</strong></p>
 <ul>
 <li><strong>ein Bedienweg</strong>, volle Investition in dessen Qualität</li>
-<li>Preis: Ausgeschlossen ist, wer nicht spricht oder nicht verstanden wird. In der Warteschlange sind das <strong>sehr viele</strong></li>
+<li>Nachteil: Ausgeschlossen ist, wer nicht spricht oder nicht verstanden wird. In der Warteschlange sind das <strong>sehr viele</strong></li>
 </ul>
 <p><strong>Position Zusatz</strong></p>
 <ul>
 <li><strong>zweiter Weg</strong> bleibt, robust für das volle Nutzerspektrum</li>
-<li>Preis: <strong>doppelte Pflege</strong>, geteiltes Budget, zwei Bedienwege in einem Gehäuse</li>
+<li>Nachteil: <strong>doppelte Pflege</strong>, geteiltes Budget, zwei Bedienwege in einem Gehäuse</li>
 </ul>
 <div class="script-only">
 
-<p>Zwei Gegenpositionen zur Auflösung. Beide haben einen echten Preis.</p>
-<p>Position Ersatz: ein Bedienweg, und die volle Investition fließt in dessen Qualität. Das ist kein schwaches Argument: Geteilte Budgets erzeugen zwei mittelmäßige Wege. Der Preis: Ausgeschlossen ist, wer nicht spricht oder nicht verstanden wird. In der Warteschlange sind das sehr viele, denn zu den systematisch Betroffenen kommen alle, die situativ nicht sprechen wollen.</p>
-<p>Position Zusatz: Der zweite Weg bleibt, das Gerät ist robust für das volle Nutzerspektrum. Der Preis: doppelte Pflege, geteiltes Budget, zwei Bedienwege in einem Gehäuse.</p>
+<p>Zwei Gegenpositionen zur Auflösung. Beide haben einen echten Nachteil.</p>
+<p>Position Ersatz: ein Bedienweg, und die volle Investition fließt in dessen Qualität. Das ist kein schwaches Argument: Geteilte Budgets erzeugen zwei mittelmäßige Wege. Der Nachteil: Ausgeschlossen ist, wer nicht spricht oder nicht verstanden wird. In der Warteschlange sind das sehr viele, denn zu den systematisch Betroffenen kommen alle, die situativ nicht sprechen wollen.</p>
+<p>Position Zusatz: Der zweite Weg bleibt, das Gerät ist robust für das volle Nutzerspektrum. Der Nachteil: doppelte Pflege, geteiltes Budget, zwei Bedienwege in einem Gehäuse.</p>
 <p>Einigen sich die Gruppen schnell auf „Zusatz&quot;, hilft eine Verschärfung: Das Budget erlaubt nur einen Bedienweg.</p>
 </div>
   
@@ -3764,27 +3777,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
   
-<article class="chunk chunk-free width-standard" id="anhang-fallback-diktat" data-chunk-num="69">
+<article class="chunk chunk-free width-standard" id="anhang-fallback-padlet-leer" data-chunk-num="69">
   
   <span class="chunk-num" aria-hidden="true"><i>6</i><i>9</i></span>
-  
-  <h2 class="chunk-heading">Fallback Teil A · Der Diktattest scheitert</h2>
-  <p><strong>Eine vorbereitete Fehltranskript-Sammlung, gleiche Auswertungsfrage.</strong> Einsatz, wenn der Raum zu laut oder zu leise ist oder jemand aus Datenschutzgründen nicht diktieren will.</p>
-<ul>
-<li>Sofort verfügbar: die Siri-Paare aus Teil B (#bildpaar-siri-anziehen, #bildpaar-siri-sinn), Transkript und Antwort sichtbar</li>
-<li>[Platzhalter – Fehltranskript-Sammlung: sechs bis acht Paare aus gesagtem und erkanntem Satz mit notierter Umgebung, vor Semesterbeginn zu erstellen]</li>
-<li><strong>Auswertungsfrage</strong> unverändert: An welcher Station ist jeder Fehler entstanden?</li>
-</ul>
-
-  
-  
-  
-  
-  
-</article>
-<article class="chunk chunk-free width-standard" id="anhang-fallback-padlet-leer" data-chunk-num="70">
-  
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>0</i></span>
   
   <h2 class="chunk-heading">Fallback Teil B · Das Padlet bleibt leer</h2>
   <p><strong>Aktivierung 1 läuft auf den Archivfällen und den Diktatprotokollen aus Teil A.</strong> Die Prüferrollen bleiben, beide Aufträge bleiben unverändert.</p>
@@ -3798,16 +3793,16 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-free width-standard" id="fallback-verschaerfung" data-chunk-num="71">
+<article class="chunk chunk-free width-standard" id="fallback-verschaerfung" data-chunk-num="70">
   
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>1</i></span>
+  <span class="chunk-num" aria-hidden="true"><i>7</i><i>0</i></span>
   
   <h2 class="chunk-heading">Fallback Teil B · Die Gruppe einigt sich zu schnell</h2>
   <p><strong>Verschärfung: Das Budget erlaubt nur einen Bedienweg.</strong> „Zusatz&quot; ist der naheliegende Kompromiss. Wenn nur ein Weg bleibt: welcher, und wen trifft jetzt der Nachteil?</p>
 <div class="script-only">
 
 <p>Die Verschärfung ist derselbe didaktische Griff wie die Nebenbedingung in Einheit 5: Das Budget erlaubt nur einen Bedienweg.</p>
-<p>Der Grund: „Zusatz&quot; ist der naheliegende Kompromiss, weil er auf den ersten Blick niemanden ausschließt. Erst wenn etwas aufgegeben werden muss, lässt sich ein Preis benennen.</p>
+<p>Der Grund: „Zusatz&quot; ist der naheliegende Kompromiss, weil er auf den ersten Blick niemanden ausschließt. Erst wenn etwas aufgegeben werden muss, lässt sich ein Nachteil benennen.</p>
 <p>Wenn nur ein Weg bleibt: welcher, und wen trifft jetzt der Nachteil?</p>
 </div>
   
@@ -3816,9 +3811,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-free width-standard" id="anhang-fallback-drittel" data-chunk-num="72">
+<article class="chunk chunk-free width-standard" id="anhang-fallback-drittel" data-chunk-num="71">
   
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>2</i></span>
+  <span class="chunk-num" aria-hidden="true"><i>7</i><i>1</i></span>
   
   <h2 class="chunk-heading">Fallback Teil B · Ein Drittel anwesend</h2>
   <p><strong>Aktivierung 1 im Plenum statt in Kleingruppen; Aktivierung 2 als Pro-Contra mit zwei Gruppen.</strong> Aufträge, Kriterien und Auflösung bleiben unverändert.</p>
@@ -3829,9 +3824,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-free width-standard" id="standard-wahrscheinlich-schlaegt-gesagt" data-chunk-num="73">
+<article class="chunk chunk-free width-standard" id="standard-wahrscheinlich-schlaegt-gesagt" data-chunk-num="72">
   
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>3</i></span>
+  <span class="chunk-num" aria-hidden="true"><i>7</i><i>2</i></span>
   
   <h2 class="chunk-heading">Vertiefung · Warum das Wahrscheinliche Vorrang vor dem Gesagten hat</h2>
   <p><strong>Die Worterkennung gibt die wahrscheinlichste Wortfolge aus, und Wörterbuch und Sprachmodell entscheiden mit, was überhaupt in Frage kommt.</strong></p>
@@ -3849,9 +3844,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-example width-standard" id="example-duplex-vorfuehrung" data-chunk-num="74">
+<article class="chunk chunk-example width-standard" id="example-duplex-vorfuehrung" data-chunk-num="73">
   
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>4</i></span>
+  <span class="chunk-num" aria-hidden="true"><i>7</i><i>3</i></span>
   <span class="chunk-label">beispiel</span>
   <h2 class="chunk-heading">Vertiefung · Die Vorführung: Google Duplex, Mai 2018</h2>
   <p><strong>Auf der Google I/O 2018 ruft ein Assistent in einem Friseursalon an und vereinbart einen Termin, mit „mhm&quot; und Pausen wie ein Mensch.</strong></p>
@@ -3867,9 +3862,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-free width-wide" id="vollbild-duplex-vorfuehrung-2018" data-chunk-num="75">
+<article class="chunk chunk-free width-wide" id="vollbild-duplex-vorfuehrung-2018" data-chunk-num="74">
   
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>5</i></span>
+  <span class="chunk-num" aria-hidden="true"><i>7</i><i>4</i></span>
   
   <h2 class="chunk-heading">Google Duplex Demo (Google I/O 2018)</h2>
   <p><p class="video-link">▶ Video: <a href="https://www.youtube.com/watch?v=znNe4pMCsD4">Google Duplex Demo (Google I/O 2018)</a> · ZEM502<br><small>https://www.youtube.com/watch?v=znNe4pMCsD4</small></p></p>
@@ -3880,9 +3875,9 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-free width-standard" id="standard-mikrofon-nie-aus" data-chunk-num="76">
+<article class="chunk chunk-free width-standard" id="standard-mikrofon-nie-aus" data-chunk-num="75">
   
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>6</i></span>
+  <span class="chunk-num" aria-hidden="true"><i>7</i><i>5</i></span>
   
   <h2 class="chunk-heading">Vertiefung · Das Mikrofon, das nie aus ist</h2>
   <p><strong>Die Sorge vor dem zuhörenden Gerät ist älter als jeder Sprachassistent im Wohnzimmer.</strong></p>
@@ -3899,15 +3894,15 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   
 </article>
-<article class="chunk chunk-free width-wide" id="lit-quellen" data-chunk-num="77">
+<article class="chunk chunk-free width-wide" id="lit-quellen" data-chunk-num="76">
   
-  <span class="chunk-num" aria-hidden="true"><i>7</i><i>7</i></span>
+  <span class="chunk-num" aria-hidden="true"><i>7</i><i>6</i></span>
   
   <h2 class="chunk-heading">Literatur und Beispiele</h2>
   <p>Koenecke, A. u. a. (2020). Racial disparities in automated speech recognition. PNAS 117(14), 7684–7689.</p>
 <p>Heinecke, A. M. &amp; Gerken, J. (2024). Mensch-Computer-Interaktion. Basiswissen für Entwickler und Gestalter (3. Aufl.). Springer Vieweg.</p>
 <p>Bitkom (2025). Zukunft der Consumer Technology 2025. Trendstudie, n = 1 159.</p>
-<p>Beispiele: Siri-Screenshots und Fehlerquellen der Spracherkennung (#bildpaar-siri-anziehen, #bildpaar-siri-sinn, #kern-fehlerquellen-altfolie). Offen: Fehltranskript-Sammlung (#anhang-fallback-diktat). Sammelauftrag: <a href="https://padlet.com/padlets/s023p1ew2ah42ya5sbi2" target="_blank" rel="noopener noreferrer">https://padlet.com/padlets/s023p1ew2ah42ya5sbi2</a><button type="button" class="link-code" data-link-code="https://padlet.com/padlets/s023p1ew2ah42ya5sbi2" aria-label="Show this address large, with a code to scan"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 1h5.4v5.4H1V1zm1.3 1.3v2.8h2.8V2.3H2.3zM9.6 1H15v5.4H9.6V1zm1.3 1.3v2.8h2.8V2.3h-2.8zM1 9.6h5.4V15H1V9.6zm1.3 1.3v2.8h2.8v-2.8H2.3z"/><path d="M8 1h1.2v3.1H8V1zm0 4.3h1.2v2.4h2.3v1.2H8V5.3zm5.5 2.4H15v1.2h-1.5V7.7zM8 10.1h1.2v1.4H8v-1.4zm2.4 0H15v1.2h-1.9v1.4H15V15h-1.2v-2.1h-2.2v-1.4h-1.2v-1.4zM8 12.6h1.2V15H8v-2.4z"/></svg></button>.</p>
+<p>Beispiele: Siri-Screenshots und Fehlerquellen der Spracherkennung (#bildpaar-siri-anziehen, #bildpaar-siri-sinn, #kern-fehlerquellen-altfolie). Sammelauftrag: <a href="https://padlet.com/padlets/s023p1ew2ah42ya5sbi2" target="_blank" rel="noopener noreferrer">https://padlet.com/padlets/s023p1ew2ah42ya5sbi2</a><button type="button" class="link-code" data-link-code="https://padlet.com/padlets/s023p1ew2ah42ya5sbi2" aria-label="Show this address large, with a code to scan"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 1h5.4v5.4H1V1zm1.3 1.3v2.8h2.8V2.3H2.3zM9.6 1H15v5.4H9.6V1zm1.3 1.3v2.8h2.8V2.3h-2.8zM1 9.6h5.4V15H1V9.6zm1.3 1.3v2.8h2.8v-2.8H2.3z"/><path d="M8 1h1.2v3.1H8V1zm0 4.3h1.2v2.4h2.3v1.2H8V5.3zm5.5 2.4H15v1.2h-1.5V7.7zM8 10.1h1.2v1.4H8v-1.4zm2.4 0H15v1.2h-1.9v1.4H15V15h-1.2v-2.1h-2.2v-1.4h-1.2v-1.4zM8 12.6h1.2V15H8v-2.4z"/></svg></button>.</p>
 
   
   

@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1746,7 +1760,7 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#input-drei-tode">Drei Anläufe</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-7" aria-label="Folien dieses Teils: Drei Anläufe"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-7"><li><a href="#timeline-kette-handschrift" data-rd="timeline-kette-handschrift"><span class="rd-num">60</span><span class="rd-text">Die Abfolge der Handschrifteingabe</span></a></li><li><a href="#vermutung-zwei-stellen" data-rd="vermutung-zwei-stellen"><span class="rd-num">61</span><span class="rd-text">Vermutungsstellen · wo die Abfolge rät</span></a></li><li><a href="#standard-raten-ersparen" data-rd="standard-raten-ersparen"><span class="rd-num">62</span><span class="rd-text">Wie man der Erkennung das Raten erspart</span></a></li><li><a href="#vollbild-textract-handschrift-konfidenz" data-rd="vollbild-textract-handschrift-konfidenz"><span class="rd-num">63</span><span class="rd-text">Amazon Textract Overview and Demo</span></a></li><li><a href="#tod-newton" data-rd="tod-newton"><span class="rd-num">64</span><span class="rd-text">Erster Anlauf · Newton 1993</span></a></li><li><a href="#tod-graffiti" data-rd="tod-graffiti"><span class="rd-num">65</span><span class="rd-text">Zweiter Anlauf · Graffiti und Unistrokes</span></a></li><li><a href="#tod-tablet-pc" data-rd="tod-tablet-pc"><span class="rd-num">66</span><span class="rd-text">Dritter Anlauf · Tablet PC 2002</span></a></li><li><a href="#kern-drei-tode" data-rd="kern-drei-tode"><span class="rd-num">67</span><span class="rd-text">Drei Anläufe, drei Ursachen</span></a></li><li><a href="#these-erkennungsrate" data-rd="these-erkennungsrate"><span class="rd-num">68</span><span class="rd-text">Von den drei gescheiterten Anläufen der Handschrifteingabe war nur einer technisch bedingt</span></a></li><li><a href="#stift-ohne-erkennung" data-rd="stift-ohne-erkennung"><span class="rd-num">69</span><span class="rd-text">Was zurückkam: der Stift ohne Erkennung</span></a></li><li><a href="#bild-stift-notiz" data-rd="bild-stift-notiz"><span class="rd-num">70</span><span class="rd-text">Die Notiz bleibt Handschrift</span></a></li><li><a href="#vergleich-text-bild" data-rd="vergleich-text-bild"><span class="rd-num">71</span><span class="rd-text">Stift als Text gegen Stift als Bild</span></a></li><li><a href="#stift-deterministik" data-rd="stift-deterministik"><span class="rd-num">72</span><span class="rd-text">Warum das funktioniert</span></a></li><li><a href="#vollbild-stift-druckstufen-demo" data-rd="vollbild-stift-druckstufen-demo"><span class="rd-num">73</span><span class="rd-text">Don&#39;t believe the pressure levels hype</span></a></li><li><a href="#stat-null-vermutungen" data-rd="stat-null-vermutungen"><span class="rd-num">74</span><span class="rd-text">0</span></a></li><li><a href="#erkennung-als-suche" data-rd="erkennung-als-suche"><span class="rd-num">75</span><span class="rd-text">Und wo die Erkennung heute trotzdem hilft</span></a></li><li><a href="#these-original-bleibt" data-rd="these-original-bleibt"><span class="rd-num">76</span><span class="rd-text">Eine Vermutung ist erträglich, wenn das Original erhalten bleibt</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#aktivierung-anlauf">Aktivierung · Der vierte Anlauf</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-8" aria-label="Folien dieses Teils: Aktivierung · Der vierte Anlauf"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-8"><li><a href="#challenge-vierter-anlauf" data-rd="challenge-vierter-anlauf"><span class="rd-num">77</span><span class="rd-text">Der vierte Anlauf</span></a></li><li><a href="#auftrag-vierter-anlauf" data-rd="auftrag-vierter-anlauf"><span class="rd-num">78</span><span class="rd-text">Auftrag · der vierte Anlauf im Detail</span></a></li><li><a href="#ki-werkzeug-vierter-anlauf" data-rd="ki-werkzeug-vierter-anlauf"><span class="rd-num">79</span><span class="rd-text">KI ist hier Werkzeug</span></a></li><li><a href="#kern-anlauf-aufloesung" data-rd="kern-anlauf-aufloesung"><span class="rd-num">80</span><span class="rd-text">Auflösung an zwei Vorschlägen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#input-glastastatur">Die Glastastatur</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-9" aria-label="Folien dieses Teils: Die Glastastatur"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-9"><li><a href="#glastastatur" data-rd="glastastatur"><span class="rd-num">81</span><span class="rd-text">Glastastatur · was ihr fehlt</span></a></li><li><a href="#autokorrektur" data-rd="autokorrektur"><span class="rd-num">82</span><span class="rd-text">Autokorrektur · warum sie trotzdem funktioniert</span></a></li><li><a href="#standard-t9-vermutung" data-rd="standard-t9-vermutung"><span class="rd-num">83</span><span class="rd-text">T9: die erste Vermutung in der Tastatur</span></a></li><li><a href="#bild-ganz-t9-tastatur" data-rd="bild-ganz-t9-tastatur"><span class="rd-num">84</span><span class="rd-text">4663 · good, home oder gone</span></a></li><li><a href="#example-autokorrektur-faelle" data-rd="example-autokorrektur-faelle"><span class="rd-num">85</span><span class="rd-text">Autokorrektur · wenn sie danebenliegt</span></a></li><li><a href="#unsicherheit-anzeige" data-rd="unsicherheit-anzeige"><span class="rd-num">86</span><span class="rd-text">Unsicherheit · dieselbe Frage wie überall</span></a></li><li><a href="#these-glastastatur" data-rd="these-glastastatur"><span class="rd-num">87</span><span class="rd-text">In der Glastastatur ist die Vermutung besser gestaltet als das Original</span></a></li><li><a href="#spracheingabe-konkurrenz" data-rd="spracheingabe-konkurrenz"><span class="rd-num">88</span><span class="rd-text">Spracheingabe · die Konkurrenz auf Glas</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#aktivierung-preis">Aktivierung · Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Aktivierung · Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#challenge-entscheidung-preis" data-rd="challenge-entscheidung-preis"><span class="rd-num">89</span><span class="rd-text">Entscheidung mit Preis</span></a></li><li><a href="#fig-raster-pflegefall" data-rd="fig-raster-pflegefall"><span class="rd-num">90</span><span class="rd-text">Der Fall als Rasterbelegung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">91</span><span class="rd-text">Zwei Gegenpositionen</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#aktivierung-preis">Aktivierung · Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Aktivierung · Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#challenge-entscheidung-preis" data-rd="challenge-entscheidung-preis"><span class="rd-num">89</span><span class="rd-text">Entscheidung mit Nachteil</span></a></li><li><a href="#fig-raster-pflegefall" data-rd="fig-raster-pflegefall"><span class="rd-num">90</span><span class="rd-text">Der Fall als Rasterbelegung</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">91</span><span class="rd-text">Zwei Gegenpositionen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#sicherung-teil-b-abschnitt">Für die Klausur · Teil B</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Für die Klausur · Teil B"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#sicherung-teil-b" data-rd="sicherung-teil-b"><span class="rd-num">92</span><span class="rd-text">Für die Klausur · Teil B</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">93</span><span class="rd-text">Maus, Tastatur und der Stift ohne Erkennung halten sich, weil sie den Körper wenig belasten und nicht raten</span></a></li><li><a href="#pruefen-t04" data-rd="pruefen-t04"><span class="rd-num">94</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t05" data-rd="ausblick-t05"><span class="rd-num">95</span><span class="rd-text">Nächste Woche · Einheit 5</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#lit-teil-a" data-rd="lit-teil-a"><span class="rd-num">96</span><span class="rd-text">Literatur · Teil A</span></a></li><li><a href="#fallback-teil-a" data-rd="fallback-teil-a"><span class="rd-num">97</span><span class="rd-text">Fallbacks Teil A</span></a></li><li><a href="#standard-wertgeber-endlos" data-rd="standard-wertgeber-endlos"><span class="rd-num">98</span><span class="rd-text">Vertiefung · Mit Anschlag oder endlos: wo der Wert wohnt</span></a></li><li><a href="#vollbild-smartknob-haptische-rasten" data-rd="vollbild-smartknob-haptische-rasten"><span class="rd-num">99</span><span class="rd-text">DIY haptic input knob: BLDC motor + round LCD</span></a></li><li><a href="#vollbild-maus-alternativen" data-rd="vollbild-maus-alternativen"><span class="rd-num">100</span><span class="rd-text">Zeigen ohne Maus · Zusatzmaterial</span></a></li><li><a href="#standard-zwei-ziffernbloecke" data-rd="standard-zwei-ziffernbloecke"><span class="rd-num">101</span><span class="rd-text">Vertiefung · Zwei Ziffernblöcke, zwei Körpergedächtnisse</span></a></li><li><a href="#fallback-vierter-anlauf" data-rd="fallback-vierter-anlauf"><span class="rd-num">102</span><span class="rd-text">Vorbereitete Fälle · Der vierte Anlauf</span></a></li><li><a href="#fallback-teil-b" data-rd="fallback-teil-b"><span class="rd-num">103</span><span class="rd-text">Fallbacks Teil B</span></a></li><li><a href="#standard-smartpen-original" data-rd="standard-smartpen-original"><span class="rd-num">104</span><span class="rd-text">Vertiefung · Der Smartpen: das Original liegt auf Papier</span></a></li><li><a href="#lit-teil-b" data-rd="lit-teil-b"><span class="rd-num">105</span><span class="rd-text">Literatur · Teil B</span></a></li></ol></li>
   </ol>
@@ -1778,7 +1792,7 @@ strong { color: var(--ink); }
     <li><a href="#input-drei-tode">Drei Anläufe</a></li>
     <li><a href="#aktivierung-anlauf">Aktivierung · Der vierte Anlauf</a></li>
     <li><a href="#input-glastastatur">Die Glastastatur</a></li>
-    <li><a href="#aktivierung-preis">Aktivierung · Entscheidung mit Preis</a></li>
+    <li><a href="#aktivierung-preis">Aktivierung · Entscheidung mit Nachteil</a></li>
     <li><a href="#sicherung-teil-b-abschnitt">Für die Klausur · Teil B</a></li>
     <li><a href="#anhang">Anhang</a></li>
   </ol>
@@ -2431,7 +2445,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li><strong>Ränder und Ecken</strong> gehören zu den schnellsten Zielen auf dem Bildschirm</li>
 <li><strong>Wurf statt Zielen:</strong> Auf ein Ziel ohne Dahinter darf die Hand mit voller Geschwindigkeit zufahren</li>
 <li>Ziele, die <strong>klein und randfern</strong> liegen, verlängern jede einzelne Auswahl</li>
-<li>Das <strong>Rand-Argument</strong> gehört zu K-T04A-1: Kontext, Fitts-Argument, Preis</li>
+<li>Das <strong>Rand-Argument</strong> gehört zu K-T04A-1: Kontext, Fitts-Argument, Nachteil</li>
 </ul>
 <div class="script-only">
 
@@ -2439,7 +2453,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Der zweite Satz klingt zuerst falsch. Ein Ziel am Rand kann nicht überfahren werden: Die Hand darf mit voller Geschwindigkeit zufahren, der Zeiger bleibt am Rand stehen. In der Fitts-Rechnung verhält sich das wie ein Ziel unendlicher Breite.</p>
 <p>Daraus folgt: Ränder und Ecken gehören zu den schnellsten Zielen auf dem Bildschirm. An einer Ecke schlägt der Zeiger in zwei Richtungen an. Das Ziel wirkt in beide Richtungen unendlich breit und lässt sich deshalb kaum verfehlen.</p>
 <p>Die Umkehrung kommt in der Praxis häufig vor: Ziele, die klein und randfern liegen, verlängern jede einzelne Auswahl, und das summiert sich über jede Benutzung.</p>
-<p>Das Rand-Argument gehört zur Klausuraufgabe K-T04A-1: Kontext, Fitts-Argument, Preis.</p>
+<p>Das Rand-Argument gehört zur Klausuraufgabe K-T04A-1: Kontext, Fitts-Argument, Nachteil.</p>
 </div>
   
   
@@ -3231,14 +3245,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Für die Klausur · Teil A</h2>
   <p><strong>Aus Teil A führt Folgendes in die Klausur:</strong></p>
 <ul>
-<li><strong>L3:</strong> eine indirekte Eingabe für einen Kontext begründet wählen, mit Fitts-Argument und benanntem Preis (K-T04A-1)</li>
+<li><strong>L3:</strong> eine indirekte Eingabe für einen Kontext begründet wählen, mit Fitts-Argument und benanntem Nachteil (K-T04A-1)</li>
 <li><strong>L2:</strong> begründen, warum ein Konzept überlebt, und zwar mit einer Eigenschaft, nicht mit Gewohnheit (K-T04A-2)</li>
 <li>Teil B ist ein eigener Stoffblock und braucht kein mitgebrachtes Ergebnis, deshalb <strong>gibt es in dieser Einheit keinen Sammelauftrag</strong></li>
 </ul>
 <div class="script-only">
 
 <p>Aus Teil A gehen zwei Lernziele in die Klausur.</p>
-<p>Zu L3: eine indirekte Eingabe für einen gegebenen Kontext begründet wählen, mit einem Fitts-Argument und mit benanntem Preis (K-T04A-1). Das Fitts-Argument gehört zur Begründung; „ist praktischer&quot; reicht nicht.</p>
+<p>Zu L3: eine indirekte Eingabe für einen gegebenen Kontext begründet wählen, mit einem Fitts-Argument und mit benanntem Nachteil (K-T04A-1). Das Fitts-Argument gehört zur Begründung; „ist praktischer&quot; reicht nicht.</p>
 <p>Zu L2: begründen, warum ein Konzept überlebt, und zwar mit einer Eigenschaft, nicht mit Gewohnheit (K-T04A-2). An diesem Punkt scheitern viele Antworten. „Weil die Leute es gewohnt sind&quot; beschreibt die Folge, nicht die Ursache. Die Ursache heißt eingeübte Motorik und Wechselkosten. Die lassen sich benennen und abschätzen.</p>
 <p>Einen Sammelauftrag gibt es in dieser Einheit nicht. Teil B ist ein eigener Stoffblock und braucht kein mitgebrachtes Ergebnis.</p>
 </div>
@@ -4169,7 +4183,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="aktivierung-preis">
-  <h1 class="column-heading">Aktivierung · Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Aktivierung · Entscheidung mit Nachteil</h1>
   
   
   
@@ -4179,18 +4193,18 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>8</i><i>9</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis</span> <span class="hd-sub">Arbeitsauftrag · 14 Minuten · Vierergruppen</span></h2>
-  <p><strong>Auftrag:</strong> Ein Formular auf einem Tablet in der Pflege: Tastatur, Stift oder Sprache? Entscheiden Sie sich, und benennen Sie den Preis Ihrer Wahl.</p>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil</span> <span class="hd-sub">Arbeitsauftrag · 14 Minuten · Vierergruppen</span></h2>
+  <p><strong>Auftrag:</strong> Ein Formular auf einem Tablet in der Pflege: Tastatur, Stift oder Sprache? Entscheiden Sie sich, und benennen Sie den Nachteil Ihrer Wahl.</p>
 <ul>
 <li><strong>Zeit:</strong> 10 Minuten Arbeit, 4 Minuten Auflösung</li>
 <li><strong>Sozialform:</strong> Vierergruppen</li>
-<li><strong>Ergebnis:</strong> eine Entscheidung, eine Begründung am Raster, ein benannter Preis</li>
-<li><strong>KI-Rolle: ausgeschlossen.</strong> Die Entscheidung und ihr Preis sind Ihre. Ein Modell würde Ihnen genau die Begründung liefern, die Sie hier selbst bauen sollen.</li>
+<li><strong>Ergebnis:</strong> eine Entscheidung, eine Begründung am Raster, ein benannter Nachteil</li>
+<li><strong>KI-Rolle: ausgeschlossen.</strong> Die Entscheidung und ihr Nachteil sind Ihre. Ein Modell würde Ihnen genau die Begründung liefern, die Sie hier selbst bauen sollen.</li>
 </ul>
 <div class="script-only">
 
 <p>Die letzte Aktivierung, 14 Minuten in Vierergruppen, in der Form der Klausuraufgabe.</p>
-<p>Der Fall: ein Formular auf einem Tablet in der Pflege. Zur Wahl stehen Tastatur, Stift oder Sprache. Sie entscheiden sich, begründen am Raster und benennen den Preis.</p>
+<p>Der Fall: ein Formular auf einem Tablet in der Pflege. Zur Wahl stehen Tastatur, Stift oder Sprache. Sie entscheiden sich, begründen am Raster und benennen den Nachteil.</p>
 <p>Der Fall ist so gewählt, dass alle drei Optionen vertretbar sind und jede an einer anderen Stelle Nachteile hat. Eine Aufgabe mit einer richtigen Antwort prüft Wissen, eine Aufgabe mit drei vertretbaren Antworten prüft Begründung.</p>
 <p>KI ist ausgeschlossen: Ein Modell würde Ihnen genau die Begründung liefern, die Sie hier selbst bauen sollen.</p>
 </div>
@@ -4298,18 +4312,18 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Position Stift – als Bild, ohne Erkennung</strong></p>
 <ul>
 <li>rät nicht, ist leise, funktioniert mit Handschuhen</li>
-<li>Preis: kein durchsuchbarer Text ohne nachgelagerte Erkennung. Und ein Objekt mehr, das desinfiziert werden muss</li>
+<li>Nachteil: kein durchsuchbarer Text ohne nachgelagerte Erkennung. Und ein Objekt mehr, das desinfiziert werden muss</li>
 </ul>
 <p><strong>Position Glastastatur</strong></p>
 <ul>
 <li>liefert sofort strukturierten, lesbaren Text auf abwischbarem Glas</li>
-<li>Preis: mit Handschuhen langsam und fehlerträchtig, und die Autokorrektur rät dort, wo Fehler in die Akte wandern</li>
+<li>Nachteil: mit Handschuhen langsam und fehlerträchtig, und die Autokorrektur rät dort, wo Fehler in die Akte wandern</li>
 </ul>
 <div class="script-only">
 
-<p>Zwei Gegenpositionen zur Auflösung. Beide sind vertretbar, solange der Preis danebensteht.</p>
-<p>Position Stift, als Bild und ohne Erkennung: Er rät nicht, er ist leise, und er funktioniert mit Handschuhen. Der Preis hat zwei Teile. Es entsteht kein durchsuchbarer Text, solange keine nachgelagerte Erkennung läuft. Und ein Objekt mehr muss desinfiziert werden. Der zweite Teil wird in Diskussionen oft vergessen und wiegt in der Pflege schwerer.</p>
-<p>Position Glastastatur: Sie liefert sofort strukturierten, lesbaren Text, und zwar auf abwischbarem Glas. Der Preis: Mit Handschuhen ist sie langsam und fehlerträchtig. Und die Autokorrektur rät genau dort, wo Fehler in eine Patientenakte wandern.</p>
+<p>Zwei Gegenpositionen zur Auflösung. Beide sind vertretbar, solange der Nachteil danebensteht.</p>
+<p>Position Stift, als Bild und ohne Erkennung: Er rät nicht, er ist leise, und er funktioniert mit Handschuhen. Der Nachteil hat zwei Teile. Es entsteht kein durchsuchbarer Text, solange keine nachgelagerte Erkennung läuft. Und ein Objekt mehr muss desinfiziert werden. Der zweite Teil wird in Diskussionen oft vergessen und wiegt in der Pflege schwerer.</p>
+<p>Position Glastastatur: Sie liefert sofort strukturierten, lesbaren Text, und zwar auf abwischbarem Glas. Der Nachteil: Mit Handschuhen ist sie langsam und fehlerträchtig. Und die Autokorrektur rät genau dort, wo Fehler in eine Patientenakte wandern.</p>
 <p>Halten Sie an dieser Stelle die These zur Glastastatur dagegen. Dort war die Vermutung vertretbar, weil das Original wenig wert war und der Fehler folgenlos. Hier ist der Fehler nicht folgenlos. Damit fällt die Bedingung weg, unter der die These galt.</p>
 </div>
   
@@ -4334,14 +4348,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Aus Teil B führt Folgendes in die Klausur:</strong></p>
 <ul>
 <li><strong>L2:</strong> das dreimalige Scheitern der Handschrifteingabe mit der wiederkehrenden Ursache benennen und mit drei Bedingungen auf einen neuen Fall übertragen (K-T04B-1)</li>
-<li><strong>L3:</strong> für ein Formular in einem gegebenen Kontext eine Eingabeart wählen und den Preis benennen (K-T04B-2)</li>
+<li><strong>L3:</strong> für ein Formular in einem gegebenen Kontext eine Eingabeart wählen und den Nachteil benennen (K-T04B-2)</li>
 </ul>
 <div class="script-only">
 
 <p>Aus Teil B gehen wieder zwei Lernziele in die Klausur.</p>
 <p>Zu L2: das dreimalige Scheitern der Handschrifteingabe mit seiner Ursache benennen, je Fall die passende der drei, und das Muster mit drei Bedingungen auf einen neuen Fall übertragen (K-T04B-1). Der Übertrag ist der schwierigere Teil, und genau den hat die Aktivierung geübt.</p>
-<p>Zu L3: für ein Formular in einem gegebenen Kontext eine Eingabeart wählen und den Preis benennen (K-T04B-2). Die Wahl selbst bringt keine Punkte; die Begründung am Raster und der benannte Preis bringen sie.</p>
-<p>Ein häufiger Fehler: „Sprache, weil es am schnellsten geht&quot; ist keine Begründung am Raster. „Sprache, weil der Aufgabentyp beide Hände bindet. Preis: Im Mehrbettzimmer sind Gesundheitsdaten mitzuhören&quot; ist eine.</p>
+<p>Zu L3: für ein Formular in einem gegebenen Kontext eine Eingabeart wählen und den Nachteil benennen (K-T04B-2). Die Wahl selbst bringt keine Punkte; die Begründung am Raster und der benannte Nachteil bringen sie.</p>
+<p>Ein häufiger Fehler: „Sprache, weil es am schnellsten geht&quot; ist keine Begründung am Raster. „Sprache, weil der Aufgabentyp beide Hände bindet. Nachteil: Im Mehrbettzimmer sind Gesundheitsdaten mitzuhören&quot; ist eine.</p>
 </div>
   
   

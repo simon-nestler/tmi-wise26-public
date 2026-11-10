@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1740,7 +1754,7 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-rahmen">Rahmen des Semesters</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-1" aria-label="Folien dieses Teils: Rahmen des Semesters"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-1"><li><a href="#karte-reise" data-rd="karte-reise"><span class="rd-num">2</span><span class="rd-text">Semester · Einheit 1 von 13</span></a></li><li><a href="#modul-anspruch" data-rd="modul-anspruch"><span class="rd-num">3</span><span class="rd-text">Modul · Anspruch</span></a></li><li><a href="#kern-arbeitsformen" data-rd="kern-arbeitsformen"><span class="rd-num">4</span><span class="rd-text">Semester · Arbeitsformen</span></a></li><li><a href="#ki-vertrag" data-rd="ki-vertrag"><span class="rd-num">5</span><span class="rd-text">KI · Vertrag</span></a></li><li><a href="#check-ankuendigung" data-rd="check-ankuendigung"><span class="rd-num">6</span><span class="rd-text">Check · Ab Einheit 2</span></a></li><li><a href="#agenda-a" data-rd="agenda-a"><span class="rd-num">7</span><span class="rd-text">Einheit 1 · Teil A · Lernziele</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-kernkonflikt">Der Kernkonflikt</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-2" aria-label="Folien dieses Teils: Der Kernkonflikt"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-2"><li><a href="#these-kernkonflikt" data-rd="these-kernkonflikt"><span class="rd-num">8</span><span class="rd-text">Ein Gerät misst ein Signal. Was das Signal bedeutet, wird vermutet.</span></a></li><li><a href="#vollbild-produktsatz" data-rd="vollbild-produktsatz"><span class="rd-num">9</span><span class="rd-text">EMG-Armband · Produktseite</span></a></li><li><a href="#zitat-doku" data-rd="zitat-doku"><span class="rd-num">10</span><span class="rd-text">EMG-Armband · Dokumentation</span></a></li><li><a href="#frage-welcher-stimmt" data-rd="frage-welcher-stimmt"><span class="rd-num">11</span><span class="rd-text">Zwei Sätze über dasselbe Gerät. Welcher stimmt?</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-kette">Die Abfolge</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-3" aria-label="Folien dieses Teils: Die Abfolge"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-3"><li><a href="#def-drei-verben" data-rd="def-drei-verben"><span class="rd-num">12</span><span class="rd-text">Erkennen, verstehen, reagieren</span></a></li><li><a href="#timeline-fuenf-stationen" data-rd="timeline-fuenf-stationen"><span class="rd-num">13</span><span class="rd-text">Abfolge · Fünf Stationen</span></a></li><li><a href="#station-messung" data-rd="station-messung"><span class="rd-num">14</span><span class="rd-text">Abfolge · Messung</span></a></li><li><a href="#kern-station-messung" data-rd="kern-station-messung"><span class="rd-num">15</span><span class="rd-text">Abfolge · Messung</span></a></li><li><a href="#stat-null-sensoren" data-rd="stat-null-sensoren"><span class="rd-num">16</span><span class="rd-text">0</span></a></li><li><a href="#station-merkmale" data-rd="station-merkmale"><span class="rd-num">17</span><span class="rd-text">Abfolge · Merkmale</span></a></li><li><a href="#kern-station-merkmale" data-rd="kern-station-merkmale"><span class="rd-num">18</span><span class="rd-text">Abfolge · Merkmale</span></a></li><li><a href="#station-modell" data-rd="station-modell"><span class="rd-num">19</span><span class="rd-text">Abfolge · Vermutung</span></a></li><li><a href="#kern-station-modell" data-rd="kern-station-modell"><span class="rd-num">20</span><span class="rd-text">Abfolge · Vermutung</span></a></li><li><a href="#def-konfidenz" data-rd="def-konfidenz"><span class="rd-num">21</span><span class="rd-text">Konfidenz</span></a></li><li><a href="#bild-schwelle" data-rd="bild-schwelle"><span class="rd-num">22</span><span class="rd-text">Konfidenz · Schwelle</span></a></li><li><a href="#vergleich-fehlerarten" data-rd="vergleich-fehlerarten"><span class="rd-num">23</span><span class="rd-text">Schwelle · Zwei Fehlerarten</span></a></li><li><a href="#these-genauigkeit" data-rd="these-genauigkeit"><span class="rd-num">24</span><span class="rd-text">Hinter jeder Genauigkeitsangabe steht eine Schwelle, die jemand gelegt hat.</span></a></li><li><a href="#verrutschmuster" data-rd="verrutschmuster"><span class="rd-num">25</span><span class="rd-text">Produktsprache · Vier Muster</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-autopsie">Produkttext-Autopsie</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-4" aria-label="Folien dieses Teils: Produkttext-Autopsie"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-4"><li><a href="#example-verrutscht" data-rd="example-verrutscht"><span class="rd-num">26</span><span class="rd-text">Produktsprache · Beispiel</span></a></li><li><a href="#challenge-autopsie" data-rd="challenge-autopsie"><span class="rd-num">27</span><span class="rd-text">Produkttext-Autopsie</span></a></li><li><a href="#autopsie-material" data-rd="autopsie-material"><span class="rd-num">28</span><span class="rd-text">Autopsie · Welche Produkttexte sich eignen</span></a></li><li><a href="#autopsie-auftraege" data-rd="autopsie-auftraege"><span class="rd-num">29</span><span class="rd-text">Autopsie · Aufträge</span></a></li><li><a href="#vergleich-aufloesung-autopsie" data-rd="vergleich-aufloesung-autopsie"><span class="rd-num">30</span><span class="rd-text">Autopsie · Auflösung</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-autopsie">Produkttext-Analyse</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-4" aria-label="Folien dieses Teils: Produkttext-Analyse"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-4"><li><a href="#example-verrutscht" data-rd="example-verrutscht"><span class="rd-num">26</span><span class="rd-text">Produktsprache · Beispiel</span></a></li><li><a href="#challenge-autopsie" data-rd="challenge-autopsie"><span class="rd-num">27</span><span class="rd-text">Produkttext-Analyse</span></a></li><li><a href="#autopsie-material" data-rd="autopsie-material"><span class="rd-num">28</span><span class="rd-text">Fehleranalyse · Welche Produkttexte sich eignen</span></a></li><li><a href="#autopsie-auftraege" data-rd="autopsie-auftraege"><span class="rd-num">29</span><span class="rd-text">Fehleranalyse · Aufträge</span></a></li><li><a href="#vergleich-aufloesung-autopsie" data-rd="vergleich-aufloesung-autopsie"><span class="rd-num">30</span><span class="rd-text">Fehleranalyse · Auflösung</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-fehlerarten">Zufällig und systematisch</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-5" aria-label="Folien dieses Teils: Zufällig und systematisch"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-5"><li><a href="#these-systematisch" data-rd="these-systematisch"><span class="rd-num">31</span><span class="rd-text">Rauschen streut um den wahren Wert, ein Modell mit einseitigem Trainingsmaterial liegt in dieselbe Richtung daneben.</span></a></li><li><a href="#fehler-zwei-arten" data-rd="fehler-zwei-arten"><span class="rd-num">32</span><span class="rd-text">Fehler · Zwei Arten</span></a></li><li><a href="#bild-fehlerbilder" data-rd="bild-fehlerbilder"><span class="rd-num">33</span><span class="rd-text">Fehler · Zwei Bilder</span></a></li><li><a href="#trainingsmaterial" data-rd="trainingsmaterial"><span class="rd-num">34</span><span class="rd-text">Fehler · Trainingsmaterial</span></a></li><li><a href="#example-faceid-drei-faelle" data-rd="example-faceid-drei-faelle"><span class="rd-num">35</span><span class="rd-text">Face ID · Drei Fälle</span></a></li><li><a href="#def-fallback" data-rd="def-fallback"><span class="rd-num">36</span><span class="rd-text">Fallback</span></a></li><li><a href="#timeline-fallback-faceid" data-rd="timeline-fallback-faceid"><span class="rd-num">37</span><span class="rd-text">Face ID · Fallback-Abfolge</span></a></li><li><a href="#unsicherheit-anzeigen" data-rd="unsicherheit-anzeigen"><span class="rd-num">38</span><span class="rd-text">Unsicherheit · Anzeige</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-peer">Peer Instruction</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-6" aria-label="Folien dieses Teils: Peer Instruction"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-6"><li><a href="#quiz-aussage" data-rd="quiz-aussage"><span class="rd-num">39</span><span class="rd-text">Frage 1 · Welche Aussage ist fachlich korrekt?</span></a></li><li><a href="#quiz-aussage-aufloesung" data-rd="quiz-aussage-aufloesung"><span class="rd-num">40</span><span class="rd-text">Auflösung 1 · B</span></a></li><li><a href="#quiz-station" data-rd="quiz-station"><span class="rd-num">41</span><span class="rd-text">Frage 2 · An welcher Station entsteht dieser Fehler?</span></a></li><li><a href="#quiz-station-aufloesung" data-rd="quiz-station-aufloesung"><span class="rd-num">42</span><span class="rd-text">Auflösung 2 · D</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#a-sicherung">Für die Klausur und Auftrag</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-7" aria-label="Folien dieses Teils: Für die Klausur und Auftrag"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-7"><li><a href="#sicherung-a" data-rd="sicherung-a"><span class="rd-num">43</span><span class="rd-text">Für die Klausur · Aus Teil A</span></a></li><li><a href="#frage-l7" data-rd="frage-l7"><span class="rd-num">44</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#challenge-zwischenaufgabe" data-rd="challenge-zwischenaufgabe"><span class="rd-num">45</span><span class="rd-text">Bis nächste Woche</span></a></li><li><a href="#lit-a" data-rd="lit-a"><span class="rd-num">46</span><span class="rd-text">Literatur und Fundstellen</span></a></li></ol></li>
@@ -1748,8 +1762,8 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-wand">Fundstellen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-9" aria-label="Folien dieses Teils: Fundstellen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-9"><li><a href="#bildpaar-fundstellen-sprache" data-rd="bildpaar-fundstellen-sprache"><span class="rd-num">49</span><span class="rd-text">Spracheingabe · Zwei Produkttexte</span></a></li><li><a href="#bild-geldautomat" data-rd="bild-geldautomat"><span class="rd-num">50</span><span class="rd-text">Geldautomat · Sprachwahl</span></a></li><li><a href="#zitat-eyetracker" data-rd="zitat-eyetracker"><span class="rd-num">51</span><span class="rd-text">Eyetracker · Definition</span></a></li><li><a href="#zitat-tiefenkameras" data-rd="zitat-tiefenkameras"><span class="rd-num">52</span><span class="rd-text">Tiefenkamera · Gegenprobe</span></a></li><li><a href="#frage-sortieren" data-rd="frage-sortieren"><span class="rd-num">53</span><span class="rd-text">Welche dieser Formulierungen wäre auch fachlich korrekt zu retten?</span></a></li><li><a href="#kern-sortierung" data-rd="kern-sortierung"><span class="rd-num">54</span><span class="rd-text">Fundstellen · Sortierung</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-ketten">Zwei Abfolgen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-10" aria-label="Folien dieses Teils: Zwei Abfolgen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-10"><li><a href="#these-zwei-geraete" data-rd="these-zwei-geraete"><span class="rd-num">55</span><span class="rd-text">Face ID und das EMG-Armband durchlaufen dieselbe Abfolge und raten an verschiedenen Stellen.</span></a></li><li><a href="#agenda-b" data-rd="agenda-b"><span class="rd-num">56</span><span class="rd-text">Einheit 1 · Teil B · Lernziele</span></a></li><li><a href="#def-interaktionskette" data-rd="def-interaktionskette"><span class="rd-num">57</span><span class="rd-text">Interaktionsabfolge</span></a></li><li><a href="#timeline-faceid" data-rd="timeline-faceid"><span class="rd-num">58</span><span class="rd-text">Face ID · Fünf Stationen</span></a></li><li><a href="#faceid-messung" data-rd="faceid-messung"><span class="rd-num">59</span><span class="rd-text">Face ID · Messung</span></a></li><li><a href="#faceid-merkmalsvektor" data-rd="faceid-merkmalsvektor"><span class="rd-num">60</span><span class="rd-text">Face ID · Merkmalsvektor</span></a></li><li><a href="#faceid-abstand" data-rd="faceid-abstand"><span class="rd-num">61</span><span class="rd-text">Face ID · Vermutung</span></a></li><li><a href="#stat-falschakzeptanz" data-rd="stat-falschakzeptanz"><span class="rd-num">62</span><span class="rd-text">1 : 1 000 000</span></a></li><li><a href="#frage-zwilling" data-rd="frage-zwilling"><span class="rd-num">63</span><span class="rd-text">Was sagt diese Zahl über Ihren Zwilling?</span></a></li><li><a href="#kern-zwilling" data-rd="kern-zwilling"><span class="rd-num">64</span><span class="rd-text">Face ID · Zwilling</span></a></li><li><a href="#timeline-emg" data-rd="timeline-emg"><span class="rd-num">65</span><span class="rd-text">EMG-Armband · Fünf Stationen</span></a></li><li><a href="#vergleich-ketten" data-rd="vergleich-ketten"><span class="rd-num">66</span><span class="rd-text">Zwei Abfolgen nebeneinander</span></a></li><li><a href="#undokumentiert" data-rd="undokumentiert"><span class="rd-num">67</span><span class="rd-text">Hersteller · Leerstelle</span></a></li><li><a href="#these-danebenliegen" data-rd="these-danebenliegen"><span class="rd-num">68</span><span class="rd-text">Prüfen Sie an jedem Gerät, was passiert, wenn die Vermutung danebenliegt.</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-zeichnen">Abfolge zeichnen</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Abfolge zeichnen"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#challenge-kette-zeichnen" data-rd="challenge-kette-zeichnen"><span class="rd-num">69</span><span class="rd-text">Abfolge zeichnen</span></a></li><li><a href="#zeichnen-geraete" data-rd="zeichnen-geraete"><span class="rd-num">70</span><span class="rd-text">Abfolge zeichnen · Ihr Gerät</span></a></li><li><a href="#zeichnen-auftraege" data-rd="zeichnen-auftraege"><span class="rd-num">71</span><span class="rd-text">Abfolge zeichnen · Aufträge</span></a></li><li><a href="#zeichnen-pruefer" data-rd="zeichnen-pruefer"><span class="rd-num">72</span><span class="rd-text">Abfolge zeichnen · Prüferrolle</span></a></li><li><a href="#kern-aufloesung-ketten" data-rd="kern-aufloesung-ketten"><span class="rd-num">73</span><span class="rd-text">Abfolge zeichnen · Auflösung</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-fallback">Der Fallback</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Der Fallback"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#fallback-entscheidung" data-rd="fallback-entscheidung"><span class="rd-num">74</span><span class="rd-text">Fallback · Gestaltungsentscheidung</span></a></li><li><a href="#kern-fallback-bauformen" data-rd="kern-fallback-bauformen"><span class="rd-num">75</span><span class="rd-text">Fallback · Drei Bauformen</span></a></li><li><a href="#example-pin" data-rd="example-pin"><span class="rd-num">76</span><span class="rd-text">Fallback · Der gute Fall</span></a></li><li><a href="#example-tuer" data-rd="example-tuer"><span class="rd-num">77</span><span class="rd-text">Fallback · Der schlechte Fall</span></a></li><li><a href="#def-gleichwertige-alternative" data-rd="def-gleichwertige-alternative"><span class="rd-num">78</span><span class="rd-text">Gleichwertige Alternative</span></a></li><li><a href="#ausschluss-gruppen" data-rd="ausschluss-gruppen"><span class="rd-num">79</span><span class="rd-text">Fallback · Ausschluss</span></a></li><li><a href="#example-entscheidung-muster" data-rd="example-entscheidung-muster"><span class="rd-num">80</span><span class="rd-text">Entscheidung mit Preis · Beispiel</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">81</span><span class="rd-text">Entscheidung mit Preis</span></a></li><li><a href="#entscheidung-fall" data-rd="entscheidung-fall"><span class="rd-num">82</span><span class="rd-text">Wohnheim · Der Fall</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">83</span><span class="rd-text">Wohnheim · Zwei Positionen</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-fallback">Der Fallback</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Der Fallback"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#fallback-entscheidung" data-rd="fallback-entscheidung"><span class="rd-num">74</span><span class="rd-text">Fallback · Gestaltungsentscheidung</span></a></li><li><a href="#kern-fallback-bauformen" data-rd="kern-fallback-bauformen"><span class="rd-num">75</span><span class="rd-text">Fallback · Drei Bauformen</span></a></li><li><a href="#example-pin" data-rd="example-pin"><span class="rd-num">76</span><span class="rd-text">Fallback · Der gute Fall</span></a></li><li><a href="#example-tuer" data-rd="example-tuer"><span class="rd-num">77</span><span class="rd-text">Fallback · Der schlechte Fall</span></a></li><li><a href="#def-gleichwertige-alternative" data-rd="def-gleichwertige-alternative"><span class="rd-num">78</span><span class="rd-text">Gleichwertige Alternative</span></a></li><li><a href="#ausschluss-gruppen" data-rd="ausschluss-gruppen"><span class="rd-num">79</span><span class="rd-text">Fallback · Ausschluss</span></a></li><li><a href="#example-entscheidung-muster" data-rd="example-entscheidung-muster"><span class="rd-num">80</span><span class="rd-text">Entscheidung mit Nachteil · Beispiel</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-entscheidung">Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#challenge-entscheidung" data-rd="challenge-entscheidung"><span class="rd-num">81</span><span class="rd-text">Entscheidung mit Nachteil</span></a></li><li><a href="#entscheidung-fall" data-rd="entscheidung-fall"><span class="rd-num">82</span><span class="rd-text">Wohnheim · Der Fall</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">83</span><span class="rd-text">Wohnheim · Zwei Positionen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-sicherung">Für die Klausur und Bilanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Für die Klausur und Bilanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#sicherung-b" data-rd="sicherung-b"><span class="rd-num">84</span><span class="rd-text">Für die Klausur · Aus dieser Einheit</span></a></li><li><a href="#frage-l7-antwort" data-rd="frage-l7-antwort"><span class="rd-num">85</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">86</span><span class="rd-text">Viele Geräte dieses Semesters haben eine Vermutungsstelle, und ab jetzt suchen wir sie zuerst.</span></a></li><li><a href="#pruefen-t01" data-rd="pruefen-t01"><span class="rd-num">87</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t02" data-rd="ausblick-t02"><span class="rd-num">88</span><span class="rd-text">Nächste Woche · Einheit 2</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#b-anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#fallback-padlet" data-rd="fallback-padlet"><span class="rd-num">89</span><span class="rd-text">Fallback · Padlet leer oder voll</span></a></li><li><a href="#fallback-anwesenheit" data-rd="fallback-anwesenheit"><span class="rd-num">90</span><span class="rd-text">Fallback · Ein Drittel anwesend</span></a></li><li><a href="#example-backofenuhr" data-rd="example-backofenuhr"><span class="rd-num">91</span><span class="rd-text">Backofenuhr · Systematischer Fehler ohne KI</span></a></li><li><a href="#kern-backofenuhr" data-rd="kern-backofenuhr"><span class="rd-num">92</span><span class="rd-text">Backofenuhr · Systematischer Fehler ohne KI</span></a></li><li><a href="#sensortafel-messgroessen" data-rd="sensortafel-messgroessen"><span class="rd-num">93</span><span class="rd-text">Sensoren · sieben Bauformen, sieben Messgrößen</span></a></li><li><a href="#kern-sensortafel" data-rd="kern-sensortafel"><span class="rd-num">94</span><span class="rd-text">Sensoren · sieben Bauformen, sieben Messgrößen</span></a></li><li><a href="#standard-natuerlich-versprechen" data-rd="standard-natuerlich-versprechen"><span class="rd-num">95</span><span class="rd-text">Natural User Interface · Versprechen</span></a></li><li><a href="#lit-b" data-rd="lit-b"><span class="rd-num">96</span><span class="rd-text">Literatur</span></a></li></ol></li>
   </ol>
@@ -1775,7 +1789,7 @@ strong { color: var(--ink); }
     <li><a href="#a-rahmen">Rahmen des Semesters</a></li>
     <li><a href="#a-kernkonflikt">Der Kernkonflikt</a></li>
     <li><a href="#a-kette">Die Abfolge</a></li>
-    <li><a href="#a-autopsie">Produkttext-Autopsie</a></li>
+    <li><a href="#a-autopsie">Produkttext-Analyse</a></li>
     <li><a href="#a-fehlerarten">Zufällig und systematisch</a></li>
     <li><a href="#a-peer">Peer Instruction</a></li>
     <li><a href="#a-sicherung">Für die Klausur und Auftrag</a></li>
@@ -1784,7 +1798,7 @@ strong { color: var(--ink); }
     <li><a href="#b-ketten">Zwei Abfolgen</a></li>
     <li><a href="#b-zeichnen">Abfolge zeichnen</a></li>
     <li><a href="#b-fallback">Der Fallback</a></li>
-    <li><a href="#b-entscheidung">Entscheidung mit Preis</a></li>
+    <li><a href="#b-entscheidung">Entscheidung mit Nachteil</a></li>
     <li><a href="#b-sicherung">Für die Klausur und Bilanz</a></li>
     <li><a href="#b-anhang">Anhang</a></li>
   </ol>
@@ -1946,13 +1960,13 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Der <strong>Concept-Test</strong> stellt am Anfang des Termins zwei Fragen zum Skriptabschnitt, unbenotet und sofort aufgelöst</li>
 <li>Im <strong>Mikroexperiment</strong> messen Sie am eigenen Gerät, direkt im Hörsaal, und wir sammeln das Ergebnis danach im Padlet</li>
-<li>Bei der <strong>Entscheidung mit Preis</strong> treffen Sie an einem Fall eine begründete Wahl und benennen den Preis</li>
+<li>Bei der <strong>Entscheidung mit Nachteil</strong> treffen Sie an einem Fall eine begründete Wahl und benennen den Nachteil</li>
 <li>Keine der drei Formen lässt sich <strong>vorbereiten</strong>, indem man etwas auswendig lernt</li>
 <li>Alle drei kommen heute oder nächste Woche zum ersten Mal <strong>echt</strong> vor</li>
 </ul>
 <div class="script-only">
 
-<p>Drei Arbeitsformen, jede Woche dieselben. Sie sind so gebaut, dass Sie darin nicht nur zuhören. Der Concept-Test steht am Anfang und prüft, ob der Skriptabschnitt gelesen wurde: unbenotet, fünf Minuten, sofort aufgelöst. Das Mikroexperiment verlangt ein Gerät, das Sie ohnehin dabeihaben. Sie messen selbst, wir sammeln das Ergebnis im Padlet und arbeiten im Termin damit weiter. Die Entscheidung mit Preis ist die schwerste der drei. Sie bekommen einen Fall, der keine richtige Lösung hat, entscheiden sich und benennen den Preis: welche Nachteile Ihre Entscheidung hat und wen sie treffen.</p>
+<p>Drei Arbeitsformen, jede Woche dieselben. Sie sind so gebaut, dass Sie darin nicht nur zuhören. Der Concept-Test steht am Anfang und prüft, ob der Skriptabschnitt gelesen wurde: unbenotet, fünf Minuten, sofort aufgelöst. Das Mikroexperiment verlangt ein Gerät, das Sie ohnehin dabeihaben. Sie messen selbst, wir sammeln das Ergebnis im Padlet und arbeiten im Termin damit weiter. Die Entscheidung mit Nachteil ist die schwerste der drei. Sie bekommen einen Fall, der keine richtige Lösung hat, entscheiden sich und benennen den Nachteil: welche Nachteile Ihre Entscheidung hat und wen sie treffen.</p>
 <p>Für keine der drei können Sie sich eine Antwort beschaffen. Deshalb stehen sie in der Präsenzzeit und nicht im Skript.</p>
 </div>
   
@@ -2109,7 +2123,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <div class="script-only">
 
 <p><em>Frage:</em> Zwei Sätze über dasselbe Gerät, vom selben Hersteller. Welcher stimmt?</p>
-<p>Im Raum bleibt diese Frage unbeantwortet stehen. Sie arbeitet weiter, während wir die Abfolge aufbauen. Beantwortet wird sie in der ersten Aktivierung, von der Gruppe selbst. Wenn Sie das Skript lesen, machen Sie es genauso: Notieren Sie sich eine Antwort, lesen Sie weiter und vergleichen Sie beim Abschnitt <em>Autopsie · Auflösung</em>.</p>
+<p>Im Raum bleibt diese Frage unbeantwortet stehen. Sie arbeitet weiter, während wir die Abfolge aufbauen. Beantwortet wird sie in der ersten Aktivierung, von der Gruppe selbst. Wenn Sie das Skript lesen, machen Sie es genauso: Notieren Sie sich eine Antwort, lesen Sie weiter und vergleichen Sie beim Abschnitt <em>Fehleranalyse · Auflösung</em>.</p>
 <p><em>Erwartungshorizont:</em> Der Satz aus der Dokumentation stimmt, der von der Produktseite nicht. Eine gute Antwort sagt mehr als das. Sie benennt erstens, woran der Unterschied hängt: Stellt das Gerät eine Tatsache fest, oder zieht es einen Schluss? Und zweitens, dass „zuverlässig&quot; ohne Fehlerrate und ihre Bedingungen nichts behauptet, was sich prüfen ließe. Eine sehr gute Antwort merkt zusätzlich an, dass auch der Dokumentationssatz unvollständig ist: Er sagt, dass geschlossen wird. Er sagt nicht, wie oft der Schluss danebengeht.</p>
 </div>
   
@@ -2276,7 +2290,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 <p>Am Anfang jeder Abfolge steht eine physikalische Größe: Schalldruck, elektrisches Potenzial, Licht. Ein Sensor wandelt sie in eine Zahlenfolge um, und schon dieser Schritt ist unvollkommen. Jede Messung rauscht, weil sich Temperatur, Bauteilstreuung und Umgebung über das Signal legen. Wichtiger ist etwas anderes. Nehmen Sie eine perfekte, rauschfreie Messung an: Heraus käme wieder nur eine Zahlenfolge. Dass da ein Wort war oder eine Geste, steht nicht im Signal. Diese Bedeutung weist erst ein Modell zu, weiter hinten in der Abfolge.</p>
-<p>Prüfen Sie das an drei Beispielen. In allen dreien misst das Gerät etwas anderes, als der Produkttext verspricht. Das Mikrofon hört keine Sprache, es misst Druckschwankungen. Die Elektrode spürt keine Geste, sie misst Mikrovolt. Die Kamera sieht kein Gesicht, sie misst Helligkeitswerte. Diese Differenz zwischen gemessen und versprochen ist die erste Fundstelle jeder Autopsie.</p>
+<p>Prüfen Sie das an drei Beispielen. In allen dreien misst das Gerät etwas anderes, als der Produkttext verspricht. Das Mikrofon hört keine Sprache, es misst Druckschwankungen. Die Elektrode spürt keine Geste, sie misst Mikrovolt. Die Kamera sieht kein Gesicht, sie misst Helligkeitswerte. Diese Differenz zwischen gemessen und versprochen ist die erste Fundstelle jeder Fehleranalyse.</p>
 </div>
   
   
@@ -2688,7 +2702,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </ul>
 <div class="script-only">
 
-<p>„Erkennung statt Vermutung&quot; behauptet Wahrnehmung, wo eine Zuordnung mit Fehlerrate arbeitet. „Verstehen statt Zuordnen&quot; hebt die Behauptung eine Stufe höher, auf Bedeutung, die kein Klassifikator erfasst. „Reaktion ohne Konfidenz&quot; verschweigt, dass intern eine Unsicherheit berechnet wurde, bevor gehandelt wird. Und „Rate ohne Bedingung&quot; nennt eine Zahl ohne ihre Messbedingungen: 98 % wovon, gemessen an wem, in welcher Umgebung, mit welcher Schwelle? Jedes der vier Muster lässt sich reparieren. In der Autopsie zählt deshalb vor allem die korrekte Umformulierung.</p>
+<p>„Erkennung statt Vermutung&quot; behauptet Wahrnehmung, wo eine Zuordnung mit Fehlerrate arbeitet. „Verstehen statt Zuordnen&quot; hebt die Behauptung eine Stufe höher, auf Bedeutung, die kein Klassifikator erfasst. „Reaktion ohne Konfidenz&quot; verschweigt, dass intern eine Unsicherheit berechnet wurde, bevor gehandelt wird. Und „Rate ohne Bedingung&quot; nennt eine Zahl ohne ihre Messbedingungen: 98 % wovon, gemessen an wem, in welcher Umgebung, mit welcher Schwelle? Jedes der vier Muster lässt sich reparieren. In der Fehleranalyse zählt deshalb vor allem die korrekte Umformulierung.</p>
 <p>Halten Sie die vier Muster neben die drei Verben von vorhin, dann sehen Sie die Ordnung dahinter. Die ersten beiden Muster betreffen das Verb: Das eine macht aus <em>zuordnen</em> ein <em>erkennen</em>, das andere aus <em>erkennen</em> ein <em>verstehen</em>. Die letzten beiden betreffen das, was fehlt: einmal die Unsicherheit, einmal die Bedingung der Zahl. Wer diese Ordnung im Kopf hat, findet die Muster schneller als jemand, der vier Namen auswendig gelernt hat.</p>
 </div>
   
@@ -2699,7 +2713,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="a-autopsie">
-  <h1 class="column-heading">Produkttext-Autopsie</h1>
+  <h1 class="column-heading">Produkttext-Analyse</h1>
   
   
   
@@ -2733,7 +2747,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>2</i><i>7</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Produkttext-Autopsie</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">15 Minuten</span></span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Produkttext-Analyse</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">15 Minuten</span></span></h2>
   <p><strong>Auftrag:</strong> Online zwei Produkttexte suchen und darin die Stellen markieren, an denen eine Vermutung als Erkennung ausgegeben wird.</p>
 <ul>
 <li><strong>Zeit:</strong> 15 Minuten (5 suchen, 10 markieren), danach 5 Minuten Auflösung</li>
@@ -2759,7 +2773,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>2</i><i>8</i></span>
   
-  <h2 class="chunk-heading">Autopsie · Welche Produkttexte sich eignen</h2>
+  <h2 class="chunk-heading">Fehleranalyse · Welche Produkttexte sich eignen</h2>
   <p><strong>Gut geeignet ist die Herstellerseite eines Geräts, das etwas misst und daraus etwas ableitet.</strong></p>
 <ul>
 <li><strong>Gerätegruppen:</strong> Smartwatch oder Fitnessring (Sturz-, Schlaf-, Stresserkennung), Sprachassistent, Türschloss oder Türklingel mit Gesichts- oder Personenerkennung, Gestenarmband, Fahrassistenz</li>
@@ -2784,7 +2798,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>2</i><i>9</i></span>
   
-  <h2 class="chunk-heading">Autopsie · Aufträge</h2>
+  <h2 class="chunk-heading">Fehleranalyse · Aufträge</h2>
   <p><strong>Suchen, markieren und einordnen, dann ein Satz.</strong></p>
 <ol>
 <li>Suchen Sie zwei Produkttexte und notieren Sie Link und Abrufdatum.</li>
@@ -2802,7 +2816,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>3</i><i>0</i></span>
   
-  <h2 class="chunk-heading">Autopsie · Auflösung</h2>
+  <h2 class="chunk-heading">Fehleranalyse · Auflösung</h2>
   <p><strong>Markierte Stelle</strong></p>
 <ul>
 <li>Drei <strong>Fundstellen</strong>, gemeinsam gesammelt, wörtlich im Padlet</li>
@@ -3225,7 +3239,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Die Rechenverfahren hinter der Merkmalsberechnung; dass reduziert wird und was das kostet, genügt</li>
 <li>Die Namen der drei Reaktionen auf Unsicherheit im Einzelnen; eingeführt und geprüft werden sie in Einheit 6, Teil B</li>
-<li>Die Einzelheiten der beiden Produkttexte aus der Autopsie</li>
+<li>Die Einzelheiten der beiden Produkttexte aus der Fehleranalyse</li>
 <li>Der Fall der Backofenuhr aus dem Anhang; er steht zur Einordnung da</li>
 </ul>
 </div>
@@ -3299,7 +3313,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p><em>Fallback</em> – die vorgesehene zweite Bedienung für den Fall, dass die Vermutung danebenliegt. Vorgesehen heißt entworfen, erreichbar und benannt.</p>
 <h3>Quellen zu Teil A</h3>
 <p>Heinecke, A. M. &amp; Gerken, J. (2024). Mensch-Computer-Interaktion. Basiswissen für Entwickler und Gestalter (3. Aufl.). Springer Vieweg. Kapitel 1.</p>
-<p>Produkttexte der Autopsie: von den Teams selbst gesucht, mit Link und Abrufdatum.</p>
+<p>Produkttexte der Fehleranalyse: von den Teams selbst gesucht, mit Link und Abrufdatum.</p>
 <p>Der Produktsatz und der Dokumentationssatz des EMG-Armbands zu Beginn von Teil A: <code class="nb">[OFFEN]</code> Quelle mit Abrufdatum, Wortlaut vor Verwendung gegen das Original prüfen.</p>
 <p>Der Beispielsatz auf der Folie <em>Produktsprache · Beispiel</em> ist gebaut und kein Zitat.</p>
 <p>Abbildung <em>Konfidenz · Schwelle</em>: <code>[QUELLE FEHLT]</code> (Material E08).</p>
@@ -3613,7 +3627,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Die <strong>Interaktionsabfolge</strong> eines unbekannten Geräts zeichnen und die Vermutungsstelle begründen</li>
 <li>Eine Fallback-Abfolge einer der <strong>drei Bauformen</strong> zuordnen und ihre Rangfolge begründen</li>
 <li>An den <strong>drei Kriterien</strong> prüfen, ob ein zweiter Weg eine gleichwertige Alternative ist</li>
-<li>Eine Technologieentscheidung treffen, sie begründen und ihren <strong>Preis</strong> benennen</li>
+<li>Eine Technologieentscheidung treffen, sie begründen und ihren <strong>Nachteil</strong> benennen</li>
 </ul>
 <div class="script-only">
 
@@ -3623,7 +3637,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>für ein Gerät, das in der Vorlesung nicht vorkam, die Interaktionsabfolge aus fünf Stationen zeichnen, die Vermutungsstelle markieren und in einem Satz begründen, warum sie dort liegt,</li>
 <li>einen Fallback einer der drei Bauformen zuordnen (wiederholen, wechseln, rückfragen) und begründen, warum Wiederholen die schwächste ist,</li>
 <li>an den drei Kriterien <em>gleiche Aufgabe, gleiches Ergebnis, vergleichbarer Aufwand</em> prüfen, ob ein zweiter Weg eine gleichwertige Alternative ist,</li>
-<li>zu einem Nutzungskontext eine Technologieentscheidung treffen, sie begründen und den Preis dieser Entscheidung benennen, einschließlich der Personengruppe, die ihn trägt.</li>
+<li>zu einem Nutzungskontext eine Technologieentscheidung treffen, sie begründen und den Nachteil dieser Entscheidung benennen, einschließlich der Personengruppe, die ihn trägt.</li>
 </ul>
 <p>Die ersten drei Ziele gehören zu L6, das vierte zu L7. Teil B liegt damit eine Stufe über Teil A: Dort haben Sie eine Abfolge nachvollzogen, hier zeichnen Sie sie selbst und urteilen darüber, was passiert, wenn die Vermutung danebenliegt.</p>
 </div>
@@ -3765,7 +3779,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Für genau diese Gruppen empfiehlt Apple den <strong>Code</strong>. Der Hersteller benennt seinen Fallback selbst</li>
 <li>Ohne diese Angabe wäre die Zahl das vierte Verrutschmuster, eine <strong>Rate ohne Bedingung</strong></li>
 </ul>
-<p>Quelle: Apple, Sicherheitsdokumentation zu Face ID (belegt 11.08.2026).</p>
+<p class="thi-quelle">Quelle: Apple, Sicherheitsdokumentation zu Face ID (belegt 11.08.2026).</p>
 <div class="script-only">
 
 <p>Eine von einer Million: Das ist die Falschakzeptanz, die Apple für Face ID angibt, gegen 1 : 50 000 bei Touch ID. Die Zahl ist belegt, und sie ist groß genug, dass man an dieser Stelle aufhören möchte.</p>
@@ -4198,20 +4212,20 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>8</i><i>0</i></span>
   <span class="chunk-label">beispiel</span>
-  <h2 class="chunk-heading">Entscheidung mit Preis · Beispiel</h2>
+  <h2 class="chunk-heading">Entscheidung mit Nachteil · Beispiel</h2>
   <p><strong>So sieht eine fertige Entscheidung aus: am Telefon, nicht am Wohnheim.</strong></p>
 <p><strong>Der Fall:</strong> Face ID auf einem Privattelefon. Ersatz der PIN oder Zusatz zur PIN?</p>
 <p><strong>Die Entscheidung:</strong> Zusatz. Face ID entsperrt, die PIN bleibt erreichbar.</p>
 <p><strong>Die Begründung:</strong> Die Vermutung scheitert vorhersehbar (Maske, Zwilling, verdeckte Geometrie), und ohne zweiten Weg wäre das Gerät dann unbenutzbar.</p>
-<p><strong>Der Preis:</strong> Zwei Wege heißt zwei Angriffsflächen. Wer die PIN errät, kommt hinein, und die PIN ist der schwächere der beiden Wege.</p>
+<p><strong>Der Nachteil:</strong> Zwei Wege heißt zwei Angriffsflächen. Wer die PIN errät, kommt hinein, und die PIN ist der schwächere der beiden Wege.</p>
 <div class="script-only">
 
 <p>Bevor Sie selbst entscheiden, ein Durchgang an einem Fall, den Sie schon kennen.</p>
 <p><em>Der Fall:</em> Face ID auf einem privaten Telefon. Soll die Gesichtserkennung die PIN ersetzen oder zu ihr hinzukommen?</p>
 <p><em>Die Entscheidung:</em> Zusatz.</p>
 <p><em>Die Begründung:</em> Die Vermutung liegt vorhersehbar daneben, und die Fälle sind bekannt: Maske, verdeckte Geometrie, Zwilling. Ohne zweiten Weg wäre das Gerät in genau diesen Fällen unbenutzbar, und zwar für die berechtigte Person. Der Fallback ist hier keine Bequemlichkeit. Er ist die Bedingung dafür, dass man sich auf das Gerät verlassen kann.</p>
-<p><em>Der Preis:</em> Zwei Wege heißen zwei Angriffsflächen. Die Sicherheit eines Systems mit zwei Wegen ist die des schwächeren, und das ist hier die PIN: Eine vierstellige Ziffernfolge ist leichter zu erraten als ein Gesicht zu fälschen. Wer sich für den Zusatz entscheidet, entscheidet sich damit gegen einen Teil des Sicherheitsgewinns, den die Biometrie verspricht.</p>
-<p>Eine Entscheidung mit Preis hat vier Teile, Fall, Entscheidung, Begründung, Preis, und der vierte fehlt am häufigsten. Eine Entscheidung ohne benannten Preis ist keine Entscheidung. Sie ist eine Vorliebe. Und der Preis ist selten „ein bisschen weniger gut&quot;: Er trifft etwas Bestimmtes, und meistens jemanden Bestimmten.</p>
+<p><em>Der Nachteil:</em> Zwei Wege heißen zwei Angriffsflächen. Die Sicherheit eines Systems mit zwei Wegen ist die des schwächeren, und das ist hier die PIN: Eine vierstellige Ziffernfolge ist leichter zu erraten als ein Gesicht zu fälschen. Wer sich für den Zusatz entscheidet, entscheidet sich damit gegen einen Teil des Sicherheitsgewinns, den die Biometrie verspricht.</p>
+<p>Eine Entscheidung mit Nachteil hat vier Teile, Fall, Entscheidung, Begründung, Nachteil, und der vierte fehlt am häufigsten. Eine Entscheidung ohne benannten Nachteil ist keine Entscheidung. Sie ist eine Vorliebe. Und der Nachteil ist selten „ein bisschen weniger gut&quot;: Er trifft etwas Bestimmtes, und meistens jemanden Bestimmten.</p>
 <p>In der folgenden Aufgabe gilt dasselbe Raster an einem Fall, der schwerer ist, weil dort nicht nur Sie selbst betroffen sind.</p>
 </div>
   
@@ -4222,7 +4236,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="b-entscheidung">
-  <h1 class="column-heading">Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Entscheidung mit Nachteil</h1>
   
   
   
@@ -4232,19 +4246,19 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>8</i><i>1</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">12 Minuten</span></span></h2>
-  <p><strong>Auftrag:</strong> Ein Wohnheim bekommt ein Zutrittssystem mit Gesichtserkennung: als Ersatz des Schlüssels oder als Zusatz? Entscheiden Sie und benennen Sie den Preis Ihrer Wahl.</p>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">12 Minuten</span></span></h2>
+  <p><strong>Auftrag:</strong> Ein Wohnheim bekommt ein Zutrittssystem mit Gesichtserkennung: als Ersatz des Schlüssels oder als Zusatz? Entscheiden Sie und benennen Sie den Nachteil Ihrer Wahl.</p>
 <ul>
 <li><strong>Zeit:</strong> 8 Minuten Arbeit, danach 4 Minuten Auflösung</li>
 <li><strong>Sozialform:</strong> Vierergruppen</li>
-<li><strong>Ergebnis:</strong> eine Entscheidung, eine Begründung, ein benannter Preis</li>
+<li><strong>Ergebnis:</strong> eine Entscheidung, eine Begründung, ein benannter Nachteil</li>
 <li><strong>KI-Rolle: ausgeschlossen.</strong> Der Fall hat keine Lösung zum Nachschlagen, die Entscheidung fällt in der Gruppe.</li>
 </ul>
 <div class="script-only">
 
-<p>Das durchgearbeitete Beispiel steht direkt davor: vier Teile, Fall, Entscheidung, Begründung, Preis, vorgeführt am Telefon. Diese Aufgabe verlangt dasselbe an einem Fall, bei dem nicht nur Sie selbst betroffen sind.</p>
-<p>Der Fall ist im folgenden Abschnitt vollständig beschrieben. Lesen Sie ihn, entscheiden Sie sich, und schreiben Sie drei Sätze: die Entscheidung, die Begründung, den Preis.</p>
-<p>Für die Entscheidung selbst gibt es keine Punkte; beide sind vertretbar. Bewertet wird dreierlei. Erstens, ob die Begründung Merkmale des Falls aufgreift und nicht allgemeine Vorzüge von Biometrie. Zweitens, ob der Preis konkret benannt ist: was genau schlechter wird und für wen, statt „es gibt Nachteile&quot;. Drittens, ob beim Preis eine Personengruppe vorkommt. Ein Preis, der nur aus Kosten und Betriebsaufwand besteht, hat die Hälfte der Aufgabe erledigt.</p>
+<p>Das durchgearbeitete Beispiel steht direkt davor: vier Teile, Fall, Entscheidung, Begründung, Nachteil, vorgeführt am Telefon. Diese Aufgabe verlangt dasselbe an einem Fall, bei dem nicht nur Sie selbst betroffen sind.</p>
+<p>Der Fall ist im folgenden Abschnitt vollständig beschrieben. Lesen Sie ihn, entscheiden Sie sich, und schreiben Sie drei Sätze: die Entscheidung, die Begründung, den Nachteil.</p>
+<p>Für die Entscheidung selbst gibt es keine Punkte; beide sind vertretbar. Bewertet wird dreierlei. Erstens, ob die Begründung Merkmale des Falls aufgreift und nicht allgemeine Vorzüge von Biometrie. Zweitens, ob der Nachteil konkret benannt ist: was genau schlechter wird und für wen, statt „es gibt Nachteile&quot;. Drittens, ob beim Nachteil eine Personengruppe vorkommt. Ein Nachteil, der nur aus Kosten und Betriebsaufwand besteht, hat die Hälfte der Aufgabe erledigt.</p>
 <p>Der häufigste Fehler: die Entscheidung für den Zusatz mit der Begründung, sie habe keinen Nachteil. Sie hat einen, und er steht in der Auflösung.</p>
 <p>Die KI-Rolle ist hier ausgeschlossen, aus einem sachlichen Grund: Der Fall hat keine Lösung, die sich nachschlagen ließe. Was ein Modell dazu ausgibt, ist eine Zusammenfassung dessen, was andere über ähnliche Fälle geschrieben haben. Genau die Abwägung, um die es geht, fällt dabei weg.</p>
 </div>
@@ -4274,7 +4288,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p><em>Der Eingang liegt im Freien.</em> Regen auf der Linse, Dunkelheit im Winter, tief stehende Sonne am Morgen: Die Messbedingungen wechseln ständig und sind nicht kontrollierbar. Das ist etwas anderes als ein Telefon, das man sich vors Gesicht hält.</p>
 <p><em>Über 40 Herkunftsländer,</em> dazu Gäste, Handwerker, Paketdienste. Die erste Hälfte betrifft das Trainingsmaterial und damit die Schieflage aus Teil A. Die zweite betrifft etwas anderes: Ein Teil der Menschen vor dieser Tür ist im System überhaupt nicht hinterlegt und kann es auch nicht sein.</p>
 <p><em>Die Aufgabe ist eilig und die Hände sind voll.</em> Das ist ein Argument für die Biometrie: Ein Schlüssel muss gesucht und gehalten werden, ein Gesicht nicht.</p>
-<p><em>Man ist selten allein.</em> Wer nicht erkannt wird, steht vor Publikum und hält eine Gruppe auf. Der Preis einer Falschzurückweisung ist hier nicht nur Zeit.</p>
+<p><em>Man ist selten allein.</em> Wer nicht erkannt wird, steht vor Publikum und hält eine Gruppe auf. Der Nachteil einer Falschzurückweisung ist hier nicht nur Zeit.</p>
 <p><em>Beide Fehlerarten haben Folgen,</em> und sie sind nicht symmetrisch: nachts vor der Tür stehen gegen einen Fremden im Haus.</p>
 <p><em>Haftung und Datenschutz.</em> Gesichtsdaten sind besonders geschützte Daten; wer sie erhebt, übernimmt eine Pflicht, die mit dem Zutritt selbst nichts zu tun hat.</p>
 <p>Der Fall steht so ausführlich da, weil sich eine Technologieentscheidung ohne Kontext nicht treffen lässt. „Kontext&quot; ist kein Stimmungswort. Kontext ist eine Liste von Bedingungen, die man aufschreiben kann. Diese sechs Punkte sind keine lose Aufzählung. Sie sind eine vollständige Belegung, und wonach genau, erfahren Sie in Einheit 5.</p>
@@ -4289,25 +4303,25 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>8</i><i>3</i></span>
   
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Wohnheim · Zwei Positionen</span> <span class="hd-sub">Ersatz oder Zusatz, jede Seite mit ihrem Preis</span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Wohnheim · Zwei Positionen</span> <span class="hd-sub">Ersatz oder Zusatz, jede Seite mit ihrem Nachteil</span></h2>
   <p><strong>Ersatz</strong></p>
 <ul>
 <li><strong>Ein Weg für alle</strong>: keine Schlüsselverwaltung, kein verlorener Schlüssel</li>
-<li>Der <strong>Preis</strong>: Wer systematisch schlechter erkannt wird, steht systematisch draußen, denn die Abfolge hat keinen zweiten Weg</li>
+<li>Der <strong>Nachteil</strong>: Wer systematisch schlechter erkannt wird, steht systematisch draußen, denn die Abfolge hat keinen zweiten Weg</li>
 </ul>
 <p><strong>Zusatz</strong></p>
 <ul>
 <li>Gesichtserkennung als <strong>Komfort</strong>, der Schlüssel bleibt als gleichwertige Alternative</li>
-<li>Der <strong>Preis</strong>: zwei Systeme, doppelter Betrieb. Und der Komfort bleibt ungleich verteilt</li>
+<li>Der <strong>Nachteil</strong>: zwei Systeme, doppelter Betrieb. Und der Komfort bleibt ungleich verteilt</li>
 </ul>
 <div class="script-only">
 
 <h3>Was wir in der Vorlesung gemacht haben</h3>
-<p>Aufgelöst wird an zwei Gegenpositionen, und es wird kein Sieger gekürt. Beide Seiten benennen ihren Preis; wer entscheidet und keinen Preis nennt, hat die Aufgabe nicht erledigt.</p>
-<p><em>Ersatz.</em> Das Argument dafür ist gut und wird oft unterschätzt: ein Weg für alle, keine Schlüsselverwaltung, keine Nachfertigung bei Verlust, kein Schloss, das nach einem verlorenen Schlüssel getauscht werden muss. Der Preis ist die Kehrseite genau dieses Vorteils. Ein Weg für alle heißt: kein zweiter Weg. Wer systematisch schlechter erkannt wird, wegen der Schieflage im Trainingsmaterial, wegen Gegenlicht, wegen einer Verletzung im Gesicht, steht dann systematisch draußen, und zwar nachts, vor einer Gruppe, mit vollen Händen. Gegen die Definition der gleichwertigen Alternative gehalten: Es gibt keine.</p>
-<p><em>Zusatz.</em> Das Argument dafür ist der Fallback: Der Schlüssel bleibt, die Gesichtserkennung ist Komfort. Gegen die drei Kriterien geprüft hält der Schlüssel stand: gleiche Aufgabe, gleiches Ergebnis, vergleichbarer Aufwand. Der Preis wird oft vergessen, und er ist zweigeteilt. Erstens: zwei Systeme, doppelter Betrieb, doppelte Wartung, und die Haftungsfrage stellt sich für beide. Zweitens, und das ist der unangenehmere Teil: Der Komfort bleibt ungleich verteilt. Wer gut erkannt wird, geht durch; wer schlecht erkannt wird, kramt den Schlüssel heraus, jedes Mal, vor derselben Gruppe. Niemand ist ausgeschlossen, und trotzdem ist der Vorteil nicht für alle da.</p>
-<p>Eine gute Stellungnahme nimmt eine Position ein, statt beide Seiten zu referieren. Sie nimmt mindestens zwei Merkmale des Falls auf: den Außeneingang, die Herkunftsvielfalt, die Gruppe vor der Tür, die Haftung. Und sie benennt einen Preis, der jemanden trifft, nicht nur etwas kostet.</p>
-<p>Eine Beispielantwort: „Zusatz. Der Eingang liegt im Freien, die Messbedingungen wechseln also ständig. Und ein Teil der Menschen vor der Tür ist im System gar nicht hinterlegt: Gäste, Handwerker, Paketdienste. Ohne zweiten Weg wäre die Tür für sie zu. Der Preis: Wir betreiben zwei Systeme, und die Bewohnerinnen und Bewohner, die schlechter erkannt werden, haben vom Komfort nichts. Sie halten weiter den Schlüssel bereit, während andere durchgehen.&quot;</p>
+<p>Aufgelöst wird an zwei Gegenpositionen, und es wird kein Sieger gekürt. Beide Seiten benennen ihren Nachteil; wer entscheidet und keinen Nachteil nennt, hat die Aufgabe nicht erledigt.</p>
+<p><em>Ersatz.</em> Das Argument dafür ist gut und wird oft unterschätzt: ein Weg für alle, keine Schlüsselverwaltung, keine Nachfertigung bei Verlust, kein Schloss, das nach einem verlorenen Schlüssel getauscht werden muss. Der Nachteil ist die Kehrseite genau dieses Vorteils. Ein Weg für alle heißt: kein zweiter Weg. Wer systematisch schlechter erkannt wird, wegen der Schieflage im Trainingsmaterial, wegen Gegenlicht, wegen einer Verletzung im Gesicht, steht dann systematisch draußen, und zwar nachts, vor einer Gruppe, mit vollen Händen. Gegen die Definition der gleichwertigen Alternative gehalten: Es gibt keine.</p>
+<p><em>Zusatz.</em> Das Argument dafür ist der Fallback: Der Schlüssel bleibt, die Gesichtserkennung ist Komfort. Gegen die drei Kriterien geprüft hält der Schlüssel stand: gleiche Aufgabe, gleiches Ergebnis, vergleichbarer Aufwand. Der Nachteil wird oft vergessen, und er ist zweigeteilt. Erstens: zwei Systeme, doppelter Betrieb, doppelte Wartung, und die Haftungsfrage stellt sich für beide. Zweitens, und das ist der unangenehmere Teil: Der Komfort bleibt ungleich verteilt. Wer gut erkannt wird, geht durch; wer schlecht erkannt wird, kramt den Schlüssel heraus, jedes Mal, vor derselben Gruppe. Niemand ist ausgeschlossen, und trotzdem ist der Vorteil nicht für alle da.</p>
+<p>Eine gute Stellungnahme nimmt eine Position ein, statt beide Seiten zu referieren. Sie nimmt mindestens zwei Merkmale des Falls auf: den Außeneingang, die Herkunftsvielfalt, die Gruppe vor der Tür, die Haftung. Und sie benennt einen Nachteil, der jemanden trifft, nicht nur etwas kostet.</p>
+<p>Eine Beispielantwort: „Zusatz. Der Eingang liegt im Freien, die Messbedingungen wechseln also ständig. Und ein Teil der Menschen vor der Tür ist im System gar nicht hinterlegt: Gäste, Handwerker, Paketdienste. Ohne zweiten Weg wäre die Tür für sie zu. Der Nachteil: Wir betreiben zwei Systeme, und die Bewohnerinnen und Bewohner, die schlechter erkannt werden, haben vom Komfort nichts. Sie halten weiter den Schlüssel bereit, während andere durchgehen.&quot;</p>
 </div>
   
   
@@ -4486,7 +4500,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Kleingruppen zum Plenum, Aktivierung 2 als Pro-Contra.</strong></p>
 <ul>
 <li><strong>Aktivierung 1</strong>: Vierergruppen werden zu Zweiergruppen, zwei Geräte statt vier, Auflösung vollständig im Plenum</li>
-<li><strong>Aktivierung 2</strong> läuft als Pro-Contra im Plenum, zwei Lager, je eine Begründung mit benanntem Preis</li>
+<li><strong>Aktivierung 2</strong> läuft als Pro-Contra im Plenum, zwei Lager, je eine Begründung mit benanntem Nachteil</li>
 </ul>
 
   
@@ -4563,7 +4577,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 
 <p>Sieben Bauformen nebeneinander, alle aus der Biosignalerfassung. Die Folie ist als Gegenprobe zur Messstation gedacht.</p>
 <p>Gehen Sie die Bildunterschriften durch und fragen Sie bei jeder: Was misst das Gerät wirklich? Der Brustgurt misst eine Spannung, keine Herzfrequenz; die Frequenz wird aus dem zeitlichen Abstand der Ausschläge berechnet. Das Pulsoximeter misst, wie viel rotes und infrarotes Licht durch die Fingerkuppe kommt; die Sauerstoffsättigung ist eine Rechnung darüber. Die Elektrode am Unterarm misst Mikrovolt, nicht Muskelaktivität. Am Schuh wird ein elektrischer Widerstand gemessen, nicht Schweiß. Und die Wärmebildkamera misst die Strahlung, die von der Hautoberfläche ausgeht, nicht die Temperatur eines Menschen.</p>
-<p>Die Beschriftungen selbst tragen schon die Deutung. Unter dem Schuh steht nicht „Hautleitwert&quot;. Dort steht „Schweiß&quot;. Dieser Sprung ist derselbe, den Sie in der Autopsie an Produkttexten suchen. Hier passiert er in einer technischen Abbildung aus einer Fachveröffentlichung.</p>
+<p>Die Beschriftungen selbst tragen schon die Deutung. Unter dem Schuh steht nicht „Hautleitwert&quot;. Dort steht „Schweiß&quot;. Dieser Sprung ist derselbe, den Sie in der Fehleranalyse an Produkttexten suchen. Hier passiert er in einer technischen Abbildung aus einer Fachveröffentlichung.</p>
 <p>Die Lücke zwischen Messgröße und versprochener Aussage ist kein Marketingproblem. Sie steckt in der Sprache, mit der über Sensorik geredet wird, auch dort, wo niemand etwas verkaufen will.</p>
 </div>
   
@@ -4582,7 +4596,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Die Definition <strong>verspricht Wiederverwendung von Können</strong>. Über Erkennung, Genauigkeit oder Fehlerrate sagt sie nichts</li>
 <li>Im <strong>Produkttext</strong> rutscht das leicht zu „versteht Sie ganz natürlich&quot;, dem zweiten Verrutschmuster: Verstehen statt Zuordnen</li>
 <li><strong>Unsichtbare Gesten</strong> muss man trotzdem lernen; Einheit 3 zeigt es an 3D Touch</li>
-<li><strong>Prüffrage für die Autopsie:</strong> Welches vorhandene Können soll wiederverwendet werden, und wer bringt es nicht mit?</li>
+<li><strong>Prüffrage für die Fehleranalyse:</strong> Welches vorhandene Können soll wiederverwendet werden, und wer bringt es nicht mit?</li>
 </ul>
 <div class="script-only">
 
@@ -4605,7 +4619,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Literatur</h2>
   <p>Heinecke, A. M. &amp; Gerken, J. (2024). Mensch-Computer-Interaktion. Basiswissen für Entwickler und Gestalter (3. Aufl.). Springer Vieweg. Kapitel 1.</p>
 <p>Apple: Sicherheitsdokumentation zu Face ID – Falschakzeptanz 1 : 1 000 000, über 30 000 Infrarotpunkte, Einschränkung für Zwillinge, ähnlich aussehende Geschwister und Kinder unter 13 Jahren (belegt 11.08.2026).</p>
-<p>Produkttexte der Autopsie in Teil A: Auswahl mit Quelle und Abrufdatum vor Semesterbeginn.</p>
+<p>Produkttexte der Fehleranalyse in Teil A: Auswahl mit Quelle und Abrufdatum vor Semesterbeginn.</p>
 <p>Fundstellen des Einstiegs: Google Play Store, Google Translate; come-on.de, „Geldautomaten verstehen ihre Bediener&quot;.</p>
 <p>Abbildungen im Anhang: Sensortafel (Gravenhorst u. a. 2012) und Backofenanzeige (tagesanzeiger.ch). <code class="trail">[Bildrechte: siehe </code>folien/bildrechte.md<code class="nb">]</code></p>
 <div class="script-only">
@@ -4623,7 +4637,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Wigdor, D., &amp; Wixon, D. (2011). <em>Brave NUI World.</em> Morgan Kaufmann. Definition Natural User Interface, zitiert im Anhang.</p>
 <p>ENTSO-E, Pressemitteilung vom 06.03.2018 zur Netzfrequenzabweichung im kontinentaleuropäischen Verbundnetz (nennt Serbien und Kosovo bereits im Titel, wörtlich bestätigt); ergänzend NPR und National Geographic, März 2018. Anhang, Backofenuhr.</p>
 <p>Fundstellen des Einstiegs: Definition Eyetracker (Quelle nicht genannt, <code class="nb">[PRÜFEN]</code>); Geldautomat (come-on.de, <code class="trail">[PRÜFEN: Wortlaut der Überschrift]</code>); Voice typing und Google Translate (Google Play Store); Tiefenkameras (eigene Vorlesungsfolie).</p>
-<p>Der Beispielfall auf der Folie <em>Entscheidung mit Preis · Beispiel</em> und der Wohnheimfall sind konstruiert und beziehen sich auf keine bestimmte Einrichtung.</p>
+<p>Der Beispielfall auf der Folie <em>Entscheidung mit Nachteil · Beispiel</em> und der Wohnheimfall sind konstruiert und beziehen sich auf keine bestimmte Einrichtung.</p>
 <p><code class="lead trail">[Bildrechte: siehe </code>folien/bildrechte.md<code class="nb">]</code> für die Herstellerscreenshots von Google und das Pressefoto des Geldautomaten.</p>
 </div>
   

@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -2065,8 +2079,8 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li>Fachbegriffe <strong>prüfen</strong>, wo Produktsprache verrutscht (L1)</li>
 <li>ein aktuelles Konzept auf ein historisch gescheitertes <strong>zurückführen</strong> (L2)</li>
-<li>Ein- und Ausgabetechnologien für einen Kontext begründet <strong>auswählen</strong>, mit benanntem Preis (L3, L4)</li>
-<li>Trackingverfahren nach ihrem Versagensverhalten <strong>unterscheiden</strong> (L5)</li>
+<li>Ein- und Ausgabetechnologien für einen Kontext begründet <strong>auswählen</strong>, mit benanntem Nachteil (L3, L4)</li>
+<li>Trackingverfahren nach ihren Fehlerquellen <strong>unterscheiden</strong> (L5)</li>
 <li>die Stelle <strong>finden</strong>, an der aus Messung Vermutung wird (L6)</li>
 <li><strong>benennen</strong>, wen ein Konzept ausschließt, und die gleichwertige Alternative angeben (L7)</li>
 <li>eine Auswahl gegenüber widersprüchlichen Interessen <strong>vertreten</strong> (L8)</li>
@@ -2270,7 +2284,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Dort entsteht der <strong>Entwurf</strong>, hier die <strong>erste prototypische Umsetzung</strong>: Bis zum 28. November müssen Sie so weit sein, dass sich das Bauen lohnt</li>
 <li>Wie eng Sie beides verzahnen, entscheiden Sie im Team. Bei einem größeren Konzept genügen <strong>einzelne Teilaspekte</strong></li>
 <li>Das <strong>Arduino-Board</strong> bekommen Sie von uns und dürfen es behalten, <strong>Sensoren</strong> besorgen Sie selbst. Der Prototyp bleibt damit über den Tag hinaus funktionsfähig</li>
-<li>Der <strong>Projektvorschlag</strong> liegt früh: <strong>bis Freitag, 30. Oktober</strong> in Moodle, mit Idee und Materialliste. Ihr <strong>Ergebnis</strong> geht 48 Stunden nach dem Hackathon ins Padlet</li>
+<li>Der <strong>Projektvorschlag</strong> liegt früh: <strong>bis Freitag, 6. November</strong> in Moodle, mit Idee und Materialliste. Ihr <strong>Ergebnis</strong> geht 48 Stunden nach dem Hackathon ins Padlet</li>
 </ul>
 
   

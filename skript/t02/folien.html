@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 <style>.script-only,.annot-box,.annot-add{display:none!important}</style></head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -2216,14 +2230,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Power Glove · Ende</h2>
   <p><strong>Drei Gründe.</strong></p>
 <ul>
-<li>Der <strong>Preis</strong>: zu hoch für ein Spielzeug</li>
+<li>Der <strong>Nachteil</strong>: zu hoch für ein Spielzeug</li>
 <li>Vor jedem Spiel aufs Neue die <strong>Kalibrierung</strong></li>
 <li>Und der <strong>Arm</strong> wird nach Minuten schwer</li>
-<li>Preis und Kalibrierung gehören zu diesem Gerät. Der <strong>schwere Arm</strong> kommt 2010 und 2013 wieder</li>
+<li>Nachteil und Kalibrierung gehören zu diesem Gerät. Der <strong>schwere Arm</strong> kommt 2010 und 2013 wieder</li>
 </ul>
 <div class="script-only">
 
-<p>Drei Gründe. Der Preis: zu hoch für ein Spielzeug. Die Kalibrierung: vor jedem Spiel neu, weil Hände verschieden sind; warum das technisch unvermeidlich war, steht im Anhang. Und der Arm: Er hängt in der Luft und wird schwer.</p>
+<p>Drei Gründe. Der Nachteil: zu hoch für ein Spielzeug. Die Kalibrierung: vor jedem Spiel neu, weil Hände verschieden sind; warum das technisch unvermeidlich war, steht im Anhang. Und der Arm: Er hängt in der Luft und wird schwer.</p>
 <p>Die ersten beiden gehören zu diesem einen Gerät. Ein billigerer Handschuh mit besserer Sensorik hätte beide behoben. Der schwere Arm hat mit dem Handschuh nichts zu tun. Er kommt von der Haltung, die das Konzept verlangt. Deshalb kommt er 2010 und 2013 wieder, bei Geräten, die mit einem Handschuh nichts gemein haben.</p>
 <p>Gerätespezifische Gründe von konzeptbedingten zu trennen: Darum geht es in diesem Abschnitt. Ins Muster kommt nur die zweite Sorte.</p>
 </div>
@@ -3666,18 +3680,18 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <h2 class="chunk-heading has-sub"><span class="hd-main">799 $</span> <span class="hd-sub">Marktpreis der Ray-Ban Display bei Einführung, September 2025.</span></h2>
   <ul>
-<li>Am <strong>Preis</strong> ist schon einmal ein Konzept gescheitert, auch am Power Glove</li>
+<li>Am <strong>Nachteil</strong> ist schon einmal ein Konzept gescheitert, auch am Power Glove</li>
 <li>In <strong>Europa</strong> gar nicht erst erhältlich, weil der für Anfang 2026 angekündigte Start verschoben wurde</li>
 <li>Den Start verschoben haben Stückzahlen und Wartelisten, der Grund ist <strong>nichttechnisch</strong></li>
 <li>Die vierte Ursache hat damit <strong>zwei Belege</strong>, bevor sie überhaupt benannt ist</li>
 </ul>
-<p>Quelle: heise online, 06.01.2026</p>
+<p class="thi-quelle">Quelle: heise online, 06.01.2026</p>
 <div class="script-only">
 
 <p>799 US-Dollar bei Einführung im September 2025, für Brille und Band zusammen.</p>
 <p>Die Zahl arbeitet in zwei Richtungen. Erstens: Am Preis ist schon einmal ein Konzept dieser Art gescheitert. Der Power Glove war für ein Spielzeug zu teuer, und das war einer der drei Gründe seines Verschwindens, ein gerätespezifischer Grund, den wir in Teil A ausdrücklich nicht ins Muster aufgenommen haben.</p>
 <p>Zweitens: In Europa ist das Gerät bis heute nicht erhältlich. Der für Anfang 2026 angekündigte Start wurde verschoben, und die Begründung war nichttechnisch: begrenzte Stückzahlen und Wartelisten in den USA.</p>
-<p>Zwei Belege, bevor die vierte Ursache überhaupt einen Namen hat. Preis und Verfügbarkeit entscheiden mit, und das Prüfraster fragt nach beidem nicht. Wer das Neural Band nur mit den drei Fragen beurteilt, übersieht genau die zwei Dinge, die heute nachweislich im Weg stehen.</p>
+<p>Zwei Belege, bevor die vierte Ursache überhaupt einen Namen hat. Nachteil und Verfügbarkeit entscheiden mit, und das Prüfraster fragt nach beidem nicht. Wer das Neural Band nur mit den drei Fragen beurteilt, übersieht genau die zwei Dinge, die heute nachweislich im Weg stehen.</p>
 </div>
   
   
@@ -3795,7 +3809,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Das Neural Band ist an allen drei Rasterfragen entlanggegangen: Ermüdung gelöst, Sichtbarkeit gelöst, Ruhezustand offen. Die vierte Ursache hat zwei Belege. Was fehlt, ist die Entscheidung.</p>
 <p>Entscheiden Sie sich und schreiben Sie vier Sätze: die Entscheidung, die Begründung entlang der drei Fragen, die vierte Ursache, und den Satz „Wir lagen falsch, wenn …&quot;.</p>
 <p>Gefragt ist, ob das <em>Interaktionskonzept</em> fünf Jahre überlebt: die unterstellte Art, mit Mikrogesten am Unterarm zu bedienen. Ob Meta dieses eine Produkt weiterführt, ist eine andere Frage und bleibt draußen. Ein Konzept kann den Hersteller überleben, und ein Produkt kann weiterlaufen, während das Konzept verschwindet.</p>
-<p>Drei Fehler kommen regelmäßig vor. Erstens: Die Gruppe wechselt unterwegs das Kriterium. Sie beginnt beim Ruhezustand, landet beim Preis und entscheidet am Ende nach Bauchgefühl. Dagegen ist die Prüferrolle gebaut. Zweitens: Die Begründung zählt Vor- und Nachteile auf, ohne zu gewichten. Zwei gelöst, eines offen, und dann? Daraus folgt nichts Sicheres, das hat die Peer-Instruction-Frage aus Teil A gezeigt. Sie müssen sagen, warum Sie die offene Flanke für ausschlaggebend halten oder nicht. Drittens: Der Vergleich mit Myo fehlt. Es gab dieses Armband schon einmal, und wer „diesmal ist es anders&quot; behauptet, muss den Unterschied benennen.</p>
+<p>Drei Fehler kommen regelmäßig vor. Erstens: Die Gruppe wechselt unterwegs das Kriterium. Sie beginnt beim Ruhezustand, landet beim Nachteil und entscheidet am Ende nach Bauchgefühl. Dagegen ist die Prüferrolle gebaut. Zweitens: Die Begründung zählt Vor- und Nachteile auf, ohne zu gewichten. Zwei gelöst, eines offen, und dann? Daraus folgt nichts Sicheres, das hat die Peer-Instruction-Frage aus Teil A gezeigt. Sie müssen sagen, warum Sie die offene Flanke für ausschlaggebend halten oder nicht. Drittens: Der Vergleich mit Myo fehlt. Es gab dieses Armband schon einmal, und wer „diesmal ist es anders&quot; behauptet, muss den Unterschied benennen.</p>
 <p>KI ist ausgeschlossen: Eine Modellantwort wäre in Sekunden da und nähme der Gruppe genau den Streit über die Kriterien, um den es hier geht.</p>
 </div>
   
@@ -3857,7 +3871,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <p><strong>Überlebt</strong></p>
 <ul>
 <li><strong>Ermüdung und Sichtbarkeit</strong> sind gelöst</li>
-<li>Der <strong>Preis</strong> fällt, sobald das Band der Brille beiliegt</li>
+<li>Der <strong>Nachteil</strong> fällt, sobald das Band der Brille beiliegt</li>
 </ul>
 <p><strong>Überlebt nicht</strong></p>
 <ul>
@@ -3869,7 +3883,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 
 <h3>Was wir in der Vorlesung gemacht haben</h3>
 <p>Aufgelöst wird an zwei Gruppen mit entgegengesetzter Entscheidung. Es wird kein Sieger gekürt.</p>
-<p>Die Position „überlebt&quot; stützt sich darauf, dass zwei der drei Ursachen, an denen drei Jahrzehnte lang Konzepte gescheitert sind, hier gelöst sind: durch eine andere Bauform, nicht durch bessere Erkennung. Das ist mehr, als Power Glove, Kinect und Leap Motion je erreicht haben. Der Preis ist ein Übergangsproblem: Sobald das Band der Brille beiliegt oder einzeln billig wird, verschwindet dieses Argument.</p>
+<p>Die Position „überlebt&quot; stützt sich darauf, dass zwei der drei Ursachen, an denen drei Jahrzehnte lang Konzepte gescheitert sind, hier gelöst sind: durch eine andere Bauform, nicht durch bessere Erkennung. Das ist mehr, als Power Glove, Kinect und Leap Motion je erreicht haben. Der Nachteil ist ein Übergangsproblem: Sobald das Band der Brille beiliegt oder einzeln billig wird, verschwindet dieses Argument.</p>
 <p>Die Position „überlebt nicht&quot; stützt sich auf die Frage, die seit 1989 offen ist. Der Ruhezustand ist hier geraten, nicht gebaut, und ein Muskel ist nie still. Dazu wirkt die vierte Ursache schon jetzt: 799 Dollar und ein verschobener Europastart sind der Stand von heute.</p>
 <p>Eine gute Begründung, egal auf welcher Seite: Sie bleibt bei einem Kriterium, statt unterwegs zu wechseln. Sie gewichtet, statt aufzuzählen. Sie nennt den Unterschied zu Myo. Und sie sagt am Ende, woran sie scheitern würde.</p>
 <p>Eine Beispielantwort: „Überlebt nicht, als Konzept für allgemeine Bedienung. Die offene Flanke ist der Ruhezustand, und sie ist die schwerste der drei: Maus und Touch haben sie gebaut, das Band muss sie raten. Solange das System Alltagsbewegungen von Absicht nur mit einer Fehlerrate trennt, bleibt jede Handbewegung eine potenzielle Eingabe. In einem engen Anwendungsfeld, ein Infotainment-Demonstrator, ein definierter Satz von vier Gesten, kann es tragen. Wir lagen falsch, wenn bis 2028 ein Hersteller ein Verfahren zeigt, das den Ruhezustand durch ein körperliches Signal baut, statt ihn zu klassifizieren.&quot;</p>
@@ -4338,14 +4352,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Die Funktion <strong>blieb schmal</strong>: wenige Anwendungen, und in einigen Ländern stand die Funkzulassung im Weg</li>
 <li><strong>2020, Pixel 5:</strong> kein Radarchip, kein Motion Sense. Google nannte die <strong>Kosten</strong></li>
 <li>Im <strong>Prüfraster</strong> ermüdet die kleine Wischgeste kaum und fällt kaum auf. Aber woran erkennt der Radar den <strong>Ruhezustand</strong>, wenn die Hand nur nach der Tasse greift?</li>
-<li>Die <strong>vierte Ursache</strong> in einem Fall: Beendet hat das Konzept vor allem der <strong>Preis</strong></li>
+<li>Die <strong>vierte Ursache</strong> in einem Fall: Beendet hat das Konzept vor allem der <strong>Nachteil</strong></li>
 </ul>
 <div class="script-only">
 
 <p>Die fiktive Radar-Ankündigung aus der Gegenprobe hat einen realen Vorläufer. Er ist nach einem einzigen Modelljahr verschwunden.</p>
 <p>2019 erschien das Pixel 4 mit einem Radarchip aus Googles Soli-Projekt. Die Funktion hieß Motion Sense: Handbewegungen über dem Telefon erkennen, um Titel zu überspringen oder einen Anruf stummzuschalten, ohne das Gerät zu berühren. Die Funktion blieb schmal. Wenige Anwendungen nutzten sie, und in einigen Ländern stand die Funkzulassung für das Radarband im Weg. 2020 erschien das Pixel 5 ohne Radarchip. Als Grund nannte Google die Kosten.</p>
 <p>Im Prüfraster: Ermüdung kaum, die Wischgeste über dem Telefon ist klein und kurz. Sichtbarkeit kaum, eine Handbewegung über dem eigenen Telefon fällt nicht auf. Der Ruhezustand ist die offene Frage: Woran soll ein Radarfeld über dem Telefon erkennen, ob eine Hand wischen oder nach der Tasse daneben greifen will?</p>
-<p>Beendet hat das Konzept vor allem der Preis. Deshalb steht dieser Fall im Anhang und nicht im Hauptteil: Er ist die vierte Ursache in Reinform. Ein Konzept, dessen technische Flanke offen war, wurde aus einer Kostenrechnung gestrichen, bevor sich die Flanke auswirken konnte.</p>
+<p>Beendet hat das Konzept vor allem der Nachteil. Deshalb steht dieser Fall im Anhang und nicht im Hauptteil: Er ist die vierte Ursache in Reinform. Ein Konzept, dessen technische Flanke offen war, wurde aus einer Kostenrechnung gestrichen, bevor sich die Flanke auswirken konnte.</p>
 <p>Zur Quellenlage: Belegt sind das Fehlen von Soli und Motion Sense beim Pixel 5 und die Kostenbegründung durch Rick Osterloh. Zum Marktstart (15.10.2019) war Motion Sense in 38 Ländern freigeschaltet, darunter USA, Kanada, Westeuropa, Singapur, Südkorea und Taiwan; in Japan, Indien, Mexiko und Neuseeland fehlte zunächst die nötige Funkzulassung für das Radarband (9to5Google, 29.09.2019).</p>
 </div>
   

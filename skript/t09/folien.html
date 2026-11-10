@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 <style>.script-only,.annot-box,.annot-add{display:none!important}</style></head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1750,7 +1764,7 @@ strong { color: var(--ink); }
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#haut">Die Haut</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-11" aria-label="Folien dieses Teils: Die Haut"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-11"><li><a href="#these-haptik" data-rd="these-haptik"><span class="rd-num">50</span><span class="rd-text">Haptische Rückmeldung kostet kaum Aufmerksamkeit und wird trotzdem selten gestaltet</span></a></li><li><a href="#def-taktil-kinaesthetisch" data-rd="def-taktil-kinaesthetisch"><span class="rd-num">51</span><span class="rd-text">Taktil und kinästhetisch</span></a></li><li><a href="#fig-vibrationsgroessen" data-rd="fig-vibrationsgroessen"><span class="rd-num">52</span><span class="rd-text">Vibration: was technisch möglich ist</span></a></li><li><a href="#vibration-an-aus" data-rd="vibration-an-aus"><span class="rd-num">53</span><span class="rd-text">Praxis · was davon benutzt wird</span></a></li><li><a href="#challenge-vibrationsmuster" data-rd="challenge-vibrationsmuster"><span class="rd-num">54</span><span class="rd-text">Vibrationsmuster vergleichen</span></a></li><li><a href="#auftrag-vibrationsmuster" data-rd="auftrag-vibrationsmuster"><span class="rd-num">55</span><span class="rd-text">Auftrag · Vibrationsmuster vergleichen</span></a></li><li><a href="#kern-vibration" data-rd="kern-vibration"><span class="rd-num">56</span><span class="rd-text">Auflösung · was die Hand unterscheidet</span></a></li><li><a href="#muster-statt-staerke" data-rd="muster-statt-staerke"><span class="rd-num">57</span><span class="rd-text">Muster · besser als Stärke</span></a></li><li><a href="#stat-zweipunktschwelle" data-rd="stat-zweipunktschwelle"><span class="rd-num">58</span><span class="rd-text">2–45 mm</span></a></li><li><a href="#def-force-feedback" data-rd="def-force-feedback"><span class="rd-num">59</span><span class="rd-text">Force Feedback</span></a></li><li><a href="#force-feedback-traegt" data-rd="force-feedback-traegt"><span class="rd-num">60</span><span class="rd-text">Force Feedback · wo es trägt</span></a></li><li><a href="#vollbild-prothese-taktiles-feedback" data-rd="vollbild-prothese-taktiles-feedback"><span class="rd-num">61</span><span class="rd-text">Tactile feedback adds &#39;muscle sense&#39; to prosthetic hand</span></a></li><li><a href="#force-feedback-preis" data-rd="force-feedback-preis"><span class="rd-num">62</span><span class="rd-text">Force Feedback · warum es teuer bleibt</span></a></li><li><a href="#taktile-flaeche" data-rd="taktile-flaeche"><span class="rd-num">63</span><span class="rd-text">Taktile Muster · in der Fläche</span></a></li><li><a href="#beispiel-taste-punkt" data-rd="beispiel-taste-punkt"><span class="rd-num">64</span><span class="rd-text">Taste mit Punkt · F und J</span></a></li><li><a href="#these-wegdesignt" data-rd="these-wegdesignt"><span class="rd-num">65</span><span class="rd-text">Die Striche auf F und J kosten fast nichts, und solche Kanten fehlen auf glatten Flächen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#aktivierung1-b">Die Rückmeldung gestalten</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-12" aria-label="Folien dieses Teils: Die Rückmeldung gestalten"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-12"><li><a href="#challenge-rueckmeldung-gestalten" data-rd="challenge-rueckmeldung-gestalten"><span class="rd-num">66</span><span class="rd-text">Die Rückmeldung gestalten</span></a></li><li><a href="#fall-fahrkartenautomat" data-rd="fall-fahrkartenautomat"><span class="rd-num">67</span><span class="rd-text">Fall · der Fahrkartenautomat</span></a></li><li><a href="#auftraege-drei-kanaele" data-rd="auftraege-drei-kanaele"><span class="rd-num">68</span><span class="rd-text">Aufträge · drei Kanäle</span></a></li><li><a href="#rolle-pruefer" data-rd="rolle-pruefer"><span class="rd-num">69</span><span class="rd-text">Rolle · eine Person je Gruppe prüft</span></a></li><li><a href="#kern-zwei-entwuerfe" data-rd="kern-zwei-entwuerfe"><span class="rd-num">70</span><span class="rd-text">Auflösung an zwei Entwürfen</span></a></li><li><a href="#kriterium-redundanz" data-rd="kriterium-redundanz"><span class="rd-num">71</span><span class="rd-text">Kriterium · was bei Ausfall eines Kanals bleibt</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#redundanz">Multimodale Redundanz</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-13" aria-label="Folien dieses Teils: Multimodale Redundanz"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-13"><li><a href="#def-multimodale-redundanz" data-rd="def-multimodale-redundanz"><span class="rd-num">72</span><span class="rd-text">Multimodale Redundanz</span></a></li><li><a href="#redundanz-bedingung" data-rd="redundanz-bedingung"><span class="rd-num">73</span><span class="rd-text">Redundanz · warum sie im Entwurf bleibt</span></a></li><li><a href="#redundanz-grenze" data-rd="redundanz-grenze"><span class="rd-num">74</span><span class="rd-text">Redundanz · wo sie stört</span></a></li><li><a href="#these-redundanz-mass" data-rd="these-redundanz-mass"><span class="rd-num">75</span><span class="rd-text">Mehrere Kanäle bekommt nur, was wichtig genug ist, und diese Rangordnung legen Sie fest</span></a></li></ol></li>
-<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#aktivierung2-b">Entscheidung mit Preis</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Entscheidung mit Preis"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#challenge-entscheidung-preis" data-rd="challenge-entscheidung-preis"><span class="rd-num">76</span><span class="rd-text">Entscheidung mit Preis: der kritische Gesundheitswert</span></a></li><li><a href="#fig-raster-smartwatch" data-rd="fig-raster-smartwatch"><span class="rd-num">77</span><span class="rd-text">Der Fall als Rasterbelegung</span></a></li><li><a href="#ohne-ki-begruendung" data-rd="ohne-ki-begruendung"><span class="rd-num">78</span><span class="rd-text">KI-Rolle · ausgeschlossen, und hier steht warum</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">79</span><span class="rd-text">Zwei Gegenpositionen</span></a></li></ol></li>
+<li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#aktivierung2-b">Entscheidung mit Nachteil</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-14" aria-label="Folien dieses Teils: Entscheidung mit Nachteil"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-14"><li><a href="#challenge-entscheidung-preis" data-rd="challenge-entscheidung-preis"><span class="rd-num">76</span><span class="rd-text">Entscheidung mit Nachteil: der kritische Gesundheitswert</span></a></li><li><a href="#fig-raster-smartwatch" data-rd="fig-raster-smartwatch"><span class="rd-num">77</span><span class="rd-text">Der Fall als Rasterbelegung</span></a></li><li><a href="#ohne-ki-begruendung" data-rd="ohne-ki-begruendung"><span class="rd-num">78</span><span class="rd-text">KI-Rolle · ausgeschlossen, und hier steht warum</span></a></li><li><a href="#vergleich-gegenpositionen" data-rd="vergleich-gegenpositionen"><span class="rd-num">79</span><span class="rd-text">Zwei Gegenpositionen</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#sicherung-b">Für die Klausur · Brücke</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-15" aria-label="Folien dieses Teils: Für die Klausur · Brücke"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-15"><li><a href="#sicherung-teil-b" data-rd="sicherung-teil-b"><span class="rd-num">80</span><span class="rd-text">Für die Klausur · Teil B</span></a></li><li><a href="#frage-l7-beantwortet" data-rd="frage-l7-beantwortet"><span class="rd-num">81</span><span class="rd-text">Wen schließt das aus, und was ist die gleichwertige Alternative?</span></a></li><li><a href="#these-bilanz" data-rd="these-bilanz"><span class="rd-num">82</span><span class="rd-text">Ohr und Haut kosten keine Blickzeit und kaum Geld, und sie bleiben oft ungestaltet, weil sie selten geprüft werden</span></a></li><li><a href="#pruefen-t09" data-rd="pruefen-t09"><span class="rd-num">83</span><span class="rd-text">Zum Prüfen</span></a></li><li><a href="#ausblick-t10" data-rd="ausblick-t10"><span class="rd-num">84</span><span class="rd-text">Nächste Woche · Einheit 10</span></a></li></ol></li>
 <li class="rd-group"><div class="rd-part-row"><a class="rd-part" href="#anhang">Anhang</a><button type="button" class="rd-fold" aria-expanded="false" aria-controls="psiINT-rd-part-16" aria-label="Folien dieses Teils: Anhang"><svg viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M3.5 2 L6.5 5 L3.5 8"/></svg></button></div><ol id="psiINT-rd-part-16"><li><a href="#lit-teil-a" data-rd="lit-teil-a"><span class="rd-num">85</span><span class="rd-text">Literatur und Fundstellen · Teil A</span></a></li><li><a href="#fallback-screenreader-video" data-rd="fallback-screenreader-video"><span class="rd-num">86</span><span class="rd-text">Fallback: Das Screenreader-Experiment scheitert</span></a></li><li><a href="#fallback-padlet-leer" data-rd="fallback-padlet-leer"><span class="rd-num">87</span><span class="rd-text">Fallback: Padlet leer, wenig Beteiligung</span></a></li><li><a href="#spearcon-spindex" data-rd="spearcon-spindex"><span class="rd-num">88</span><span class="rd-text">Vertiefung: Spearcon und Spindex · Sprache, schneller gemacht</span></a></li><li><a href="#audio-spotlight" data-rd="audio-spotlight"><span class="rd-num">89</span><span class="rd-text">Vertiefung: Der Ton, der nur einen Platz erreicht</span></a></li><li><a href="#vollbild-audio-spotlight" data-rd="vollbild-audio-spotlight"><span class="rd-num">90</span><span class="rd-text">Mad Labs: Audio Spotlight</span></a></li><li><a href="#randnotiz-geruch" data-rd="randnotiz-geruch"><span class="rd-num">91</span><span class="rd-text">Randnotiz: Warum der Geruch kein vierter freier Kanal ist</span></a></li><li><a href="#vertiefung-kraft-ohne-motor" data-rd="vertiefung-kraft-ohne-motor"><span class="rd-num">92</span><span class="rd-text">Vertiefung: Kraft ohne Motor, Berührung ohne Kontakt</span></a></li><li><a href="#vollbild-ems-affordance-plus" data-rd="vollbild-ems-affordance-plus"><span class="rd-num">93</span><span class="rd-text">Affordance++: allowing objects to communicate dynamic use (CHI 2015, Best Paper Award)</span></a></li><li><a href="#pruefauftrag-aufzug-braille" data-rd="pruefauftrag-aufzug-braille"><span class="rd-num">94</span><span class="rd-text">Prüfauftrag: Tastmarke vorhanden, sagt sie dasselbe?</span></a></li><li><a href="#lit-teil-b" data-rd="lit-teil-b"><span class="rd-num">95</span><span class="rd-text">Literatur · Teil B</span></a></li></ol></li>
   </ol>
@@ -1786,7 +1800,7 @@ strong { color: var(--ink); }
     <li><a href="#haut">Die Haut</a></li>
     <li><a href="#aktivierung1-b">Die Rückmeldung gestalten</a></li>
     <li><a href="#redundanz">Multimodale Redundanz</a></li>
-    <li><a href="#aktivierung2-b">Entscheidung mit Preis</a></li>
+    <li><a href="#aktivierung2-b">Entscheidung mit Nachteil</a></li>
     <li><a href="#sicherung-b">Für die Klausur · Brücke</a></li>
     <li><a href="#anhang">Anhang</a></li>
   </ol>
@@ -2473,7 +2487,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Die Ausgabe springt zum nächsten Element. <strong>Kein Fehlerton, keine Lücke</strong>, das Fehlen ist nicht einmal hörbar</li>
 <li>Technisch ist der <strong>Alternativtext</strong> der Name des Bildes im Baum</li>
 <li><strong>Schmuckbilder</strong> sollen verschwinden und bekommen deshalb einen leeren Alternativtext</li>
-<li>Der Preis im Angebotsbild, das Diagramm, der beschriftete Lageplan: Bei <strong>Informationsbildern</strong> existiert diese Information für die nichtvisuelle Bedienung nicht</li>
+<li>Der Nachteil im Angebotsbild, das Diagramm, der beschriftete Lageplan: Bei <strong>Informationsbildern</strong> existiert diese Information für die nichtvisuelle Bedienung nicht</li>
 </ul>
 <div class="script-only">
 
@@ -2482,7 +2496,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Die Ausgabe springt zum nächsten Element. Kein Fehlerton, keine Lücke, keine Meldung. Das Fehlen ist nicht einmal hörbar.</p>
 <p>Vergleichen Sie das mit Einheit 3, wo der Automat auf den Handschuh nicht reagierte. Auch dort meldete das System nichts. Hier fällt das Fehlen noch weniger auf, weil das Element gar nicht vorkommt.</p>
 <p>Technisch ist der Alternativtext der Name des Bildes im Baum. Schmuckbilder <em>sollen</em> verschwinden und bekommen deshalb einen leeren Alternativtext. Das ist richtig so, nicht nachlässig.</p>
-<p>Anders bei Informationsbildern: Der Preis im Angebotsbild, das Diagramm, der beschriftete Lageplan. Diese Information existiert für die nichtvisuelle Bedienung nicht.</p>
+<p>Anders bei Informationsbildern: Der Nachteil im Angebotsbild, das Diagramm, der beschriftete Lageplan. Diese Information existiert für die nichtvisuelle Bedienung nicht.</p>
 </div>
   
   
@@ -3007,6 +3021,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Wer mag, schätzt dazu: <strong>gestaltet oder Zufall?</strong></li>
 <li><strong>Aufwand:</strong> unter 15 Minuten, gern nebenbei am eigenen Telefon</li>
 <li><strong>Wozu:</strong> Teil B beginnt mit Beispielen aus dem Archiv. Was auf dem Padlet steht, holen wir dazu</li>
+<li><strong>KI-Rolle: ausgeschlossen.</strong> Was Ihr eigenes Gerät bei Ihnen tut, kann kein Modell für Sie beobachten</li>
 </ul>
 <div class="script-only">
 
@@ -3016,11 +3031,6 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Der Aufwand ist klein, weil die Beobachtung nebenbei läuft. Ein Vormittag mit wachem Ohr reicht.</p>
 <p>Teil B beginnt mit Beispielen aus dem Archiv und funktioniert auch mit leerem Padlet. Was Sie beitragen, kommt dazu.</p>
 </div>
-
-<ul>
-<li><strong>KI-Rolle: ausgeschlossen.</strong> Was Ihr eigenes Gerät bei Ihnen tut, kann kein Modell für Sie beobachten.</li>
-</ul>
-
   
   
   
@@ -3297,7 +3307,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>4</i><i>9</i></span>
   
   <h2 class="chunk-heading">Einheit 9 · Teil B · Lernziele</h2>
-  <p><strong>Am Ende von Teil B können Sie eine haptische Rückmeldung entwerfen und ihren Preis benennen.</strong></p>
+  <p><strong>Am Ende von Teil B können Sie eine haptische Rückmeldung entwerfen und ihren Nachteil benennen.</strong></p>
 <ul>
 <li><strong>Taktil</strong> und <strong>kinästhetisch</strong> unterscheiden und je ein Ausgabemittel zuordnen</li>
 <li>Begründen, warum <strong>Muster</strong> besser tragen als Stärke</li>
@@ -4149,7 +4159,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 </article>
 </section>
 <section class="column" id="aktivierung2-b">
-  <h1 class="column-heading">Entscheidung mit Preis</h1>
+  <h1 class="column-heading">Entscheidung mit Nachteil</h1>
   
   
   
@@ -4159,12 +4169,12 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   
   <span class="chunk-num" aria-hidden="true"><i>7</i><i>6</i></span>
   <span class="chunk-label">aufgabe</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Preis: der kritische Gesundheitswert</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">14 Minuten</span></span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Entscheidung mit Nachteil: der kritische Gesundheitswert</span> <span class="hd-sub">Arbeitsauftrag<span class="thi-zeit">14 Minuten</span></span></h2>
   <p><strong>Auftrag:</strong> Eine Smartwatch soll einen kritischen Gesundheitswert melden. Ton, Vibration oder beides, und was, wenn die Person schläft?</p>
 <ul>
 <li><strong>Zeit:</strong> 10 Minuten Arbeit, danach 4 Minuten Auflösung an zwei Gegenpositionen</li>
 <li><strong>Sozialform:</strong> Vierergruppen</li>
-<li><strong>Ergebnis:</strong> eine Entscheidung mit benanntem Preis. Wer verpasst was, wenn Sie sich irren?</li>
+<li><strong>Ergebnis:</strong> eine Entscheidung mit benanntem Nachteil. Wer verpasst was, wenn Sie sich irren?</li>
 <li><strong>KI-Rolle: ausgeschlossen.</strong> Bei Gesundheitsschaden als Fehlerkosten entscheiden Sie selbst.</li>
 </ul>
 
@@ -4266,7 +4276,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Die letzte Aktivierung, 14 Minuten in Vierergruppen. Sie ist anspruchsvoll.</p>
 <p>Der Fall: Eine Smartwatch soll einen kritischen Gesundheitswert melden. Ton, Vibration oder beides, und was, wenn die Person schläft?</p>
 <p>An der Nachtfrage hängt die Aufgabe. Tagsüber ist die Antwort einfach; nachts kollidieren zwei Rasterzeilen. Die Fehlerkosten verlangen, dass die Meldung ankommt. Die soziale Situation, eine zweite schlafende Person daneben, verlangt, dass sie leise bleibt. Beides zugleich geht nicht.</p>
-<p>Das Ergebnis ist eine Entscheidung mit benanntem Preis, und die Preisfrage ist konkret gestellt: Wer verpasst was, wenn Sie sich irren?</p>
+<p>Das Ergebnis ist eine Entscheidung mit benanntem Nachteil, und die Frage nach dem Nachteil ist konkret gestellt: Wer verpasst was, wenn Sie sich irren?</p>
 <p>KI ist ausgeschlossen, und hier ist die Begründung grundsätzlich: In Sekunden liefert ein Modell eine flüssige Empfehlung und trägt keine Verantwortung für die Folgen. Wer sie übernimmt, hat entschieden, ohne zu urteilen.</p>
 </div>
   
@@ -4282,11 +4292,11 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Zwei Gegenpositionen</h2>
   <p><strong>Position 1</strong></p>
 <ul>
-<li>Entscheidung und Preis, wörtlich von der Gruppe</li>
+<li>Entscheidung und Nachteil, wörtlich von der Gruppe</li>
 </ul>
 <p><strong>Position 2</strong></p>
 <ul>
-<li>Entscheidung und Preis, wörtlich von der Gruppe</li>
+<li>Entscheidung und Nachteil, wörtlich von der Gruppe</li>
 </ul>
 
   

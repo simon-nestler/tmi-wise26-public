@@ -20,6 +20,6 @@
 |---|---|---|
 | `tmi-produkttext-autopsie` | Thema 1 | Selbst gesuchte Produkttexte markieren, den vier Verrutschmustern zuordnen und umformulieren; der Skill prüft Ihre Bearbeitung |
 | `tmi-zwischenaufgaben-reflexion` (der Name stammt aus der Zeit vor den Sammelaufträgen) | Thema 1, jede Woche außer T04 und T08 | Eine eigene Beobachtung aus dem Sammelauftrag für Teil B aufbereiten |
-| `tmi-praktikumsbegleiter` | erster Praktikumstermin (KW 41) | Termin vorbereiten, Protokoll gegen die Anforderungen prüfen, Fehler systematisch suchen, Hackathon-Proposal bis 30.10. schärfen |
-| `tmi-kontextraster-trainer` | nach Thema 5 | Rasterfälle üben: belegen, entscheiden, Preis benennen |
+| `tmi-praktikumsbegleiter` | erster Praktikumstermin (KW 41) | Termin vorbereiten, Protokoll gegen die Anforderungen prüfen, Fehler systematisch suchen, Hackathon-Proposal bis 06.11. schärfen |
+| `tmi-kontextraster-trainer` | nach Thema 5 | Rasterfälle üben: belegen, entscheiden, Nachteil benennen |
 | `tmi-probeklausur` | zweite Semesterhälfte | Eine Probeklausur zu den behandelten Themen schreiben und danach ehrlich bewerten lassen |
